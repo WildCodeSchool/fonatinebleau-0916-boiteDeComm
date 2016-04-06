@@ -169,3 +169,13 @@
 .modal-body{
   display: flex;
 }
+=======
+.container {
+	text-align: center;	
+	display: block;
+}
+
+.row {
+	text-align: center;
+	display: block;
+}

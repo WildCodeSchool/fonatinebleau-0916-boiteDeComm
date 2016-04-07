@@ -183,3 +183,12 @@ i.fa.fa-amazon{
   clear: both;
   text-align: center;
 }
+div#colonegauche{
+  float: left;
+}
+div#colonecentre{
+  float: center;
+}
+div#colonedroite{
+  float: right;
+}

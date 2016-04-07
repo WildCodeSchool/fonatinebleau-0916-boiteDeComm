@@ -481,6 +481,18 @@ $(document).ready(function(){
 });
 </script>
 
+<<<<<<< HEAD
+=======
+<script>$(window).load(function() {
+    $('#myCarousel').carousel({
+        interval: 3000
+        })
+    });
+</script>
+
+<script>$('.carousel').carousel({interval:false});</script>
+
+>>>>>>> pol
 
 <script>$('#nav').affix({
       offset: {
@@ -515,6 +527,26 @@ $('#nav .navbar-nav li>a').click(function(){
     var itemDiv = $(this).parent('a');
     var title = $(this).parent('a').attr("title");
     
+<<<<<<< HEAD
+=======
+    item.attr("title",title);
+  	$(itemDiv.html()).appendTo(item);
+  	item.appendTo('#modalCarousel .carousel-inner'); 
+    if (i==0){ // set first item active
+     item.addClass('active');
+    }
+  }
+});
+</script>
+
+<script>$('#modalCarousel').carousel({interval:false});
+
+/* change modal title when slide changes */
+$('#modalCarousel').on('slid.bs.carousel', function () {
+  $('.modal-title').html($(this).find('.active').attr("title"));
+})
+</script>
+>>>>>>> pol
 
 <script>$('.panel-thumbnail>a').click(function(e){
   
@@ -669,13 +701,21 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-4 col-md-4 col-xs-4">
+<<<<<<< HEAD
           <a class="hvr-float-shadow"><img src="images/couple.png" width="100%" height="30%"></a><br></br>
+=======
+          <a class="hvr-float-shadow"><img src="images/couple.png" width="100%" height="30%"></a>
+>>>>>>> pol
         </div>
         <div class="col-lg-2 col-md-2 col-xs-2">
           
         </div>
         <div class="col-lg-4 col-md-4 col-xs-4">
+<<<<<<< HEAD
           <iframe class="video" src="https://www.youtube.com/embed/2zoZ6nHIAGk" width="350" height="200"></iframe>
+=======
+          <iframe class="video" src="https://www.youtube.com/embed/2zoZ6nHIAGk" width="100%" height="30%"></iframe>
+>>>>>>> pol
         </div>
         <div class="col-lg-1 col-md-1 col-xs-1">
 
@@ -694,7 +734,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
           <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<<<<<<< HEAD
                   <h4 class="modal-title" id="myModalLabelpol">Boite de Comm' du Couple !</h4>
+=======
+                  <h4 class="modal-title" id="myModalLabel">Boite de Comm' du Couple !</h4>
+>>>>>>> pol
                 </div>
                   <div class="modal-body">
                   <img src="images/boitecouple.jpg" height="255px">
@@ -733,13 +777,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
       </div>
       <div class="row">
         <div class="col-lg-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-4 col-md-4 col-xs-4">
-          <a class="hvr-float-shadow"><img src="images/famille.png" width="100%" height="30%"></a><br></br>
+        <a class="hvr-float-shadow"><img src="images/famille.png" width="100%" height="30%"></a><br></br>
         </div>
         <div class="col-lg-2 col-md-2 col-xs-2">
 
         </div>
         <div class="col-lg-4 col-md-4 col-xs-4">
           <iframe class="video" src="https://www.youtube.com/embed/zgb-U12lIts" width="350" height="200"></iframe>
+          <iframe class="video" src="https://www.youtube.com/embed/zgb-U12lIts" width="100%" height="30%"></iframe>
         </div>
         <div class="col-lg-1 col-md-1 col-xs-1">
 
@@ -753,6 +798,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
       </a>
       <!-- Modal -->
       <div  class="modal fade" id="myModalpol1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <a class="hvr-grow" data-toggle="modal" data-target="#myModal">
+        <img src="images/boitefamille.png" width="100%">
+      </a>
+      <!-- Modal -->
+      <div  class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
                 <div class="modal-header">
@@ -794,13 +844,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
             <a href="http://www.amazon.fr/Boite-comm-couple-communication-pour/dp/B00NUALNVC/ref=sr_1_1?ie=UTF8&qid=1435232228&sr=8-1&keywords=boite+de+comm/"><img src="images/amazon.png" border="0"></a>  
             </div>
             <div class="col-lg-2 col-md-2 col-md-2 col-xs-2"> 
-      <a href="http://www.papaetmaman.fr/boutiques/les-boites-de-comm.html"><img src="images/Papa.png" border="0"></a> 
+            <a href="http://www.papaetmaman.fr/boutiques/les-boites-de-comm.html"><img src="images/Papa.png" border="0"></a> 
             </div>
-             <div class="col-lg-2 col-md-2 col-md-2 col-xs-2">  
-      <a href="https://eshop.petitsfrenchies.com/les-boites-de-comm-la-boite-de-comm-du-couple-51159.html"><img src="images/french.png" border="0"></a> 
+            <div class="col-lg-2 col-md-2 col-md-2 col-xs-2">  
+            <a href="https://eshop.petitsfrenchies.com/les-boites-de-comm-la-boite-de-comm-du-couple-51159.html"><img src="images/french.png" border="0"></a> 
             </div>
-             <div class="col-lg-2 col-md-2 col-md-2 col-xs-2">  
-      <a href="https://www.amogadoshop.com/marques/les-boites-de-comm.html/"><img src="images/amogado.png" border="0"></a> 
+            <div class="col-lg-2 col-md-2 col-md-2 col-xs-2">  
+            <a href="https://www.amogadoshop.com/marques/les-boites-de-comm.html/"><img src="images/amogado.png" border="0"></a> 
             </div>
             <div class="col-lg-2 col-md-2 col-md-2 col-xs-2">
             <a href="http://www.123famille.com/"><img src="images/123.gif" border="0"></a>
@@ -864,20 +914,20 @@ google.maps.event.addDomListener(window, 'load', initialize);
           
           <div class="col-lg-3 col-md-3 col-xs-3">
           <p>Mariée, 2 enfants en bas âge (des garçons !), en tenue de consultante, ou de professeur de comm’ le jour ; souvent en costumes sur les planches de théâtre le soir, Maud a une vie bien remplie…
-      Et la communication au sein de son couple pour conjuguer toutes ses activités se doit d’être au top !</p>
+          Et la communication au sein de son couple pour conjuguer toutes ses activités se doit d’être au top !</p>
           </div>
             <div class="col-lg-3 col-md-3  col-xs-3">
             <p>Maman de 3 enfants de 8 à 3 ans, Marie s’est spécialisée dans le marketing et les achats entre Montréal, Shanghai et Oxford.
-        Avec cette vie bien animée et un mari qui voyage beaucoup, Marie se rend compte du sens vital de la communication sous toutes ses formes au sein de son couple.</p>
+            Avec cette vie bien animée et un mari qui voyage beaucoup, Marie se rend compte du sens vital de la communication sous toutes ses formes au sein de son couple.</p>
             </div>
             <div class="col-lg-3 col-md-3  col-xs-3">
             <p>C’est un papa très actif à l’emploi du temps surchargé ! 
-        Pour autant, il aime particulièrement retrouver amis et famille le soir venu. Aussi, pour tout mener de front : les séminaires qu’il anime, les bières avec les copains, les biberons à donner et sa femme à gâter,  il utilise tout le temps ses crayons de couleur pour communiquer au mieux !</p>
+            Pour autant, il aime particulièrement retrouver amis et famille le soir venu. Aussi, pour tout mener de front : les séminaires qu’il anime, les bières avec les copains, les biberons à donner et sa femme à gâter,  il utilise tout le temps ses crayons de couleur pour communiquer au mieux !</p>
           </div>
           <div class="col-lg-3 col-md-3  col-xs-3">
             <p>Dorothée conjugue ses aspirations personnelles avec sa vie professionnelle.
-        Responsable d'une Fondation, c’est une communicante touche-à-tout, au service des projets et causes qu’elle défend.
-        Elle n’en n’oublie pas pour autant son petit bébé et son communicant d’homme – tiens, tiens lui aussi ;-) !</p>
+            Responsable d'une Fondation, c’est une communicante touche-à-tout, au service des projets et causes qu’elle défend.
+            Elle n’en n’oublie pas pour autant son petit bébé et son communicant d’homme – tiens, tiens lui aussi ;-) !</p>
           </div>
         </div>
     </div>
@@ -1030,6 +1080,18 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		<button class="close" type="button" data-dismiss="modal">×</button>
 		<h3 class="modal-title"></h3>
 	</div>
+<<<<<<< HEAD
+=======
+	<div class="modal-body">
+		<div id="modalCarousel" class="carousel">
+ 
+          <div class="carousel-inner">
+           
+          </div>
+          
+          <a class="carousel-control left" href="#modaCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+>>>>>>> pol
           
         </div>
 	</div>

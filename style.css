@@ -3,7 +3,8 @@
 	box-shadow-color: black;
 }
 .body_color {
-	background-color: #FFFFFF ;
+	background-color: #FFFFFF;
+
 /* couleur working #efece4 */
 }
 .row{
@@ -169,6 +170,7 @@
 .modal-body{
   display: flex;
 }
+<<<<<<< HEAD
 .container {
 	text-align: center;	
 	display: block;
@@ -177,4 +179,16 @@
 .row {
 	text-align: center;
 	display: block;
+
+i.fa.fa-amazon{
+  font-size:42px;
+  margin-top: 5px;
+  margin-right: 50px;
+}
+#divider1{
+  text-align: center;
+}
+.container-fluid1{
+  clear: both;
+  text-align: center;
 }

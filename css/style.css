@@ -1,13 +1,103 @@
+/*#####################*/
+/* CSS GENERAL */
+/*#####################*/
+
+.container {
+  text-align: center; 
+  display: block;
+  width: 100%;
+}
+
+.row {
+  text-align: center;
+  display: block;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+header {
+  background: #FFFFFF;
+  color:#555;
+}
+
+h1 {
+  font-size:50px;
+}
+
+h5 {
+  margin-top: 0px;
+  color: white;
+  max-height: 30px;
+  overflow: hidden;
+}
+
 .body_color {
 	background-color: #FFFFFF;
   font: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
+}
 
-/* couleur working #efece4 */
+/* Div pour ancre */
+
+.divider {
+  height:50px;
 }
-.row{
-	margin-top: 45px;
-	margin-bottom: 45px;
+
+/*#####################*/
+/* NAV BAR */
+/*#####################*/
+
+.nav_bar_row{
+  margin-top: initial !important;
+  margin-bottom: initial !important;
 }
+
+.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+.navbar-nav {
+  margin: 1px 1px; 
+}  
+
+.navbar{
+    height: 50px;
+    border-radius: 0;
+  vertical-align: middle;
+}
+.navbar.affix{
+    top: 0px; 
+    z-index: 9999;
+    width: 100%;
+    vertical-align:middle;
+}
+
+.navbar-collapse.in { /*3.0.2 bug workaround*/
+    overflow-y: visible;
+}
+
+.navbar-toggle {
+  outline:0;
+}
+
+@media (min-width: 767px) {
+  .navbar-nav.nav-justified > li{
+      float:none;
+  }
+}
+
+/*#####################*/
+/* SECTION_1 */
+/*#####################*/
+
+
+
+/*#####################*/
+/* ANIMATION DES IMAGES */
+/*#####################*/
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -22,10 +112,12 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
+
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 /* Float Shadow */
 .hvr-float-shadow {
   display: inline-block;
@@ -42,6 +134,7 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
+
 .hvr-float-shadow:before {
   pointer-events: none;
   position: absolute;
@@ -60,17 +153,20 @@
   -webkit-transition-property: transform, opacity;
   transition-property: transform, opacity;
 }
+
 .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
   /* move the element up by 5px */
 }
+
 .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+
 /* Icon Hang */
 @-webkit-keyframes hvr-icon-hang {
   0% {
@@ -134,6 +230,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .hvr-icon-hang:before {
   content: "\f078";
   position: absolute;
@@ -143,6 +240,7 @@
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
+
 .hvr-icon-hang:hover:before, .hvr-icon-hang:focus:before, .hvr-icon-hang:active:before {
   -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;
   animation-name: hvr-icon-hang-sink, hvr-icon-hang;
@@ -159,35 +257,74 @@
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
-.modal-test{
-	width: 400px; 
-	height: 400px;
-	background-color: red;
-}
+
 .modal-body{
   display: flex;
 }
 
-.container {
-	text-align: center;	
-	display: block;
-}
+/*#####################*/
+/* SECTION 3 DEVENIR PARTENAIRE */
+/*#####################*/
 
-.row {
-	text-align: center;
-	display: block;
+.container_section_3{
+  clear: both;
+  text-align: center;
+}
 
 i.fa.fa-amazon{
   font-size:42px;
   margin-top: 5px;
 }
-#divider1{
-  text-align: center;
-}
-.container-fluid1{
-  clear: none;
-  text-align: center;
-}
+
 .hauteur{
   height:400px;
+}
+
+/*#####################*/
+/* BOX ACTUALITE */
+/*#####################*/
+
+.img-responsive img{
+  width: 100%;    
+}
+
+/*.img-responsive {
+  min-height:150px;
+  max-height:150px;
+}*/
+
+.productbox {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out; 
+}
+
+.caption {
+  padding:10px;
+  background-color:rgba(0,0,0,0.7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 40%;
+  overflow: hidden;
+  font-size: 11px;
+  color: #FFF;
+}
+
+/*#####################*/
+/* FOOTER */
+/*#####################*/
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
 }

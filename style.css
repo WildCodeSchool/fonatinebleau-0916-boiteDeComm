@@ -1,9 +1,6 @@
-.video {
-	box-shadow: 0.38px;
-	box-shadow-color: black;
-}
 .body_color {
 	background-color: #FFFFFF;
+  font: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
 
 /* couleur working #efece4 */
 }
@@ -180,15 +177,9 @@ i.fa.fa-amazon{
   text-align: center;
 }
 .container-fluid1{
-  clear: both;
+  clear: none;
   text-align: center;
 }
-div#colonegauche{
-  float: left;
-}
-div#colonecentre{
-  float: center;
-}
-div#colonedroite{
-  float: right;
+.hauteur{
+  height:400px;
 }

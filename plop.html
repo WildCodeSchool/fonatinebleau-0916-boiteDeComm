@@ -29,6 +29,7 @@ body {
 /* couleur working #efece4 */
 }
 
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -223,6 +224,10 @@ body {
   right: 0;
   z-index: 10;
 }
+.container-fluid1{
+  clear: both;
+  text-align: center;
+}
 
 #wrap > .container {
   padding: 60px 15px 0;
@@ -357,7 +362,6 @@ h1 {
 section {
   color: #ffffff;
   min-height: 400px;
-  height: auto !important;
   height: 100%;
   padding-top:100px;
 }
@@ -486,6 +490,24 @@ $('#nav .navbar-nav li>a').click(function(){
 });
 </script>
 
+<script type="text/javascript">
+(function() {
+    var rotator = document.getElementById('rotator').src=famillecouleur;  // change to match image ID
+    var imageDir = 'images/coupleb&w.jpg';                          // change to match images folder
+    var delayInSeconds = 2;                            // set number of seconds delay
+
+    // don't change below this line
+    var num = 0;
+    var changeImage = function() {
+        var len = images.length;
+        rotator.src = imageDir
+        if (num == len) {
+            num = 0;
+        }
+    };
+    setInterval(changeImage, delayInSeconds * 1000);
+})();
+
 
 <script>$('.panel .img-responsive').on('load', function() {
   
@@ -554,18 +576,19 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
  
 <header class="masthead">
-        <div class="container">
-            <div class="row" style="background-color: black">
-                <div class="col-lg-6 md-6 xs-6">
-                <img class="famillecouleur" src="images/famillecouleur.jpg" style="text-align: " width="642"></div>
-                <div class="col-lg-6 md-6 xs-6">
-                <img class="couple phone" src="images/coupleb&w.jpg" width="100%"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-6">
+                <img src="images/famillecouleur.jpg" alt="rotating image" style="margin-left: -75px" width="620" height="400" id="rotator"></img></div>
+                <div class="col-lg-6 col-md-6 col-xs-6">
+                <img class="blinking2" src="images/coupleb&w.jpg" style="margin-left: -40px" width="615" height="400"></img></div>
+        </div>        
 </header>
   
   
 <!-- Fixed navbar -->
     <nav id="myNav" class="navbar navbar-inverse" data-spy="affix">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
                 
@@ -597,11 +620,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
             </div>
         </div>
     </nav>
-  
-<!-- Begin page content -->
+    <!-- Partie déliminatoire de la frise  de desssins -->
+
   
 <div class="divider" id="section1"></div>
+  
 
+  <!-- Partie déliminatoire de la frise  de desssins -->
+<div>
+    <img src="images/frise1.jpg" width="100%" style="margin-bottom: 45px;">
+  </div>  
+<!-- Begin page content -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-4 col-md-4 col-xs-4">
@@ -632,11 +661,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                   <h4 class="modal-title" id="myModalLabelpol">Boite de Comm' du Couple !</h4>
                 </div>
-                  <div class="modal-body">
+                 <div class="modal-body">
                   <img src="images/boitecouple.jpg" height="255px">
-                <p>La boite de Comm' du Couple !  39€</p> 
+                  <p> Retrouvez notre produit sur :<br/>
+                  </p>
+                  <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
+                  <i class="fa fa-amazon"></i>
                   </div>
-                <div class="modal-footer">
+                  <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
               </div>
             </div>
@@ -716,8 +748,69 @@ google.maps.event.addDomListener(window, 'load', initialize);
         </div>
       </div>
     </div>
+    <!-- Partie déliminatoire de la frise  de desssins -->
+
+  <!-- Section Devenir Partenaire -->
+<div class="divider" id="section3"></div>
+  <div class="container-fluid1">
+  <div>
+    <img src="images/frise.jpg" width="100%">
+  </div>
+    <img class="partenaire" src="images/partenaire.png"  width="50%" height="50%">
+      <h2> Devenir Partenaire</h2><br/>
+          <h4> Vous souhaitez devenir notre partenaire ? Contactez nous !</h4><br/>
+          Vous êtes intéressés par nos produits et vous souhaitez les distribuer ?<br/>
+          Contactez-nous !<br/>
+          Par mail : contact@lesboitesdecomm.com<br/>
+          Par téléphone :<br/>
+          Marie de Camas : +33(0)6 50 82 45 97<br/>
+          Maud Jan-Ailleret : +33(0)6 07 19 45 43<br/>
+          Nos produits sont également référencés sur Dilicom :<br/>
+          https://dilicom-prod.centprod.com/connexion.html
+  </div>
+  <!-- Coloness en 3 partie -->
+  <div class="row" class="container-fluid">
+    <div class="col-lg-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-4 col-md-4 col-xs-4">
+      <div id="colonegauche">
+        <h4>HOTELS</h4>
+        En tant qu’hôte, vous souhaitez :<br/>
+        • Que vos clients se sentent choyés et uniques.<br/>
+        • Proposer ce petit plus qui fait plaisir dans sa chambre d’hôtel lors d’un voyage de noces, d’une formule escapade romantique, pour la Saint Valentin ou tout simplement pour un week-end détente en famille.
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-xs-2">
+      <div id="colonecentre">
+        <h4>FLEURISTES</h4><br/>
+        En tant que fleuriste, vous souhaitez :<br/>
+        • Proposer un cadeau unique et original, mêlant des fleurs à un produit qu’on garde et qui est porteur de sens.
+        <br/> 
+        • Vous différencier de la concurrence pour des événements comme la St Valentin, les mariages, la Fête des Mères, la Fête des Pères…<br/>
+        • Percevoir une commission sur chaque boîte vendue.. 
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-xs-4">
+      <div id="colonedroite">
+        <h4>ASSOCIATIONS</h4>
+        En tant qu’associations, vous souhaitez :<br/>
+        •  Que vos membres aient des supports sérieux pour prendre soin de leur couple ou de leur famille.<br/>
+        •  Qu’ils s’habituent à prendre régulièrement des temps de qualité ensemble en dehors de ceux que vous proposez au sein de vos associations.<br/>
+        • Les aider à désarmorcer leurs conflits ou tracas du quotidien par le rire et la communication.<br/>
+      </div>
+    </div>
+    <div class="col-lg-1 col-md-1 col-xs-1">
+  </div>
+  <!-- Fin des colones en 3 parties-->
+  
+
+  <!-- Partie déliminatoire de la frise  de desssins -->
+
+
 
 <div class="divider" id="section2"></div>
+
+  <div>
+    <img src="images/frise.jpg" width="100%">
+  </div>
 
   <div class="container" id="section2">
     <div class="row">
@@ -821,7 +914,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 <div class="divider" id="section5"></div>
 <div class="container">
-<h1>Actualité</h1>
+<h1>Actualités</h1>
   <div class="row">
     <div class="col-xs-6 col-sm-4 col-md-3">
       <div class="productbox">
@@ -975,3 +1068,138 @@ google.maps.event.addDomListener(window, 'load', initialize);
    </div>
   </div>
 </div>
+ <div class="divider" id="section6"></div>
+      
+<div id="footer">
+<div class="container">
+  <div class="row">
+    
+      <div class="col-sm-2">
+        <div class="foot-header">
+         Tous droits réservés
+        </div>
+        <ul class="demo-3">
+    <li>
+        <figure>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/220px-Copyright.svg.png" height="200" width="200"alt=""/>
+            <figcaption>
+                <h2>Les Boites de comm'</h2>
+                <p>Tous droits reservés.</p>
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Détails</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+            </figcaption>
+        </figure>
+    </li>
+</ul>
+      </div><!--/col-sm-3-->
+
+   <div class="col-sm-2">
+        <div class="foot-header">
+         Mentions légale
+        </div>
+        <ul class="demo-3">
+    <li>
+        <figure>
+           <img src="http://www.videos2marketing.com/wp-content/uploads/2011/05/mentions-legales.jpg" height="200" width="200"alt=""/>
+            <figcaption>
+                <h2>Propriétaire du site :​</h2>
+                <p>TBellifacto SAS au capital social de 6000 euros</p>
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Détails</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+            </figcaption>
+        </figure>
+    </li>
+</ul>
+      </div><!--/col-sm-3-->
+
+      <div class="col-sm-2">
+        <div class="foot-header">
+          Conditions général
+        </div>
+        <ul class="demo-3">
+    <li>
+        <figure>
+            <img src="http://foie-gras-sud-ouest.com/client/gfx/photos/contenu/cgv-wbcreation-255cfc5308a1a095855ea220b16b741b120_9.jpg" height="200" width="200"alt=""/>
+            <figcaption>
+                <h2>Conditions général de vente</h2>
+                <p>Préambule</p>
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Détails</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+            </figcaption>
+        </figure>
+    </li>
+</ul>
+      </div><!--/col-sm-3-->
+
+      <div class="col-sm-2">
+        <div class="foot-header">
+         F.A.Q 
+        </div>
+        <ul class="demo-3">
+    <li>
+        <figure>
+            <img src="https://gallery.foreverliving.com/gallery/FLP/image/Marketing/FAQs.jpg" height="200" width="200"alt=""/>
+            <figcaption>
+                <h2>Foires aux questions</h2>
+                <p>Questions fréquentes</p>
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Détails</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+            </figcaption>
+        </figure>
+    </li>
+</ul>
+      </div><!--/col-sm-3-->
+
+ <div class="col-sm-2">
+        <div class="foot-header">
+          Contactez-nous
+        </div>
+        <ul class="demo-3">
+    <li>
+        <figure>
+            <img src="http://www.agemios.com/wp-content/uploads/2011/08/nous_contacter.png" height="200" width="200"alt=""/>
+            <figcaption>
+                <h2>une questions</h2>
+                <p>nous contactez</p>
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Détails</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...Pol's job..........
+    </div>
+  </div>
+</div>
+            </figcaption>
+        </figure>
+    </li>
+</ul>
+      </div><!--/col-sm-3-->

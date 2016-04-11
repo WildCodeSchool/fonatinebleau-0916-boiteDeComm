@@ -1,11 +1,11 @@
 <?php 
 	include('pages/header.php');
 	include('pages/navbar.php');
-	include('pages/section_1.php');
-	include('pages/section_2.php');
-	include('pages/section_3.php');
-	include('pages/section_4.php');
-	include('pages/section_5.php');
+	include('pages/1produits.php');
+	include('pages/2devenirpartenaire.php');
+	include('pages/3localisation.php');
+	include('pages/4createurs.php');
+	include('pages/5blog.php');
 	include('pages/footer.php');
 ?>
 

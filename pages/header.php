@@ -86,11 +86,8 @@
         <header class="masthead">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-6">
-                        <img src="images/famillecouleur.jpg" alt="rotating image" style="margin-left: -75px" width="620" height="400" id="rotator"></img>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-xs-6">
-                        <img class="blinking2" src="images/coupleb&w.jpg" style="margin-left: -40px" width="615" height="400"></img>
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <p>Votre Image<p>
                     </div>
                 </div>
             </div>      

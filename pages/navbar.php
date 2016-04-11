@@ -18,7 +18,7 @@
                         <ul class="nav navbar-nav navbar-left">
                             <li>
                                 <a class="navbar-brand" href="#">
-                                    <img src="http://www.gettyimages.fr/gi-resources/images/Homepage/Featured/FR/FR_39_2Pack_158259920.jpg" class="img-circle" alt="#" width="100" height="100"/>
+                                    <img id="logo" src="images/logo.png" class="img-circle" alt="#"/>
                                 </a>
                             </li>
                             <li><a href="#section1">Produits</a></li>
@@ -27,7 +27,7 @@
                             <li><a href="#section4">L'équipe</a></li>
                             <li><a href="#section5">Actualité</a></li>
                             <li><a href="#section6">Contact</a></li>
-                            <a class="btn btn-primary btn-lg" "pull-right" href="#" role="button">Panier<span class="glyphicon glyphicon-shopping-cart"></span></a>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Panier<span class="glyphicon glyphicon-shopping-cart"></span></a>
                         </ul>
                     </div>
                 </div>

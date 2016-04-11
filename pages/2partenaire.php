@@ -24,7 +24,7 @@
             <div class="col-lg-4">
                 <div id="colonegauche">
                     <h4>HOTELS   
-                        <img src="images/hotel.PNG" width="30%" height="10%">
+                        <img src="images/123.gif"> width="30%" height="10%">
                     </h4>
                     <p class="hauteur">
                         <p> En tant qu’hôte, vous souhaitez :<br/>

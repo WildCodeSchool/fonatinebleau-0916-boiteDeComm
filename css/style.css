@@ -24,6 +24,10 @@ h1 {
   font-size:50px;
 }
 
+h2 {
+  font-family:bol
+}
+
 h5 {
   margin-top: 0px;
   color: white;
@@ -323,6 +327,10 @@ i.fa.fa-amazon{
   margin-top:50px;
   padding-top:20px;
   padding-bottom:20px;
+}
+
+.imagebambin{
+  margin-left: 200px;
 }
 
 #footer a {

@@ -1,12 +1,12 @@
 <!-- Partie déliminatoire de la frise  de desssins -->
 <div class="divider" id="section2"></div>
-<div>
-    <img src="images/frise.jpg" width="100%">
-</div>
 <div class="container" id="section2">
+<div>
+    <img src="images/trouverligne.png" width="30%" height="30%">
+</div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12">
-            <h1>Nous trouver sur internet</h1>
+            <h2>Nous trouver sur internet</h2>
         </div>
     </div>
     <div class="row";>
@@ -30,12 +30,15 @@
         </div>
     </div>
 </div>
-
 <div class="container">
-    <h1>Nous trouver en magasin</h1>
-    <div class="row">
-        <div class="col-lg-12 md-12">
-            <iframe src="https://www.google.com/maps/d/embed?mid=zATSV5yInQAA.k5s1bG85T3D0" style="border-style: inherit;" width="640" height="480"></iframe>
+    <div>
+        <img class="imagebambin" src="images/trouverboutique.png" width="60%" height="60%">
+    </div>
+    <h2>Nous trouver en magasin</h2>
+        <div class="row">
+            <div class="col-lg-12 md-12">
+                <iframe src="https://www.google.com/maps/d/embed?mid=zATSV5yInQAA.k5s1bG85T3D0" style="border-style: inherit;" width="640" height="480"></iframe>
+            </div>
         </div>
     </div>
 </div>

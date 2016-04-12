@@ -43,25 +43,6 @@
     });
     </script>
 
-    <script type="text/javascript">
-    (function() {
-        var rotator = document.getElementById('rotator').src=famillecouleur;  // change to match image ID
-        var imageDir = 'images/coupleb&w.jpg';                          // change to match images folder
-        var delayInSeconds = 2;                            // set number of seconds delay
-
-        // don't change below this line
-        var num = 0;
-        var changeImage = function() {
-            var len = images.length;
-            rotator.src = imageDir
-            if (num == len) {
-                num = 0;
-            }
-        };
-        setInterval(changeImage, delayInSeconds * 1000);
-    })();
-    </script>
-
     <script>$('.panel .img-responsive').on('load', function() {
       
     }).each(function(i) {

@@ -44,7 +44,7 @@
         </div>  
         <div class="row">
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
-                    <a class="hvr-float-shadow"><img src="images/famille.png" width="130%" height="70%"></a>
+                    <a class="testimage2"><img src="images/famille.png" width="150%" height="70%"></a>
             </div>
             
         </div>

@@ -101,6 +101,7 @@ h5 {
   width: 50px;
   height: 50px;
   margin-top:-15px;
+  border: inherit;
 }
 
 @media (min-width: 767px) {
@@ -112,7 +113,6 @@ h5 {
 /*#####################*/
 /* SECTION_1 */
 /*#####################*/
-
 
 /*#####################*/
 /* ANIMATION DES IMAGES */
@@ -280,6 +280,20 @@ h5 {
 
 .modal-body{
   display: flex;
+}
+
+.video{
+
+  margin-top: 20px;
+}
+
+#divid1{
+  margin-top: -45px;
+
+}
+
+.testimage{
+  margin-left: -165px;
 }
 
 /*#####################*/

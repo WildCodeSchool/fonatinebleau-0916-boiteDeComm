@@ -55,6 +55,13 @@ h5 {
 /* NAV BAR */
 /*#####################*/
 
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li {
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-color: #DDDDDD ;
+  border-radius: 0.05px;
+}
+
 .nav_bar_row{
   margin-top: initial !important;
   margin-bottom: initial !important;
@@ -352,4 +359,7 @@ list-style-type:none;
 
 #footer a {
   color:#efefef;
+}
+.video{
+  display: inline; 
 }

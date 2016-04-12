@@ -89,12 +89,16 @@
     <div class="row">
         <div class="youtube">
         <h2>Nos vidéos<h2><br>
-            <div class="col-lg-6">
-                <iframe class="video" src="https://www.youtube.com/embed/2zoZ6nHIAGk" width="60%" height="40%">
+            <div class="col-lg-4">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen>
                 </iframe><br>
             </div>
-            <div class="col-lg-6">
-                <iframe class="video" src="https://www.youtube.com/embed/zgb-U12lIts" width="60%" height="70%">
+            <div class="col-lg-4">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/zgb-U12lIts" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="cold-lg-4">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen>
                 </iframe>
             </div>
         </div>

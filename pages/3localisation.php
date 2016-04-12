@@ -1,8 +1,8 @@
 <!-- Partie déliminatoire de la frise  de desssins -->
-<div class="divider" id="section2"></div>
+<div class="divider" id="section3"></div>
 <div class="container" id="section2">
 <div>
-    <img src="images/trouverligne.png" width="30%" height="30%">
+    <img src="images/trouverligne.png" width="40%" height="40%">
 </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12">
@@ -29,7 +29,7 @@
             <a href="http://www.oikaoika.fr/"><img src="images/oka.jpg" border="0"></a>
         </div>
     </div>
-</div>
+
 <div class="container">
     <div>
         <img class="imagebambin" src="images/trouverboutique.png" width="60%" height="60%">

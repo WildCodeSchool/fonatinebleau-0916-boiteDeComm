@@ -1,10 +1,10 @@
 <div class="divider" id="section2"></div> 
- <div class="fondcouleurpartenaire">
-    <div class="container-fluid1">
+ <div class="fondcouleurpartenaire" style="background-color: gray;">
+    <div class="container-fluid1" style="background-color: gray">
         <img class="partenaire" src="images/partenaire.png" width="50%" height="50%">
-            <h2> Devenir Partenaire</h2><br/>
+            <h2 style="margin-bottom: 30px"> Devenir Partenaire</h2>
                 <h4> Vous souhaitez devenir notre partenaire ? Contactez nous !
-                </h4><br/>
+                </h4>
             <p>Vous êtes intéressés par nos produits et vous souhaitez les distribuer ?</p>
             <p>Contactez-nous !</p>
             <ul class="listemail">
@@ -18,16 +18,15 @@
                 </a> 
             </ul>
         </div>
-    </div>
-</div>
+
                     <!-- Colonne 1 -->
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-color: gray">
         <div  class="row">
             <div class="col-lg-4">
                 <div id="colonegauche">
                     <h4>HOTELS   
-                        <img src="images/hotel2.png" width="20%" height="10%">
+                        <img src="images/hotel2.png" width="20%" height="10%" style="background-image:url("images/hotel2.png"); opacity:0.9;">
                     </h4>
                     <p class="hauteur">
                         <p> En tant qu’hôte, vous souhaitez :<br/>

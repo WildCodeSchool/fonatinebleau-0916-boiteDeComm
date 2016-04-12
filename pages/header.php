@@ -63,12 +63,7 @@
   </head>
   <body>
     <!-- Wrap all page content here -->
-    <div id="wrap">
-        <header class="masthead">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12">
-                        <p>Votre Image<p>
+                    <img class="photoheader" src="images/logoheader.jpg">
                     </div>
                 </div>
             </div>      

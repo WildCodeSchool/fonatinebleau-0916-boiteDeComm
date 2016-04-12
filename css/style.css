@@ -13,6 +13,7 @@
   display: block;
   margin-top: 45px;
   margin-bottom: 45px;
+  margin-right: -15px;
 }
 
 #section2{
@@ -39,6 +40,9 @@ h5 {
   max-height: 30px;
   overflow: hidden;
 }
+p {
+  margin-top: 30px;
+}
 
 .body_color {
 	background-color: #FFFFFF;
@@ -54,6 +58,10 @@ h5 {
 /*#####################*/
 /* NAV BAR */
 /*#####################*/
+
+.photoheader{
+  width: 100%;
+}
 
 .nav_bar_row{
   margin-top: initial !important;
@@ -368,5 +376,5 @@ list-style-type:none;
 }
 
 #footer a {
-  color:#efefef;
+  color:#000000;
 }

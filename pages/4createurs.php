@@ -1,10 +1,9 @@
 <div class="divider" id="section4"></div>
-<div class="container"> 
+<div class="container" style="background-color: gray"> 
     <h2>Nos Créateurs</h2>
     <div class="row">
         <div class="col-lg-12 md-12"></div>
     </div>
-</div>
 
 <div class="container">
     <div class="row">
@@ -51,4 +50,5 @@
             Elle n’en n’oublie pas pour autant son petit bébé et son communicant d’homme – tiens, tiens lui aussi ;-) !</p>
         </div>
     </div>
+</div>
 </div>

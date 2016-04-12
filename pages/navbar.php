@@ -27,7 +27,7 @@
                             <li><a href="#section5">BLOG</a></li>
                             <li><a href="#section6">CONTACT</a></li>
                         </ul>
-                            <a class="btn btn-lg navbar-right"style="background-color:red">PANIER</a>
+                            <a class="btn btn-lg navbar-right"style="background-color:#FE0000">PANIER</a>
                     </div>
                 </div>
             </div>

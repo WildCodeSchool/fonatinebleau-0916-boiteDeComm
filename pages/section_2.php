@@ -29,7 +29,7 @@
             <a href="http://www.oikaoika.fr/"><img src="images/oka.jpg" border="0"></a>
         </div>
     </div>
-</div>
+
 <div class="container">
     <div>
         <img class="imagebambin" src="images/trouverboutique.png" width="60%" height="60%">

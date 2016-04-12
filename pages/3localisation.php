@@ -1,8 +1,8 @@
 <!-- Partie déliminatoire de la frise  de desssins -->
-<div class="divider" id="section2"></div>
+<div class="divider" id="section3"></div>
 <div class="container" id="section2">
 <div>
-    <img src="images/trouverligne.png" width="30%" height="30%">
+    <img src="images/trouverligne.png" width="40%" height="40%">
 </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12">

@@ -4,7 +4,7 @@
         <div class="row nav_bar_row">
             <div class="col-sm-12">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
+                <!--<div class="navbar-header">
                     <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -12,7 +12,7 @@
                     </button>
                 </div>
                 <!-- Collection of nav links and other content for toggling -->
-                <div id="navbarCollapse" class="collapse navbar-collapse">
+                <!--<div id="navbarCollapse" class="collapse navbar-collapse">
                     <div class="navbar-collapse collapse" id="navbar-collapsible">
                         <ul class="nav navbar-nav navbar-left">
                             <li>
@@ -20,25 +20,14 @@
                                     <img id="logo" src="images/logo.png" class="img-circle" alt="#"/>
                                 </a>
                             </li>
-<<<<<<< HEAD
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section1">PRODUITS</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section2">DEVENIR PARTENAIRE</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section3">OU SOMMES NOUS?</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section4">L'EQUIPE</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section5">BLOG</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT</a></li>
-                        </ul>
+                        </ul>-->
                             <a class="btn btn-lg navbar-right"style="background-color:red" style="font-color: white">PANIER</a>
-=======
-                            <li><a href="#section1" style="border-right:10px border-color: white; ">PRODUITS</a></li>
-                            <li><a href="#section2">DEVENIR PARTENAIRE</a></li>
-                            <li><a href="#section3">OU SOMMES NOUS?</a></li>
-                            <li><a href="#section4">L'EQUIPE</a></li>
-                            <li><a href="#section5">BLOG</a></li>
-                            <li><a href="#section6">CONTACT</a></li>
-                        </ul>
-                            <a class="btn btn-lg navbar-right"style="background-color:#FE0000">PANIER</a>
->>>>>>> 5dafbc9f17527ed5fa8acfae74103de9ca59e21e
                     </div>
                 </div>
             </div>

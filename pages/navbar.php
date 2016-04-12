@@ -20,14 +20,14 @@
                                     <img id="logo" src="images/logo.png" class="img-circle" alt="#"/>
                                 </a>
                             </li>
-                            <li><a href="#section1">PRODUITS</a></li>
+                            <li><a href="#section1" style="border-right:10px border-color: white; ">PRODUITS</a></li>
                             <li><a href="#section2">DEVENIR PARTENAIRE</a></li>
                             <li><a href="#section3">OU SOMMES NOUS?</a></li>
                             <li><a href="#section4">L'EQUIPE</a></li>
                             <li><a href="#section5">BLOG</a></li>
                             <li><a href="#section6">CONTACT</a></li>
                         </ul>
-                            <a class="btn btn-lg navbar-right"style="background-color:red">Panier</a>
+                            <a class="btn btn-lg navbar-right"style="background-color:red">PANIER</a>
                     </div>
                 </div>
             </div>

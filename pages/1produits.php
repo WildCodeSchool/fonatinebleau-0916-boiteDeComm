@@ -2,6 +2,7 @@
 <div class="container-fluid1">
         <div class="row">
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
+                <h2 id="divid1">Nos Produits</h2>
                 <a><img class="testimage" src="images/couple.png" width="180%" height="70%"></a>
             </div>
         </div>
@@ -43,7 +44,7 @@
         </div>  
         <div class="row">
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
-                    <a class="hvr-float-shadow"><img src="images/famille.png" width="100%" height="30%"></a>
+                    <a class="testimage2"><img src="images/famille.png" width="150%" height="70%"></a>
             </div>
             
         </div>
@@ -88,10 +89,10 @@
 <div class="container-fluid1">
     <div class="row">
         <div class="youtube">
-        <h2>Nos vidéos<h2><br>
+        <h2>Nos vidéos<h2>
             <div class="col-lg-6">
                 <iframe class="video" src="https://www.youtube.com/embed/2zoZ6nHIAGk" width="60%" height="40%">
-                </iframe><br>
+                </iframe>
             </div>
             <div class="col-lg-6">
                 <iframe class="video" src="https://www.youtube.com/embed/zgb-U12lIts" width="60%" height="70%">

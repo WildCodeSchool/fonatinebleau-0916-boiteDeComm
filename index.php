@@ -6,6 +6,6 @@
 	include('pages/3localisation.php');
 	include('pages/4createurs.php');
 	include('pages/5blog.php');
-	include('pages/footer.php');
+	include('pages/6footer.php');
 ?>
 

@@ -13,6 +13,7 @@
   display: block;
   margin-top: 45px;
   margin-bottom: 45px;
+  margin-right: -15px;
 }
 
 #section2{
@@ -39,6 +40,9 @@ h5 {
   max-height: 30px;
   overflow: hidden;
 }
+p {
+  margin-top: 30px;
+}
 
 .body_color {
 	background-color: #FFFFFF;
@@ -55,11 +59,15 @@ h5 {
 /* NAV BAR */
 /*#####################*/
 
+
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li {
   border-left: solid 1px;
   border-right: solid 1px;
   border-color: #DDDDDD ;
   border-radius: 0.05px;
+
+.photoheader{
+  width: 100%;
 }
 
 .nav_bar_row{
@@ -108,6 +116,7 @@ h5 {
   width: 50px;
   height: 50px;
   margin-top:-15px;
+  border: inherit;
 }
 
 @media (min-width: 767px) {
@@ -119,7 +128,6 @@ h5 {
 /*#####################*/
 /* SECTION_1 */
 /*#####################*/
-
 
 /*#####################*/
 /* ANIMATION DES IMAGES */
@@ -289,6 +297,23 @@ h5 {
   display: flex;
 }
 
+.video{
+
+  margin-top: 20px;
+}
+
+#divid1{
+  margin-top: -45px;
+
+}
+
+.testimage{
+  margin-left: -165px;
+}
+.testimage2{
+  margin-left: -115px;
+}
+
 /*#####################*/
 /* SECTION 3 DEVENIR PARTENAIRE */
 /*#####################*/
@@ -358,8 +383,10 @@ list-style-type:none;
 }
 
 #footer a {
+<<<<<<< HEAD
   color:#efefef;
 }
 .video{
   display: inline; 
+  color:#000000;
 }

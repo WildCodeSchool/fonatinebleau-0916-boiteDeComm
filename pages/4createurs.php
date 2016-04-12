@@ -1,6 +1,6 @@
 <div class="divider" id="section4"></div>
 <div class="container"> 
-    <h1>Nos Créateurs</h1>
+    <h2>Nos Créateurs</h2>
     <div class="row">
         <div class="col-lg-12 md-12"></div>
     </div>

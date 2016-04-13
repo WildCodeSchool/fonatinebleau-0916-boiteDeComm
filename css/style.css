@@ -66,7 +66,6 @@ p {
 
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li {
-  border-left: solid 1px;
   border-right: solid 1px;
   border-color: #DDDDDD ;
   border-radius: 0.05px;
@@ -302,6 +301,10 @@ list-style-type:none;
   color: #444444;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+.metierscrea{
+  margin-top: -10px
 }
 
 

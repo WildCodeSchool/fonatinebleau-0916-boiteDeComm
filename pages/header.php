@@ -63,6 +63,7 @@
   </head>
   <body>
     <!-- Wrap all page content here -->
+                    <div>
                     <img class="photoheader" src="images/logoheader.jpg">
                     </div>
                 </div>

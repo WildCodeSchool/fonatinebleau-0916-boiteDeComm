@@ -267,9 +267,6 @@ p {
 .testimage2{
   margin-left: -115px;
 }
-.blinkin {
-  animation: blinker 2s linear infinite;
-}
 
 @keyframes blinker {  
   50% { opacity: 0.0; }
@@ -310,17 +307,22 @@ list-style-type:none;
   letter-spacing: 1px;
 }
 
-.metierscrea{
-  margin-top: -10px
+.prenom{
+  margin-top: 70px;
 }
 
 .texte {
-  margin-top: 85px;
+  margin-top: 35px;
 }
 
 .photocadre {
   margin-left: -68px;
-  margin-top: -150px;
+  margin-top: -110px;
+}
+
+.photocadre1{
+  margin-top: -115px;
+  margin-left: -40px;
 }
 /*#####################*/
 /* BOX BLOG */

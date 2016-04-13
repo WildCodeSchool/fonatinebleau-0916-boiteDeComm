@@ -17,9 +17,9 @@
             <div class="feature">
             <div style="position: relative; left: 0; top: 0;">
                 <img src="images/Maud.png" style="position: relative; top: 0; left: 0;"/>
-                <img class="photocadre" src="images/cadre.png" width="300" height="520" style="position: absolute; top: 30px; left: 70px;"/>
+                <img class="photocadre" src="images/cadre.png" width="300" height="380" style="position: absolute; top: 30px; left: 70px;"/>
                 </div>
-            <p>MAUD JAN-AILLERET</p>
+            <p class="prenom">MAUD JAN-AILLERET</p>
             <p class="metierscrea"><I>Co-fondatrice</p></I>
             <p class="texte">
             Mariée, 2 enfants en bas âge (des garçons !), en tenue de consultante, ou de professeur de comm’ le jour ; souvent en costumes sur les planches de théâtre le soir, Maud a une vie bien remplie…
@@ -29,6 +29,7 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
+         <img class="photocadre1" src="images/cadre.png" width="280" height="390" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/demas.png" width="185" style="background-image: "images/cadre.png"">
             <p>MARIE DE CAMAS</p>
             <p class="metierscrea"><I>Co-fondatrice</p></I>
@@ -40,6 +41,7 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
+         <img class="photocadre" src="images/cadre.png" width="300" height="380" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/lui.png" width="200">
             <p>GUILLAUME LAGANE</p>
             <p class="metierscrea"><I>Illustrateur</p></I>
@@ -51,6 +53,7 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
+         <img class="photocadre" src="images/cadre.png" width="300" height="380" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/PhotoProfilDo.jpg" width="180" height="230">
             <p>DOROTHEE CORBIER</p>
             <p class="metierscrea"><I>Communication</p></I>

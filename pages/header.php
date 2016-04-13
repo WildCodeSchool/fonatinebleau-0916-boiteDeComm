@@ -43,29 +43,11 @@
       $('body,html').animate({scrollTop:posi},700);
     });
     </script>
-
-    <script>$('.panel .img-responsive').on('load', function() {
-      
-    }).each(function(i) {
-      if(this.complete) {
-      	var item = $('<div class="item"></div>');
-        var itemDiv = $(this).parent('a');
-        var title = $(this).parent('a').attr("title");
-        </script>
-
-    <script>$('.panel-thumbnail>a').click(function(e){
-      
-        e.preventDefault();
-        var idx = $(this).parents('.panel').parent().index();
-      	var id = parseInt(idx);
-      	
-    });
-    </script>
   </head>
   <body>
     <!-- Wrap all page content here -->
       <header>
         <div class="row2">
-          <img class="photoheader" src="images/logoheader.jpg">
+          <img class="photoheader" alt="header" src="images/logoheader.jpg">
         </div>
       </header>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta name="author" content="Daniel Hagnoul">
+	<title>Forum jQuery</title>
+	<link href='http://fonts.googleapis.com/css?family=Sofia|Ubuntu:400|Kreon'>
+	<link rel="stylesheet" href="http://danielhagnoul.developpez.com/styles/dvjhRemBase.css">
+	<style>
+		.hyphens { -moz-hyphens:auto; -webkit-hyphens:auto; -ms-hyphens:auto; hyphens:auto; }
+		article { display:table-cell; text-align:justify; border:0.1rem dotted grey; }
+		.table1 { border-collapse:separate; border-spacing:3rem; }
+		.ligne { display:table-row; }
+ 
+		.table1 .ligne { min-height:25rem; }
+		.table1 article { width:40rem; vertical-align:top; }
+ 
+		/* TEST */
+ 
+	</style>
+</head>
+<body>
+	<header>
+		<hgroup>
+			<h1>Forum jQuery</h1>
+			<h2>Titre 2</h2>
+		</hgroup>
+	</header>
+	<section class="conteneur">				
+		<section class="table1">
+			<section class="ligne">
+				<article>
+ 
+				</article>
+				<article>
+ 
+				</article>
+			</section>
+		</section>
+	</section>
+	<footer itemscope itemtype="http://danielhagnoul.developpez.com/">
+		<time datetime="2012-12-23T21:12:59.904+01:00" pubdate>2012-12-23T21:12:59.904+01:00</time>
+		<span itemprop="name">Daniel Hagnoul</span>
+		<a href="http://www.developpez.net/forums/u285162/danielhagnoul/" itemprop="url">@danielhagnoul</a>
+		<a href="http://danielhagnoul.developpez.com/" itemprop="url">Mon cahier d?exercices</a>
+		<a href="http://javascript.developpez.com/faq/jquery/" itemprop="url">FAQ</a>
+		<a href="http://javascript.developpez.com/cours/?page=frameworks#jquery" itemprop="url">Tutoriels</a>
+	</footer>
+	<script src="http://danielhagnoul.developpez.com/lib/raphael-min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.9.0b1.js"></script>
+	<!--<script src="http://code.jquery.com/jquery-migrate-1.0.0b1.js"></script>-->
+	<script src="http://code.jquery.com/color/jquery.color-2.1.1.min.js"></script>
+	<script src="http://danielhagnoul.developpez.com/lib/dvjh/base.js"></script>
+	<script>
+		"use strict";
+ 
+		$(function(){
+ 
+		});
+ 
+		$( window ).load( function(){
+ 
+			var jObjArticle = $( "article:first" ),
+				tabImages = [
+					"http://danielhagnoul.developpez.com/images/boule4.png",
+					"http://danielhagnoul.developpez.com/images/boule1.png",
+					"http://danielhagnoul.developpez.com/images/boule2.png",
+					"http://danielhagnoul.developpez.com/images/boule3.png",
+					"http://danielhagnoul.developpez.com/images/boule7.png"					
+				],
+				i = 0,
+				jObjPicture = $( "<img/>", {
+					"src" : tabImages[ i ]
+				}).appendTo( jObjArticle ),
+				objInterval = setInterval( function(){
+					if ( i > 4 ) clearInterval( objInterval );
+					jObjPicture.attr( "src", tabImages[ i++ ] );
+				}, 2000 );
+ 
+		});
+	</script>
+</body>
+</html>

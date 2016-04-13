@@ -26,7 +26,7 @@
             <div class="col-lg-4">
                 <div id="colonegauche">
                     <h4>HOTELS   
-                        <img src="images/hotel2.png" width="20%" height="10%" style="background-image:url("images/hotel2.png"); opacity:0.9;">
+                        <img src="images/hotel.png" width="40%" height="40%" style="background-image:url("images/hotel2.png"); opacity:0.9;">
                     </h4>
                     <p class="hauteur">
                         <p> En tant qu’hôte, vous souhaitez :<br/>
@@ -42,7 +42,7 @@
     <div class="col-lg-4">
         <div id="colonecentre">
             <h4>FLEURISTES   
-                <img src="images/fleur.jpg" width="10%" height="10%">
+                <img src="images/fleurs.png" width="10%" height="10%">
             </h4>
                 <p class="hauteur">
                 <p> En tant que fleuriste, vous souhaitez :<br/>

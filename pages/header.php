@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/jquery-2.2.3.min.js"></script>
@@ -48,6 +49,6 @@
     <!-- Wrap all page content here -->
       <header>
         <div class="row2">
-          <img class="photoheader" alt="header" src="images/logoheader.jpg">
+          <img class="photoheader" src="images/logoheader.jpg" style="width: 100%; height: 600px;">
         </div>
       </header>

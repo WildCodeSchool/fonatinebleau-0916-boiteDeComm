@@ -9,7 +9,6 @@
 }
 .row2{
   text-align: center;
-  display: absolute;
   margin-top: none;
   margin-bottom: none;
 }
@@ -72,8 +71,7 @@ p {
 }
 
 .photoheader img{
-  width: 200px;
-  height: 200%;
+  
 }
 
 .nav_bar_row{
@@ -109,7 +107,14 @@ p {
 .navbar-collapse.in { /*3.0.2 bug workaround*/
     overflow-y: visible;
 }
+.partenaires1  {
+float: right;
+height: ;
+}
 
+a.btn.btn-lg.navbar-right {
+  color: white;
+}
 .navbar-toggle {
   outline:0;
 }
@@ -328,33 +333,24 @@ list-style-type:none;
 /* BOX BLOG */
 /*#####################*/
 
+/* Feuille de style Mansory */
 
-.img-responsive img{
-  width: 100%;    
+.masonry { /* Masonry container */
+    column-count: 2;
+    column-gap: 1em;
+    -moz-column-count: 2;
+    -moz-column-gap: 1em;
 }
 
-/*.img-responsive {
-  min-height:150px;
-  max-height:150px;
-}*/
-
-.productbox {
-  position: relative;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: all .2s ease-in-out; 
+.item { /* Masonry bricks or child elements */
+    display: inline-block;
+    margin: 0 0 0.3em;
+    width: 100%;
+    border: 2px solid black;
+    font-color : black;
 }
-
-.caption {
-  padding:10px;
-  background-color:rgba(0,0,0,0.7);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  max-height: 40%;
-  overflow: hidden;
-  font-size: 11px;
-  color: #FFF;
+li .item {
+  font-color: black;
 }
 
 /*#####################*/
@@ -379,3 +375,5 @@ list-style-type:none;
   color:#000000;
 }
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
+
+

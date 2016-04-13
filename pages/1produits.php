@@ -90,18 +90,20 @@
     <div class="row">
         <div class="youtube">
         <h2>Nos vidéos<h2><br>
-            <div class="col-lg-4">
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen>
+            <div class="col-lg-4" style="margin-left:15px;">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen>
                 </iframe><br>
             </div>
-            <div class="col-lg-4">
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/zgb-U12lIts" frameborder="0" allowfullscreen>
+            <div class="col-lg-4" style="margin-left: -10px">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/zgb-U12lIts" frameborder="0" allowfullscreen>
                 </iframe>
             </div>
-            <div class="cold-lg-4">
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen>
+            <div class="cold-lg-4" style="margin-right: 35px;">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen>
                 </iframe>
             </div>
         </div>
     </div>
 </div>
+
+                    <!-- PARTIE COMMENTAIRE -->

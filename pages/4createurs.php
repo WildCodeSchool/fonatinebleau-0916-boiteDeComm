@@ -14,13 +14,14 @@
    <div class="container">
      <div class="row text-center">
        <div class="col-sm-6 col-md-3">
-         <div class="feature">
-           <div class="feature-picture">
-             <img class="staff"src="images/Maud.png" width="200">
-            </div>
+            <div class="feature">
+            <div style="position: relative; left: 0; top: 0;">
+                <img src="images/Maud.png" style="position: relative; top: 0; left: 0;"/>
+                <img class="photocadre" src="images/cadre.png" width="300" height="520" style="position: absolute; top: 30px; left: 70px;"/>
+                </div>
             <p>MAUD JAN-AILLERET</p>
             <p class="metierscrea"><I>Co-fondatrice</p></I>
-            <p>
+            <p class="texte">
             Mariée, 2 enfants en bas âge (des garçons !), en tenue de consultante, ou de professeur de comm’ le jour ; souvent en costumes sur les planches de théâtre le soir, Maud a une vie bien remplie…
             Et la communication au sein de son couple pour conjuguer toutes ses activités se doit d’être au top !
            </p>
@@ -31,7 +32,7 @@
            <img src="images/demas.png" width="185" style="background-image: "images/cadre.png"">
             <p>MARIE DE CAMAS</p>
             <p class="metierscrea"><I>Co-fondatrice</p></I>
-            <p>
+            <p class="texte">
             Maman de 3 enfants de 9 à 4 ans, Marie s’est spécialisée dans le marketing et les achats entre Montréal, Shanghai et Oxford.
             Avec cette vie bien animée et un mari qui voyage beaucoup, Marie se rend compte du sens vital de la communication sous toutes ses formes au sein de son couple.
            </p>

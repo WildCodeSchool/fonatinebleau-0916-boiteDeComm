@@ -1,3 +1,7 @@
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
 <script>
 $('#myModal').on('show', function() {
     var link = $(this).data('link'),
@@ -659,8 +663,9 @@ Tout est donc totalement sécurisé..</p>
         </div>
         <div class="col-sm-4 text-right">
         	<span class="fa-stack fa-lg">
-              <i class="fa fa-circle text-primary fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+             <i class="fa fa-circle text-primary fa-stack-2x"></i>
+             <a href="https://www.facebook.com/boitesdecomm?ref=hl">
+             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
             </span>
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-info fa-stack-2x"></i>
@@ -669,6 +674,7 @@ Tout est donc totalement sécurisé..</p>
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+               <a href="https://youtu.be/zgb-U12lIts">
             </span>
         </div>
       </div>

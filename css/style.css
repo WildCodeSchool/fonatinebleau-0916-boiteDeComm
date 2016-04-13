@@ -342,8 +342,8 @@ list-style-type:none;
     border: 2px solid black;
     font-color : black;
 }
-li .item {
-  font-color: black;
+ a .item {
+  color: black;
 }
 
 /*#####################*/

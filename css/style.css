@@ -7,7 +7,12 @@
   display: block;
   width: 100%;
 }
-
+.row2{
+  text-align: center;
+  display: absolute;
+  margin-top: none;
+  margin-bottom: none;
+}
 .row {
   text-align: center;
   display: block;
@@ -66,8 +71,9 @@ p {
   border-radius: 0.05px;
 }
 
-.photoheader{
-  width: 100%;
+.photoheader img{
+  width: 200px;
+  height: 200%;
 }
 
 .nav_bar_row{
@@ -370,3 +376,4 @@ list-style-type:none;
   display: inline; 
   color:#000000;
 }
+/* ANIMATION DES COMMENTAIRES/DES AVIS */

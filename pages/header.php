@@ -10,6 +10,7 @@
     <script src="js/bootstrap.js"></script>
 
     <!-- SCRIPT ANIMATION -->
+
     <script type="text/javascript">
     $(document).ready(function(){
         $("#myNav").affix({
@@ -63,9 +64,8 @@
   </head>
   <body>
     <!-- Wrap all page content here -->
-                    <div>
-                    <img class="photoheader" src="images/logoheader.jpg">
-                    </div>
-                </div>
-            </div>      
-        </header>
+      <header>
+        <div class="row2">
+          <img class="photoheader" src="images/logoheader.jpg">
+        </div>
+      </header>

@@ -101,6 +101,10 @@
             <div class="cold-lg-4" style="margin-right: 35px;">
                 <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen>
                 </iframe>
+
+                    <!--AVIS -->
+
+                    <img class="blinkin" src="images/lui.png">
             </div>
         </div>
     </div>

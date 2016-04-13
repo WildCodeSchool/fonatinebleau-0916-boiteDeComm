@@ -66,7 +66,7 @@ p {
 
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li {
-  border-right: solid 1px;
+  border-right: solid 1px; 
   border-color: #DDDDDD ;
   border-radius: 0.05px;
 }
@@ -267,6 +267,13 @@ p {
 .testimage2{
   margin-left: -115px;
 }
+.blinkin {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
 
 /*#####################*/
 /* SECTION 3 DEVENIR PARTENAIRE */
@@ -307,13 +314,36 @@ list-style-type:none;
   margin-top: -10px
 }
 
+.texte {
+  margin-top: 85px;
+}
 
+.photocadre {
+  margin-left: -68px;
+  margin-top: -150px;
+}
 /*#####################*/
-/* BOX ACTUALITE */
+/* BOX BLOG */
 /*#####################*/
 
-.actu_test{
-  border: 2px solid black;
+/* Feuille de style Mansory */
+
+.masonry { /* Masonry container */
+    column-count: 2;
+    column-gap: 1em;
+    -moz-column-count: 2;
+    -moz-column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+    display: inline-block;
+    margin: 0 0 0.3em;
+    width: 100%;
+    border: 2px solid black;
+    font-color : black;
+}
+li .item {
+  font-color: black;
 }
 
 /*#####################*/
@@ -338,25 +368,5 @@ list-style-type:none;
   color:#000000;
 }
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
-
-/* Feuille de style Mansory */
-
-.masonry { /* Masonry container */
-    column-count: 2;
-    column-gap: 1em;
-    -moz-column-count: 2;
-    -moz-column-gap: 1em;
-}
-
-.item { /* Masonry bricks or child elements */
-    display: inline-block;
-    margin: 0 0 0.3em;
-    width: 100%;
-    border: 2px solid black;
-    font-color : black;
-}
-li .item {
-  font-color: black;
-}
 
 

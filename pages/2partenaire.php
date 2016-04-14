@@ -1,7 +1,7 @@
 <div class="divider" id="section2"></div> 
  <div class="fondcouleurpartenaire" style="background-color: #E5E5E5">
     <div class="container-fluid1">
-        <img class="partenaire" src="images/partenaire.png" alt="partenaire" width="50%" height="50%">
+        <img style="margin-top: 75px;" class="partenaire" src="images/partenaire.png" alt="partenaire" width="50%" height="50%">
             <h2 style="margin-bottom: 30px"> Devenir Partenaire</h2>
                 <h4> Vous souhaitez devenir notre partenaire ? Contactez nous !
                 </h4>

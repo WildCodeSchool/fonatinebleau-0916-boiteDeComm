@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/typed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.js"></script>
     <script src="js/bootstrap.js"></script>
 
@@ -22,34 +23,30 @@
         });
     });
     </script>
-
-    <script>$('#myNav').affix({
-          offset: {
-            top: $('header').height()-$('#myNav').height()
-          }
-    });	
+    
+    <!-- Apparition progressive du logo -->
+    <script type="text/javascript">
+       $(document).ready(function(){
+          $("#logo_header").fadeIn(10000);
+       });
     </script>
 
-    <script>$('body').scrollspy({ target: '#myNav' })
-
-
-    /* smooth scrolling for scroll to top */
-    $('.scroll-top').click(function(){
-      $('body,html').animate({scrollTop:0},1000);
-    })
-
-    /* smooth scrolling for nav sections */
-    $('#myNav .navbar-nav li>a').click(function(){
-      var link = $(this).attr('href');
-      var posi = $(link).offset().top;
-      $('body,html').animate({scrollTop:posi},700);
-    });
+    <!-- Ecriture progressive du texte -->
+    <script>
+      $(function(){
+        $(".texte_header").typed({
+          strings: ["<h2>LE JEU QUI DONNE DE LA SAVEUR AU QUOTIDIEN</h2>"],
+          startDelay: 200
+        });
+      });
     </script>
   </head>
   <body>
     <!-- Wrap all page content here -->
       <header>
         <div class="row2">
-          <img class="photoheader" src="images/logoheader.jpg" style="width: 100%; height: 600px;">
+          <img class="photoheader" src="http://cdn.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png">
+          <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm">
+          <div class="texte_header"></div>
         </div>
       </header>

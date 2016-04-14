@@ -52,7 +52,7 @@
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Article-sur-le-blog-La-vie-de-Famille-quelle-aventure-/c1bs5/56dd94550cf2269f9d9779d0">Article sur le blog "La vie de Famille : quelle aventure ! 07/03/2016</a>
+                    <a href="http://aventureviedefamille.blogspot.fr/2016/03/la-boite-de-comm-de-la-famille.html">Article sur le blog "La vie de Famille : quelle aventure ! 07/03/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_9a6ee3cdd1d843a98a357d67c4ec30aa.png/v1/fill/w_181,h_127,al_c,usm_0.66_1.00_0.01/c294cc_9a6ee3cdd1d843a98a357d67c4ec30aa.png" alt="#">
                     <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
                 </div><!--/span-->
@@ -116,15 +116,15 @@
             <div class="well sidebar-nav">
                 <ul class="nav_archive">
                     <li>Archives</li>
-                    <li class="active"><a href="#">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a></li>
-                    <li><a href="#">Article sur le blog "La vie de Famille : quelle aventure ! 07/03/2016</a></li>
-                    <li><a href="#">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. 07/03/2016</a></li>
-                    <li><a href="#">Article sur le site : "Maman Vogue" 22/02/2016</a></li>     
-                    <li><a href="#">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour". 11/02/2016</a></li>
-                    <li><a href="#">Vidéo « Flagrant Délit d’Amour » en partenariat avec La Brigade de l’Amour et Parlez d’Amour. 08/02/2016</a></li>
-                    <li><a href="#">Les Petits Franchies : Vidéo Vive L'Amour à la Française 08/02/2016</a></li>
-                    <li><a href="#">TV France3 Lorraine. 05/02/2016</a></li>
-                    <li><a href="#">Campagne de pub Saint Valentin Notre famille.com, enfant.com, familiscope.05/02/2016</a></li>
+                    <li class="active"><a href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm-ont-d%C3%A9barqu%C3%A9-aux-Galeries-Lafayette-/c1bs5/57023f570cf27bf9349a8f7c">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a></li>
+                    <li><a href="http://aventureviedefamille.blogspot.fr/2016/03/la-boite-de-comm-de-la-famille.html">Article sur le blog "La vie de Famille : quelle aventure !<br> 07/03/2016</a></li>
+                    <li><a href="http://www.lesjeuxdedames.com/index.html">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. <br>07/03/2016</a></li>
+                    <li><a href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" <br>22/02/2016</a></li>     
+                    <li><a href="http://www.lesboitesdecomm.com/#!Jeu-concours-Maman-Vogue-sur-Facebook/c1bs5/56d04ef50cf2836ff5d8ee1f">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour". <br>11/02/2016</a></li>
+                    <li><a href="http://www.lesboitesdecomm.com/#!Vid%C3%A9o-%C2%AB-Flagrant-D%C3%A9lit-d%E2%80%99Amour-%C2%BB-en-partenariat-avec-La-Brigade-de-l%E2%80%99Amour-et-Parlez-d%E2%80%99Amour/c1bs5/56d046c50cf2f9aefdc50caf">Vidéo « Flagrant Délit d’Amour » <br>en partenariat avec La Brigade de l’Amour et Parlez d’Amour. 08/02/2016</a></li>
+                    <li><a href="http://www.lesboitesdecomm.com/#!Les-Petits-Franchies-Vid%C3%A9o-Vive-LAmour-%C3%A0-la-Fran%C3%A7aise/c1bs5/56d048270cf2f9aefdc50e53">Les Petits Franchies : <br>Vidéo Vive L'Amour à la Française 08/02/2016</a></li>
+                    <li><a href="http://www.lesboitesdecomm.com/#!TV-France3-Lorraine/c1bs5/56d0456d0cf29064e5f2feb8">TV France3 Lorraine. <br>05/02/2016</a></li>
+                    <li><a href="http://www.lesboitesdecomm.com/#!Campagne-de-pub-Saint-Valentin-Notre-famillecom-enfantcom-familiscope/c1bs5/56d044930cf29064e5f2fdb1">Campagne de pub Saint Valentin <br>Notre famille.com, enfant.com, familiscope.05/02/2016</a></li>
                 </ul>
             </div><!--/.well -->
         </div>

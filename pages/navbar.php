@@ -28,6 +28,7 @@
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT</a></li>
                         </ul>
                             <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white">PANIER</a>
+
                     </div>
                 </div>
             </div>

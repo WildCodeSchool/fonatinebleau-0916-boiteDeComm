@@ -48,19 +48,19 @@
                 <div class="item">
                     <a href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm-ont-d%C3%A9barqu%C3%A9-aux-Galeries-Lafayette-/c1bs5/57023f570cf27bf9349a8f7c" alt="#">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_4ad3d663ca254e99bcf6bea33918e725.png/v1/fill/w_181,h_181,al_c,usm_0.66_1.00_0.01/c294cc_4ad3d663ca254e99bcf6bea33918e725.png">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm-ont-d%C3%A9barqu%C3%A9-aux-Galeries-Lafayette-/c1bs5/57023f570cf27bf9349a8f7c">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
                     <a href="http://aventureviedefamille.blogspot.fr/2016/03/la-boite-de-comm-de-la-famille.html">Article sur le blog "La vie de Famille : quelle aventure ! 07/03/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_9a6ee3cdd1d843a98a357d67c4ec30aa.png/v1/fill/w_181,h_127,al_c,usm_0.66_1.00_0.01/c294cc_9a6ee3cdd1d843a98a357d67c4ec30aa.png" alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="http://aventureviedefamille.blogspot.fr/2016/03/la-boite-de-comm-de-la-famille.html">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
                     <a href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm%E2%80%99-au-March%C3%A9-des-Cr%C3%A9atrices-de-Fontainebleau/c1bs5/56dd45be0cf265884bdc0447">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. 07/03/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_fba7ffb18116462f8bad94ccfb518ff7.jpg/v1/fill/w_181,h_258,al_c,q_80,usm_0.66_1.00_0.01/c294cc_fba7ffb18116462f8bad94ccfb518ff7.jpg" alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm%E2%80%99-au-March%C3%A9-des-Cr%C3%A9atrices-de-Fontainebleau/c1bs5/56dd45be0cf265884bdc0447">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
@@ -77,19 +77,19 @@
 
                 <div class="item">
                     <a href="http://www.lesboitesdecomm.com/#!Le-Bonbon-diffusion-de-la-vid%C3%A9o-Flagrant-D%C3%A9lit-d%E2%80%99Amour/c1bs5/56d049df0cf2f9aefdc51042">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour". 11/02/2016</a>
-                    <img src="https://static.wixstatic.com/media/c294cc_df19f41aba6b483c8fd72f7186f4897c.jpg/v1/fill/w_181,h_181,al_c,lg_1,q_80/c294cc_df19f41aba6b483c8fd72f7186f4897c.jpg" alt="#">
+                    <img src="https://youtu.be/pg09NQfpUhg" alt="#">
                     <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
                     <a href="http://www.lesboitesdecomm.com/#!Vid%C3%A9o-%C2%AB-Flagrant-D%C3%A9lit-d%E2%80%99Amour-%C2%BB-en-partenariat-avec-La-Brigade-de-l%E2%80%99Amour-et-Parlez-d%E2%80%99Amour/c1bs5/56d046c50cf2f9aefdc50caf">Vidéo « Flagrant Délit d’Amour » en partenariat avec La Brigade de l’Amour et Parlez d’Amour. 08/02/2016</a>
-                    <img src="https://static.wixstatic.com/media/c294cc_548b1a33400a4021a39d68d4a0292c05.jpg/v1/fill/w_181,h_238,al_c,q_80,usm_0.66_1.00_0.01/c294cc_548b1a33400a4021a39d68d4a0292c05.jpg" alt="#">
+                    <img src="https://youtu.be/pg09NQfpUhg" alt="#">
                     <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
                     <a href="http://www.lesboitesdecomm.com/#!Les-Petits-Franchies-Vid%C3%A9o-Vive-LAmour-%C3%A0-la-Fran%C3%A7aise/c1bs5/56d048270cf2f9aefdc50e53">Les Petits Franchies : Vidéo Vive L'Amour à la Française 08/02/2016</a>
-                    <img src="https://static.wixstatic.com/media/c294cc_a42bcdc4af954507a3844805c91b1ef3.png/v1/fill/w_181,h_115,al_c,usm_0.66_1.00_0.01/c294cc_a42bcdc4af954507a3844805c91b1ef3.png" alt="#">
+                    <img src="https://fr.petitsfrenchies.com/article-la-boite-de-comm-du-couple/" alt="#">
                     <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
                 </div><!--/span-->
 

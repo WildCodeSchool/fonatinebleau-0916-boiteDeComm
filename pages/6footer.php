@@ -669,7 +669,8 @@ Tout est donc totalement sécurisé..</p>
             </span>
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-info fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+              <a href="https://plus.google.com/+Lesboitesdecomm/posts"
             </span>
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>

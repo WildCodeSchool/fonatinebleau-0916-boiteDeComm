@@ -33,6 +33,7 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
+
             <img class="photocadre1" src="images/cadre.png" width="280" height="390" style="position: absolute; top: 30px; left: 70px;"/>
             <img src="images/demas.png" width="185" style="background-image: "images/cadre.png"">
             <p class="prenom" style="font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;">MARIE DE CAMAS</p>
@@ -45,7 +46,7 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-         <img class="photocadre2" src="images/cadre.png" width="300" height="400" style="position: absolute; top: 30px; left: 70px;"/>
+         <img class="photocadre2" src="images/cadre.png" width="292" height="400" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/lui.png" width="200">
             <p class="prenom" style="font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;">GUILLAUME LAGANE</p>
             <p class="metierscrea" style="font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;"><I>Illustrateur</p></I>
@@ -57,7 +58,7 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-         <img class="photocadre3" src="images/cadre.png" width="280" height="400" style="position: absolute; top: 30px; left: 70px;"/>
+         <img class="photocadre3" src="images/cadre.png" width="273" height="400" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/PhotoProfilDo.jpg" width="180" height="230">
             <p class="prenom" style="font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;">DOROTHEE CORBIER</p>
             <p class="metierscrea" style="font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;"><I>Communication</p></I>

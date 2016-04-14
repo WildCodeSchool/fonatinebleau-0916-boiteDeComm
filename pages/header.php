@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.js"></script>
     <script src="js/bootstrap.js"></script>
 
     <!-- SCRIPT ANIMATION -->

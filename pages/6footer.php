@@ -30,7 +30,7 @@ $('#btnYes').click(function() {
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
- <a href="#myModalfooter" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
+ <a href="#myModalfooter" style="color: white" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
 
 <!-- Modal -->
 <div id="myModalfooter" class="modal fade" role="dialog">
@@ -93,7 +93,7 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
         <div class="foot-header">
          <div class="container">
 <!-- Trigger the modal with a button -->
-<a href="#myModalfooter1" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
+<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
 
 <!-- Modal -->
 <div id="myModalfooter1" class="modal fade" role="dialog">
@@ -523,7 +523,7 @@ Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
         <div class="foot-header">
          <div class="container">
 <!-- Trigger the modal with a button -->
-<a href="#myModalfooter2" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
+<a href="#myModalfooter2" style="color: white" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
 
 <!-- Modal -->
 <div id="myModalfooter2" class="modal fade" role="dialog">
@@ -575,7 +575,7 @@ Tout est donc totalement sécurisé..</p>
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
-<a href="#myModalfooter3" data-toggle="modal" data-target="#myModalfooter3">Contact</a>
+<a href="#myModalfooter3" style="color: white" data-toggle="modal" data-target="#myModalfooter3">Contact</a>
 
 <!-- Modal -->
 <div id="myModalfooter3" class="modal fade" role="dialog">
@@ -658,18 +658,24 @@ Tout est donc totalement sécurisé..</p>
 
         </div>
         <div class="col-sm-4 text-right">
+        <a href="https://www.facebook.com/boitesdecomm">
         	<span class="fa-stack fa-lg">
-              <i class="fa fa-circle text-primary fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
+            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
           <span class="fa-stack fa-lg">
+          <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
               <i class="fa fa-circle text-info fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              <i class="fa fa- fa-stack-1x fa-inverse"></i>
             </span>
+            </a>
+            <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
             </span>
+            </a>
         </div>
       </div>
   </div><!--/container-->

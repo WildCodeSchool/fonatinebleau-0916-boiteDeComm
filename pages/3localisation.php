@@ -37,22 +37,22 @@
     <h2>Nous trouver en magasin</h2>
         <div class="row">
             <div class="col-lg-12">
-                <iframe src="https://www.google.com/maps/d/embed?mid=zATSV5yInQAA.k5s1bG85T3D0" style="border-style: inherit;" width="640" height="480"></iframe>
+                <iframe src="https://www.google.com/maps/d/embed?mid=zATSV5yInQAA.k5s1bG85T3D0" style="margin-bottom: "-150px" style="border-style: inherit";" width="640" height="480"></iframe>
             <div class="partenaires1">
+            <h4><B>Liste des nos partenaires accessible sur la carte !</h4></B>
             <ul>
-                <p><h4>Liste des nos partenaires accessible sur la carte !</h4></p>
-                <li><p>Furet Du Nord - 15 Place Charles de Gaulle, 59800 Lille, France</p></li>
-                <li><p>Hall Du Livre - 38 Rue Saint-Dizier, 54000 Nancy, France</p></li>
-                <li><p>Le Quai Des Mots - 4 Place du Général de Gaulle, 88000 Épinal, France</p></li>
-                <li><p>La Puce à l'oreille - 10 Rue Benoît Tabard, 69130 Écully, France</p></li>
-                <li><p>La Puce à l'oreille - 12 Avenue de Montbrison, 42160 Andrézieux-Bouthéon, France</p></li>
-                <li><p>Matière Grise - 19 Place Saint-Georges, 31000 Toulouse, France</p></li>
-                <li><p>Cultura - ZC Bègles -Tartifumes, Rue Denis Papin, 33130 Bègles, France</p></li>
-                <li><p>Plein Ciel Fontainebleau - 17 Rue de la Paroisse, 77300 Fontainebleau, France</p></li>
-                <li><p>Une Page de Vie - 76 Avenue du Général Leclerc, 78220 Viroflay, France</p></li>
-                <li><p>Librairie Lavocat - 101 Avenue Mozart, 75016 Paris, France</p></li>
-                <li><p>GAB & JO - 28 Rue Jacob, 75006 Paris, France</p></li>
-                <li><p>Lafayette Or - 40 Boulevard Haussmann, 75009 Paris, France</p></li>
+                <li><I>Furet Du Nord</I> - 15 Place Charles de Gaulle, 59800 Lille, France</li>
+                <li class="textcart"><I>Hall Du Livre</I> - 38 Rue Saint-Dizier, 54000 Nancy, France</li>
+                <li class="textcart"><I>Le Quai Des Mots</I> - 4 Place du Général de Gaulle, 88000 Épinal, France</li>
+                <li class="textcart"><I>La Puce à l'oreille</I> - 10 Rue Benoît Tabard, 69130 Écully, France</li>
+                <li class="textcart"><I>La Puce à l'oreille</I> - 12 Avenue de Montbrison, 42160 Andrézieux-Bouthéon, France</li>
+                <li class="textcart"><I>Matière Grise</I> - 19 Place Saint-Georges, 31000 Toulouse, France</li>
+                <li class="textcart"><I>Cultura</I> - ZC Bègles -Tartifumes, Rue Denis Papin, 33130 Bègles, France</li>
+                <li class="textcart"><I>Plein Ciel Fontainebleau</I> - 17 Rue de la Paroisse, 77300 Fontainebleau, Franc</li>
+                <li class="textcart"><I>Une Page de Vie</I> - 76 Avenue du Général Leclerc, 78220 Viroflay, France</li>
+                <li class="textcart"><I>Librairie Lavocat</I> - 101 Avenue Mozart, 75016 Paris, France</li>
+                <li class="textcart"><I>GAB & JO</I> - 28 Rue Jacob, 75006 Paris, France</li>
+                <li class="textcart"><I>Lafayette Or</I> - 40 Boulevard Haussmann, 75009 Paris, France</li>
             </ul>
             </div>
         </div>

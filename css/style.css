@@ -67,36 +67,16 @@ p {
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li {
   border-right: solid 1px; 
   border-color: #DDDDDD ;
-  border-radius: 0.05px;
+  border-radius: 0.10px;
 }
 
-.photoheader img{
-  
-}
 
 .nav_bar_row{
-  margin-top: initial !important;
-  margin-bottom: initial !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.affix {
-   position: fixed;
-   top: 0;
-   z-index:10;
-   -webkit-transition: all .6s ease-in-out;
-}
 
-.navbar-nav {
-  margin: 1px 1px; 
-}  
-
-
-
-.navbar{
-    height: 50px;
-    border-radius: 0;
-  vertical-align: middle;
-}
 .navbar.affix{
     top: 0px; 
     z-index: 100;
@@ -104,9 +84,6 @@ p {
     vertical-align:middle;
 }
 
-.navbar-collapse.in { /*3.0.2 bug workaround*/
-    overflow-y: visible;
-}
 .partenaires1  {
 float: right;
 height: ;
@@ -115,9 +92,7 @@ height: ;
 a.btn.btn-lg.navbar-right {
   color: white;
 }
-.navbar-toggle {
-  outline:0;
-}
+
 
 #logo{
   width: 50px;
@@ -126,11 +101,7 @@ a.btn.btn-lg.navbar-right {
   border: inherit;
 }
 
-@media (min-width: 767px) {
-  .navbar-nav.nav-justified > li{
-      float:none;
-  }
-}
+
 
 /*#####################*/
 /* SECTION_1 */
@@ -329,6 +300,30 @@ list-style-type:none;
   margin-top: -115px;
   margin-left: -40px;
 }
+
+.photocadre2{
+  margin-top: -115px;
+  margin-left: -50px;
+}
+.photocadre3{
+  margin-top: -115px;
+  margin-left: -40px;
+}
+
+.equipeimg{
+  position: middle;
+
+}
+
+/*#####################*/
+/* SECTION OU SOMMES NOUS */
+/*#####################*/
+
+.textcart{
+
+margin-top: 20px;
+}
+
 /*#####################*/
 /* BOX BLOG */
 /*#####################*/

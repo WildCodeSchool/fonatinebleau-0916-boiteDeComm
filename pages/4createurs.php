@@ -1,4 +1,5 @@
 <div class="divider" id="section4"></div>
+<img class="equipeimg" src="images/Equipe.png" alt="equipe" width="50%" height="50%">
 <div class="container" style="background-color: "> 
     <h2>Nos Créateurs</h2>
     <div class="row"
@@ -29,9 +30,9 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-         <img class="photocadre1" src="images/cadre.png" width="280" height="390" style="position: absolute; top: 30px; left: 70px;"/>
-           <img src="images/demas.png" width="185" style="background-image: "images/cadre.png"">
-            <p>MARIE DE CAMAS</p>
+            <img class="photocadre1" src="images/cadre.png" width="280" height="390" style="position: absolute; top: 30px; left: 70px;"/>
+            <img src="images/demas.png" width="185" style="background-image: "images/cadre.png"">
+            <p class="prenom">MARIE DE CAMAS</p>
             <p class="metierscrea"><I>Co-fondatrice</p></I>
             <p class="texte">
             Maman de 3 enfants de 9 à 4 ans, Marie s’est spécialisée dans le marketing et les achats entre Montréal, Shanghai et Oxford.
@@ -41,9 +42,9 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-         <img class="photocadre" src="images/cadre.png" width="300" height="380" style="position: absolute; top: 30px; left: 70px;"/>
+         <img class="photocadre2" src="images/cadre.png" width="300" height="400" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/lui.png" width="200">
-            <p>GUILLAUME LAGANE</p>
+            <p class="prenom">GUILLAUME LAGANE</p>
             <p class="metierscrea"><I>Illustrateur</p></I>
             <p>
             C’est un papa très actif à l’emploi du temps surchargé ! 
@@ -53,9 +54,9 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-         <img class="photocadre" src="images/cadre.png" width="300" height="380" style="position: absolute; top: 30px; left: 70px;"/>
+         <img class="photocadre3" src="images/cadre.png" width="280" height="400" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/PhotoProfilDo.jpg" width="180" height="230">
-            <p>DOROTHEE CORBIER</p>
+            <p class="prenom">DOROTHEE CORBIER</p>
             <p class="metierscrea"><I>Communication</p></I>
             <p>
             Dorothée conjugue ses aspirations personnelles avec sa vie professionnelle.

@@ -1,4 +1,5 @@
 <div class="divider" id="section4"></div>
+<img class="equipeimg" src="images/Equipe.png" alt="equipe" width="50%" height="50%">
 <div class="container" style="background-color: "> 
     <h2>Nos Créateurs</h2>
     <div class="row"
@@ -17,9 +18,9 @@
             <div class="feature">
             <div style="position: relative; left: 0; top: 0;">
                 <img src="images/Maud.png" style="position: relative; top: 0; left: 0;"/>
-                <img class="photocadre" src="images/cadre.png" width="300" height="520" style="position: absolute; top: 30px; left: 70px;"/>
+                <img class="photocadre" src="images/cadre.png" width="300" height="380" style="position: absolute; top: 30px; left: 70px;"/>
                 </div>
-            <p>MAUD JAN-AILLERET</p>
+            <p class="prenom">MAUD JAN-AILLERET</p>
             <p class="metierscrea"><I>Co-fondatrice</p></I>
             <p class="texte">
             Mariée, 2 enfants en bas âge (des garçons !), en tenue de consultante, ou de professeur de comm’ le jour ; souvent en costumes sur les planches de théâtre le soir, Maud a une vie bien remplie…
@@ -29,8 +30,9 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-           <img src="images/demas.png" width="185" style="background-image: "images/cadre.png"">
-            <p>MARIE DE CAMAS</p>
+            <img class="photocadre1" src="images/cadre.png" width="280" height="390" style="position: absolute; top: 30px; left: 70px;"/>
+            <img src="images/demas.png" width="185" style="background-image: "images/cadre.png"">
+            <p class="prenom">MARIE DE CAMAS</p>
             <p class="metierscrea"><I>Co-fondatrice</p></I>
             <p class="texte">
             Maman de 3 enfants de 9 à 4 ans, Marie s’est spécialisée dans le marketing et les achats entre Montréal, Shanghai et Oxford.
@@ -40,8 +42,9 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
+         <img class="photocadre2" src="images/cadre.png" width="300" height="400" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/lui.png" width="200">
-            <p>GUILLAUME LAGANE</p>
+            <p class="prenom">GUILLAUME LAGANE</p>
             <p class="metierscrea"><I>Illustrateur</p></I>
             <p>
             C’est un papa très actif à l’emploi du temps surchargé ! 
@@ -51,8 +54,9 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
+         <img class="photocadre3" src="images/cadre.png" width="280" height="400" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/PhotoProfilDo.jpg" width="180" height="230">
-            <p>DOROTHEE CORBIER</p>
+            <p class="prenom">DOROTHEE CORBIER</p>
             <p class="metierscrea"><I>Communication</p></I>
             <p>
             Dorothée conjugue ses aspirations personnelles avec sa vie professionnelle.

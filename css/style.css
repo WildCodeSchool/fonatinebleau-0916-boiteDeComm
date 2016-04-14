@@ -9,7 +9,6 @@
 }
 .row2{
   text-align: center;
-  display: absolute;
   margin-top: none;
   margin-bottom: none;
 }
@@ -68,37 +67,16 @@ p {
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li {
   border-right: solid 1px; 
   border-color: #DDDDDD ;
-  border-radius: 0.05px;
+  border-radius: 0.10px;
 }
 
-.photoheader img{
-  width: 200px;
-  height: 200%;
-}
 
 .nav_bar_row{
-  margin-top: initial !important;
-  margin-bottom: initial !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.affix {
-   position: fixed;
-   top: 0;
-   z-index:10;
-   -webkit-transition: all .6s ease-in-out;
-}
 
-.navbar-nav {
-  margin: 1px 1px; 
-}  
-
-
-
-.navbar{
-    height: 50px;
-    border-radius: 0;
-  vertical-align: middle;
-}
 .navbar.affix{
     top: 0px; 
     z-index: 100;
@@ -106,13 +84,15 @@ p {
     vertical-align:middle;
 }
 
-.navbar-collapse.in { /*3.0.2 bug workaround*/
-    overflow-y: visible;
+.partenaires1  {
+float: right;
+height: ;
 }
 
-.navbar-toggle {
-  outline:0;
+a.btn.btn-lg.navbar-right {
+  color: white;
 }
+
 
 #logo{
   width: 50px;
@@ -121,11 +101,7 @@ p {
   border: inherit;
 }
 
-@media (min-width: 767px) {
-  .navbar-nav.nav-justified > li{
-      float:none;
-  }
-}
+
 
 /*#####################*/
 /* SECTION_1 */
@@ -267,9 +243,6 @@ p {
 .testimage2{
   margin-left: -115px;
 }
-.blinkin {
-  animation: blinker 2s linear infinite;
-}
 
 @keyframes blinker {  
   50% { opacity: 0.0; }
@@ -310,18 +283,47 @@ list-style-type:none;
   letter-spacing: 1px;
 }
 
-.metierscrea{
-  margin-top: -10px
+.prenom{
+  margin-top: 70px;
 }
 
 .texte {
-  margin-top: 85px;
+  margin-top: 35px;
 }
 
 .photocadre {
   margin-left: -68px;
-  margin-top: -150px;
+  margin-top: -110px;
 }
+
+.photocadre1{
+  margin-top: -115px;
+  margin-left: -40px;
+}
+
+.photocadre2{
+  margin-top: -115px;
+  margin-left: -50px;
+}
+.photocadre3{
+  margin-top: -115px;
+  margin-left: -40px;
+}
+
+.equipeimg{
+  position: middle;
+
+}
+
+/*#####################*/
+/* SECTION OU SOMMES NOUS */
+/*#####################*/
+
+.textcart{
+
+margin-top: 20px;
+}
+
 /*#####################*/
 /* BOX BLOG */
 /*#####################*/

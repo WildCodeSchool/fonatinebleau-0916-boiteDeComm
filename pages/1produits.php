@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
                 <h2 id="divid1">Nos Produits</h2>
-                <a><img class="testimage" src="images/couple.png" width="180%" height="70%"></a>
+                <a><img class="testimage" src="images/couple.png" alt="couple" width="180%" height="70%"></a>
             </div>
         </div>
         <div class="row">
@@ -12,7 +12,7 @@
             <!-- Lien de l'image BOITE DE COUPLE -->
 
             <a class="hvr-grow" data-toggle="modal" data-target="#myModal">
-                <img src="images/boitecouple.jpg" width="100%">
+                <img src="images/boitecouple.jpg" alt="boitecouple" width="100%">
             </a>
             
             <!-- PARTIE MODALE 1 -->
@@ -27,7 +27,7 @@
                 <div class="modal-body">
 
             <!-- TEXT INTERIEUR + LIEN REFERENCE + ICONE AMAZON --> 
-                                <img src="images/boitecouple.jpg" width="100%">
+                                <img src="images/boitecouple.jpg" alt="boite_couple" width="100%">
 
                 <p> Retrouvez notre produit sur : <br/>
                     </p >
@@ -44,7 +44,7 @@
         </div>  
         <div class="row">
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
-                    <a class="testimage2"><img src="images/famille.png" width="150%" height="70%"></a>
+                    <a class="testimage2"><img src="images/famille.png" alt="famille" width="150%" height="70%"></a>
             </div>
             
         </div>
@@ -54,7 +54,7 @@
                     <!-- Lien de l'image  BOITE COMM FAMILLE-->
 
                     <a class="hvr-grow" data-toggle="modal" data-target="#myModal1">
-                        <img src="images/boitefamille.png" width="80%" height="50%">
+                        <img src="images/boitefamille.png" alt="boitefamille" width="80%" height="50%">
                     </a>
 
                     <!-- PARTIE MODALE 2  -->
@@ -68,7 +68,7 @@
                     </div>
             <div class="modal-body">
                 
-                <img src="images/boitefamille.png" width="80%" height="50%">
+                <img src="images/boitefamille.png" alt="boite_famille" width="80%" height="50%">
 
                     <p>La boite de Comm' de la Famille !  </p>
                         <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
@@ -104,7 +104,7 @@
 
                     <!--AVIS -->
 
-                    <img class="blinkin" src="images/lui.png">
+                    <img id="blink1" src="images/com1.png" alt="blink1">
             </div>
         </div>
     </div>

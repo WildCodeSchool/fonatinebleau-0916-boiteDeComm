@@ -90,7 +90,11 @@ $('#btnYes').click(function() {
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
+<<<<<<< HEAD
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalfooter3">Mentions légales</button>
+=======
+ <a href="#myModalfooter" style="color: white" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
+>>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
 
 <!-- Modal -->
             <div id="myModalfooter" class="modal fade" role="dialog">
@@ -152,7 +156,11 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
+<<<<<<< HEAD
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalfooter3">Conditions général de vente</button>
+=======
+<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
+>>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
 
 <!-- Modal -->
           <div id="myModalfooter1" class="modal fade" role="dialog">
@@ -581,7 +589,11 @@ Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
+<<<<<<< HEAD
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalfooter3">Questions fréquentes</button>
+=======
+<a href="#myModalfooter2" style="color: white" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
+>>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
 
 <!-- Modal -->
         <div id="myModalfooter2" class="modal fade" role="dialog">
@@ -632,7 +644,11 @@ Tout est donc totalement sécurisé..</p>
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
+<<<<<<< HEAD
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalfooter3">Contact</button>
+=======
+<a href="#myModalfooter3" style="color: white" data-toggle="modal" data-target="#myModalfooter3">Contact</a>
+>>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
 
 <!-- Modal -->
 <div id="myModalfooter3" class="modal fade" role="dialog">
@@ -714,21 +730,37 @@ Tout est donc totalement sécurisé..</p>
 
         </div>
         <div class="col-sm-4 text-right">
+        <a href="https://www.facebook.com/boitesdecomm">
         	<span class="fa-stack fa-lg">
+<<<<<<< HEAD
              <i class="fa fa-circle text-primary fa-stack-2x"></i>
              <a href="https://www.facebook.com/boitesdecomm?ref=hl">
              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
             </span>
+=======
+            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+>>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
           <span class="fa-stack fa-lg">
+          <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
               <i class="fa fa-circle text-info fa-stack-2x"></i>
+<<<<<<< HEAD
               <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
               <a href="https://plus.google.com/+Lesboitesdecomm/posts"
+=======
+              <i class="fa fa- fa-stack-1x fa-inverse"></i>
+>>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
             </span>
+            </a>
+            <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
                <a href="https://youtu.be/zgb-U12lIts">
             </span>
+            </a>
         </div>
       </div>
   </div><!--/container-->

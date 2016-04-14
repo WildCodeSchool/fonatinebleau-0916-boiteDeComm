@@ -1,6 +1,6 @@
 <div class="divider" id="section5"></div>
 <div id="fb-root"></div>
-<img src="images/Blog.png" alt="blog">
+<img class="imgblog" src="images/Blog.png" alt="blog">
 
 <script>(function(d, s, id) {
 

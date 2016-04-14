@@ -28,8 +28,16 @@
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT
                             </a></li>
                         </ul>
+<<<<<<< HEAD
                             <button type="button" class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white"> 
           						 <span class="glyphicon .glyphicon-shopping-cart"></span>Panier</a>
+=======
+                            <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white;">
+                                PANIER
+                                <i class="fa fa-shopping-cart" aria-hidden="true" style="size:50px;">
+                                </i>
+                            </a>
+>>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
                     </div>
                 </div>
         </div>

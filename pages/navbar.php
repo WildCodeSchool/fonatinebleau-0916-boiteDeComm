@@ -1,3 +1,21 @@
+<script>
+$(function() {
+    var pull        = $('#pull');
+        menu        = $('nav ul');
+        menuHeight  = menu.height();
+ 
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});
+$(window).resize(function(){
+    var w = $(window).width();
+    if(w > 320 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+}); 
+</script>
 <!-- Fixed navbar -->
 <nav id="myNav" class="navbar navbar-inverse" data-spy="affix">
     <div class="container-fluid">
@@ -6,9 +24,10 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <span class="icon-bar">qsdqsdq</span>
+                        <span class="icon-bar">qsdqdqsq</span>
+                        <span class="icon-bar">qdqdqdqs</span>
+                        <ul>
                     </button>
                 </div>
                 <!-- Collection of nav links and other content for toggling -->
@@ -25,19 +44,18 @@
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section3">OU SOMMES NOUS?</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section4">EQUIPE</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section5">BLOG</a></li>
-                            <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT
-                            </a></li>
+                            <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT </a></li>
                         </ul>
-<<<<<<< HEAD
+
                             <button type="button" class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white"> 
           						 <span class="glyphicon .glyphicon-shopping-cart"></span>Panier</a>
-=======
+
                             <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white;">
                                 PANIER
                                 <i class="fa fa-shopping-cart" aria-hidden="true" style="size:50px;">
                                 </i>
                             </a>
->>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
+
                     </div>
                 </div>
         </div>

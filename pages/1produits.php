@@ -3,7 +3,9 @@
         <div class="row"><br>
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
                 <a><img style="margin-top: 125px" class="testimage" src="images/couple.png" alt="couple" width="180%" height="70%"></a>
-                <h2 style="margin-top: 80px">Nos Produits</h2>
+                <h2 style="margin-top: 80px"; "font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;">
+                    NOS PRODUITS !
+                </h2>
             </div>
         </div>
         <div class="row">
@@ -50,7 +52,7 @@
         </div>
         <div class="row">
                 <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
-                    
+
                     <!-- Lien de l'image  BOITE COMM FAMILLE-->
 
                     <a class="hvr-grow" data-toggle="modal" data-target="#myModal1">
@@ -89,7 +91,7 @@
 <div class="container-fluid1">
     <div class="row">
         <div class="youtube">
-        <h2>Nos vidéos<h2><br>
+        
             <div class="col-lg-4" style="margin-left:15px;">
                 <iframe width="360" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen>
                 </iframe><br>

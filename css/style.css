@@ -104,7 +104,9 @@ height: ;
 }
 
 a.btn.btn-lg.navbar-right {
+  font-size: 20px;
   color: white;
+  font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
 }
 
 
@@ -249,6 +251,10 @@ a.btn.btn-lg.navbar-right {
 #divid1{
   margin-top: 20px;
 
+}
+
+.youtube {
+  margin-top: 60px;
 }
 
 .testimage{

@@ -27,7 +27,11 @@
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section5">BLOG</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT</a></li>
                         </ul>
-                            <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white">PANIER</a>
+                            <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white;">
+                                PANIER
+                                <i class="fa fa-shopping-cart" aria-hidden="true" style="size:50px;">
+                                </i>
+                            </a>
                     </div>
                 </div>
             </div>

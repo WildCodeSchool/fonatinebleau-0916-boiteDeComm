@@ -3,7 +3,7 @@
         <div class="row"><br>
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
                 <a><img style="margin-top: 125px" class="testimage" src="images/couple.png" alt="couple" width="180%" height="70%"></a>
-                <h2 style="margin-top: 80px"; "font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;">
+                <h2 style="margin-top: 80px";>
                     NOS PRODUITS !
                 </h2>
             </div>

@@ -2,6 +2,11 @@
 /* CSS GENERAL */
 /*#####################*/
 
+@font-face {
+  font-family: 'Chaparral';
+  src: url("../font/ChaparralPro-Regular.otf") format("opentype");
+}
+
 .container {
   text-align: center; 
   display: block;
@@ -38,7 +43,9 @@
 
   margin-top: 50px;
 }
-
+p, h1, h2, h3, h4, h5, h6, a{
+  font-family: 'Chaparral';
+}
 header {
   background: #FFFFFF;
   color:#555;

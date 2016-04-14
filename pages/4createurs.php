@@ -2,7 +2,7 @@
   <div class="row">
   <img class="equipeimg" src="images/Equipe.png" alt="equipe" width="35%" height="35%">
       <div class="container" style="background-color: "> 
-        <h2 style="font-size: 40px; font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;">
+        <h2 style="font-size: 40px;">
           EQUIPE
         </h2>
       <div class="row"
@@ -23,9 +23,9 @@
                 <img src="images/Maud.png" style="position: relative; top: 0; left: 0;"/>
                 <img class="photocadre" src="images/cadre.png" width="300" height="380" style="position: absolute; top: 30px; left: 70px;"/>
                 </div>
-            <p class="prenom" style="font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;">MAUD JAN-AILLERET</p>
-            <p class="metierscrea" style="font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;"><I>Co-fondatrice</p></I>
-            <p class="texte" style="font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;">
+            <p class="prenom">MAUD JAN-AILLERET</p>
+            <p class="metierscrea"><I>Co-fondatrice</p></I>
+            <p class="texte">
             Mariée, 2 enfants en bas âge (des garçons !), en tenue de consultante, ou de professeur de comm’ le jour ; souvent en costumes sur les planches de théâtre le soir, Maud a une vie bien remplie…
             Et la communication au sein de son couple pour conjuguer toutes ses activités se doit d’être au top !
            </p>

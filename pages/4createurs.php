@@ -31,8 +31,8 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-            <img class="photocadre1" src="images/cadre.png" width="280" height="390" style="position: absolute; top: 30px; left: 70px;"/>
-            <img src="images/demas.png" width="185" style="background-image: "images/cadre.png"">
+            <img class="photocadre1" src="images/cadre.png" width="270" height="390" style="position: absolute; top: 30px; left: 70px;"/>
+            <img src="images/demas.png" style="margin-left: 3px" width="183" height="224" style="background-image: "images/cadre.png"">
             <p class="prenom">MARIE DE CAMAS</p>
             <p class="metierscrea"><I>Co-fondatrice</p></I>
             <p class="texte">
@@ -43,7 +43,7 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-         <img class="photocadre2" src="images/cadre.png" width="300" height="400" style="position: absolute; top: 30px; left: 70px;"/>
+         <img class="photocadre2" src="images/cadre.png" width="292" height="400" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/lui.png" width="200">
             <p class="prenom">GUILLAUME LAGANE</p>
             <p class="metierscrea"><I>Illustrateur</p></I>
@@ -55,7 +55,7 @@
        </div>
        <div class="col-sm-6 col-md-3">
          <div class="feature">
-         <img class="photocadre3" src="images/cadre.png" width="280" height="400" style="position: absolute; top: 30px; left: 70px;"/>
+         <img class="photocadre3" src="images/cadre.png" width="273" height="400" style="position: absolute; top: 30px; left: 70px;"/>
            <img src="images/PhotoProfilDo.jpg" width="180" height="230">
             <p class="prenom">DOROTHEE CORBIER</p>
             <p class="metierscrea"><I>Communication</p></I>

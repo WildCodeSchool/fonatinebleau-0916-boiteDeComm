@@ -14,7 +14,7 @@
                 <li>Maud Jan-Ailleret : +33(0)6 07 19 45 43</li>
                 Nos produits sont également référencés sur 
                 <a 
-                    href="https://dilicom-prod.centprod.com/connexion.html">Dilicom !
+                    href="https://dilicom-prod.centprod.com/connexion.html      ">Dilicom !
                 </a> 
             </ul>
         </div>

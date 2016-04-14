@@ -25,28 +25,84 @@ $('#btnYes').click(function() {
 
 <div class="divider" id="section6"></div>
 
+<div class="container">
+  <p><strong>CONTACTEZ NOUS</strong><br><br>
+  Une question sur nos programmes ou notre société ? Remplissez le formulaire ci-dessous, nous vous recontacterons.</p>
+  <div class="col-md-6">
+     <form class="form-horizontal">
+      <div class="row">Civilité</div>
+      <div class="row">
+        	<input name="civ" value="M" type="radio"> M&nbsp;&nbsp;&nbsp;&nbsp;
+          	<input name="civ" value="Mlle" type="radio"> Mlle&nbsp;&nbsp;&nbsp;&nbsp;
+          	<input name="civ" value="Mme" type="radio"> Mme&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      <br>
+      <div class="form-group">
+  		<div class="input-group">
+            <span class="input-group-addon">
+              <i class="glyphicon glyphicon-user"></i>
+          	</span>
+            <input placeholder="Nom" name="nom" class="form-control" required="required" type="text">
+     	</div>
+      </div>
+      <div class="form-group">
+  		<div class="input-group">
+            <span class="input-group-addon">
+              <i class="glyphicon glyphicon-user"></i>
+          	</span>
+            <input placeholder="Prénom" name="prenom" class="form-control" required="required" type="text">
+      </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <i class="glyphicon glyphicon-earphone"></i>
+          </span>
+          <input placeholder="Téléphone" name="tel" class="form-control" required="required" type="text">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <i class="glyphicon glyphicon-envelope"></i>
+          </span>
+          <input placeholder="Email" name="email" class="form-control" required="required" type="text">
+        </div>
+      </div>
+       <br>
+      <div class="row">
+      <textarea placeholder="Tapez votre message ici..." name="message" class="form-control" required="required"></textarea>
+      </div>
+      <br><br>
+      <div class="text-center"> 
+       <input class="btn-info" value="ENVOYER" type="submit">
+      </div>
+       
+    </form>
+  </div>
 
+</div>
 <div id="footer">
-<div class="container-footer" style="background-color: gray">
-  <div class="row">
+  <div class="container-footer" style="background-color: gray">
+    <div class="row">
     
       <div class="col-sm-3">
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
- <a href="#myModalfooter" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalfooter3">Mentions légales</button>
 
 <!-- Modal -->
-<div id="myModalfooter" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+            <div id="myModalfooter" class="modal fade" role="dialog">
+              <div class="modal-dialog">
 
     <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Mentions légales</h4>
-      </div>
-      <div class="modal-body">
+                <div class="modal-content">
+                  <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Mentions légales</h4>
+                  </div>
+                  <div class="modal-body">
         <p>Propriétaire du site :​
 Bellifacto SAS au capital social de 6000 euros<br>
 
@@ -81,35 +137,34 @@ interdite. Il en est de même des bases de données accessibles sur le site www.
 Les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale​ ou partielle, effectuée à partir des éléments du site est prohibée.<br>
 
 Les informations contenues dans ce site sont données à titre indicatif et peuvent être modifiées à​ tout moment par lesboitesdecomm.com qui ne peut être tenu responsable du contenu erroné des​ informations qui peuvent être affichées. Lesboitesdecomm.com s'efforcent en effet d'inclure sur ce​ site des informations exactes et à jour mais ne donne aucune garantie à ce titre. En dépit du soin​ apporté au recueil des informations, des erreurs, omissions ou inexactitudes peuvent exister. En​ toute hypothèse et compte tenu des conditions d'utilisation, l'utilisateur du site et des informations​ qu'il contient, reconnaît qu'il en fait usage sous sa seule responsabilité ; lesboitesdecomm.com ne​ saurait en conséquence voir sa responsabilité engagée à raison de tout préjudice, direct ou indirect,​ de quelque nature que ce soit, résultant pour tout ou partie de l'utilisation de ce site ou l'impossibilité​ d'accès ou par toute erreur ou omission dans son contenu.</p>
+                    </div>
+                  <div class="modal-footer">
+                  <button type="button" class="close" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="close" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
   </div>
-</div>
-</div>
-</div>
-</div>
 
  <div class="col-sm-3">
-        <div class="foot-header">
-         <div class="container">
+    <div class="foot-header">
+        <div class="container">
 <!-- Trigger the modal with a button -->
-<a href="#myModalfooter1" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalfooter3">Conditions général de vente</button>
 
 <!-- Modal -->
-<div id="myModalfooter1" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+          <div id="myModalfooter1" class="modal fade" role="dialog">
+            <div class="modal-dialog">
 
     <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">CGV</h4>
-      </div>
-      <div class="modal-body">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">CGV</h4>
+                </div>
+              <div class="modal-body">
         <p>Préambule
 
  
@@ -511,36 +566,35 @@ Non renonciation Le fait pour l'une des parties de ne pas se prévaloir d'un man
 Article 21 : Règlement de litiges En cas de litige, une solution amiable sera recherchée avant toute action judiciaire.Les réclamations ou contestations seront toujours reçues avec bienveillance attentive, la bonne foi étant toujours présumée chez celui qui prend la peine d'exposer ses situations.En cas de litige, le consommateur effectuera ses réclamations auprès du service client de BELLIFACTO par mail : contact@lesboitesdecomm.comA défaut de solution amiable, toute action judiciaire sera portée devant les tribunaux compétents du lieu du domicile du défendeur.<br>
 
 Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
-      </div>
-      <div class="modal-footer">
-         <button type="button" class="close" data-dismiss="modal">Close</button>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="close" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
-</div>
-</div>
-</div>
 </div>
 
  <div class="col-sm-3">
-        <div class="foot-header">
-         <div class="container">
+    <div class="foot-header">
+        <div class="container">
 <!-- Trigger the modal with a button -->
-<a href="#myModalfooter2" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalfooter3">Questions fréquentes</button>
 
 <!-- Modal -->
-<div id="myModalfooter2" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+        <div id="myModalfooter2" class="modal fade" role="dialog">
+          <div class="modal-dialog">
 
     <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">F.A.Q</h4>
-      </div>
-      <div class="modal-body">
-        <p>Pouvons-nous jouer à plusieurs couples ?<br>
+            <div class="modal-content">
+              <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">F.A.Q</h4>
+              </div>
+            <div class="modal-body">
+            <p>Pouvons-nous jouer à plusieurs couples ?<br>
 
 La Boîte de Comm’ du Couple est un jeu très personnel qui traite de l’intimité de votre couple. Ce jeu a donc été conçu pour se jouer à 2.<br>
 
@@ -568,7 +622,6 @@ Tout est donc totalement sécurisé..</p>
         <button type="button" class="close" data-dismiss="modal">Close</button>
       </div>
     </div>
-
   </div>
 </div>
 </div>
@@ -579,7 +632,7 @@ Tout est donc totalement sécurisé..</p>
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
-<a href="#myModalfooter3" data-toggle="modal" data-target="#myModalfooter3">Contact</a>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalfooter3">Contact</button>
 
 <!-- Modal -->
 <div id="myModalfooter3" class="modal fade" role="dialog">
@@ -644,15 +697,14 @@ Tout est donc totalement sécurisé..</p>
     </div>
 </div>
 
-      <div class="modal-footer">
+          <div class="modal-footer">
          <button type="button" class="close" data-dismiss="modal">close</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
-</div>
-</div>
-</div>
 </div>
     
   	</div><!--/row-->

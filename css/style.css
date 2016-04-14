@@ -342,12 +342,11 @@ margin-top: 20px;
     margin: 0 0 0.3em;
     width: 100%;
     border: 2px solid black;
-    font-color : black;
-}
- a .item {
-  color: black;
-}
 
+}
+li a .masonry {
+  color : black;
+}
 /*#####################*/
 /* FOOTER */
 /*#####################*/
@@ -360,9 +359,9 @@ margin-top: 20px;
   padding-top:20px;
   padding-bottom:20px;
 }
-a {
+a .footer {
 text-decoration: none;
-color: black;
+color: white;
 }
 .imagebambin{
   margin-left: 200px;

@@ -46,9 +46,9 @@
         <div class="col-md-6">
             <div class="masonry">
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm-ont-d%C3%A9barqu%C3%A9-aux-Galeries-Lafayette-/c1bs5/57023f570cf27bf9349a8f7c" alt="#">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a>
+                    <a href="http://www.galerieslafayette.com/" alt="#">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_4ad3d663ca254e99bcf6bea33918e725.png/v1/fill/w_181,h_181,al_c,usm_0.66_1.00_0.01/c294cc_4ad3d663ca254e99bcf6bea33918e725.png">
-                    <p><a class="btn btn-default" href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm-ont-d%C3%A9barqu%C3%A9-aux-Galeries-Lafayette-/c1bs5/57023f570cf27bf9349a8f7c">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="http://www.galerieslafayette.com/">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
@@ -58,51 +58,51 @@
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm%E2%80%99-au-March%C3%A9-des-Cr%C3%A9atrices-de-Fontainebleau/c1bs5/56dd45be0cf265884bdc0447">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. 07/03/2016</a>
+                    <a href="http://www.lesjeuxdedames.com/index.html">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. 07/03/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_fba7ffb18116462f8bad94ccfb518ff7.jpg/v1/fill/w_181,h_258,al_c,q_80,usm_0.66_1.00_0.01/c294cc_fba7ffb18116462f8bad94ccfb518ff7.jpg" alt="#">
-                    <p><a class="btn btn-default" href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm%E2%80%99-au-March%C3%A9-des-Cr%C3%A9atrices-de-Fontainebleau/c1bs5/56dd45be0cf265884bdc0447">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="http://www.lesjeuxdedames.com/index.html">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Article-sur-le-site-Maman-Vogue/c1bs5/56d04d260cf2f9aefdc51401">Article sur le site : "Maman Vogue" 22/02/2016</a>
-                    <img src="https://static.wixstatic.com/media/c294cc_448c3e1fb42a4593901ef9358a0fed40.png/v1/fill/w_181,h_95,al_c,usm_0.66_1.00_0.01/c294cc_448c3e1fb42a4593901ef9358a0fed40.png" alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <a href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" 22/02/2016</a>
+                    <img src="http://www.lesboitesdecomm.com/#!Article-sur-le-site-Maman-Vogue/c1bs5/56d04d260cf2f9aefdc51401" alt="#">
+                    <p><a class="btn btn-default" href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Jeu-concours-Maman-Vogue-sur-Facebook/c1bs5/56d04ef50cf2836ff5d8ee1f">Jeu concours Maman Vogue sur Facebook. 26/02/2016</a>
+                    <a href="https://www.facebook.com/boitesdecomm?ref=hl">Jeu concours Maman Vogue sur Facebook. 26/02/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_1e369395193041f8b935cb70ae9722e3.png/v1/fill/w_181,h_145,al_c,usm_0.66_1.00_0.01/c294cc_1e369395193041f8b935cb70ae9722e3.png"alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="https://www.facebook.com/boitesdecomm?ref=hl">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Le-Bonbon-diffusion-de-la-vid%C3%A9o-Flagrant-D%C3%A9lit-d%E2%80%99Amour/c1bs5/56d049df0cf2f9aefdc51042">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour". 11/02/2016</a>
+                    <a href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour". 11/02/2016</a>
                     <img src="https://youtu.be/pg09NQfpUhg" alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Vid%C3%A9o-%C2%AB-Flagrant-D%C3%A9lit-d%E2%80%99Amour-%C2%BB-en-partenariat-avec-La-Brigade-de-l%E2%80%99Amour-et-Parlez-d%E2%80%99Amour/c1bs5/56d046c50cf2f9aefdc50caf">Vidéo « Flagrant Délit d’Amour » en partenariat avec La Brigade de l’Amour et Parlez d’Amour. 08/02/2016</a>
+                    <a href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">Vidéo « Flagrant Délit d’Amour » en partenariat avec La Brigade de l’Amour et Parlez d’Amour. 08/02/2016</a>
                     <img src="https://youtu.be/pg09NQfpUhg" alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Les-Petits-Franchies-Vid%C3%A9o-Vive-LAmour-%C3%A0-la-Fran%C3%A7aise/c1bs5/56d048270cf2f9aefdc50e53">Les Petits Franchies : Vidéo Vive L'Amour à la Française 08/02/2016</a>
+                    <a href="https://lpfcdn.net/media/2016/02/Capture-d%E2%80%99e%CC%81cran-2016-02-10-a%CC%80-13.22.51.png">Les Petits Franchies : Vidéo Vive L'Amour à la Française 08/02/2016</a>
                     <img src="https://fr.petitsfrenchies.com/article-la-boite-de-comm-du-couple/" alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="https://lpfcdn.net/media/2016/02/Capture-d%E2%80%99e%CC%81cran-2016-02-10-a%CC%80-13.22.51.png">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!TV-France3-Lorraine/c1bs5/56d0456d0cf29064e5f2feb8">TV France3 Lorraine. 05/02/2016</a>
+                    <a href="https://youtu.be/tyrLCxsIHTc">TV France3 Lorraine. 05/02/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_7570924bbb864782a344e885d72462eb.jpg/v1/fill/w_181,h_138,al_c,q_80,usm_0.66_1.00_0.01/c294cc_7570924bbb864782a344e885d72462eb.jpg" alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="https://youtu.be/tyrLCxsIHTc">En savoir plus »</a></p>
                 </div><!--/span-->
 
                 <div class="item">
-                    <a href="http://www.lesboitesdecomm.com/#!Campagne-de-pub-Saint-Valentin-Notre-famillecom-enfantcom-familiscope/c1bs5/56d044930cf29064e5f2fdb1">Campagne de pub Saint Valentin Notre famille.com, enfant.com, familiscope. 05/02/2016</a>
+                    <a href="http://www.notrefamille.com">Campagne de pub Saint Valentin Notre famille.com, enfant.com, familiscope. 05/02/2016</a>
                     <img src="https://static.wixstatic.com/media/c294cc_4de5bd50d2314975a921dd57c8a5678e.png/v1/fill/w_181,h_76,al_c,usm_0.66_1.00_0.01/c294cc_4de5bd50d2314975a921dd57c8a5678e.png" alt="#">
-                    <p><a class="btn btn-default" href="#">En savoir plus »</a></p>
+                    <p><a class="btn btn-default" href="http://www.notrefamille.com">En savoir plus »</a></p>
                 </div><!--/span-->            
             </div>
             <!-- fin archive -->
@@ -116,15 +116,15 @@
             <div class="well sidebar-nav">
                 <ul class="nav_archive">
                     <li>Archives</li>
-                    <li class="active"><a href="http://www.lesboitesdecomm.com/#!Les-Bo%C3%AEtes-de-Comm-ont-d%C3%A9barqu%C3%A9-aux-Galeries-Lafayette-/c1bs5/57023f570cf27bf9349a8f7c">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a></li>
+                    <li class="active"><a href="http://www.galerieslafayette.com/">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a></li>
                     <li><a href="http://aventureviedefamille.blogspot.fr/2016/03/la-boite-de-comm-de-la-famille.html">Article sur le blog "La vie de Famille : quelle aventure !<br> 07/03/2016</a></li>
-                    <li><a href="http://www.lesjeuxdedames.com/index.html">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. <br>07/03/2016</a></li>
-                    <li><a href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" <br>22/02/2016</a></li>     
-                    <li><a href="http://www.lesboitesdecomm.com/#!Jeu-concours-Maman-Vogue-sur-Facebook/c1bs5/56d04ef50cf2836ff5d8ee1f">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour". <br>11/02/2016</a></li>
-                    <li><a href="http://www.lesboitesdecomm.com/#!Vid%C3%A9o-%C2%AB-Flagrant-D%C3%A9lit-d%E2%80%99Amour-%C2%BB-en-partenariat-avec-La-Brigade-de-l%E2%80%99Amour-et-Parlez-d%E2%80%99Amour/c1bs5/56d046c50cf2f9aefdc50caf">Vidéo « Flagrant Délit d’Amour » <br>en partenariat avec La Brigade de l’Amour et Parlez d’Amour. 08/02/2016</a></li>
-                    <li><a href="http://www.lesboitesdecomm.com/#!Les-Petits-Franchies-Vid%C3%A9o-Vive-LAmour-%C3%A0-la-Fran%C3%A7aise/c1bs5/56d048270cf2f9aefdc50e53">Les Petits Franchies : <br>Vidéo Vive L'Amour à la Française 08/02/2016</a></li>
-                    <li><a href="http://www.lesboitesdecomm.com/#!TV-France3-Lorraine/c1bs5/56d0456d0cf29064e5f2feb8">TV France3 Lorraine. <br>05/02/2016</a></li>
-                    <li><a href="http://www.lesboitesdecomm.com/#!Campagne-de-pub-Saint-Valentin-Notre-famillecom-enfantcom-familiscope/c1bs5/56d044930cf29064e5f2fdb1">Campagne de pub Saint Valentin <br>Notre famille.com, enfant.com, familiscope.05/02/2016</a></li>
+                    <li><a href="http://www.lesjeuxdedames.com/index.html">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. 07/03/2016</a></li>
+                    <li><a href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" 22/02/2016</a></li>     
+                    <li><a href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour".11/02/2016</a></li>
+                    <li><a href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">Vidéo « Flagrant Délit d’Amour » en partenariat avec La Brigade de l’Amour et Parlez d’Amour. 08/02/2016</a></li>
+                    <li><a href="https://lpfcdn.net/media/2016/02/Capture-d%E2%80%99e%CC%81cran-2016-02-10-a%CC%80-13.22.51.png">Les Petits Franchies : Vidéo Vive L'Amour à la Française 08/02/2016</a></li>
+                    <li><a href="https://youtu.be/tyrLCxsIHTc">TV France3 Lorraine.05/02/2016</a></li>
+                    <li><a href="http://www.notrefamille.com">Campagne de pub Saint Valentin Notre famille.com, enfant.com, familiscope.05/02/2016</a></li>
                 </ul>
             </div><!--/.well -->
         </div>

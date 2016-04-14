@@ -93,7 +93,7 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
         <div class="foot-header">
          <div class="container">
 <!-- Trigger the modal with a button -->
-<a href="#myModalfooter1" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
+<a class="close" href="#myModalfooter1" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
 
 <!-- Modal -->
 <div id="myModalfooter1" class="modal fade" role="dialog">

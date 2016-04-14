@@ -35,8 +35,7 @@
     <script>
       $(function(){
         $(".texte_header").typed({
-          strings: ["<h2>LE JEU QUI DONNE DE LA SAVEUR AU QUOTIDIEN</h2>"],
-          startDelay: 200
+          strings: ["^1000 <h2>LE JEU QUI DONNE DE LA SAVEUR AU QUOTIDIEN</h2>"]
         });
       });
     </script>

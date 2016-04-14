@@ -113,6 +113,23 @@ p {
   font-size: 40px;
 }
 
+@media screen and (min-width: 550px) and (max-width: 1000px) {
+  #logo_header {
+    width: 40%
+  }
+  .texte_header{
+    top: 66%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #logo_header {
+    width: 70%
+  }
+  .texte_header{
+    top: 70%;
+  }
+}
+
 /*#####################*/
 /* NAV BAR */
 /*#####################*/

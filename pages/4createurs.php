@@ -1,10 +1,11 @@
 <div class="divider" id="section4"></div>
-<img class="equipeimg" src="images/Equipe.png" alt="equipe" width="50%" height="50%"/>
-<div class="container" style="background-color: "> 
-    <h2>Nos Créateurs</h2>
-    <div class="row"
+  <div class="row">
+  <img class="equipeimg" src="images/Equipe.png" alt="equipe" width="35%" height="35%">
+      <div class="container" style="background-color: "> 
+      <h2>Nos Créateurs</h2>
+      <div class="row"
         <div class="col-lg-12 md-12"></div>
-    </div>
+      </div>
 
 
 

@@ -7,6 +7,20 @@
   display: block;
   width: 100%;
 }
+.equipeimg {
+  margin-right: auto;
+  display: block;
+  vertical-align: center;
+  margin-left: 350px;
+}
+.imgblog {
+  margin-right: auto;
+  display: block;
+  vertical-align: center;
+  margin-left: 340px;
+  width: 50%;
+  height: 50%;
+}
 .row2{
   text-align: center;
   margin-top: none;
@@ -312,6 +326,7 @@ list-style-type:none;
 
 .equipeimg{
   position: middle;
+  margin-left: 445px;
 
 }
 
@@ -362,7 +377,7 @@ li .item {
 }
 
 .imagebambin{
-  margin-left: 200px;
+  margin-left: 250px;
 };
 }
 .video{

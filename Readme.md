@@ -1,1 +1,1 @@
-Projet Chouette Hiboux
+Projet Boite de Comm'

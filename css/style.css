@@ -416,7 +416,7 @@ list-style-type:none;
 
 .equipeimg{
   position: middle;
-  margin-left: 445px;
+  margin:auto;
 
 }
 .photomaud{
@@ -461,6 +461,19 @@ li a .masonry {
 .jumbotron{
   background-color: white;
 }
+
+
+/*#####################*/
+/* CONTACT */
+/*#####################*/
+.contactmarge{
+  margin-top: 150px;
+}
+
+.tout{
+  background-color: gray;
+}
+
 
 
 

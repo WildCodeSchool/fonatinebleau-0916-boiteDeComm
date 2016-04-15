@@ -1,16 +1,15 @@
-<div class="divider" id="section6"></div>
+<div class="divider-form" id="section6"></div>
 
-<div class="container">
-  <p><strong>CONTACTEZ NOUS</strong><br><br>
+<div class="container-form">
+  <p class="contactmarge"><strong>CONTACTEZ NOUS</strong><br><br>
   Une question sur nos programmes ou notre société ? Remplissez le formulaire ci-dessous, nous vous recontacterons.</p>
   <div class="col-md-6">
      <form class="form-horizontal">
-      <div class="row">Civilité</div>
+      <div class="row">Civilité
       <div class="row">
         	<input name="civ" value="M" type="radio"> M&nbsp;&nbsp;&nbsp;&nbsp;
           	<input name="civ" value="Mlle" type="radio"> Mlle&nbsp;&nbsp;&nbsp;&nbsp;
           	<input name="civ" value="Mme" type="radio"> Mme&nbsp;&nbsp;&nbsp;&nbsp;
-      </div>
       <br>
       <div class="form-group">
   		<div class="input-group">
@@ -51,7 +50,9 @@
       <br><br>
       <div class="text-center"> 
        <input class="btn-info" value="ENVOYER" type="submit">
-      </div>
-       
-    </form>
-  </div>
+          </div>
+        </form>  
+      </div> 
+    </div>
+</div>
+

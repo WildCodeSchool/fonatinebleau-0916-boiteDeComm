@@ -1,5 +1,5 @@
 <div class="divider" id="section2"></div> 
- <div class="fondcouleurpartenaire" style="background-color: #E5E5E5">
+ <div class="fondcouleurpartenaire">
     <div class="container-fluid1">
         <img style="margin-top: 75px;" class="partenaire" src="images/partenaire.png" alt="partenaire" width="50%" height="50%">
             <h2 style="margin-bottom: 30px" style="font-size: 40px;"> DEVENIR PARTENAIRE</h2>
@@ -21,7 +21,7 @@
         <div  class="row">
             <div class="col-lg-4">
                 <div id="colonegauche">
-                        <img src="images/hotel.png" width="10%" height="10%" style="background-image:url("images/hotel2.png"); opacity:0.9;">
+                        <img src="images/Couple_Sexe.png" width="20%" height="10%" style="background-image:url("images/hotel2.png"); opacity:0.9;">
                     <h4>HOTELS   
                     </h4>
                     <p class="hauteur">

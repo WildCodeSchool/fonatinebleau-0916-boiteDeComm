@@ -35,7 +35,7 @@
             <p class="visible-xs">
                 <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
             </p>
-            <div class="well sidebar-nav">
+            <div class="sidebar-nav">
                 <div class="fb-page" data-href="https://www.facebook.com/boitesdecomm?ref=hl" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">   <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/boitesdecomm?ref=hl"><a href="https://www.facebook.com/boitesdecomm?ref=hl">Les Boîtes de Comm</a></blockquote>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
             <p class="visible-xs">
                 <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
             </p>
-            <div class="well sidebar-nav">
+            <div class="sidebar-nav">
                 <ul class="nav_archive">
                     <li>Archives</li>
                     <li class="active"><a href="http://www.galerieslafayette.com/">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a></li>

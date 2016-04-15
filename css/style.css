@@ -39,6 +39,9 @@
   vertical-align: center;
   margin-left: 350px;
 }
+.rowequipe {
+  background-color: #E5E5E5;
+}
 .imgblog {
   margin-right: auto;
   display: block;
@@ -358,6 +361,10 @@ a.btn.btn-lg.navbar-right {
   text-align: center;
 }
 
+.fondcouleurpartenaire{
+  background-color: #E5E5E5;
+}
+
 i.fa.fa-amazon{
   font-size:42px;
   margin-top: 5px;
@@ -416,6 +423,9 @@ list-style-type:none;
   margin-left: 445px;
 
 }
+.photomaud{
+  width: 195px
+}
 
 /*#####################*/
 /* SECTION OU SOMMES NOUS */
@@ -451,6 +461,13 @@ margin-top: 20px;
 li a .masonry {
   color : black;
 }
+
+.jumbotron{
+  background-color: white;
+}
+
+
+
 /*#####################*/
 /* FOOTER */
 /*#####################*/

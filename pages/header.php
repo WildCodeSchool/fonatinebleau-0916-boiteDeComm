@@ -55,7 +55,7 @@
     <!-- Wrap all page content here -->
       <header>
         <div class="row2">
-          <img class="photoheader" src="http://cdn.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png">
+          <img class="photoheader" src="images/bandeau.jpg">
           <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm">
           <div class="texte_header"></div>
         </div>

@@ -166,34 +166,22 @@ p {
   width:auto;
 }
 
-
-.nav_bar_row{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width:auto;
-}
-
-
 .navbar.affix{
     top: 0px; 
     z-index: 100;
-    width: 100%;
     vertical-align:middle;
     width:100%;
 }
 
-
 .partenaires1  {
 float: right;
 }
-
 
 a.btn.btn-lg.navbar-right {
   font-size: 20px;
   color: white;
   font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
 }
-
 
 #logo{
   width: 50px;
@@ -202,6 +190,9 @@ a.btn.btn-lg.navbar-right {
   border: inherit;
 }
 
+#myNav{
+  margin-top: -52px;
+}
 
 
 /*#####################*/
@@ -232,6 +223,12 @@ a.btn.btn-lg.navbar-right {
   transform: scale(1.1);
 }
 
+/* Commentaires des boites */
+.comment_boite{
+  margin-top: 4%;
+  text-align: justify;
+  font-size: 20px;
+}
 
 /* Icon Hang */
 @-webkit-keyframes hvr-icon-hang {
@@ -324,8 +321,18 @@ a.btn.btn-lg.navbar-right {
   animation-direction: normal, alternate;
 }
 
+.modal-body1 {
+  display: flex;
+  text-align: justify;
+}
+
 .modal-body{
   display: flex;
+  text-align: justify;
+}
+
+.boiteouverte2 {
+  margin-bottom: -50px;
 }
 
 .video{
@@ -339,6 +346,7 @@ a.btn.btn-lg.navbar-right {
 
 .youtube {
   margin-top: 60px;
+  background-color: #E5E5E5; 
 }
 
 .testimage{
@@ -420,7 +428,7 @@ list-style-type:none;
 
 .equipeimg{
   position: middle;
-  margin-left: 445px;
+  margin:auto;
 
 }
 .photomaud{
@@ -466,6 +474,7 @@ li a .masonry {
   background-color: white;
 }
 
+<<<<<<< HEAD
 .containercontact {
 background-color:white;
 background-image:url(background-color:white;
@@ -474,6 +483,23 @@ background-image:url(images/image_de_fond.png););
 .form-group {;
   background-color: grey;
 }
+=======
+
+/*#####################*/
+/* CONTACT */
+/*#####################*/
+.contactmarge{
+  margin-top: 150px;
+}
+
+.tout{
+  background-color: gray;
+}
+
+
+
+
+>>>>>>> af3a405046377c53e714e3f30d13d14f7718f624
 /*#####################*/
 /* FOOTER */
 /*#####################*/
@@ -501,7 +527,8 @@ color: white;
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
 .bloc_avis{
   margin-top: 60px;
-  width: 100%
+  width: 100%;
+  margin-left: 10px;
 }
 .pics {   
     margin: auto;

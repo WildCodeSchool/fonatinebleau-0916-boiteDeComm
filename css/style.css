@@ -2,6 +2,11 @@
 /* CSS GENERAL */
 /*#####################*/
 
+@font-face {
+  font-family: 'Chaparral';
+  src: url("../font/ChaparralPro-Regular.otf") format("opentype");
+}
+
 .container {
   text-align: center; 
   display: block;
@@ -38,7 +43,9 @@
 
   margin-top: 50px;
 }
-
+p, h1, h2, h3, h4, h5, h6, a{
+  font-family: 'Chaparral';
+}
 header {
   background: #FFFFFF;
   color:#555;
@@ -104,7 +111,9 @@ height: ;
 }
 
 a.btn.btn-lg.navbar-right {
+  font-size: 20px;
   color: white;
+  font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
 }
 
 
@@ -251,6 +260,10 @@ a.btn.btn-lg.navbar-right {
 
 }
 
+.youtube {
+  margin-top: 60px;
+}
+
 .testimage{
   margin-left: -165px;
 }
@@ -348,7 +361,9 @@ margin-top: 20px;
 .masonry { /* Masonry container */
     column-count: 2;
     column-gap: 1em;
+    -webkit-column-count: 2;
     -moz-column-count: 2;
+    -webkit-column-gap: 1em;
     -moz-column-gap: 1em;
 }
 
@@ -357,25 +372,27 @@ margin-top: 20px;
     margin: 0 0 0.3em;
     width: 100%;
     border: 2px solid black;
-    font-color : black;
-}
-li .item {
-  font-color: black;
-}
 
+}
+li a .masonry {
+  color : black;
+}
 /*#####################*/
 /* FOOTER */
 /*#####################*/
 
 /* Set the fixed height of the footer here */
-#footer {
+.footer {
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: grey;
   margin-top:50px;
   padding-top:20px;
   padding-bottom:20px;
 }
-
+a .footer {
+text-decoration: none;
+color: white;
+}
 .imagebambin{
   margin-left: 250px;
 };
@@ -385,5 +402,24 @@ li .item {
   color:#000000;
 }
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
+.bloc_avis{
+  margin-top: 60px;
+  width: 100%
+}
+.pics {   
+    margin: auto;
+    padding: 0;  
+    width: 100% 
+} 
+ 
+.pics img {  
+    padding: 15px; 
+    border: 3px solid black;
+    background-color: white;  
+    top:  0; 
+    left: 0 
+    width: 150%;
+} 
+
 
 

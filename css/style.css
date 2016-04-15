@@ -232,6 +232,12 @@ a.btn.btn-lg.navbar-right {
   transform: scale(1.1);
 }
 
+/* Commentaires des boites */
+.comment_boite{
+  margin-top: 4%;
+  text-align: justify;
+  font-size: 20px;
+}
 
 /* Icon Hang */
 @-webkit-keyframes hvr-icon-hang {
@@ -324,8 +330,18 @@ a.btn.btn-lg.navbar-right {
   animation-direction: normal, alternate;
 }
 
+.modal-body1 {
+  display: flex;
+  text-align: justify;
+}
+
 .modal-body{
   display: flex;
+  text-align: justify;
+}
+
+.boiteouverte2 {
+  margin-bottom: -50px;
 }
 
 .video{
@@ -339,6 +355,7 @@ a.btn.btn-lg.navbar-right {
 
 .youtube {
   margin-top: 60px;
+  background-color: #E5E5E5; 
 }
 
 .testimage{
@@ -495,7 +512,8 @@ color: white;
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
 .bloc_avis{
   margin-top: 60px;
-  width: 100%
+  width: 100%;
+  margin-left: 10px;
 }
 .pics {   
     margin: auto;

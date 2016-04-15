@@ -474,6 +474,16 @@ li a .masonry {
   background-color: white;
 }
 
+<<<<<<< HEAD
+.containercontact {
+background-color:white;
+background-image:url(background-color:white;
+background-image:url(images/image_de_fond.png););
+}
+.form-group {;
+  background-color: grey;
+}
+=======
 
 /*#####################*/
 /* CONTACT */
@@ -489,6 +499,7 @@ li a .masonry {
 
 
 
+>>>>>>> af3a405046377c53e714e3f30d13d14f7718f624
 /*#####################*/
 /* FOOTER */
 /*#####################*/

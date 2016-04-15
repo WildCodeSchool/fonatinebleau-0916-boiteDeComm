@@ -163,12 +163,14 @@ p {
   border-right: solid 1px; 
   border-color: #DDDDDD ;
   border-radius: 0.10px;
+  width:auto;
 }
 
 
 .nav_bar_row{
   margin-top: 10px;
   margin-bottom: 10px;
+  width:auto;
 }
 
 
@@ -177,12 +179,14 @@ p {
     z-index: 100;
     width: 100%;
     vertical-align:middle;
+    width:100%;
 }
+
 
 .partenaires1  {
 float: right;
-height: ;
 }
+
 
 a.btn.btn-lg.navbar-right {
   font-size: 20px;

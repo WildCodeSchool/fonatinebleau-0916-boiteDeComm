@@ -29,6 +29,7 @@ $('#nav').affix({
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section5">BLOG</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT </a></li>
                         </ul>
+<<<<<<< HEAD
         <ul class="nav pull-right navbar-nav">
           <li>
         <button type="button" class="btn btn-lg navbar-right" style="background-color:grey" style="font-color: white"> 
@@ -39,6 +40,16 @@ $('#nav').affix({
          </li>
         </ul>
       </div>        
+=======
+                            <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white;">
+                                PANIER
+                                <i class="fa fa-shopping-cart" aria-hidden="true" style="size:50px;">
+                                </i>
+                            </a>
+                    </div>
+                </div>
+        </div>
+>>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
     </div>
   </div><!-- /.navbar -->
 </nav>

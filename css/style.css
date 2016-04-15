@@ -166,34 +166,22 @@ p {
   width:auto;
 }
 
-
-.nav_bar_row{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width:auto;
-}
-
-
 .navbar.affix{
     top: 0px; 
     z-index: 100;
-    width: 100%;
     vertical-align:middle;
     width:100%;
 }
 
-
 .partenaires1  {
 float: right;
 }
-
 
 a.btn.btn-lg.navbar-right {
   font-size: 20px;
   color: white;
   font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
 }
-
 
 #logo{
   width: 50px;
@@ -202,6 +190,9 @@ a.btn.btn-lg.navbar-right {
   border: inherit;
 }
 
+#myNav{
+  margin-top: -52px;
+}
 
 
 /*#####################*/

@@ -20,14 +20,6 @@
                                     <img id="logo" src="images/logo.png" alt="logo" class="img-circle" alt="#"/>
                                 </a>
                             </li>
-<<<<<<< HEAD
-                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section1">PRODUITS</a></li>
-                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section2">DEVENIR PARTENAIRE</a></li>
-                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section3">OÙ NOUS TROUVER?</a></li>
-                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section4">EQUIPE</a></li>
-                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section5">BLOG</a></li>
-                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT</a></li>
-=======
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section1">PRODUITS</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section2">DEVENIR PARTENAIRE</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section3">OU SOMMES NOUS?</a></li>
@@ -35,18 +27,12 @@
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section5">BLOG</a></li>
                             <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT
                             </a></li>
->>>>>>> a19094d572f34e60955dcfaa6d79cc38e604fc74
                         </ul>
-<<<<<<< HEAD
-                            <button type="button" class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white"> 
-          						 <span class="glyphicon .glyphicon-shopping-cart"></span>Panier</a>
-=======
                             <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white;">
                                 PANIER
                                 <i class="fa fa-shopping-cart" aria-hidden="true" style="size:50px;">
                                 </i>
                             </a>
->>>>>>> c35b5bb660fa02014a8863c8e96ded43f5e00e8b
                     </div>
                 </div>
         </div>

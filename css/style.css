@@ -1,4 +1,25 @@
 /*#####################*/
+/* CSS pour l'attente du chargement de la page */
+/*#####################*/
+
+#loading {
+  background-color: white;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   z-index: 999;
+}
+
+#loading img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 47%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*#####################*/
 /* CSS GENERAL */
 /*#####################*/
 
@@ -301,7 +322,6 @@ a.btn.btn-lg.navbar-right {
 }
 
 .video{
-
   margin-top: 20px;
 }
 

@@ -44,7 +44,7 @@
        <div class="col-sm-6 col-md-3">
          <div class="feature">
          <img class="photocadre2" src="images/cadre.png" width="292" height="400" style="position: absolute; top: 30px; left: 70px;"/>
-           <img src="images/lui.png" width="200">
+           <img src="images/lui.png" style="margin-right: 5px" width="200">
             <p class="prenom">GUILLAUME LAGANE</p>
             <p class="metierscrea"><I>Illustrateur</p></I>
             <p>

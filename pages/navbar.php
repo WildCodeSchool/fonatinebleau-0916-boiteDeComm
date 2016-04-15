@@ -20,12 +20,12 @@
                                     <img id="logo" src="images/logo.png" alt="logo" class="img-circle" alt="#"/>
                                 </a>
                             </li>
-                            <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section1">PRODUITS</a></li>
-                            <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section2">DEVENIR PARTENAIRE</a></li>
-                            <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section3">OU SOMMES NOUS?</a></li>
-                            <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section4">EQUIPE</a></li>
-                            <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section5">BLOG</a></li>
-                            <li><a style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT</a></li>
+                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section1">PRODUITS</a></li>
+                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section2">DEVENIR PARTENAIRE</a></li>
+                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section3">OÙ NOUS TROUVER?</a></li>
+                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section4">EQUIPE</a></li>
+                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section5">BLOG</a></li>
+                            <li><a class="policenav" style="margin-left:10px;" style="margin-right:15px;" href="#section6">CONTACT</a></li>
                         </ul>
                             <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white">PANIER</a>
                     </div>

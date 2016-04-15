@@ -35,7 +35,7 @@
     <!-- Apparition progressive du logo -->
     <script type="text/javascript">
        $(document).ready(function(){
-          $("#logo_header").delay(8000).fadeIn(10000);
+          $("#logo_header").delay(8000).fadeIn(7000);
        });
     </script>
 
@@ -43,7 +43,8 @@
     <script>
       $(function(){
         $(".texte_header").typed({
-          strings: ["^11000 <h2>LE JEU QUI DONNE DE LA SAVEUR AU QUOTIDIEN</h2>"]
+          strings: ["^11000 <h2>LE JEU QUI DONNE DE LA SAVEUR AU QUOTIDIEN</h2>"],
+          showCursor: false
         });
       });
     </script>

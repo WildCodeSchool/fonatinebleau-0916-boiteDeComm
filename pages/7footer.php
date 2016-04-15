@@ -23,60 +23,6 @@ $('#btnYes').click(function() {
 });
 </script>
 
-<div class="divider" id="section6"></div>
-
-<div class="container">
-  <p><strong>CONTACTEZ NOUS</strong><br><br>
-  Une question sur nos programmes ou notre société ? Remplissez le formulaire ci-dessous, nous vous recontacterons.</p>
-  <div class="col-md-6">
-     <form class="form-horizontal">
-      <div class="row">Civilité</div>
-      <div class="row">
-        	<input name="civ" value="M" type="radio"> M&nbsp;&nbsp;&nbsp;&nbsp;
-          	<input name="civ" value="Mlle" type="radio"> Mlle&nbsp;&nbsp;&nbsp;&nbsp;
-          	<input name="civ" value="Mme" type="radio"> Mme&nbsp;&nbsp;&nbsp;&nbsp;
-      </div>
-      <br>
-      <div class="form-group">
-  		<div class="input-group">
-            <span class="input-group-addon">
-              <i class="glyphicon glyphicon-user"></i>
-          	</span>
-            <input placeholder="Nom" name="nom" class="form-control" required="required" type="text">
-     	</div>
-      </div>
-      <div class="form-group">
-  		<div class="input-group">
-            <span class="input-group-addon">
-              <i class="glyphicon glyphicon-user"></i>
-          	</span>
-            <input placeholder="Prénom" name="prenom" class="form-control" required="required" type="text">
-      </div>
-      </div>
-      <div class="form-group">
-        <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-earphone"></i>
-          </span>
-          <input placeholder="Téléphone" name="tel" class="form-control" required="required" type="text">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-envelope"></i>
-          </span>
-          <input placeholder="Email" name="email" class="form-control" required="required" type="text">
-        </div>
-      </div>
-       <br>
-      <div class="row">
-      <textarea placeholder="Tapez votre message ici..." name="message" class="form-control" required="required"></textarea>
-      </div>
-      <br><br>
-      <div class="text-center"> 
-       <input class="btn-info" value="ENVOYER" type="submit">
-      </div>
        
     </form>
   </div>
@@ -90,7 +36,13 @@ $('#btnYes').click(function() {
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
+<<<<<<< HEAD
+
  <a href="#myModalfooter" style="color: white" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
+
+=======
+ <a href="#myModalfooter" style="color: white" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
+>>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
 
 <!-- Modal -->
             <div id="myModalfooter" class="modal fade" role="dialog">
@@ -152,7 +104,13 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
+<<<<<<< HEAD
+
 <a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
+
+=======
+<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
+>>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
 
 <!-- Modal -->
           <div id="myModalfooter1" class="modal fade" role="dialog">
@@ -581,7 +539,13 @@ Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
+<<<<<<< HEAD
+
 <a href="#myModalfooter2" style="color: white" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
+
+=======
+<a href="#myModalfooter2" style="color: white" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
+>>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
 
 <!-- Modal -->
         <div id="myModalfooter2" class="modal fade" role="dialog">
@@ -634,6 +598,10 @@ Tout est donc totalement sécurisé..</p>
 <!-- Trigger the modal with a button -->
 
 <a href="#myModalfooter3" style="color: white" data-toggle="modal" data-target="#myModalfooter3">Contact</a>
+<<<<<<< HEAD
+
+=======
+>>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
 
 <!-- Modal -->
 <div id="myModalfooter3" class="modal fade" role="dialog">
@@ -710,10 +678,28 @@ Tout est donc totalement sécurisé..</p>
     
   	</div><!--/row-->
   <div class="row">
-        <div class="col-sm-4 text-right">
+        <div class="col-sm-4 text-center">
         	Copyright © Les Boites de Comm' Tous droits réservés
 
         </div>
+<<<<<<< HEAD
+
+        	
+          <span class="fa-stack fa-lg">
+             <i class="fa fa-circle text-primary fa-stack-2x"></i>
+             <a href="https://www.facebook.com/boitesdecomm?ref=hl">
+             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+
+
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-circle text-primary fa-stack-2x"></i>
+              <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
+              <i class="fa fa-circle text-info fa-stack-2x"></i>
+          </span>
+            
+            
+=======
         <div class="col-sm-4 text-right">
         <a href="https://www.facebook.com/boitesdecomm">
         	<span class="fa-stack fa-lg">
@@ -729,16 +715,16 @@ Tout est donc totalement sécurisé..</p>
             </span>
             </a>
             <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
+>>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-               <a href="https://youtu.be/zgb-U12lIts">
+               <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g"></a>
             </span>
-            </a>
         </div>
       </div>
   </div><!--/container-->
-</div><!--/footer--></div>
+</div><!--/footer-->
 
 
            

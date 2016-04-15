@@ -25,10 +25,17 @@
     });
     </script>
     
+    <!-- Logo patientez avant le chargement de la page -->
+    <script type="text/javascript">
+        jQuery(window).load(function () {
+            jQuery('#loading').hide();
+        });
+    </script>
+
     <!-- Apparition progressive du logo -->
     <script type="text/javascript">
        $(document).ready(function(){
-          $("#logo_header").fadeIn(10000);
+          $("#logo_header").delay(8000).fadeIn(10000);
        });
     </script>
 
@@ -36,16 +43,19 @@
     <script>
       $(function(){
         $(".texte_header").typed({
-          strings: ["^1000 <h2>LE JEU QUI DONNE DE LA SAVEUR AU QUOTIDIEN</h2>"]
+          strings: ["^11000 <h2>LE JEU QUI DONNE DE LA SAVEUR AU QUOTIDIEN</h2>"]
         });
       });
     </script>
   </head>
   <body>
+   <div id="loading">
+        <img src="images/Preloader_10.gif" alt="Loading..." />
+   </div>
     <!-- Wrap all page content here -->
       <header>
         <div class="row2">
-          <img class="photoheader" src="http://cdn.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png">
+          <img class="photoheader" src="images/bandeau.jpg">
           <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm">
           <div class="texte_header"></div>
         </div>

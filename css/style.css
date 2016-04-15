@@ -1,4 +1,25 @@
 /*#####################*/
+/* CSS pour l'attente du chargement de la page */
+/*#####################*/
+
+#loading {
+  background-color: white;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   z-index: 999;
+}
+
+#loading img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 47%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*#####################*/
 /* CSS GENERAL */
 /*#####################*/
 
@@ -17,6 +38,9 @@
   display: block;
   vertical-align: center;
   margin-left: 350px;
+}
+.rowequipe {
+  background-color: #E5E5E5;
 }
 .imgblog {
   margin-right: auto;
@@ -139,12 +163,14 @@ p {
   border-right: solid 1px; 
   border-color: #DDDDDD ;
   border-radius: 0.10px;
+  width:auto;
 }
 
 
 .nav_bar_row{
   margin-top: 10px;
   margin-bottom: 10px;
+  width:auto;
 }
 
 
@@ -153,12 +179,14 @@ p {
     z-index: 100;
     width: 100%;
     vertical-align:middle;
+    width:100%;
 }
+
 
 .partenaires1  {
 float: right;
-height: ;
 }
+
 
 a.btn.btn-lg.navbar-right {
   font-size: 20px;
@@ -317,7 +345,6 @@ a.btn.btn-lg.navbar-right {
 }
 
 .video{
-
   margin-top: 20px;
 }
 
@@ -349,6 +376,10 @@ a.btn.btn-lg.navbar-right {
 .container_section_3{
   clear: both;
   text-align: center;
+}
+
+.fondcouleurpartenaire{
+  background-color: #E5E5E5;
 }
 
 i.fa.fa-amazon{
@@ -409,6 +440,9 @@ list-style-type:none;
   margin-left: 445px;
 
 }
+.photomaud{
+  width: 195px
+}
 
 /*#####################*/
 /* SECTION OU SOMMES NOUS */
@@ -444,6 +478,13 @@ margin-top: 20px;
 li a .masonry {
   color : black;
 }
+
+.jumbotron{
+  background-color: white;
+}
+
+
+
 /*#####################*/
 /* FOOTER */
 /*#####################*/

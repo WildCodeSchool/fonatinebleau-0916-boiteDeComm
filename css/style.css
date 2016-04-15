@@ -204,6 +204,11 @@ a.btn.btn-lg.navbar-right {
   transform: scale(1.1);
 }
 
+/* Commentaires des boites */
+.comment_boite{
+  margin-top: 4%;
+  text-align: justify;
+}
 
 /* Icon Hang */
 @-webkit-keyframes hvr-icon-hang {

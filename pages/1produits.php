@@ -8,46 +8,52 @@
                 </h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
+        <div class="row container_boite">
+            <div class="col-xs-offset-1 col-xs-4">
 
-            <!-- Lien de l'image BOITE DE COUPLE -->
-            <a class="hvr-grow" data-toggle="modal" data-target="#myModal">
-                <img src="images/boitecouple.jpg" alt="boitecouple" width="100%">
-            </a>
-            
-            <!-- PARTIE MODALE 1 -->
-            <div  class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Boite de Comm' du Couple !</h4>
+                <!-- Lien de l'image BOITE DE COUPLE -->
+                <a class="hvr-grow" data-toggle="modal" data-target="#myModal">
+                    <img src="images/boitecouple.jpg" alt="boitecouple" width="100%">
+                </a>
+                
+                <!-- PARTIE MODALE 1 -->
+                <div  class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Boite de Comm' du Couple !</h4>
+                                </div>
+                            <div class="modal-body">
+                                <!-- TEXT INTERIEUR + LIEN REFERENCE + ICONE AMAZON --> 
+                                <img src="images/boitecouple.jpg" alt="boite_couple" width="100%">
+                                <p> Retrouvez notre produit sur : <br/></p>
+                                <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
+                                    <i class="fa fa-amazon"></i>
+                                </a>
                             </div>
-                        <div class="modal-body">
-                            <!-- TEXT INTERIEUR + LIEN REFERENCE + ICONE AMAZON --> 
-                            <img src="images/boitecouple.jpg" alt="boite_couple" width="100%">
-                            <p> Retrouvez notre produit sur : <br/></p>
-                            <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
-                                <i class="fa fa-amazon"></i>
-                            </a>
-                        </div>
-                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                             <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
+            <div class="col-xs-offset-1 col-xs-4 comment_boite">
+                <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suite</p>
+            </div>
 
         <div class="row">
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
-                    <a class="testimage2"><img src="images/famille.png" alt="famille" width="150%" height="70%"></a>
+                    
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
+        <div class="row container_boite">
+            <div class="col-xs-offset-2 col-xs-4 comment_boite">
+                <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suite</p>
+            </div>
+            <div class="col-xs-offset-1 col-xs-4">
                 
                 <!-- Lien de l'image  BOITE COMM FAMILLE-->
                 <a class="hvr-grow" data-toggle="modal" data-target="#myModal1">
@@ -78,6 +84,11 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+            <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
+                    <a class="testimage2"><img src="images/famille.png" alt="famille" width="150%" height="70%"></a>
+            </div>
+        </div>
         </div>
 
 

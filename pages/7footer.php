@@ -36,13 +36,7 @@ $('#btnYes').click(function() {
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
-<<<<<<< HEAD
-
  <a href="#myModalfooter" style="color: white" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
-
-=======
- <a href="#myModalfooter" style="color: white" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
->>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
 
 <!-- Modal -->
             <div id="myModalfooter" class="modal fade" role="dialog">
@@ -104,13 +98,9 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
-<<<<<<< HEAD
 
-<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
+<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions générales de ventes</a>
 
-=======
-<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
->>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
 
 <!-- Modal -->
           <div id="myModalfooter1" class="modal fade" role="dialog">
@@ -539,13 +529,8 @@ Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
-<<<<<<< HEAD
 
 <a href="#myModalfooter2" style="color: white" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
-
-=======
-<a href="#myModalfooter2" style="color: white" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
->>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
 
 <!-- Modal -->
         <div id="myModalfooter2" class="modal fade" role="dialog">
@@ -598,10 +583,6 @@ Tout est donc totalement sécurisé..</p>
 <!-- Trigger the modal with a button -->
 
 <a href="#myModalfooter3" style="color: white" data-toggle="modal" data-target="#myModalfooter3">Contact</a>
-<<<<<<< HEAD
-
-=======
->>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
 
 <!-- Modal -->
 <div id="myModalfooter3" class="modal fade" role="dialog">
@@ -682,24 +663,7 @@ Tout est donc totalement sécurisé..</p>
         	Copyright © Les Boites de Comm' Tous droits réservés
 
         </div>
-<<<<<<< HEAD
 
-        	
-          <span class="fa-stack fa-lg">
-             <i class="fa fa-circle text-primary fa-stack-2x"></i>
-             <a href="https://www.facebook.com/boitesdecomm?ref=hl">
-             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-          </span>
-
-
-          <span class="fa-stack fa-lg">
-              <i class="fa fa-circle text-primary fa-stack-2x"></i>
-              <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
-              <i class="fa fa-circle text-info fa-stack-2x"></i>
-          </span>
-            
-            
-=======
         <div class="col-sm-4 text-right">
         <a href="https://www.facebook.com/boitesdecomm">
         	<span class="fa-stack fa-lg">
@@ -715,7 +679,7 @@ Tout est donc totalement sécurisé..</p>
             </span>
             </a>
             <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
->>>>>>> e2a52824c3a844ab8d8b8a2d7e64a8920f768da8
+
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>

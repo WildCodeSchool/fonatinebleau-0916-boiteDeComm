@@ -99,7 +99,7 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
         <div class="container">
 <!-- Trigger the modal with a button -->
 
-<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions général de ventes</a>
+<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions générales de ventes</a>
 
 
 <!-- Modal -->

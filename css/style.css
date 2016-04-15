@@ -133,7 +133,7 @@ p {
   margin-right: auto;
 }
 .texte_header h2{
-  color: red;
+  color: white;
   font-size: 40px;
 }
 
@@ -188,10 +188,6 @@ a.btn.btn-lg.navbar-right {
   height: 50px;
   margin-top:-15px;
   border: inherit;
-}
-
-#myNav{
-  margin-top: -52px;
 }
 
 
@@ -346,7 +342,7 @@ a.btn.btn-lg.navbar-right {
 
 .youtube {
   margin-top: 60px;
-  background-color: #E5E5E5; 
+  background-color: white; 
 }
 
 .testimage{
@@ -397,6 +393,9 @@ list-style-type:none;
   color: #444444;
   font-weight: 300;
   letter-spacing: 1px;
+}
+.feature p{
+  text-align: justify;
 }
 
 .prenom{
@@ -528,7 +527,6 @@ color: white;
 .bloc_avis{
   margin-top: 60px;
   width: 100%;
-  margin-left: 10px;
 }
 .pics {   
     margin: auto;
@@ -537,8 +535,7 @@ color: white;
 } 
  
 .pics img {  
-    padding: 15px; 
-    border: 3px solid black;
+    padding: 15px;
     background-color: white;  
     top:  0; 
     left: 0 

@@ -1,12 +1,8 @@
 <div class="divider-form" id="section6"></div>
 
-<<<<<<< HEAD
+
 <div class="containercontact">
   <p><strong>CONTACTEZ NOUS</strong><br><br>
-=======
-<div class="container-form">
-  <p class="contactmarge"><strong>CONTACTEZ NOUS</strong><br><br>
->>>>>>> af3a405046377c53e714e3f30d13d14f7718f624
   Une question sur nos programmes ou notre société ? Remplissez le formulaire ci-dessous, nous vous recontacterons.</p>
   <div class="col-md-offset-3 col-md-6">
      <form class="form-horizontal">

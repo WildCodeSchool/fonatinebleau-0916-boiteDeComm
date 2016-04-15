@@ -32,8 +32,8 @@ $('#nav').affix({
       <ul>
         <li>
           <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white;">
-              PANIER
-              <i class="fa fa-shopping-cart" aria-hidden="true" style="size:50px;">
+              
+              <i class="fa fa-shopping-cart" aria-hidden="true" style="size:70px;">
               </i>
           </a>
         </li>

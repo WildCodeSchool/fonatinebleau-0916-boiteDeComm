@@ -6,7 +6,7 @@
 </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12">
-            <h2 style="font-size: 40px;">OÙ NOUS TROUVER SUR INTERNET</h2>
+            <h2 class="titretexte">NOUS TROUVER SUR INTERNET</h2>
         </div>
     </div>
     <div class="row";>
@@ -34,7 +34,7 @@
     <div>
         <img class="imagebambin" src="images/boutique.png" width="70%" height="60%">
     </div>
-    <h2 style="font-size: 40 px; margin-bot: 80px; margin-top: 60px;">TROUVER LE MAGASIN LE PLUS PROCHE DE CHEZ VOUS !</h2>
+    <h2 class="titretexte">TROUVER LE MAGASIN LE PLUS PROCHE DE CHEZ VOUS !</h2>
         <div class="row">
             <div class="col-lg-12">
                 <iframe src="https://www.google.com/maps/d/embed?mid=zATSV5yInQAA.k5s1bG85T3D0" style="margin-bottom: "-100px" style="border-style: inherit";" width="640" height="500">

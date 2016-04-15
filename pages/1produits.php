@@ -2,8 +2,8 @@
     <div class="container-fluid1">
         <div class="row"><br>
             <div class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-4 col-md-4 col-xs-4">
-                <a><img style="margin-top: 125px" class="testimage" src="images/couple.png" alt="couple" width="180%" height="70%"></a>
-                <h2 style="margin-top: 80px";>
+                <a><img style="margin-top: 90px" class="testimage" src="images/couple.png" alt="couple" width="180%" height="70%"></a>
+                <h2 class="titretexte"style="margin-top: 80px";>
                      PRODUITS 
                 </h2>
             </div>
@@ -70,7 +70,7 @@
                 
                 <!-- Lien de l'image  BOITE COMM FAMILLE-->
                 <a class="hvr-grow" data-toggle="modal" data-target="#myModal1">
-                    <img src="images/boitefamille.png" alt="boitefamille" width="80%" height="50%">
+                    <img src="images/boitefamille.png" alt="boitefamille" width="80%" height="70%">
                 </a>
 
                 <!-- PARTIE MODALE 2  -->
@@ -141,20 +141,34 @@
             <div class="cold-lg-4" style="margin-right: 35px;">
                 <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen>
                 </iframe>
+<div class="container_fluid1">
+    <div class="row">
+        <div class="youtube">
+            <div class="col-lg-4" style="margin-left: 36px;">
+            </div>
+            <div class="col-lg-4" style="margin-left: -10px">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4" style="margin-right: 35px;">
+            </div>
+        </div>
+    </div>
+</div>
 
                     <!--AVIS -->
                     <div class="bloc_avis">
                         <div id="fade" class="pics" style="position: relative;">
-                            <img id="blink1" src="images/com1.png" alt="blink1"/>
-                            <img id="blink1" src="images/com2.png" alt="blink2"/>
-                            <img id="blink1" src="images/com3.png" alt="blink3"/>
-                            <img id="blink1" src="images/com4.png" alt="blink4"/>
-                            <img id="blink1" src="images/com5.png" alt="blink5"/>
-                        </div>
-                    </div>
+                        <img id="blink1" src="images/com1.png" alt="blink1"/>
+                        <img id="blink1" src="images/com2.png" alt="blink2"/>
+                        <img id="blink1" src="images/com3.png" alt="blink3"/>
+                        <img id="blink1" src="images/com4.png" alt="blink4"/>
+                        <img id="blink1" src="images/com5.png" alt="blink5"/>
+                   </div>
+                   <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1">ici</a> pour le couple et ici pour la famille.</p>
                 </div>
             </div>
         </div>
+    </div>
     <script>
       $(function() {
         $('#fade').cycle();

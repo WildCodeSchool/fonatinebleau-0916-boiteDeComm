@@ -2,15 +2,15 @@
  <div class="fondcouleurpartenaire">
     <div class="container-fluid1">
         <img style="margin-top: 75px;" class="partenaire" src="images/partenaire.png" alt="partenaire" width="50%" height="50%">
-            <h2 style="margin-bottom: 30px" style="font-size: 40px;"> DEVENIR PARTENAIRE</h2>
+            <h2 class="titretexte"style="margin-bottom: 30px"> DEVENIR PARTENAIRE</h2>
                 
             <p>Vous êtes intéressés par nos produits et vous souhaitez les distribuer ?</p>
-            <p>Contactez-nous !</p>
+            <p>Contactez-nous <a href="#section6">ici</a> !</p>
             <ul class="listemail">
-                <li>Par mail : contact@lesboitesdecomm.com</li>
-                    Nos produits sont également référencés sur 
+                
+                <p>    Nos produits sont également référencés sur : </p>
                 <a 
-                    href="https://dilicom-prod.centprod.com/connexion.html      ">Dilicom !
+                    href="https://dilicom-prod.centprod.com/connexion.html">Dilicom !
                 </a> 
             </ul>
         </div>

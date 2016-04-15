@@ -21,7 +21,7 @@
     <!-- Titre -->
     <div class="row">
         <div class="col-md-12 actualite1">
-            <h1 class="animate fadeInDown" style="text-align: center; font-color: #B22222;">BLOG</h1>
+            <h1 class="animate fadeInDown" class="titretexte">BLOG</h1>
             <p class="animate fadeIn" style="text-align: center;"></p>
             <p style="text-align: center;"> </p>
         </div>

@@ -678,7 +678,7 @@ Tout est donc totalement sécurisé..</p>
               <a href="https://plus.google.com/+Lesboitesdecomm/posts">
             </span>
             </a>
-            <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
+            <a href="https://www.youtube.commentaire/channel/UCvlzYRQWxjhsrL6crS0W86g">
 
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>

@@ -31,9 +31,8 @@
       </ul> 
       <ul>
         <li>
-          <a class="btn btn-lg navbar-right"style="background-color:grey" style="font-color: white;">
-              
-              <i class="fa fa-shopping-cart" aria-hidden="true" style="size:70px;"></i>
+          <a class="btn btn-lg navbar-right">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
           </a>
         </li>
       </ul>

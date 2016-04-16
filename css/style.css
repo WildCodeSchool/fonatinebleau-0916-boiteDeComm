@@ -76,7 +76,6 @@
 }
 
 #section2{
-
   margin-top: 50px;
 }
 p, h1, h2, h3, h4, h5, h6, a{
@@ -170,19 +169,11 @@ p {
 /* NAV BAR */
 /*#####################*/
 
-
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li {
-  border-right: solid 1px; 
-  border-color: #DDDDDD ;
-  border-radius: 0.10px;
-  width:auto;
-}
-
 .navbar.affix{
-    top: 0px; 
-    z-index: 100;
-    vertical-align:middle;
-    width:100%;
+  top: 0px; 
+  z-index: 100;
+  vertical-align:middle;
+  width:100%;
 }
 
 .partenaires1  {
@@ -192,14 +183,43 @@ float: right;
 a.btn.btn-lg.navbar-right {
   font-size: 20px;
   color: white;
-  font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
 }
 
 #logo{
   width: 50px;
-  height: 50px;
   margin-top:-15px;
   border: inherit;
+}
+#myNav{
+  height: 60px;
+  margin: 0;
+}
+#myNav ul{
+  margin: 0;
+}
+#myNav .container{
+  height: 60px;
+}
+#myNav .navbar-collapse{
+  height: 60px !important;
+}
+#myNav .nav_logo{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+}
+#myNav li{
+  height: 60px;
+  border-right: solid 1px; 
+  border-color: #DDDDDD ;
+  border-radius: 0.10px;
+  width:auto;
+}
+#myNav li a.nav_list_left{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 

@@ -1,24 +1,22 @@
 <div id="section2">
 
-    <div class="container-fluid">
-        <div class="row">
-            <img class="image_section" src="images/partenaire.png" alt="couple"/>
-            <h2>DEVENIR PARTENAIRE</h2>
-            <p>Vous êtes intéressés par nos produits et vous souhaitez les distribuer ?</p>
-            <p>Contactez-nous <a href="#section6">ici</a> !</p>
-            <p>Nos produits sont également référencés sur : <a href="https://dilicom-prod.centprod.com/connexion.html">Dilicom !</a></p>
-        </div>        
-    </div>
+    <div class="row image_section">
+        <img src="images/partenaire.png" alt="couple"/>
+        <h2>DEVENIR PARTENAIRE</h2>
+        <p>Vous êtes intéressés par nos produits et vous souhaitez les distribuer ?</p>
+        <p>Contactez-nous <a href="#section6">ici</a> !</p>
+        <p>Nos produits sont également référencés sur : <a href="https://dilicom-prod.centprod.com/connexion.html">Dilicom !</a></p>
+    </div>        
     <!-- Image et titre section partenaire -->
 
     <div class="container-fluid">
         <div class="row les_partenaires">
 
             <!-- Colonne 1 -->
-            <div class="col-md-4" id="colonegauche">
-                <img src="images/Couple_Sexe.png" width="20%" height="10%" style="background-image:url("images/hotel2.png")"; opacity:"0.9";>
+            <div class="col-md-4 colonegauche">
+                <img src="images/Couple_Sexe.png">
                 <h4>HOTELS</h4>
-                <p class="hauteur">
+                <p>
                     En tant qu’hôte, vous souhaitez :
                     <ul>
                         <li>Que vos clients se sentent choyés et uniques.</li>
@@ -28,10 +26,10 @@
             </div>
 
             <!-- Colonne 2 -->
-            <div class="col-md-4" id="colonecentre">
-                <img src="images/fleurs.png" width="10%" height="10%">
+            <div class="col-md-4 colonecentre">
+                <img src="images/fleurs.png">
                 <h4>FLEURISTES</h4>
-                <p class="hauteur">
+                <p>
                     En tant que fleuriste, vous souhaitez :
                     <ul>
                         <li>Proposer un cadeau unique et original, mêlant des fleurs à un produit qu’on garde et qui est porteur de sens.</li>   
@@ -42,10 +40,10 @@
             </div>
 
             <!-- Colonne 3 -->
-            <div class="col-md-4" id="colonedroite">
-                <img src="images/assos.png" width="20%" height="10%">
+            <div class="col-md-4 colonedroite">
+                <img src="images/assos.png">
                 <h4>ASSOCIATIONS</h4>
-                <p class="hauteur">
+                <p>
                     En tant qu’associations, vous souhaitez :<br/>
                     <ul>
                         <li>Que vos membres aient des supports sérieux pour prendre soin de leur couple ou de leur famille.</li>

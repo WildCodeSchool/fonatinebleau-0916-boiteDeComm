@@ -12,45 +12,46 @@
     <script src="js/bootstrap.js"></script>
    
 
-<!--     <script type="text/javascript">
+    <script type="text/javascript">
     $(document).ready(function() {
       $('#extracontrols').removeClass('hidden');
     });
-    </script> -->
+    </script>
 
     <!-- Logo patientez avant le chargement de la page -->
-<!--     <script type="text/javascript">
+    <script type="text/javascript">
         jQuery(window).load(function () {
             jQuery('#loading').hide();
         });
-    </script> -->
+    </script>
 
     <!-- Apparition progressive du logo -->
-<!--     <script type="text/javascript">
+    <script type="text/javascript">
        $(document).ready(function(){
           $("#logo_header").delay(4000).fadeIn(2000);
        });
-    </script> -->
+    </script>
 
     <!-- Ecriture progressive du texte -->
-<!--     <script>
+    <script>
       $(function(){
         $(".texte_header").typed({
           strings: ["^8000 <h2>LES JEUX QUI VONT VOUS FAIRE PARLER ET RIRE</h2>"],
           showCursor: false
         });
       });
-    </script> -->
+    </script>
   </head>
+
   <body>
-<!--    <div id="loading">
+   <div id="loading">
         <img src="images/Preloader_10.gif" alt="Loading..." />
    </div>
    <div id="extracontrols" class="hidden">
       <header>
         <div class="row2">
-          <img class="photoheader" src="images/bandeau.jpg">
-          <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm">
+          <img class="photoheader" src="images/bandeau.jpg" alt="photo_header"/>
+          <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm"/>
           <div class="texte_header"></div>
         </div>
-      </header> -->
+      </header>

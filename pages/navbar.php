@@ -17,7 +17,6 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-left">
-        </li>
         <li><a class="nav_list_left" href="#section1">PRODUITS</a></li>
         <li><a class="nav_list_left" href="#section2">DEVENIR PARTENAIRE</a></li>
         <li><a class="nav_list_left" href="#section3">OU SOMMES NOUS?</a></li>

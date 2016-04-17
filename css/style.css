@@ -62,11 +62,7 @@
   width: 50%;
   height: 50%;
 }
-.row2{
-  text-align: center;
-  margin-top: none;
-  margin-bottom: none;
-}
+
 .row {
   text-align: center;
   display: block;
@@ -78,6 +74,11 @@
 #section2{
   margin-top: 50px;
 }*/
+.row2{
+  text-align: center;
+  margin-top: none;
+  margin-bottom: none;
+}
 p, h1, h2, h3, h4, h5, h6, a{
   font-family: 'Chaparral';
 }
@@ -114,10 +115,6 @@ p{
   margin-left: 0px;
 }
 /* Div pour ancre */
-
-.divider {
-  height:50px;
-}
 
 /*#####################*/
 /* HEADER */
@@ -438,13 +435,23 @@ p{
 /* SECTION 3 DEVENIR PARTENAIRE */
 /*#####################*/
 
-.container_section_3{
-  clear: both;
+#section2 {
   text-align: center;
+  background-color: #E5E5E5;
 }
 
-.fondcouleurpartenaire{
-  background-color: #E5E5E5;
+#section2 .image_section{
+  width: 50%;
+}
+#section2 .les_partenaires{
+  margin-top: 40px;
+}
+#section2 .les_partenaires li{
+  list-style: none;
+  text-align: justify;
+}
+#section2 .les_partenaires li:first-child{
+  margin-top: 20px;
 }
 
 i.fa.fa-amazon{

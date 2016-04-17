@@ -440,7 +440,7 @@ p{
   background-color: #E5E5E5;
 }
 
-#section2 .image_section{
+#section2 .image_section img{
   width: 50%;
 }
 #section2 .les_partenaires{
@@ -453,23 +453,43 @@ p{
 #section2 .les_partenaires li:first-child{
   margin-top: 20px;
 }
-
-i.fa.fa-amazon{
-  font-size:42px;
-  margin-top: 5px;
+#section2 .les_partenaires .colonegauche img,
+#section2 .les_partenaires .colonedroite img{
+  width: 20%; 
+  height: 10%;  
+}
+#section2 .les_partenaires .colonecentre img{
+  width: 10%;
+  height: 10%;
 }
 
-.listemail{
-  
-list-style-type:none;
+/*#####################*/
+/* SECTION 3 LOCALISATION */
+/*#####################*/
+
+#section3{
+  text-align: center;
 }
-
-
-.partenaires1  {
-float: right;
+#section3 .image_section img.internet{
+  width: 35%;
 }
-
-
+#section3 .image_section img.magasin{
+  width: 50%;
+}
+#section3 .point_de_vente img{
+  width: 50%;
+}
+#section3 .maps iframe{
+  margin-bottom: -100px;
+  border-style: inherit;
+  width: 640px;
+  height: 500px;
+}
+@media screen and (max-width: 768px){
+  #section3 .maps iframe{
+    width: 350px;
+    height: 273px;
+  }
 /*#####################*/
 /* SECTION 4 NOS CREATEURS */
 /*#####################*/

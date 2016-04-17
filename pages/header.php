@@ -10,19 +10,14 @@
     <script src="js/typed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.js"></script>
     <script src="js/bootstrap.js"></script>
-
-    <!-- SCRIPT ANIMATION -->
+   
 
     <script type="text/javascript">
-    $(document).ready(function(){
-        $("#myNav").affix({
-            offset: { 
-                top: 195 
-            }
-        });
+    $(document).ready(function() {
+      $('#extracontrols').removeClass('hidden');
     });
     </script>
-    
+
     <!-- Logo patientez avant le chargement de la page -->
     <script type="text/javascript">
         jQuery(window).load(function () {
@@ -51,6 +46,7 @@
    <div id="loading">
         <img src="images/Preloader_10.gif" alt="Loading..." />
    </div>
+   <div id="extracontrols" class="hidden">
     <!-- Wrap all page content here -->
       <header>
         <div class="row2">

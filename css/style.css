@@ -62,11 +62,7 @@
   width: 50%;
   height: 50%;
 }
-.row2{
-  text-align: center;
-  margin-top: none;
-  margin-bottom: none;
-}
+
 .row {
   text-align: center;
   display: block;
@@ -78,6 +74,11 @@
 #section2{
   margin-top: 50px;
 }*/
+.row2{
+  text-align: center;
+  margin-top: none;
+  margin-bottom: none;
+}
 p, h1, h2, h3, h4, h5, h6, a{
   font-family: 'Chaparral';
 }

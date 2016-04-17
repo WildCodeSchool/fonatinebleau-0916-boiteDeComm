@@ -1,5 +1,3 @@
-<?php include('header.php'); ?>
-
 <div class="divider" id="section1">
 
     <!-- Image + Titre section produits -->

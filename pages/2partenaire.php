@@ -1,5 +1,5 @@
 <div class="divider" id="section2"></div> 
- <div class="fondcouleurpartenaire">
+<div class="fondcouleurpartenaire">
     <div class="container-fluid1">
         <img style="margin-top: 75px;" class="partenaire" src="images/partenaire.png" alt="partenaire" width="50%" height="50%">
             <h2 class="titretexte"style="margin-bottom: 30px"> DEVENIR PARTENAIRE</h2>
@@ -67,4 +67,3 @@
         </div>
     </div>  
     </div>
-</div>

@@ -76,7 +76,6 @@
 }
 
 #section2{
-
   margin-top: 50px;
 }
 p, h1, h2, h3, h4, h5, h6, a{
@@ -107,7 +106,6 @@ p {
 
 .body_color {
 	background-color: #FFFFFF;
-  font: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
 }
 
 /* Div pour ancre */
@@ -170,38 +168,122 @@ p {
 /* NAV BAR */
 /*#####################*/
 
-
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li {
-  border-right: solid 1px; 
-  border-color: #DDDDDD ;
+.mynav .logo{
+  width: 60px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.mynav .title_responsive h1{
+  display: none;
+}
+.mynav ul{
+  margin: 0;
+}
+.mynav .navbar-left li{
+  height: 60px;
+  border-right: solid 1px #DDDDDD;
   border-radius: 0.10px;
   width:auto;
 }
-
-.navbar.affix{
-    top: 0px; 
-    z-index: 100;
-    vertical-align:middle;
-    width:100%;
+.mynav .navbar-left li:first-child{
+  border-left: solid 1px #DDDDDD;
+}
+.mynav .navbar-left li:last-child{
+  display: none;
+}
+.mynav li a.nav_list_left {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
-.partenaires1  {
-float: right;
+.nav_bar_rigth{
+  float: right;
+  list-style: none;
 }
 
-a.btn.btn-lg.navbar-right {
-  font-size: 20px;
-  color: white;
-  font-family: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
-}
-
-#logo{
-  width: 50px;
+.mynav .nav_bar_rigth li{
   height: 50px;
-  margin-top:-15px;
-  border: inherit;
+  border: none;
+}
+.mynav .nav_bar_rigth .panier{
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+  background-color:grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.mynav .nav_bar_rigth i {
+  width: 26px;
 }
 
+/* Rsponsive NAV BAR */
+
+@media screen and (max-width: 1080px){
+  .mynav .logo{
+    width: 44px;
+    padding-right: 0px;
+    margin-left: -13px;
+    margin-right: 5px;
+  }
+  
+  .navbar-collapse{
+    padding-right: 0px;
+  }
+
+  .mynav li a.nav_list_left {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nav_bar_rigth{
+    padding-left: 2px;
+    margin-right: -13px !important;
+  }
+}
+@media screen and (max-width: 768px){
+  .mynav .title_responsive{
+    width: 270px;
+  }
+  .mynav .title_responsive h1{
+    display: block;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    float: right;
+  }
+  .mynav .logo{
+    width: 60px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  .mynav .navbar-left li{
+    height: initial;
+  }
+  .mynav .navbar-left li:first-child{
+    margin-top: 15px;
+    border-left: none;
+  }
+
+  .mynav li a.nav_list_left {
+    padding-bottom: initial;
+    padding-top: initial;
+  }
+  .mynav .navbar-left li:last-child{
+    display: block;
+  }
+  .nav_bar_rigth{
+    display: none;
+  }
+}
 
 /*#####################*/
 /* SECTION_1 */
@@ -389,6 +471,11 @@ i.fa.fa-amazon{
 .listemail{
   
 list-style-type:none;
+}
+
+
+.partenaires1  {
+float: right;
 }
 
 

@@ -42,6 +42,7 @@
       });
     </script>
   </head>
+
   <body>
    <div id="loading">
         <img src="images/Preloader_10.gif" alt="Loading..." />
@@ -49,8 +50,8 @@
    <div id="extracontrols" class="hidden">
       <header>
         <div class="row2">
-          <img class="photoheader" src="images/bandeau.jpg">
-          <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm">
+          <img class="photoheader" src="images/bandeau.jpg" alt="photo_header"/>
+          <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm"/>
           <div class="texte_header"></div>
         </div>
       </header>

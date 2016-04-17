@@ -1,13 +1,13 @@
-<div class="divider" id="section1">
+<div id="section1">
 
     <!-- Image + Titre section produits -->
     <div class="row image_section">
-        <img class="image_couple" src="images/couple.png" alt="couple">
+        <img class="image_couple" src="images/couple.png" alt="couple"/>
         <h2>PRODUITS</h2>
     </div>
 
     <!-- LES BOITES -->
-    <div class="container-fluid1">
+    <div class="container-fluid">
 
         <!-- Premier boite -->
         <div class="row container_boite">
@@ -15,7 +15,7 @@
                 <!-- Lien de l'image BOITE DE COUPLE -->
                 <div class="col-md-offset-1 col-md-4 col-sm-7 col-xs-12">
                     <a class="hvr-grow" data-toggle="modal" data-target="#myModal">
-                        <img class="img_boite" src="images/boitecouple.jpg" alt="boitecouple">
+                        <img class="img_boite" src="images/boitecouple.jpg" alt="boitecouple"/>
                     </a>
                     
                     <!-- PARTIE MODALE 1 -->
@@ -23,12 +23,14 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel_1">Boite de Comm' du Couple !</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_1">Boite de Comm' du Couple !</h4>
                                 </div>
                                 <div class="modal-body">
                                     <!-- TEXT INTERIEUR + LIEN REFERENCE + ICONE AMAZON --> 
-                                    <img src="images/boiteouverte.jpg" alt="boiteouvertecouple" class="boite">
+                                    <img src="images/boiteouverte.jpg" alt="boiteouvertecouple" class="boite"/>
                                     <div>
                                         <p><span>Retrouvez-vous en tête-à-tête autour d’un verre et tirez une carte.</span></p>
                                         <p><span>Le principe est simple : un défi à relever le temps d’un sablier avec des gages et des récompenses à la clef, des questions sur une multitude de sujets aussi légers que profonds et un temps de discussion autour de vos réponses.</span></p>
@@ -75,7 +77,7 @@
                 <!-- Lien de l'image  BOITE COMM FAMILLE-->
                 <div class="col-md-offset-1 col-sm-7 col-md-4 col-xs-12">
                     <a class="hvr-grow" data-toggle="modal" data-target="#myModal1">
-                        <img class="img_boite" src="images/boitefamille.png" alt="boitefamille">
+                        <img class="img_boite" src="images/boitefamille.png" alt="boitefamille"/>
                     </a>
 
                     <!-- PARTIE MODALE 2  -->
@@ -83,11 +85,13 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
                                     <h4 class="modal-title" id="myModalLabel_2">Boite de Comm' de la Famille!</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="images/boiteouverte2.jpg" alt="boiteouverte2" class="boite">
+                                    <img src="images/boiteouverte2.jpg" alt="boiteouverte2" class="boite"/>
                                     <div>
                                         <p><span>Cette boîte contient : 300 cartes (100 cartes Défi individuel,100 cartes Défi en équipe, et 100 cartes Confidence), 1 sablier, 1 sac de transport et 1 règle  du jeu.</span></p>
                                         <p><span>Fous rires et surtout (re)découverte des autres et de soi en perspective. La Boîte de Comm’ de la Famille, le jeu qui réunit petits et grands pour un pur moment de plaisir familial !</span></p>
@@ -100,8 +104,7 @@
                                         <p><span>Poids :</span> 850 g.</p>
                                     </div>
                                     <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
-                                        <i class="fa fa-amazon">
-                                        </i>
+                                        <i class="fa fa-amazon"></i>
                                     </a>
                                 </div>
 
@@ -118,8 +121,7 @@
             <!-- Phrase après deuxième boite -->
             <div class="row comment_entre_boite">
                 <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12">
-                    <p>Une idée lumineuse de cadeau pour prendre soin de soi, pour un anniversaire, une Fête des Mères, des Pères, un mariage, Noël, la Saint Valentin… !   
-                    </p>
+                    <p>Une idée lumineuse de cadeau pour prendre soin de soi, pour un anniversaire, une Fête des Mères, des Pères, un mariage, Noël, la Saint Valentin… !</p>
                 </div>
             </div>
         </div>
@@ -134,16 +136,13 @@
     <div class="container-fluid">
         <div class="row youtube">
             <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen>
-                </iframe>
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/zgb-U12lIts" frameborder="0" allowfullscreen>
-                </iframe>
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/zgb-U12lIts" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen>
-                </iframe>
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="row youtube">

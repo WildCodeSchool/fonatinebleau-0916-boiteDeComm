@@ -116,10 +116,6 @@ p{
 }
 /* Div pour ancre */
 
-.divider {
-  height:50px;
-}
-
 /*#####################*/
 /* HEADER */
 /*#####################*/
@@ -439,13 +435,23 @@ p{
 /* SECTION 3 DEVENIR PARTENAIRE */
 /*#####################*/
 
-.container_section_3{
-  clear: both;
+#section2 {
   text-align: center;
+  background-color: #E5E5E5;
 }
 
-.fondcouleurpartenaire{
-  background-color: #E5E5E5;
+#section2 .image_section{
+  width: 50%;
+}
+#section2 .les_partenaires{
+  margin-top: 40px;
+}
+#section2 .les_partenaires li{
+  list-style: none;
+  text-align: justify;
+}
+#section2 .les_partenaires li:first-child{
+  margin-top: 20px;
 }
 
 i.fa.fa-amazon{

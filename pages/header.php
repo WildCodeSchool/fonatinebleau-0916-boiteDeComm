@@ -7,69 +7,51 @@
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.js"></script>
     <script src="js/bootstrap.js"></script>
+   
 
-    <!-- SCRIPT ANIMATION -->
     <script type="text/javascript">
-    $(document).ready(function(){
-        $("#myNav").affix({
-            offset: { 
-                top: 195 
-            }
+    $(document).ready(function() {
+      $('#extracontrols').removeClass('hidden');
+    });
+    </script>
+
+    <!-- Logo patientez avant le chargement de la page -->
+    <script type="text/javascript">
+        jQuery(window).load(function () {
+            jQuery('#loading').hide();
         });
-    });
     </script>
 
-    <script>$('#myNav').affix({
-          offset: {
-            top: $('header').height()-$('#myNav').height()
-          }
-    });	
+    <!-- Apparition progressive du logo -->
+    <script type="text/javascript">
+       $(document).ready(function(){
+          $("#logo_header").delay(4000).fadeIn(2000);
+       });
     </script>
 
-    <script>$('body').scrollspy({ target: '#myNav' })
-
-
-    /* smooth scrolling for scroll to top */
-    $('.scroll-top').click(function(){
-      $('body,html').animate({scrollTop:0},1000);
-    })
-
-    /* smooth scrolling for nav sections */
-    $('#myNav .navbar-nav li>a').click(function(){
-      var link = $(this).attr('href');
-      var posi = $(link).offset().top;
-      $('body,html').animate({scrollTop:posi},700);
-    });
-    </script>
-
-    <script>$('.panel .img-responsive').on('load', function() {
-      
-    }).each(function(i) {
-      if(this.complete) {
-      	var item = $('<div class="item"></div>');
-        var itemDiv = $(this).parent('a');
-        var title = $(this).parent('a').attr("title");
-        </script>
-
-    <script>$('.panel-thumbnail>a').click(function(e){
-      
-        e.preventDefault();
-        var idx = $(this).parents('.panel').parent().index();
-      	var id = parseInt(idx);
-      	
-    });
+    <!-- Ecriture progressive du texte -->
+    <script>
+      $(function(){
+        $(".texte_header").typed({
+          strings: ["^8000 <h2>LES JEUX QUI VONT VOUS FAIRE PARLER ET RIRE</h2>"],
+          showCursor: false
+        });
+      });
     </script>
   </head>
   <body>
+   <div id="loading">
+        <img src="images/Preloader_10.gif" alt="Loading..." />
+   </div>
+   <div id="extracontrols" class="hidden">
     <!-- Wrap all page content here -->
-    <div id="wrap">
-        <header class="masthead">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12">
-                        <p>Votre Image<p>
-                    </div>
-                </div>
-            </div>      
-        </header>
+      <header>
+        <div class="row2">
+          <img class="photoheader" src="images/bandeau.jpg">
+          <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm">
+          <div class="texte_header"></div>
+        </div>
+      </header>

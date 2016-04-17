@@ -1,25 +1,86 @@
 /*#####################*/
+/* CSS pour l'attente du chargement de la page */
+/*#####################*/
+
+#loading {
+  background-color: white;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   z-index: 999;
+}
+
+#loading img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 47%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*#####################*/
 /* CSS GENERAL */
 /*#####################*/
+
+@font-face {
+  font-family: 'Chaparral';
+  src: url("../font/ChaparralPro-Regular.otf") format("opentype");
+}
+
+.titretexte {
+  font-size: 40px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  margin-top: 35px;
+  font-color: black;
+}
+
+.commentaireamazon {
+  font-size: 15px;
+}
 
 .container {
   text-align: center; 
   display: block;
   width: 100%;
 }
-
+.equipeimg {
+  margin-right: auto;
+  display: block;
+  vertical-align: center;
+  margin-left: 350px;
+}
+.rowequipe {
+  background-color: #E5E5E5;
+}
+.imgblog {
+  margin-right: auto;
+  display: block;
+  vertical-align: center;
+  margin-left: 340px;
+  width: 50%;
+  height: 50%;
+}
+.row2{
+  text-align: center;
+  margin-top: none;
+  margin-bottom: none;
+}
 .row {
   text-align: center;
   display: block;
   margin-top: 45px;
   margin-bottom: 45px;
+  margin-right: -15px;
 }
 
 #section2{
-
   margin-top: 50px;
 }
-
+p, h1, h2, h3, h4, h5, h6, a{
+  font-family: 'Chaparral';
+}
 header {
   background: #FFFFFF;
   color:#555;
@@ -39,10 +100,12 @@ h5 {
   max-height: 30px;
   overflow: hidden;
 }
+p {
+  margin-top: 30px;
+}
 
 .body_color {
 	background-color: #FFFFFF;
-  font: normal 400 16px/1.4 "europa","Helvetica Neue",Helvetica,sans-serif;
 }
 
 /* Div pour ancre */
@@ -52,67 +115,179 @@ h5 {
 }
 
 /*#####################*/
+/* HEADER */
+/*#####################*/
+
+.photoheader{
+  width: 100%; 
+  height: 100vh;
+}
+
+#logo_header{
+  display: none;
+  width: 30%;
+  position: absolute;
+  top: 3%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texte_header{
+  position: absolute;
+  top: 75%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.texte_header h2{
+  color: white;
+  font-size: 40px;
+}
+
+@media screen and (min-width: 550px) and (max-width: 1000px) {
+  #logo_header {
+    width: 40%
+  }
+  .texte_header{
+    top: 66%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #logo_header {
+    width: 70%
+  }
+  .texte_header{
+    top: 70%;
+  }
+}
+
+/*#####################*/
 /* NAV BAR */
 /*#####################*/
 
-.nav_bar_row{
-  margin-top: initial !important;
-  margin-bottom: initial !important;
+.mynav .logo{
+  width: 60px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.mynav .title_responsive h1{
+  display: none;
+}
+.mynav ul{
+  margin: 0;
+}
+.mynav .navbar-left li{
+  height: 60px;
+  border-right: solid 1px #DDDDDD;
+  border-radius: 0.10px;
+  width:auto;
+}
+.mynav .navbar-left li:first-child{
+  border-left: solid 1px #DDDDDD;
+}
+.mynav .navbar-left li:last-child{
+  display: none;
+}
+.mynav li a.nav_list_left {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
-.btnbtn-primarybtn-lgnavbar-right{
-  background-color: 
+.nav_bar_rigth{
+  float: right;
+  list-style: none;
 }
 
-.affix {
-   position: fixed;
-   top: 0;
-   z-index:10;
-   -webkit-transition: all .6s ease-in-out;
-}
-
-.navbar-nav {
-  margin: 1px 1px; 
-}  
-
-
-
-.navbar{
-    height: 50px;
-    border-radius: 0;
-  vertical-align: middle;
-}
-.navbar.affix{
-    top: 0px; 
-    z-index: 100;
-    width: 100%;
-    vertical-align:middle;
-}
-
-.navbar-collapse.in { /*3.0.2 bug workaround*/
-    overflow-y: visible;
-}
-
-.navbar-toggle {
-  outline:0;
-}
-
-#logo{
-  width: 50px;
+.mynav .nav_bar_rigth li{
   height: 50px;
-  margin-top:-15px;
+  border: none;
+}
+.mynav .nav_bar_rigth .panier{
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+  background-color:grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.mynav .nav_bar_rigth i {
+  width: 26px;
 }
 
-@media (min-width: 767px) {
-  .navbar-nav.nav-justified > li{
-      float:none;
+/* Rsponsive NAV BAR */
+
+@media screen and (max-width: 1080px){
+  .mynav .logo{
+    width: 44px;
+    padding-right: 0px;
+    margin-left: -13px;
+    margin-right: 5px;
+  }
+  
+  .navbar-collapse{
+    padding-right: 0px;
+  }
+
+  .mynav li a.nav_list_left {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nav_bar_rigth{
+    padding-left: 2px;
+    margin-right: -13px !important;
+  }
+}
+@media screen and (max-width: 768px){
+  .mynav .title_responsive{
+    width: 270px;
+  }
+  .mynav .title_responsive h1{
+    display: block;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    float: right;
+  }
+  .mynav .logo{
+    width: 60px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  .mynav .navbar-left li{
+    height: initial;
+  }
+  .mynav .navbar-left li:first-child{
+    margin-top: 15px;
+    border-left: none;
+  }
+
+  .mynav li a.nav_list_left {
+    padding-bottom: initial;
+    padding-top: initial;
+  }
+  .mynav .navbar-left li:last-child{
+    display: block;
+  }
+  .nav_bar_rigth{
+    display: none;
   }
 }
 
 /*#####################*/
 /* SECTION_1 */
 /*#####################*/
-
 
 /*#####################*/
 /* ANIMATION DES IMAGES */
@@ -138,53 +313,11 @@ h5 {
   transform: scale(1.1);
 }
 
-/* Float Shadow */
-.hvr-float-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
-.hvr-float-shadow:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, opacity;
-  transition-property: transform, opacity;
-}
-
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
-}
-
-.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+/* Commentaires des boites */
+.comment_boite{
+  margin-top: 4%;
+  text-align: justify;
+  font-size: 20px;
 }
 
 /* Icon Hang */
@@ -278,8 +411,43 @@ h5 {
   animation-direction: normal, alternate;
 }
 
+.modal-body1 {
+  display: flex;
+  text-align: justify;
+}
+
 .modal-body{
   display: flex;
+  text-align: justify;
+}
+
+.boiteouverte2 {
+  margin-bottom: -50px;
+}
+
+.video{
+  margin-top: 20px;
+}
+
+#divid1{
+  margin-top: 20px;
+
+}
+
+.youtube {
+  margin-top: 60px;
+  background-color: white; 
+}
+
+.testimage{
+  margin-left: -165px;
+}
+.testimage2{
+  margin-left: -115px;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
 }
 
 /*#####################*/
@@ -289,6 +457,10 @@ h5 {
 .container_section_3{
   clear: both;
   text-align: center;
+}
+
+.fondcouleurpartenaire{
+  background-color: #E5E5E5;
 }
 
 i.fa.fa-amazon{
@@ -301,55 +473,173 @@ i.fa.fa-amazon{
 list-style-type:none;
 }
 
+
+.partenaires1  {
+float: right;
+}
+
+
 /*#####################*/
-/* BOX ACTUALITE */
+/* SECTION 4 NOS CREATEURS */
 /*#####################*/
 
-.img-responsive img{
-  width: 100%;    
 }
 
-/*.img-responsive {
-  min-height:150px;
-  max-height:150px;
-}*/
-
-.productbox {
-  position: relative;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: all .2s ease-in-out; 
+.feature img {
+  margin-bottom: 2em;
+}
+.feature {
+  color: #444444;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.feature p{
+  text-align: justify;
 }
 
-.caption {
-  padding:10px;
-  background-color:rgba(0,0,0,0.7);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  max-height: 40%;
-  overflow: hidden;
-  font-size: 11px;
-  color: #FFF;
+.prenom{
+  margin-top: 70px;
 }
 
+.texte {
+  margin-top: 35px;
+}
+
+.photocadre {
+  margin-left: -68px;
+  margin-top: -110px;
+}
+
+.photocadre1{
+  margin-top: -115px;
+  margin-left: -40px;
+}
+
+.photocadre2{
+  margin-top: -115px;
+  margin-left: -50px;
+}
+.photocadre3{
+  margin-top: -115px;
+  margin-left: -40px;
+}
+
+.equipeimg{
+  position: middle;
+  margin:auto;
+
+}
+.photomaud{
+  width: 195px
+}
+
+/*#####################*/
+/* SECTION OU SOMMES NOUS */
+/*#####################*/
+
+.textcart{
+
+margin-top: 20px;
+}
+
+/*#####################*/
+/* BOX BLOG */
+/*#####################*/
+
+/* Feuille de style Mansory */
+
+.masonry { /* Masonry container */
+    column-count: 2;
+    column-gap: 1em;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+    display: inline-block;
+    margin: 0 0 0.3em;
+    width: 100%;
+    border: 2px solid black;
+
+}
+li a .masonry {
+  color : black;
+}
+
+.jumbotron{
+  background-color: white;
+}
+
+<<<<<<< HEAD
+.containercontact {
+background-color:white;
+background-image:url(background-color:white;
+background-image:url(images/image_de_fond.png););
+}
+.form-group {;
+  background-color: grey;
+}
+=======
+
+/*#####################*/
+/* CONTACT */
+/*#####################*/
+.contactmarge{
+  margin-top: 150px;
+}
+
+.tout{
+  background-color: gray;
+}
+
+
+
+
+>>>>>>> af3a405046377c53e714e3f30d13d14f7718f624
 /*#####################*/
 /* FOOTER */
 /*#####################*/
 
 /* Set the fixed height of the footer here */
-#footer {
+.footer {
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: grey;
   margin-top:50px;
   padding-top:20px;
   padding-bottom:20px;
 }
-
+a .footer {
+text-decoration: none;
+color: white;
+}
 .imagebambin{
-  margin-left: 200px;
+  margin-left: 100px;
+};
 }
+.video{
+  display: inline; 
+  color:#000000;
+}
+/* ANIMATION DES COMMENTAIRES/DES AVIS */
+.bloc_avis{
+  margin-top: 60px;
+  width: 100%;
+}
+.pics {   
+    margin: auto;
+    padding: 0;  
+    width: 100% 
+} 
+ 
+.pics img {  
+    padding: 15px;
+    background-color: white;  
+    top:  0; 
+    left: 0 
+    width: 150%;
+} 
 
-#footer a {
-  color:#efefef;
-}
+
+

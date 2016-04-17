@@ -1,33 +1,28 @@
 <div class="divider" id="section2"></div> 
  <div class="fondcouleurpartenaire">
     <div class="container-fluid1">
-        <img class="partenaire" src="images/partenaire.png" width="50%" height="50%">
-            <h2> Devenir Partenaire</h2><br/>
-                <h4> Vous souhaitez devenir notre partenaire ? Contactez nous !
-                </h4><br/>
+        <img style="margin-top: 75px;" class="partenaire" src="images/partenaire.png" alt="partenaire" width="50%" height="50%">
+            <h2 class="titretexte"style="margin-bottom: 30px"> DEVENIR PARTENAIRE</h2>
+                
             <p>Vous êtes intéressés par nos produits et vous souhaitez les distribuer ?</p>
-            <p>Contactez-nous !</p>
+            <p>Contactez-nous <a href="#section6">ici</a> !</p>
             <ul class="listemail">
-                <li>Par mail : contact@lesboitesdecomm.com</li>
-                <li>Par téléphone :</li>
-                <li>Marie de Camas : +33(0)6 50 82 45 97</li>
-                <li>Maud Jan-Ailleret : +33(0)6 07 19 45 43</li>
-                Nos produits sont également référencés sur 
+                
+                <p>    Nos produits sont également référencés sur : </p>
                 <a 
                     href="https://dilicom-prod.centprod.com/connexion.html">Dilicom !
                 </a> 
             </ul>
         </div>
-    </div>
-</div>
+
                     <!-- Colonne 1 -->
 
-    <div class="container-fluid">
+    <div class="container-fluid"
         <div  class="row">
             <div class="col-lg-4">
                 <div id="colonegauche">
+                        <img src="images/Couple_Sexe.png" width="20%" height="10%" style="background-image:url("images/hotel2.png"); opacity:0.9;">
                     <h4>HOTELS   
-                        <img src="images/hotel2.png" width="20%" height="10%">
                     </h4>
                     <p class="hauteur">
                         <p> En tant qu’hôte, vous souhaitez :<br/>
@@ -42,8 +37,8 @@
 
     <div class="col-lg-4">
         <div id="colonecentre">
+            <img src="images/fleurs.png" width="10%" height="10%">
             <h4>FLEURISTES   
-                <img src="images/fleur.jpg" width="10%" height="10%">
             </h4>
                 <p class="hauteur">
                 <p> En tant que fleuriste, vous souhaitez :<br/>
@@ -59,8 +54,8 @@
         
         <div class="col-lg-4 ">
             <div id="colonedroite">
+                <img src="images/assos.png" width="20%" height="10%">
                 <h4>ASSOCIATIONS   
-                    <img src="images/assos.png" width="20%" height="10%">
                 </h4>
                     <p class="hauteur">
                         En tant qu’associations, vous souhaitez :<br/>

@@ -6,7 +6,7 @@
 </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12">
-            <h2>Nous trouver sur internet</h2>
+            <h2 class="titretexte">NOUS TROUVER SUR INTERNET</h2>
         </div>
     </div>
     <div class="row";>
@@ -32,13 +32,14 @@
 
 <div class="container">
     <div>
-        <img class="imagebambin" src="images/trouverboutique.png" width="60%" height="60%">
+        <img class="imagebambin" src="images/boutique.png" width="70%" height="60%">
     </div>
-    <h2>Nous trouver en magasin</h2>
+    <h2 class="titretexte">TROUVER LE MAGASIN LE PLUS PROCHE DE CHEZ VOUS !</h2>
         <div class="row">
-            <div class="col-lg-12 md-12">
-                <iframe src="https://www.google.com/maps/d/embed?mid=zATSV5yInQAA.k5s1bG85T3D0" style="border-style: inherit;" width="640" height="480"></iframe>
-            </div>
+            <div class="col-lg-12">
+                <iframe src="https://www.google.com/maps/d/embed?mid=zATSV5yInQAA.k5s1bG85T3D0" style="margin-bottom: "-100px" style="border-style: inherit";" width="640" height="500">
+                </iframe>
+        </div>
         </div>
     </div>
 </div>

@@ -103,13 +103,13 @@
                                         <p><span>Taille :</span>  180 mm x 200 mm x 45 mn, stockage pratique dans le sac de transport compris dans la boîte.</p>
                                         <p><span>Poids :</span> 850 g.</p>
                                     </div>
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
-                                        <i class="fa fa-amazon"></i>
-                                    </a>
                                 </div>
 
                                 <!-- PARTIE DU BAS DE LA MODALE BOUTON FERMER -->
                                 <div class="modal-footer">
+                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
+                                        <i class="fa fa-amazon"></i>
+                                    </a>
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
                             </div>
@@ -159,17 +159,33 @@
     </div>
 
     <!--AVIS -->
-    <div class="container-fluid">
+
         <div class="row bloc_avis">
-            <div class="cycle-slideshow">
-                <img src="images/com1.png" alt="comment"/>
-                <img src="images/com2.png" alt="comment"/>
-                <img src="images/com3.png" alt="comment"/>
-                <img src="images/com4.png" alt="comment"/>
-                <img src="images/com5.png" alt="comment"/>
-            </div>
+            <ul id="lightSlider">
+                <li>
+                    <h4>Emilie, 38 ans:</h4>
+                    <p>« Nous avons passé une soirée en amoureux comme à l'époque de notre rencontre : à se découvrir, se confier des choses et se réserver même quelques surprises! Un bon moment de complicité. »</p>
+                </li>
+                <li>
+                    <h4>Jeanne, 32 ans :</h4>
+                    <p>« Nous avons passé un très bon moments, en couple, autour d'une bougie, à nous confier et à rire autour de ces cartes qui sont vraiment très bien faites... A recommander à tous ceux qui s'aiment et qui venlent accorder du temps à leur relation de couple ! »</p>
+                </li>
+            </ul>
         </div>
         <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et ici pour la famille.</p>
     </div>
-</div>
 
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightSlider").lightSlider({
+            item: 3,
+            autoWidth: true,
+            mode: "fade",
+            auto: true,
+            loop: true,
+            controls: false,
+            pager: false,
+        });
+    });
+</script>

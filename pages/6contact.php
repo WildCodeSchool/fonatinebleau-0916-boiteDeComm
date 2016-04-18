@@ -2,10 +2,13 @@
 
   <!-- Titre section contact -->
   <div class="row image_section">
-    <img class="imgblog" src="images/Blog.png" alt="blog"/>
-    <h2>CONTACT</h2>
-    <p>Une question ? Nous vous recontacterons avec plaisir</p>
-  </div>
+ 
+  <h2>CONTACT</h2>
+ <img src="images/Contact(1).png" alt="" width="60%" height="20%">
+<p>Une question ? Remplissez le formulaire ci-dessous, nous vous recontacterons avec plaisir</p></figcaption>
+
+
+
 
   <div class="col-md-offset-3 col-md-6">
     <form class="form-horizontal">
@@ -47,10 +50,17 @@
       </div>
       <div class="text-center"> 
        <input class="btn-info" value="ENVOYER" type="submit">
-      </div>
-    </form>  
-  </div> 
+       </div>
+       </form>
+  </div>
 </div>
+</div>
+
+     
+
+ 
+
+
 
 
 

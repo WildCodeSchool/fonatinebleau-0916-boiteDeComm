@@ -138,7 +138,7 @@ p{
 
 .texte_header{
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -158,11 +158,18 @@ p{
   }
 }
 @media screen and (max-width: 550px) {
+  .photoheader{
+    width: 100%; 
+    height: auto;
+  }
   #logo_header {
-    width: 70%
+    width: 25%
   }
   .texte_header{
-    top: 70%;
+    top: 10%;
+  }
+  .texte_header h2{
+    font-size: 20px;
   }
 }
 
@@ -350,6 +357,16 @@ p{
   margin-top: 60px;
 }
 
+/* Slider commentaire */
+.lSSlideOuter .lightSlider {
+  max-width: 700px;
+  margin: 0 auto;
+}
+#section1 .bloc_avis{
+  margin-top: 30px;
+  text-align: center;
+}
+
 @media screen and (max-width: 990px){
   #section1 .container_boite .img_boite{
     width: 100%;
@@ -414,10 +431,7 @@ p{
 
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
 
-#section1 .bloc_avis {
-  margin-top: 60px;
-  text-align: center;
-}
+
 #section1 .commentaireamazon{
   text-align: center;
   margin-top: 30px;
@@ -499,56 +513,38 @@ p{
   text-align: center;
   background-color: #E5E5E5;
 }
+#section4 .image_section{
+  margin-bottom: 70px;
+}
 #section4 .image_section img{
   width: 35%;
   height: 35%;
 }
-.feature img {
-  margin-bottom: 2em;
+
+#section4 .img_equipe{
+  width: 195px;
+  height: 217px;
 }
-.feature {
-  color: #444444;
-  font-weight: 300;
-  letter-spacing: 1px;
+#section4 .photocadre {
+  position: absolute;
+  top: -86px;
+  left: 0;
+  right: 0;
+  width: 280px;
+  height: 390px;
+  margin: 0 auto;
 }
-.feature p{
+#section4 .feature p{
   text-align: justify;
 }
-
-.prenom{
-  margin-top: 70px;
+#section4 .text_createur{
+  margin: 90px auto 30px auto;
+  width: 300px;
 }
-
-.texte {
-  margin-top: 35px;
-}
-
-.photocadre {
-  margin-left: -68px;
-  margin-top: -110px;
-}
-
-.photocadre1{
-  margin-top: -115px;
-  margin-left: -40px;
-}
-
-.photocadre2{
-  margin-top: -115px;
-  margin-left: -50px;
-}
-.photocadre3{
-  margin-top: -115px;
-  margin-left: -40px;
-}
-
-.equipeimg{
-  position: middle;
-  margin:auto;
-
-}
-.photomaud{
-  width: 195px
+@media screen and (max-width: 768px){    
+  #section4 .bloc_photo{
+      margin-top: 90px;
+    } 
 }
 
 /*#####################*/
@@ -572,15 +568,17 @@ p{
     width: 100%;
     border: 2px groove black;
 }
+.item img {
+    margin-left: auto;
+    margin-right: auto 
+}
 li a .masonry {
   color : black;
 }
 #section5{
   text-align: center;
 }
-#section5 .imgblog{
-  width: 50%;
-}
+
 #section5 .nav_archive li:first-child{
   font-size: 18px;
   margin-top: 0px;
@@ -610,6 +608,8 @@ li a .masonry {
 /*#####################*/
 /* CONTACT */
 /*#####################*/
+
+
 #section6{
   background-color: #E5E5E5;
 }
@@ -619,33 +619,43 @@ li a .masonry {
   background-image: none;
   border: none;
 }
+#section6 h2 {
+margin-top : 80px;
+margin-left: auto;
+margin-right: auto 
+}
+#section6 img {
+margin-top: -150px;
+}
+#section6 p {
+font-size: 18px;
+}
 
 /*#####################*/
 /* FOOTER */
 /*#####################*/
 
 /* Set the fixed height of the footer here */
-.footer {
+#footer {
+  width:100%;
   height: 60px;
   background-color: grey;
-  margin-top:50px;
+  margin-top:5px;
   padding-top:20px;
   padding-bottom:20px;
 }
-a .footer {
-text-decoration: none;
+#footer a {
 color: white;
-
-}
-.imagebambin{
-  margin-left: 100px;
-};
-}
-.video{
-  display: inline; 
-  color:#000000;
+font-size: 18px;
 }
 
+/* ANIMATION DES COMMENTAIRES/DES AVIS */
+.bloc_avis{
+  margin-top: 60px;
+  width: 100%;
+=======
+.fa.fa-twitter {
+  font-size: 25px;
 
-
+}
 

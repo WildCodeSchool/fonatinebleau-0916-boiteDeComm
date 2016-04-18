@@ -53,5 +53,53 @@
                 </p>
             </div>
         </div> 
+
+        <!-- Seconde ligne insertion des logos -->
+        <div class="col-md-4 col-md-offset-4">
+            <div class="row">
+                <img src="images/mairies.png" />
+            </div> 
+        </div>
     </div>
+
+    <div class="container-fluid">
+        <div class="row les_partenaires">
+                        
+                        <!-- Colonne 1 -->
+            <div class="col-md-4 colonegauche">
+
+            </div>
+                        
+                        <!-- Colonne 2 -->
+            <div class="col-md-4 colonecentre">
+
+            </div>
+                        
+                        <!-- Colonne 3 -->
+            <div class="col-md-4 colonedroite">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row les_partenaires">
+                        
+                        <!-- Colonne 1 -->
+            <div class="col-md-4 colonegauche">
+
+            </div>
+                        
+                        <!-- Colonne 2 -->
+            <div class="col-md-4 colonecentre">
+
+            </div>
+                        
+                        <!-- Colonne 3 -->
+            <div class="col-md-4 colonedroite">
+
+            </div>
+        </div>
+    </div>
+    
 </div> 

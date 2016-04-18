@@ -103,13 +103,13 @@
                                         <p><span>Taille :</span>  180 mm x 200 mm x 45 mn, stockage pratique dans le sac de transport compris dans la boîte.</p>
                                         <p><span>Poids :</span> 850 g.</p>
                                     </div>
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
-                                        <i class="fa fa-amazon"></i>
-                                    </a>
                                 </div>
 
                                 <!-- PARTIE DU BAS DE LA MODALE BOUTON FERMER -->
                                 <div class="modal-footer">
+                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
+                                        <i class="fa fa-amazon"></i>
+                                    </a>
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
                             </div>

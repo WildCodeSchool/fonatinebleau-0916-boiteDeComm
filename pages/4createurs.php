@@ -3,10 +3,11 @@
   <!-- Image et titre equipe -->
   <div class="row image_section">
     <img src="images/Equipe.png" alt="equipe"/>
-    <h2>EQUIPE</h2>
   </div>
-
-  <div class="container">
+  <div> 
+    <h2 class="titreequipe">EQUIPE</h2>
+  </div>
+    <div class="container">
      <div class="row text-center">
        <div class="col-sm-6 col-md-3">
             <div class="feature">

@@ -29,6 +29,54 @@
             </div>
         </div>
     </div>
+    
+    <!-- Liste des points de vente 2 -->
+    <div class="container-fluid point_de_vente">
+         <div class="row">
+            <div class="col-sm-2 col-xs-3">
+
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Lise des points de vente 3 -->
+    <div class="container-fluid point_de_vente">
+         <div class="row">
+            <div class="col-sm-2 col-xs-3">
+
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+            <div class="col-sm-2 col-xs-3">
+                
+            </div>
+        </div>
+    </div>
 
     <div class="row image_section">
         <img class="magasin" src="images/boutique.png" alt="nous_trouver_en_magasin"/>

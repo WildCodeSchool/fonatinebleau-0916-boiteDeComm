@@ -2,12 +2,12 @@
 
   <!-- Titre section contact -->
   <div class="row image_section">
-    <figure>
-  <img src="images/Contact(1).png" alt="" />
-  <figcaption><h2>CONTACT</h2></figcaption>
-  <figcaption><p>Une question ? Nous vous recontacterons avec plaisir</p></figcaption>
+ 
+  <h2>CONTACT</h2>
+ <img src="images/Contact(1).png" alt="" width="20%" height="20%">
+<p>Une question ? Nous vous recontacterons avec plaisir</p></figcaption>
 
-</figure>
+
 
 
   <div class="col-md-offset-3 col-md-6">

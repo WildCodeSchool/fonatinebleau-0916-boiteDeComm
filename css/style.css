@@ -619,7 +619,15 @@ li a .masonry {
   background-image: none;
   border: none;
 }
-
+#section6 h2 {
+margin-top : 40px;
+}
+#section6 img {
+margin-top: -110px;
+}
+#section6 p {
+font-size: 18px;
+}
 /*#####################*/
 /* FOOTER */
 /*#####################*/

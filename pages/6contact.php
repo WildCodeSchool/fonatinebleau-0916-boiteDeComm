@@ -4,8 +4,8 @@
   <div class="row image_section">
  
   <h2>CONTACT</h2>
- <img src="images/Contact(1).png" alt="" width="20%" height="20%">
-<p>Une question ? Nous vous recontacterons avec plaisir</p></figcaption>
+ <img src="images/Contact(1).png" alt="" width="60%" height="20%">
+<p>Une question ? Remplissez le formulaire ci-dessous, nous vous recontacterons avec plaisir</p></figcaption>
 
 
 

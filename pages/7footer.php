@@ -27,7 +27,7 @@ $('#btnYes').click(function() {
   <div class="container-footer" style="#">
     <div class="row">
     
-      <div class="col-sm-offset-1 col-sm-3">
+     <div class="col-sm-offset-1 col-sm-3 col-xs-3">
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
@@ -89,7 +89,7 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
       </div>
   </div>
 
- <div class="col-sm-offset-1 col-sm-3">
+<div class="col-sm-offset-1 col-sm-3 col-xs-3">
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
@@ -520,7 +520,7 @@ Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
   </div>
 </div>
 
- <div class="col-sm-offset-1 col-sm-3">
+ <div class="col-sm-offset-1 col-sm-3 col-xs-3">
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->

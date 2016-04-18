@@ -576,15 +576,17 @@ p{
     width: 100%;
     border: 2px groove black;
 }
+.item img {
+    margin-left: auto;
+    margin-right: auto 
+}
 li a .masonry {
   color : black;
 }
 #section5{
   text-align: center;
 }
-#section5 .imgblog{
-  width: 50%;
-}
+
 #section5 .nav_archive li:first-child{
   font-size: 18px;
   margin-top: 0px;
@@ -614,6 +616,8 @@ li a .masonry {
 /*#####################*/
 /* CONTACT */
 /*#####################*/
+
+
 #section6{
   background-color: #E5E5E5;
 }
@@ -624,14 +628,17 @@ li a .masonry {
   border: none;
 }
 #section6 h2 {
-margin-top : 40px;
+margin-top : 80px;
+margin-left: auto;
+margin-right: auto 
 }
 #section6 img {
-margin-top: -110px;
+margin-top: -150px;
 }
 #section6 p {
 font-size: 18px;
 }
+
 /*#####################*/
 /* FOOTER */
 /*#####################*/
@@ -650,8 +657,14 @@ color: white;
 font-size: 18px;
 }
 
+/* ANIMATION DES COMMENTAIRES/DES AVIS */
+.bloc_avis{
+  margin-top: 60px;
+  width: 100%;
+=======
 .fa.fa-twitter {
   font-size: 25px;
+
 }
 
 

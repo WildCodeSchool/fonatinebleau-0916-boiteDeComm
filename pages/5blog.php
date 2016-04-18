@@ -53,7 +53,7 @@
                             <a href="http://www.galerieslafayette.com/" alt="#">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a>
                         </div>
                         <div class="row">
-                            <img src="https://static.wixstatic.com/media/c294cc_4ad3d663ca254e99bcf6bea33918e725.png/v1/fill/w_181,h_181,al_c,usm_0.66_1.00_0.01/c294cc_4ad3d663ca254e99bcf6bea33918e725.png" class="img-responsive">
+                            <img src="https://static.wixstatic.com/media/c294cc_4ad3d663ca254e99bcf6bea33918e725.png/v1/fill/w_181,h_181,al_c,usm_0.66_1.00_0.01/c294cc_4ad3d663ca254e99bcf6bea33918e725.png">
                         </div>
                         <div class="row">
                             <a class="btn btn-default" href="http://www.galerieslafayette.com/">En savoir plus</a>  
@@ -64,7 +64,7 @@
                             <a href="http://aventureviedefamille.blogspot.fr/2016/03/la-boite-de-comm-de-la-famille.html">Article sur le blog "La vie de Famille : quelle aventure ! 07/03/2016</a>
                         </div>
                         <div class="row">
-                            <img src="https://static.wixstatic.com/media/c294cc_9a6ee3cdd1d843a98a357d67c4ec30aa.png/v1/fill/w_181,h_127,al_c,usm_0.66_1.00_0.01/c294cc_9a6ee3cdd1d843a98a357d67c4ec30aa.png" class="img-responsive" alt="#">
+                            <img src="https://static.wixstatic.com/media/c294cc_9a6ee3cdd1d843a98a357d67c4ec30aa.png/v1/fill/w_181,h_127,al_c,usm_0.66_1.00_0.01/c294cc_9a6ee3cdd1d843a98a357d67c4ec30aa.png" alt="#">
                         </div>
                         <div class="row">
                             <a class="btn btn-default" href="http://aventureviedefamille.blogspot.fr/2016/03/la-boite-de-comm-de-la-famille.html">En savoir plus</a>
@@ -76,7 +76,7 @@
                             <a href="http://www.lesjeuxdedames.com/index.html">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. 07/03/2016</a>
                         </div>
                         <div class="row">
-                            <img src="https://static.wixstatic.com/media/c294cc_fba7ffb18116462f8bad94ccfb518ff7.jpg/v1/fill/w_181,h_258,al_c,q_80,usm_0.66_1.00_0.01/c294cc_fba7ffb18116462f8bad94ccfb518ff7.jpg" class="img-responsive" alt="#">
+                            <img src="https://static.wixstatic.com/media/c294cc_fba7ffb18116462f8bad94ccfb518ff7.jpg/v1/fill/w_181,h_258,al_c,q_80,usm_0.66_1.00_0.01/c294cc_fba7ffb18116462f8bad94ccfb518ff7.jpg" alt="#">
                         </div>
                         <div class="row">
                             <a class="btn btn-default" href="http://www.lesjeuxdedames.com/index.html">En savoir plus</a>
@@ -88,8 +88,7 @@
                             <a href="https://youtu.be/tyrLCxsIHTc">TV France3 Lorraine. 05/02/2016</a>
                         </div>
                         <div class="row">
-                            <img src="https://static.wixstatic.com/media/c294cc_7570924bbb864782a344e885d72462eb.jpg/v1/fill/w_181,h_138,al_c,q_80,usm_0.66_1.00_0.01/c294cc_7570924bbb864782a344e885d72462eb.jpg" 
-                            class="img-responsive" alt="#">
+                            <img src="https://static.wixstatic.com/media/c294cc_7570924bbb864782a344e885d72462eb.jpg/v1/fill/w_181,h_138,al_c,q_80,usm_0.66_1.00_0.01/c294cc_7570924bbb864782a344e885d72462eb.jpg" alt="#">
                         </div>
                         <div class="row">
                             <a class="btn btn-default" href="https://youtu.be/tyrLCxsIHTc">En savoir plus</a>
@@ -101,7 +100,7 @@
                             <a href="http://www.notrefamille.com">Campagne de pub Saint Valentin Notre famille.com, enfant.com, familiscope. 05/02/2016</a>
                         </div>
                         <div class="row">
-                            <img src="https://static.wixstatic.com/media/c294cc_4de5bd50d2314975a921dd57c8a5678e.png/v1/fill/w_181,h_76,al_c,usm_0.66_1.00_0.01/c294cc_4de5bd50d2314975a921dd57c8a5678e.png" class="img-responsive" alt="#">
+                            <img src="https://static.wixstatic.com/media/c294cc_4de5bd50d2314975a921dd57c8a5678e.png/v1/fill/w_181,h_76,al_c,usm_0.66_1.00_0.01/c294cc_4de5bd50d2314975a921dd57c8a5678e.png" alt="#">
                         </div>
                         <div class="row">
                             <a class="btn btn-default" href="http://www.notrefamille.com">En savoir plus</a>

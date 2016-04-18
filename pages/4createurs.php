@@ -1,20 +1,12 @@
-<div class="divider" id="section4"></div>
-  <div class="rowequipe">
-  <img class="equipeimg" src="images/Equipe.png" alt="equipe" width="35%" height="35%">
-      <div class="container"> 
-        <h2 style="font-size: 40px;">
-          EQUIPE
-        </h2>
-      <div class="row"
-        <div class="col-lg-12 md-12"></div>
-    </div>
+<div id="section4">
 
+  <!-- Image et titre equipe -->
+  <div class="row image_section">
+    <img src="images/Equipe.png" alt="equipe"/>
+    <h2>EQUIPE</h2>
+  </div>
 
-
-
-<div class="vertical-spacer"></div>
-
-   <div class="container">
+  <div class="container">
      <div class="row text-center">
        <div class="col-sm-6 col-md-3">
             <div class="feature">

@@ -85,18 +85,6 @@
 
                     <div class="item">
                         <div class="row title">
-                            <a href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" 22/02/2016</a>
-                        </div>
-                        <div class="row">
-                            <img src="http://www.lesboitesdecomm.com/#!Article-sur-le-site-Maman-Vogue/c1bs5/56d04d260cf2f9aefdc51401" alt="#">
-                        </div>
-                        <div class="row">
-                            <a class="btn btn-default" href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">En savoir plus</a>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row title">
                             <a href="https://youtu.be/tyrLCxsIHTc">TV France3 Lorraine. 05/02/2016</a>
                         </div>
                         <div class="row">

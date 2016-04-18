@@ -2,7 +2,6 @@
 
   <!-- Titre section contact -->
   <div class="row image_section">
-    <img class="imgblog" src="images/Blog.png" alt="blog"/>
     <h2>CONTACT</h2>
     <p>Une question ? Nous vous recontacterons avec plaisir</p>
   </div>

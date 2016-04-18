@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/typed.js"></script>
-    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
     <script src="js/bootstrap.js"></script>
+
+
    
 
     <script type="text/javascript">
@@ -22,25 +26,17 @@
     <script type="text/javascript">
         jQuery(window).load(function () {
             jQuery('#loading').hide();
+            $("#logo_header").fadeIn(7000);
+            $(".texte_header").typed({
+              strings: ["^4000 <h2>LES JEUX QUI VONT VOUS FAIRE PARLER ET RIRE</h2>"],
+              showCursor: false
+            });
         });
     </script>
 
     <!-- Apparition progressive du logo -->
-    <script type="text/javascript">
-       $(document).ready(function(){
-          $("#logo_header").delay(4000).fadeIn(2000);
-       });
-    </script>
 
     <!-- Ecriture progressive du texte -->
-    <script>
-      $(function(){
-        $(".texte_header").typed({
-          strings: ["^8000 <h2>LES JEUX QUI VONT VOUS FAIRE PARLER ET RIRE</h2>"],
-          showCursor: false
-        });
-      });
-    </script>
   </head>
 
   <body>

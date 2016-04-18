@@ -214,9 +214,9 @@ p{
 }
 .mynav .nav_bar_rigth .panier{
   color: white;
+  background-color:grey;
   font-size: 20px;
   padding: 10px 10px;
-  background-color:grey;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 10px;
@@ -610,18 +610,16 @@ li a .masonry {
 /*#####################*/
 /* CONTACT */
 /*#####################*/
-.contactmarge{
-  margin-top: 150px;
+#section6{
+  background-color: #E5E5E5;
+}
+#section6 .btn-info{
+  color: white;
+  background-color:grey;
+  background-image: none;
+  border: none;
 }
 
-.tout{
-  background-color: gray;
-}
-
-
-
-
->>>>>>> af3a405046377c53e714e3f30d13d14f7718f624
 /*#####################*/
 /* FOOTER */
 /*#####################*/
@@ -637,6 +635,7 @@ li a .masonry {
 a .footer {
 text-decoration: none;
 color: white;
+
 }
 .imagebambin{
   margin-left: 100px;

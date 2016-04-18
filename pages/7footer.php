@@ -22,21 +22,16 @@ $('#btnYes').click(function() {
     $('#myModal').modal('hide');
 });
 </script>
-
-       
-    </form>
-  </div>
-
-</div>
+<div id="section7">
 <div id="footer">
-  <div class="container-footer" style="background-color: gray">
+  <div class="container-footer" style="#">
     <div class="row">
     
-      <div class="col-sm-3">
+     <div class="col-sm-offset-1 col-sm-3 col-xs-3">
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
- <a href="#myModalfooter" style="color: white" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
+ <a href="#myModalfooter" style="#" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
 
 <!-- Modal -->
             <div id="myModalfooter" class="modal fade" role="dialog">
@@ -94,12 +89,12 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
       </div>
   </div>
 
- <div class="col-sm-3">
+<div class="col-sm-offset-1 col-sm-3 col-xs-3">
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
 
-<a href="#myModalfooter1" style="color: white" data-toggle="modal" data-target="#myModalfooter1">Conditions générales de ventes</a>
+<a href="#myModalfooter1" style="#" data-toggle="modal" data-target="#myModalfooter1">Conditions générales de ventes</a>
 
 
 <!-- Modal -->
@@ -525,12 +520,12 @@ Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
   </div>
 </div>
 
- <div class="col-sm-3">
+ <div class="col-sm-offset-1 col-sm-3 col-xs-3">
     <div class="foot-header">
         <div class="container">
 <!-- Trigger the modal with a button -->
 
-<a href="#myModalfooter2" style="color: white" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
+<a href="#myModalfooter2" style="#" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
 
 <!-- Modal -->
         <div id="myModalfooter2" class="modal fade" role="dialog">
@@ -576,94 +571,31 @@ Tout est donc totalement sécurisé..</p>
 </div>
 </div>
 </div>
+</div>
+
 
      <div class="col-sm-3">
         <div class="foot-header">
          <div class="container-footer">
 <!-- Trigger the modal with a button -->
-
-<a href="#myModalfooter3" style="color: white" data-toggle="modal" data-target="#myModalfooter3">Contact</a>
-
-<!-- Modal -->
-<div id="myModalfooter3" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Nous contactez</h4>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-    <div class="col-lg-6">
-        <form class="form-horizontal">
-            <div class="form-group text-center"></div>
-            <div class="form-group">
-                <div class="input-group">
-                    <label>Civilité</label>
-                    <div>
-                        <label><input name="civ" value="M" type="radio"> M&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <label><input name="civ" value="Mlle" type="radio"> Mlle&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <label><input name="civ" value="Mme" type="radio"> Mme&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <label class="input-group-addon">
-                        <span class="glyphicon glyphicon-user"></span>
-                    </label>
-                    <input placeholder="Nom*" name="nom" class="form-control" required="required" type="text">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <label class="input-group-addon">
-                        <span class="glyphicon glyphicon-user"></span>
-                    </label>
-                    <input placeholder="Prénom*" name="prenom" class="form-control" required="required" type="text">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <label class="input-group-addon">
-                        <span class="glyphicon glyphicon-envelope"></span>
-                    </label>
-                    <input placeholder="Email*" name="email" class="form-control" required="required" type="text">
-                </div>
-            </div>
-             <div class="form-group">
-                <div class="input-group col-lg-6">
-                    <label>Message*</label>
-                    <textarea placeholder="Message..." class="form-control col-lg-6" rows="5"></textarea>
-                </div>
-            </div>
-            <div class="form-group text-center"></div>
-            <div class="form-group">
-                <button class="btn btn-success" type="submit">ENVOYER</button>
-            </div>
-        </form>
-    </div>
-</div>
-
-          <div class="modal-footer">
-         <button type="button" class="close" data-dismiss="modal">close</button>
-            </div>
           </div>
         </div>
       </div>
+
+
+        
+      
     </div>
   </div>
 </div>
+</div>
     
   	</div><!--/row-->
+    <div class="container-footer" style="background-color: grey">
   <div class="row">
         <div class="col-sm-4 text-center">
         	Copyright © Les Boites de Comm' Tous droits réservés
-
-        </div>
-
+         </div>
         <div class="col-sm-4 text-right">
         <a href="https://www.facebook.com/boitesdecomm">
         	<span class="fa-stack fa-lg">
@@ -672,23 +604,29 @@ Tout est donc totalement sécurisé..</p>
           </span>
         </a>
           <span class="fa-stack fa-lg">
-          <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
+          <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy"></a>
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-              <a href="https://plus.google.com/+Lesboitesdecomm/posts">
+              <a href="https://plus.google.com/+Lesboitesdecomm/posts"></a>
             </span>
             </a>
-            <a href="https://www.youtube.commentaire/channel/UCvlzYRQWxjhsrL6crS0W86g">
+            <a href="https://www.youtube.commentaire/channel/UCvlzYRQWxjhsrL6crS0W86g"></a>
 
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
                <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g"></a>
             </span>
+
+             <span class="fa-stack fa-lg">
+              <i class="fa fa-circle text-info fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
         </div>
       </div>
-  </div><!--/container-->
-</div><!--/footer-->
+    </div>
+  </div>
+
 
 
            

@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/lightslider.js"></script>

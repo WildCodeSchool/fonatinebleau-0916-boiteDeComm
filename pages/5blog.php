@@ -97,54 +97,6 @@
 
                     <div class="item">
                         <div class="row title">
-                            <a href="https://www.facebook.com/boitesdecomm?ref=hl">Jeu concours Maman Vogue sur Facebook. 26/02/2016</a>
-                        </div>
-                        <div class="row title">
-                            <img src="https://static.wixstatic.com/media/c294cc_1e369395193041f8b935cb70ae9722e3.png/v1/fill/w_181,h_145,al_c,usm_0.66_1.00_0.01/c294cc_1e369395193041f8b935cb70ae9722e3.png"alt="#">
-                        </div>
-                        <div class="row">
-                            <a class="btn btn-default" href="https://www.facebook.com/boitesdecomm?ref=hl">En savoir plus</a>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row title">
-                            <a href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour". 11/02/2016</a>
-                        </div>
-                        <div class="row">
-                            <img src="https://youtu.be/pg09NQfpUhg" alt="#">
-                        </div>
-                        <div class="row">
-                            <a class="btn btn-default" href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">En savoir plus</a>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row title">
-                            <a href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">Vidéo « Flagrant Délit d’Amour » en partenariat avec La Brigade de l’Amour et Parlez d’Amour. 08/02/2016</a>
-                        </div>
-                        <div class="row">
-                            <img src="https://youtu.be/pg09NQfpUhg" alt="#">
-                        </div>
-                        <div class="row">
-                            <a class="btn btn-default" href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">En savoir plus</a>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row title">
-                            <a href="https://lpfcdn.net/media/2016/02/Capture-d%E2%80%99e%CC%81cran-2016-02-10-a%CC%80-13.22.51.png">Les Petits Franchies : Vidéo Vive L'Amour à la Française 08/02/2016</a>
-                        </div>
-                        <div class="row">
-                            <img src="https://fr.petitsfrenchies.com/article-la-boite-de-comm-du-couple/" alt="#">
-                        </div>
-                        <div class="row">
-                            <a class="btn btn-default" href="https://lpfcdn.net/media/2016/02/Capture-d%E2%80%99e%CC%81cran-2016-02-10-a%CC%80-13.22.51.png">En savoir plus</a>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row title">
                             <a href="https://youtu.be/tyrLCxsIHTc">TV France3 Lorraine. 05/02/2016</a>
                         </div>
                         <div class="row">
@@ -183,7 +135,8 @@
             </div><!--/.well -->
             
         </div><!-- Fin row actuallité -->
-</div><!--/.container-->
+    </div><!--/.container-->
+</div>
 
 
 <script>(function(d, s, id) {

@@ -1,32 +1,29 @@
-<div class="divider-form" id="section6"></div>
+<div id="section6">
 
+  <!-- Titre section contact -->
+  <div class="row image_section">
+    <img class="imgblog" src="images/Blog.png" alt="blog"/>
+    <h2>CONTACT</h2>
+    <p>Une question ? Nous vous recontacterons avec plaisir</p>
+  </div>
 
-<div class="containercontact">
-  <p><strong>CONTACTEZ NOUS</strong><br><br>
-  Une question sur nos programmes ou notre société ? Remplissez le formulaire ci-dessous, nous vous recontacterons.</p>
   <div class="col-md-offset-3 col-md-6">
-     <form class="form-horizontal">
-      <div class="row">Civilité
-      <div class="row">
-        	<input name="civ" value="M" type="radio"> M&nbsp;&nbsp;&nbsp;&nbsp;
-          	<input name="civ" value="Mlle" type="radio"> Mlle&nbsp;&nbsp;&nbsp;&nbsp;
-          	<input name="civ" value="Mme" type="radio"> Mme&nbsp;&nbsp;&nbsp;&nbsp;
-      <br>
+    <form class="form-horizontal">
       <div class="form-group">
-  		<div class="input-group">
-            <span class="input-group-addon">
-              <i class="glyphicon glyphicon-user"></i>
-          	</span>
+        <div class="input-group">
+          <span class="input-group-addon">
+            <i class="glyphicon glyphicon-user"></i>
+            </span>
             <input placeholder="Nom" name="nom" class="form-control" required="required" type="text">
-     	</div>
+        </div>
       </div>
       <div class="form-group">
-  		<div class="input-group">
-            <span class="input-group-addon">
-              <i class="glyphicon glyphicon-user"></i>
-          	</span>
-            <input placeholder="Prénom" name="prenom" class="form-control" required="required" type="text">
-      </div>
+        <div class="input-group">
+          <span class="input-group-addon">
+            <i class="glyphicon glyphicon-user"></i>
+          </span>
+          <input placeholder="Prénom" name="prenom" class="form-control" required="required" type="text">
+        </div>
       </div>
 
       <div class="form-group">
@@ -45,16 +42,16 @@
           <input placeholder="Email" name="email" class="form-control" required="required" type="text">
         </div>
       </div>
-       <br>
-      <div class="row">
-      <textarea placeholder="Tapez votre message ici..." name="message" class="form-control" required="required"></textarea>
+      <div class="form-group">
+        <textarea placeholder="Tapez votre message ici..." name="message" class="form-control" required="required"></textarea>
       </div>
-      <br><br>
       <div class="text-center"> 
        <input class="btn-info" value="ENVOYER" type="submit">
-          </div>
-        </form>  
-      </div> 
-    </div>
+      </div>
+    </form>  
+  </div> 
 </div>
+
+
+
 

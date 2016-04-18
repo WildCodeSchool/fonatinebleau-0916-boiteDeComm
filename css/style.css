@@ -473,7 +473,7 @@ li a .masonry {
   background-color: white;
 }
 
-<<<<<<< HEAD
+
 .containercontact {
 background-color:white;
 background-image:url(background-color:white;
@@ -487,14 +487,10 @@ background-image:url(images/image_de_fond.png););
 /*#####################*/
 /* CONTACT */
 /*#####################*/
-.contactmarge{
-  margin-top: 150px;
+#section7 .containercontact p {
+max-width : 10%;
+max-height: :10%;
 }
-
-.tout{
-  background-color: gray;
-}
-
 
 
 
@@ -515,14 +511,7 @@ a .footer {
 text-decoration: none;
 color: white;
 }
-.imagebambin{
-  margin-left: 250px;
-};
-}
-.video{
-  display: inline; 
-  color:#000000;
-}
+
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
 .bloc_avis{
   margin-top: 60px;

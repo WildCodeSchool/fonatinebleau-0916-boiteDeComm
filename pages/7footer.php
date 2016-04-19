@@ -573,7 +573,10 @@ Tout est donc totalement sécurisé..</p>
 </div>
 </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> develop
     
   	</div><!--/row-->
     <div class="container-footer" style="background-color: grey">

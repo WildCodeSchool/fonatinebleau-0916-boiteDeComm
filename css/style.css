@@ -615,6 +615,12 @@ li a .masonry {
   border: none;
 }
 #section6 h2 {
+margin-top : 100px;
+padding-left :40px;
+}
+
+#section6 img {
+margin-right: 80px;
 margin-top : 40px;
 
 }

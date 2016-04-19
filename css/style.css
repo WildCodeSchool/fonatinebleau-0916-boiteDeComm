@@ -563,6 +563,9 @@ p{
     margin: 0 0 0.3em;
     width: 100%;
     border: 2px groove black;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
 }
 li a .masonry {
   color : black;
@@ -613,9 +616,11 @@ li a .masonry {
 }
 #section6 h2 {
 margin-top : 40px;
+
 }
 #section6 img {
 margin-top: -110px;
+margin-right : 100px;
 }
 #section6 p {
 font-size: 18px;

@@ -573,22 +573,6 @@ Tout est donc totalement sécurisé..</p>
 </div>
 </div>
 
-
-     <div class="col-sm-3">
-        <div class="foot-header">
-         <div class="container-footer">
-<!-- Trigger the modal with a button -->
-          </div>
-        </div>
-      </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-</div>
     
   	</div><!--/row-->
     <div class="container-footer" style="background-color: grey">

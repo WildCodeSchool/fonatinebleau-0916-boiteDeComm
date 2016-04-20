@@ -27,15 +27,10 @@ $('#btnYes').click(function() {
     <div class="container-footer" style="#">
       <div class="row">
     
-<<<<<<< HEAD
      <div class="col-sm-offset-1 col-sm-3 col-xs-3">
         <div class="foot-header">
          <div class="footer">
-=======
-        <div class="col-sm-offset-1 col-sm-3 col-xs-3">
-          <div class="foot-header">
-            <div class="footer">
->>>>>>> 4e09fd1ec9d9500b6ae36f87a194318a002d52f2
+      
 <!-- Trigger the modal with a button -->
  <a href="#myModalfooter" style="#" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
 
@@ -590,21 +585,14 @@ Tout est donc totalement sécurisé..</p>
             <i class="fa fa-circle text-primary fa-stack-2x"></i>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
           </span>
-<<<<<<< HEAD
         </a>
 
-         <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
-          <span class="fa-stack fa-lg">
-=======
-      </a> 
         
         <a href="https://plus.google.com/+Lesboitesdecomm/posts">
             <span class="fa-stack fa-lg">
->>>>>>> 4e09fd1ec9d9500b6ae36f87a194318a002d52f2
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
             </span>
-<<<<<<< HEAD
             </a>
 
             <a href="https://www.youtube.commentaire/channel/UCvlzYRQWxjhsrL6crS0W86g">
@@ -620,8 +608,6 @@ Tout est donc totalement sécurisé..</p>
               <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
             </span>
           </a>
-=======
-        </a>
           
           <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
             <span class="fa-stack fa-lg">
@@ -637,9 +623,9 @@ Tout est donc totalement sécurisé..</p>
               </span>
           </a>
              
+              </div>
             </div>
           </div>
->>>>>>> 4e09fd1ec9d9500b6ae36f87a194318a002d52f2
         </div>
       </div>
     </div>

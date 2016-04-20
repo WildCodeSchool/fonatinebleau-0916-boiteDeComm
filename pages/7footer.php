@@ -29,7 +29,7 @@ $('#btnYes').click(function() {
     
      <div class="col-sm-offset-1 col-sm-3 col-xs-3">
         <div class="foot-header">
-         <div class="container-footer">
+         <div class="footer">
 <!-- Trigger the modal with a button -->
  <a href="#myModalfooter" style="#" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
 
@@ -91,7 +91,7 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
 
 <div class="col-sm-offset-1 col-sm-3 col-xs-3">
     <div class="foot-header">
-        <div class="container">
+        <div class="footer">
 <!-- Trigger the modal with a button -->
 
 <a href="#myModalfooter1" style="#" data-toggle="modal" data-target="#myModalfooter1">Conditions générales de ventes</a>
@@ -522,7 +522,7 @@ Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
 
  <div class="col-sm-offset-1 col-sm-3 col-xs-3">
     <div class="foot-header">
-        <div class="container">
+        <div class="footer">
 <!-- Trigger the modal with a button -->
 
 <a href="#myModalfooter2" style="#" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
@@ -587,25 +587,28 @@ Tout est donc totalement sécurisé..</p>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
           </span>
         </a>
+
+         <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
           <span class="fa-stack fa-lg">
-          <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy"></a>
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
               <a href="https://plus.google.com/+Lesboitesdecomm/posts"></a>
             </span>
             </a>
-            <a href="https://www.youtube.commentaire/channel/UCvlzYRQWxjhsrL6crS0W86g"></a>
 
+            <a href="https://www.youtube.commentaire/channel/UCvlzYRQWxjhsrL6crS0W86g">
           <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-               <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g"></a>
             </span>
+            </a>
 
+ <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
              <span class="fa-stack fa-lg">
               <i class="fa fa-circle text-info fa-stack-2x"></i>
               <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
             </span>
+          </a>
         </div>
       </div>
     </div>

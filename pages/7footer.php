@@ -23,27 +23,33 @@ $('#btnYes').click(function() {
 });
 </script>
 <div id="section7">
-<div id="footer">
-  <div class="container-footer" style="#">
-    <div class="row">
+  <div id="footer">
+    <div class="container-footer" style="#">
+      <div class="row">
     
+<<<<<<< HEAD
      <div class="col-sm-offset-1 col-sm-3 col-xs-3">
         <div class="foot-header">
          <div class="footer">
+=======
+        <div class="col-sm-offset-1 col-sm-3 col-xs-3">
+          <div class="foot-header">
+            <div class="footer">
+>>>>>>> 4e09fd1ec9d9500b6ae36f87a194318a002d52f2
 <!-- Trigger the modal with a button -->
  <a href="#myModalfooter" style="#" data-toggle="modal" data-target="#myModalfooter">Mentions légales</a>
 
 <!-- Modal -->
-            <div id="myModalfooter" class="modal fade" role="dialog">
-              <div class="modal-dialog">
+                <div id="myModalfooter" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
 
     <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
+                    <div class="modal-content">
+                      <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
                   <h4 class="modal-title">Mentions légales</h4>
-                  </div>
-                  <div class="modal-body">
+                        </div>
+                          <div class="modal-body">
         <p>Propriétaire du site :​
 Bellifacto SAS au capital social de 6000 euros<br>
 
@@ -78,8 +84,8 @@ interdite. Il en est de même des bases de données accessibles sur le site www.
 Les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale​ ou partielle, effectuée à partir des éléments du site est prohibée.<br>
 
 Les informations contenues dans ce site sont données à titre indicatif et peuvent être modifiées à​ tout moment par lesboitesdecomm.com qui ne peut être tenu responsable du contenu erroné des​ informations qui peuvent être affichées. Lesboitesdecomm.com s'efforcent en effet d'inclure sur ce​ site des informations exactes et à jour mais ne donne aucune garantie à ce titre. En dépit du soin​ apporté au recueil des informations, des erreurs, omissions ou inexactitudes peuvent exister. En​ toute hypothèse et compte tenu des conditions d'utilisation, l'utilisateur du site et des informations​ qu'il contient, reconnaît qu'il en fait usage sous sa seule responsabilité ; lesboitesdecomm.com ne​ saurait en conséquence voir sa responsabilité engagée à raison de tout préjudice, direct ou indirect,​ de quelque nature que ce soit, résultant pour tout ou partie de l'utilisation de ce site ou l'impossibilité​ d'accès ou par toute erreur ou omission dans son contenu.</p>
-                    </div>
-                  <div class="modal-footer">
+                      </div>
+                    <div class="modal-footer">
                   <button type="button" class="close" data-dismiss="modal">Close</button>
                 </div>
               </div>
@@ -87,7 +93,7 @@ Les informations contenues dans ce site sont données à titre indicatif et peuv
           </div>
         </div>
       </div>
-  </div>
+    </div>
 
 <div class="col-sm-offset-1 col-sm-3 col-xs-3">
     <div class="foot-header">
@@ -510,9 +516,9 @@ Article 21 : Règlement de litiges En cas de litige, une solution amiable sera r
 
 Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
                   </div>
-                  <div class="modal-footer">
+                <div class="modal-footer">
                   <button type="button" class="close" data-dismiss="modal">Close</button>
-              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -537,7 +543,7 @@ Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
               <h4 class="modal-title">F.A.Q</h4>
               </div>
-            <div class="modal-body">
+                <div class="modal-body">
             <p>Pouvons-nous jouer à plusieurs couples ?<br>
 
 La Boîte de Comm’ du Couple est un jeu très personnel qui traite de l’intimité de votre couple. Ce jeu a donc été conçu pour se jouer à 2.<br>
@@ -561,39 +567,44 @@ Les données bancaires sont cryptées (norme de sécurité SSL) et ne circulent 
 Le consommateur communique son nom, le numéro de sa carte, sa date d’expiration et son cryptogramme.<br>
 
 Tout est donc totalement sécurisé..</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="close" data-dismiss="modal">Close</button>
+                </div>
+                  <div class="modal-footer">
+      <button type="button" class="close" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
+  </div><!--/row-->
     
-  	</div><!--/row-->
     <div class="container-footer" style="background-color: grey">
-  <div class="row">
+      <div class="row">
         <div class="col-sm-4 text-center">
         	Copyright © Les Boites de Comm' Tous droits réservés
-         </div>
-        <div class="col-sm-4 text-right">
-        <a href="https://www.facebook.com/boitesdecomm">
+        </div>
+      <div class="col-sm-4 text-right">
+      <a href="https://www.facebook.com/boitesdecomm">
         	<span class="fa-stack fa-lg">
             <i class="fa fa-circle text-primary fa-stack-2x"></i>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
           </span>
+<<<<<<< HEAD
         </a>
 
          <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
           <span class="fa-stack fa-lg">
+=======
+      </a> 
+        
+        <a href="https://plus.google.com/+Lesboitesdecomm/posts">
+            <span class="fa-stack fa-lg">
+>>>>>>> 4e09fd1ec9d9500b6ae36f87a194318a002d52f2
               <i class="fa fa-circle text-danger fa-stack-2x"></i>
               <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-              <a href="https://plus.google.com/+Lesboitesdecomm/posts"></a>
             </span>
+<<<<<<< HEAD
             </a>
 
             <a href="https://www.youtube.commentaire/channel/UCvlzYRQWxjhsrL6crS0W86g">
@@ -609,6 +620,26 @@ Tout est donc totalement sécurisé..</p>
               <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
             </span>
           </a>
+=======
+        </a>
+          
+          <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle text-danger fa-stack-2x"></i>
+              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle text-info fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+          </a>
+             
+            </div>
+          </div>
+>>>>>>> 4e09fd1ec9d9500b6ae36f87a194318a002d52f2
         </div>
       </div>
     </div>

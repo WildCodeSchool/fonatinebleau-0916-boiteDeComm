@@ -565,7 +565,14 @@ p{
     border: 2px groove black;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 60px;
+}
+.item img {
+  margin-right: auto;
+  margin-left: auto;
+}
+. item a {
+    margin-right: auto;
+    margin-left: auto;
 }
 li a .masonry {
   color : black;
@@ -613,8 +620,15 @@ li a .masonry {
   background-color:grey;
   background-image: none;
   border: none;
+
 }
 #section6 h2 {
+margin-top : 100px;
+padding-left :40px;
+}
+
+#section6 img {
+margin-right: 80px;
 margin-top : 40px;
 
 }

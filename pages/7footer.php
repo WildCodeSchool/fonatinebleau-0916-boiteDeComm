@@ -608,20 +608,6 @@ Tout est donc totalement sécurisé..</p>
               <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
             </span>
           </a>
-          
-          <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle text-danger fa-stack-2x"></i>
-              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-
-          <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle text-info fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-          </a>
              
               </div>
             </div>

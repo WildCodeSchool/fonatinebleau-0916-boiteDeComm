@@ -42,6 +42,7 @@
   </head>
 
   <body>
+  <div id="section0"></div>
    <div id="loading">
         <img src="images/Preloader_10.gif" alt="Loading..." />
    </div>

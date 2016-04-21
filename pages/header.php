@@ -47,7 +47,7 @@
    </div>
    <div id="extracontrols" class="hidden">
       <header>
-        <div class="row2">
+        <div class="row">
           <img class="photoheader" src="images/bandeau.jpg" alt="photo_header"/>
           <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm"/>
           <div class="texte_header"></div>

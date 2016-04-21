@@ -86,6 +86,7 @@
     <div class="container-fluid maps">
         <div class="row">
             <iframe src="https://www.google.com/maps/d/embed?mid=zATSV5yInQAA.k5s1bG85T3D0"></iframe>
+            <p>N'hésitez pas à appeler le magasin concerné pour vérifier la disponibilité du stock en temps réel.</p>
         </div>
     </div>
 </div>

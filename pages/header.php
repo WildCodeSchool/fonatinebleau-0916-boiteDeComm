@@ -40,8 +40,8 @@
 
     <!-- Ecriture progressive du texte -->
   </head>
-
   <body>
+  <div id="section0"></div>
    <div id="loading">
         <img src="images/Preloader_10.gif" alt="Loading..." />
    </div>
@@ -52,4 +52,5 @@
           <img id="logo_header" src="images/logo.png" alt="logo_boite_de_comm"/>
           <div class="texte_header"></div>
         </div>
+       </div>
       </header>

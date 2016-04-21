@@ -339,7 +339,7 @@ header .row{
 }
 /* Image famile */
 #section1 .image_famille{
-  width: 60%;
+  width: 80%;
 }
 
 #section1 .youtube {
@@ -436,7 +436,7 @@ header .row{
     position: relative;
 }
 /*#####################*/
-/* SECTION 3 DEVENIR PARTENAIRE */
+/* SECTION 2 DEVENIR PARTENAIRE */
 /*#####################*/
 
 #section2 {
@@ -525,7 +525,7 @@ header .row{
   margin: 0 auto;
 }
 #section4 .feature p{
-  text-align: justify;
+  text-align: center;
 }
 #section4 .text_createur{
   margin: 90px auto 30px auto;
@@ -559,7 +559,14 @@ header .row{
     border: 2px groove black;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 60px;
+}
+.item img {
+  margin-right: auto;
+  margin-left: auto;
+}
+. item a {
+    margin-right: auto;
+    margin-left: auto;
 }
 li a .masonry {
   color : black;
@@ -607,6 +614,7 @@ li a .masonry {
   background-color:grey;
   background-image: none;
   border: none;
+
 }
 #section6 h2 {
 margin-top : 100px;

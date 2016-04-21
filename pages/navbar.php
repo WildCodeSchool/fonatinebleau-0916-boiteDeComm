@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <div class="title_responsive">
-        <img src="images/logo.png" alt="logo" class="logo"/>
+        <a class="nav_list_left" href="#section0"><img src="images/logo.png" alt="logo" class="logo"/></a>
         <h1>LES BOITES DE COMM'</h1>
       </div>
     </div>
@@ -19,7 +19,7 @@
       <ul class="nav navbar-nav navbar-left">
         <li><a class="nav_list_left" href="#section1">PRODUITS</a></li>
         <li><a class="nav_list_left" href="#section2">DEVENIR PARTENAIRE</a></li>
-        <li><a class="nav_list_left" href="#section3">OU SOMMES NOUS?</a></li>
+        <li><a class="nav_list_left" href="#section3">OÙ SOMMES NOUS?</a></li>
         <li><a class="nav_list_left" href="#section4">EQUIPE</a></li>
         <li><a class="nav_list_left" href="#section5">BLOG</a></li>
         <li><a class="nav_list_left" href="#section6">CONTACT</a></li>

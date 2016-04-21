@@ -30,7 +30,7 @@
             jQuery('#loading').hide();
             $("#logo_header").fadeIn(7000);
             $(".texte_header").typed({
-              strings: ["^4000 <h2>LES JEUX QUI VONT VOUS FAIRE PARLER ET RIRE</h2>"],
+              strings: ["^4000 <h2>Envie de mettre du peps dans votre vie de couple ou de famille ?</h2>"],
               showCursor: false
             });
         });

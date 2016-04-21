@@ -586,7 +586,6 @@ Tout est donc totalement sécurisé..</p>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-
         
         <a href="https://plus.google.com/+Lesboitesdecomm/posts">
             <span class="fa-stack fa-lg">

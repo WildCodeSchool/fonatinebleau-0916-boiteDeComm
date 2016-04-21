@@ -572,7 +572,7 @@ Tout est donc totalement sécurisé..</p>
         </div>
       </div>
     </div>
-<<<<<<< HEAD
+
   </div>
 </div>
 </div>

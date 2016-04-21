@@ -46,9 +46,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39 euros + 4,90 euros frais de port)<i class="fa fa-shopping-cart"></i>
+                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
                                     </a>
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Acheter pour 43,90€ (39 euros + 3,90 euros frais de port) par<i class="fa fa-amazon"></i>
+                                      <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39 euros + 4,90 euros frais de port)<i class="fa fa-shopping-cart"></i>
                                     </a>
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
@@ -105,13 +105,16 @@
                                         <p><span>Nombre de joueurs :</span> à partir de 4 joueurs et sans limite.</p>
                                         <p><span>Taille :</span>  180 mm x 200 mm x 45 mn, stockage pratique dans le sac de transport compris dans la boîte.</p>
                                         <p><span>Poids :</span> 850 g.</p>
+                                        <p>"La livraison est possible partout dans le monde : voir le montant des frais de port
+                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">ici"</a><p>
                                     </div>
                                 </div>
 
                                 <!-- PARTIE DU BAS DE LA MODALE BOUTON FERMER -->
                                 <div class="modal-footer">
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
-                                        <i class="fa fa-amazon"></i>
+                                     <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
+                                     </a>
+                                      <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39 euros + 4,90 euros frais de port)<i class="fa fa-shopping-cart"></i>
                                     </a>
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
@@ -177,7 +180,6 @@
         </div>
         <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et ici pour la famille.</p>
     </div>
-
 
 <script type="text/javascript">
     $(document).ready(function() {

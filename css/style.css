@@ -627,11 +627,19 @@ margin-top : 40px;
 
 }
 #section6 img {
-margin-top: -110px;
+margin-top: none;
 margin-right : 100px;
+margin-left: 116px;
 }
 #section6 p {
-font-size: 18px;
+font-size: 20px;
+margin-top: 35px;
+margin-bottom: 35px;
+}
+
+.titrecontact {
+  text-align: center;
+  margin-right: 70px;
 }
 /*#####################*/
 /* FOOTER */

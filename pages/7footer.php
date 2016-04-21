@@ -572,8 +572,14 @@ Tout est donc totalement sécurisé..</p>
         </div>
       </div>
     </div>
-  </div><!--/row-->
-    
+<<<<<<< HEAD
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  	</div><!--/row-->
     <div class="container-footer" style="background-color: grey">
       <div class="row">
         <div class="col-sm-4 text-center">

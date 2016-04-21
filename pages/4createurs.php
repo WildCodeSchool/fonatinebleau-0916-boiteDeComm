@@ -40,7 +40,7 @@
         <div class="feature">
           <div class="bloc_photo">
             <img class="photocadre" src="images/cadre.png"/>
-            <img class="img_equipe" src="images/lui.png">
+            <img class="img_equipe" src="images/illus.png">
           </div>
           <div class="text_createur">
             <p>GUILLAUME LAGANE</p>

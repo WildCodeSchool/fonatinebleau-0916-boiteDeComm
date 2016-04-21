@@ -25,7 +25,7 @@
                             <a href="http://www.lesjeuxdedames.com/index.html">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. 07/03/2016</a>
                         </li>
                         <li>
-                            <a href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" 22/02/2016</a>
+                            <a href="http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" 22/02/2016</a>
                         </li>     
                         <li>
                             <a href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour".11/02/2016</a>

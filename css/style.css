@@ -70,11 +70,6 @@
 #section2{
   margin-top: 50px;
 }*/
-.row2{
-  text-align: center;
-  margin-top: none;
-  margin-bottom: none;
-}
 p, h1, h2, h3, h4, h5, h6, a{
   font-family: 'Chaparral';
 }
@@ -90,12 +85,6 @@ h2 {
   margin-top: 80px;
   margin-bottom: 40px;
 }
-h5 {
-  margin-top: 0px;
-  color: white;
-  max-height: 30px;
-  overflow: hidden;
-}
 p{
   margin: 0px 0px;
 }
@@ -109,6 +98,11 @@ p{
 .row{
   margin-right: 0px;
   margin-left: 0px;
+  margin-top: none;
+  margin-bottom: none;
+}
+header .row{
+  text-align: center;
 }
 /* Div pour ancre */
 

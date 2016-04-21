@@ -132,7 +132,7 @@
 
     <!-- Image pour section video -->
     <div class="row image_section">
-        <img class="image_famille" src="images/famille.png" alt="famille">
+        <img class="image_famille" src="images/Famille.png" alt="famille">
     </div>
 
     <!-- PARTIE VIDEO YOUTUBE + CADRE -->

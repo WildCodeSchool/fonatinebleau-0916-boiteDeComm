@@ -1,6 +1,7 @@
 <div id="section3">
 
     <!-- Image + titre section localisation -->
+<div class="fondinternet">  
     <div class="row image_section">
         <img class="internet" src="images/trouverligne.png" alt="nous_trouver_sur_le_net"/>
         <h2>NOUS TROUVER SUR INTERNET</h2>
@@ -77,6 +78,7 @@
             </div>
         </div>
     </div>
+</div>
 
     <div class="row image_section">
         <img class="magasin" src="images/boutique.png" alt="nous_trouver_en_magasin"/>

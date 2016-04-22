@@ -450,6 +450,10 @@ header .row{
   text-align: center;
   background-color: white;
 }
+.colonecentre {
+width: 20%; 
+height: 10%;
+}
 
 #section2 .image_section img{
   width: 50%;
@@ -467,11 +471,15 @@ header .row{
 #section2 .les_partenaires .colonegauche img,
 #section2 .les_partenaires .colonedroite img{
   width: 20%; 
-  height: 10%;  
+  height: 40%;  
 }
-#section2 .les_partenaires .colonecentre img{
+#section2 .les_partenaires .colonedroite1 img{
+  width: 20%; 
+  height: 40%;  
+}
+#section2 .les_partenaires .colonecentre1 img{
   width: 10%;
-  height: 10%;
+  height: 30%;
 }
 
 /*#####################*/

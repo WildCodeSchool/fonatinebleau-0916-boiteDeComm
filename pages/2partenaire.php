@@ -14,8 +14,8 @@
             <!-- Colonne 1 -->
             <div class="col-md-4 colonegauche">
                 <img src="images/magasin.png">
-                <p class="devMagasins">Rejoignez ces <B>magasins</B> qui nous distribuent !</p>
-                <p class="devMagasins2">Nous sommes aussi référencés sur<a href="https://dilicom-prod.centprod.com/connexion.html">Dilicom !</a> </p>
+                <p>Rejoignez ces <B>magasins</B> qui nous distribuent !</p>
+                <p>Nous sommes aussi référencés sur<a href="https://dilicom-prod.centprod.com/connexion.html">Dilicom !</a> </p>
             </div>
 
             <!-- Colonne 2 -->
@@ -47,7 +47,7 @@
 
             <!-- Colonne 3 -->
             <div class="col-md-4 colonedroite">
-                <img src="images/.png">
+                <img src="images/fleur.jpg">
                 <p>Rejoignez ces fleuristes qui nous proposent avec leurs bouquets dans des formules spéciales (anniversaire, fête des mères, fête des pères, mariage…)!</p>
             </div> 
 

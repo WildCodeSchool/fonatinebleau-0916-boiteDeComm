@@ -464,7 +464,10 @@ header .row{
 #section2 .les_partenaires li:first-child{
   margin-top: 20px;
 }
-#section2 .les_partenaires .colonegauche img,
+#section2 .les_partenaires .colonegauche img,{
+  width: 20%; 
+  height: 10%;
+}
 #section2 .les_partenaires .colonedroite img{
   width: 20%; 
   height: 10%;  

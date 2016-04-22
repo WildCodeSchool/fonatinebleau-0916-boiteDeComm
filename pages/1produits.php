@@ -137,7 +137,7 @@
     <div class="row image_section">
         <img class="image_famille" src="images/Famille.png" alt="famille">
     </div>
-
+<div class="videofond">
     <!-- PARTIE VIDEO YOUTUBE + CADRE -->
     <div class="container-fluid">
         <div class="row youtube">
@@ -163,6 +163,7 @@
             </div>
         </div>
     </div>
+
 
     <!--AVIS -->
 
@@ -194,3 +195,4 @@
         });
     });
 </script>
+</div>

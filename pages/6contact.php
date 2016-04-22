@@ -48,7 +48,7 @@
         <textarea placeholder="Tapez votre message ici..." name="message" class="form-control" required="required"></textarea>
       </div>
       <div class="text-center"> 
-       <input class="btn-info" value="ENVOYER" type="submit">
+       <input class="btn-info boutonfermer" value="ENVOYER" type="submit">
        </div>
        </form>
   </div>

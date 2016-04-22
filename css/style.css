@@ -421,6 +421,9 @@ header .row{
 
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
 
+.videofond {
+  background-color: #E5E5E5;
+}
 
 #section1 .commentaireamazon{
   text-align: center;
@@ -439,9 +442,17 @@ header .row{
 /* SECTION 2 DEVENIR PARTENAIRE */
 /*#####################*/
 
+.fondinternet {
+  background-color: #E5E5E5
+}
+
 #section2 {
   text-align: center;
-  background-color: #E5E5E5;
+  background-color: white;
+}
+.colonecentre {
+width: 20%; 
+height: 10%;
 }
 
 #section2 .image_section img{
@@ -460,11 +471,15 @@ header .row{
 #section2 .les_partenaires .colonegauche img,
 #section2 .les_partenaires .colonedroite img{
   width: 20%; 
-  height: 10%;  
+  height: 40%;  
 }
-#section2 .les_partenaires .colonecentre img{
+#section2 .les_partenaires .colonedroite1 img{
+  width: 20%; 
+  height: 40%;  
+}
+#section2 .les_partenaires .colonecentre1 img{
   width: 10%;
-  height: 10%;
+  height: 30%;
 }
 
 /*#####################*/
@@ -640,6 +655,11 @@ margin-bottom: 35px;
 .titrecontact {
   text-align: center;
   margin-right: 70px;
+}
+
+.boutonfermer {
+  margin-bottom: 30px;
+  margin-top: 15px;
 }
 /*#####################*/
 /* FOOTER */

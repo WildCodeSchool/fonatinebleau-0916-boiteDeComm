@@ -38,7 +38,7 @@ $('#btnYes').click(function() {
                                                     <h4 class="modal-title">Mentions légales</h4>
                                             </div>
                                         </div>
-                                        <div class="modal-body">
+                                        <div class="modal-body" style="text-align: justify;">
                                             <h4>Propriétaire du site :​</h4>
                                             <p>Bellifacto SAS au capital social de 6000 euros<br/>
                                             28, rue Royale<br/>
@@ -84,7 +84,7 @@ $('#btnYes').click(function() {
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                                 <h4 class="modal-title">Conditions générales de vente</h4>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body" style="text-align: justify;">
                                                 <h3>Préambule</h3>
                                                 <h4>Le Site</h4>
                                                 <p>www.lesboitesdecomm.com et la marque Les Boîtes de Comm’® (enveloppes SOLEAU et dépôt de marque effectués à l’INPI le 5 décembre 2013 sous le numéro 494250 puis le 4088201 en avril 2014 et enfin le 534051 le 23 mars 2015)  sont la propriété exclusive de BELLIFACTO SAS, entreprise enregistrée sous le numéro SIRET 802 177 428 00017 dont le siège social est situé au : 28, rue Royale 77300 Fontainebleau.</p>
@@ -241,7 +241,7 @@ $('#btnYes').click(function() {
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                                 <h4 class="modal-title">F.A.Q</h4>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body" style="text-align: justify;">
                                                 <h4>Pouvons-nous jouer à plusieurs couples ?</h4>
                                                 <p>La Boîte de Comm’ du Couple est un jeu très personnel qui traite de l’intimité de votre couple. Ce jeu a donc été conçu pour se jouer à 2.</p>
                                                 <h4>Quels sont les délais de livraison ?</h4>

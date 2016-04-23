@@ -102,6 +102,10 @@ header .row{
 }
 
 @media screen and (min-width: 550px) and (max-width: 1000px) {
+  .photoheader{
+    width: 100%; 
+    height: auto;
+  }
   #logo_header {
     width: 40%
   }

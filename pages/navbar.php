@@ -39,15 +39,17 @@
 <script>
   $(document).ready(function(){
     $(window).bind('scroll', function() {
-      var navHeight = $( window ).height() - 60;
+      var navHeight = $('.photoheader').height();
       // Si le scroll est > à la hauteur du nav - taille de la nav
       if ($(window).scrollTop() > navHeight) {
         $('.mynav').addClass('navbar-fixed-top');
+      }
+      else if ($(window).scrollTop() > 0) {
         $('.mynav').removeClass('navbar-fixed-bottom');
       }
       else {
         $('.mynav').removeClass('navbar-fixed-top');
-        $('.mynav').addClass('navbar-fixed-bottom');
+        $('.mynav').removeClass('navbar-fixed-bottom');
       }
     });
   });

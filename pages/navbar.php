@@ -27,7 +27,7 @@
       </ul>
       <ul class="nav_bar_rigth">
         <li>
-          <a class="btn btn-lg panier" href="#">PANIER
+          <a class="btn btn-lg panier" href="#"><span>PANIER</span>
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
           </a>
         </li>

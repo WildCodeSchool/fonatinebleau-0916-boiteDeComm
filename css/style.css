@@ -43,6 +43,7 @@ h1 {
   font-size:50px;
 }
 h2 {
+  font-size: 35px;
   font-family:bold;
   margin-top: 80px;
   margin-bottom: 40px;
@@ -270,18 +271,18 @@ header .row{
 #section1 .comment_boite_right{
   margin-top: 10%;
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.38vw;
 }
 #section1 .comment_boite_left{
   margin-top: 14%;
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.38vw;
 }
 
 /* Commentaire entre les boites */
 #section1 .comment_entre_boite{
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.38vw;
 }
 #section1 .modal-content{
   width: 150%;
@@ -325,16 +326,7 @@ header .row{
 
 @media screen and (max-width: 990px){
   #section1 .container_boite .img_boite{
-    width: 100%;
-  }
-  #section1 .comment_boite_right {
-    margin-top: 10%;
-  }  
-  #section1 .comment_boite_left {
-    margin-top: 20%;
-  }
-  #section1 .comment_entre_boite{
-    margin-top: 4%;
+    width: 65%;
   }
   .youtube iframe{
     width: 200px;
@@ -342,7 +334,10 @@ header .row{
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+  #section1 .container_boite .img_boite{
+    width: 80%;
+  }
   #section1 .comment_entre_boite{
     background-color: grey;
   }
@@ -350,6 +345,17 @@ header .row{
   #section1 .comment_boite_left, 
   #section1 .comment_entre_boite {
     margin-top: 8%;
+  }
+  /* Commentaires des boites */
+  #section1 .comment_boite_right{
+    font-size: 20px;
+  }
+  #section1 .comment_boite_left{
+    font-size: 20px;
+  }
+  /* Commentaire entre les boites */
+  #section1 .comment_entre_boite{
+    font-size: 20px;
   }
   .youtube iframe{
     width: 150px;

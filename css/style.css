@@ -28,48 +28,10 @@
   src: url("../font/ChaparralPro-Regular.otf") format("opentype");
 }
 
-/*.titretexte {
-  font-size: 40px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-  margin-top: 35px;
-  font-color: black;
+html{
+  font-size: 100%;
 }
-.commentaireamazon {
-  font-size: 15px;
-}
-.container {
-  text-align: center; 
-  display: block;
-  width: 100%;
-}
-.equipeimg {
-  margin-right: auto;
-  display: block;
-  vertical-align: center;
-  margin-left: 350px;
-}
-.rowequipe {
-  background-color: #E5E5E5;
-}
-.imgblog {
-  margin-right: auto;
-  display: block;
-  vertical-align: center;
-  margin-left: 340px;
-  width: 50%;
-  height: 50%;
-}
-.row {
-  text-align: center;
-  display: block;
-  margin-top: 45px;
-  margin-bottom: 45px;
-  margin-right: -15px;
-}
-#section2{
-  margin-top: 50px;
-}*/
+
 p, h1, h2, h3, h4, h5, h6, a{
   font-family: 'Chaparral';
 }
@@ -136,18 +98,11 @@ header .row{
 }
 .texte_header h2{
   color: white;
-  font-size: 40px;
+/*  font-size: 2.5rem;*/
+  font-size: 2.7vw;
 }
 
-@media screen and (min-width: 550px) and (max-width: 1000px) {
-  #logo_header {
-    width: 40%
-  }
-  .texte_header{
-    top: 66%;
-  }
-}
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1000px) {
   .photoheader{
     width: 100%; 
     height: auto;
@@ -156,10 +111,15 @@ header .row{
     width: 25%
   }
   .texte_header{
+    top: 30%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .texte_header{
     top: 10%;
   }
   .texte_header h2{
-    font-size: 20px;
+    font-size: 4.7vw;
   }
 }
 
@@ -245,15 +205,21 @@ header .row{
     margin-right: -13px !important;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 837px){
+    .panier span{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px){
   .mynav .title_responsive{
     width: 270px;
   }
   .mynav .title_responsive h1{
     display: block;
     color: white;
-    font-size: 20px;
-    width: 200px;
+    font-size: 15px;
+    width: 180px;
     float: right;
   }
   .mynav .logo{
@@ -292,7 +258,7 @@ header .row{
   width: 65%;
 }
 #section1 .container_boite .img_boite{
-  width: 130%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }

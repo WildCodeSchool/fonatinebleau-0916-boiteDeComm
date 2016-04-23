@@ -2,6 +2,7 @@
 <span class="ancres" id="blog" ></span>
     <!-- Image + Titre section produits -->
     <div class="row image_section">
+    <span class="ancres" id="createurs" ></span>
         <img class="imgblog" src="images/Blog.png" alt="blog"/>
         <h2>BLOG</h2>
     </div>

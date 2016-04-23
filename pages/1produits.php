@@ -1,7 +1,8 @@
 <div id="section1">
-<span class="ancres" id="produit" ></span>
+
     <!-- Image + Titre section produits -->
     <div class="row image_section">
+    <span class="ancres" id="produit" ></span>
         <img class="image_couple" src="images/couple.png" alt="couple"/>
         <h2>PRODUITS</h2>
     </div>
@@ -185,6 +186,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $("#lightSlider").lightSlider({
+            pause: 7000,
             item: 3,
             autoWidth: true,
             mode: "fade",

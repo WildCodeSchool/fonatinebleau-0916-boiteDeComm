@@ -1,7 +1,8 @@
 <div id="section4">
-<span class="ancres" id="createurs" ></span>
+
   <!-- Image et titre equipe -->
   <div class="row image_section">
+  <span class="ancres" id="createurs" ></span>
     <img src="images/Equipe.png" alt="equipe"/>
     <h2> EQUIPE</h2>
   </div>

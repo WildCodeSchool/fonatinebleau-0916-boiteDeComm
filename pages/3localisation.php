@@ -3,6 +3,7 @@
     <!-- Image + titre section localisation -->
 <div class="fondinternet">  
     <div class="row image_section">
+        <span class="ancres" id="partenaire" ></span>
         <img class="internet" src="images/trouverligne.png" alt="nous_trouver_sur_le_net"/>
         <h2>NOUS TROUVER SUR INTERNET</h2>
     </div>

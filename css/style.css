@@ -48,7 +48,11 @@ h2 {
   margin-top: 80px;
   margin-bottom: 40px;
 }
+h4{
+  font-size: 1.38vw;
+}
 p{
+  font-size: 1vw;
   margin: 0px 0px;
 }
 .ancres{
@@ -319,6 +323,10 @@ header .row{
   text-align: center;
   margin-top: 60px;
 }
+#section1 .youtube iframe{
+  width: 75%;
+  height: 100%;
+}
 
 /* Slider commentaire */
 .lSSlideOuter .lightSlider {
@@ -329,15 +337,18 @@ header .row{
   margin-top: 30px;
   text-align: center;
 }
+#section1 .bloc_avis h4{
+  font-size: 1.45vw;
+}
+#section1 .bloc_avis p{
+  font-size: 1.2vw;
+}
 
 @media screen and (max-width: 990px){
   #section1 .container_boite .img_boite{
     width: 65%;
   }
-  .youtube iframe{
-    width: 200px;
-    height: 175px;
-  }
+
 }
 
 @media screen and (max-width: 767px){
@@ -363,10 +374,7 @@ header .row{
   #section1 .comment_entre_boite{
     font-size: 20px;
   }
-  .youtube iframe{
-    width: 150px;
-    height: 142px;
-  }
+
   #section1 .modal-content{
     width: 100%;
   }

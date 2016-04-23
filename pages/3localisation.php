@@ -1,5 +1,5 @@
 <div id="section3">
-
+    <span class="ancres" id="localisation" ></span>
     <!-- Image + titre section localisation -->
 <div class="fondinternet">  
     <div class="row image_section">

@@ -1,5 +1,5 @@
 <div id="section5">
-
+<span class="ancres" id="blog" ></span>
     <!-- Image + Titre section produits -->
     <div class="row image_section">
         <img class="imgblog" src="images/Blog.png" alt="blog"/>

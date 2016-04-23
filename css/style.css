@@ -51,6 +51,12 @@ h2 {
 p{
   margin: 0px 0px;
 }
+.ancres{
+  display: block; 
+  height: 60px; /*same height as header*/ 
+  margin-top: -60px; /*same height as header*/ 
+  visibility: hidden;}
+
 .image_section{
   margin-top: 60px;
   text-align: center;
@@ -306,7 +312,7 @@ header .row{
 }
 /* Image famile */
 #section1 .image_famille{
-  width: 80%;
+  width: 65%;
 }
 
 #section1 .youtube {

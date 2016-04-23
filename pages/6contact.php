@@ -1,5 +1,5 @@
 <div id="section6">
-
+<span class="ancres" id="contact" ></span>
   <!-- Titre section contact -->
   <div class="row image_section">
  

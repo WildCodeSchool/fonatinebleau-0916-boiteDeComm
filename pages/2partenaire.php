@@ -1,5 +1,5 @@
 <div id="section2">
-
+    <span class="ancres" id="partenaire" ></span>
     <div class="row image_section">
         <img src="images/partenaire.png" alt="couple"/>
         <h2>DEVENIR PARTENAIRE</h2>

@@ -17,12 +17,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-left">
-        <li><a class="nav_list_left" href="#section1">PRODUITS</a></li>
-        <li><a class="nav_list_left" href="#section2">DEVENIR PARTENAIRE</a></li>
-        <li><a class="nav_list_left" href="#section3">OÙ SOMMES NOUS?</a></li>
-        <li><a class="nav_list_left" href="#section4">EQUIPE</a></li>
-        <li><a class="nav_list_left" href="#section5">BLOG</a></li>
-        <li><a class="nav_list_left" href="#section6">CONTACT</a></li>
+        <li><a class="nav_list_left" href="#produit">PRODUITS</a></li>
+        <li><a class="nav_list_left" href="#partenaire">DEVENIR PARTENAIRE</a></li>
+        <li><a class="nav_list_left" href="#localisation">OÙ NOUS TROUVER</a></li>
+        <li><a class="nav_list_left" href="#createurs">EQUIPE</a></li>
+        <li><a class="nav_list_left" href="#blog">BLOG</a></li>
+        <li><a class="nav_list_left" href="#contact">CONTACT</a></li>
         <li><a class="nav_list_left" href="#">PANIER</a></li>
       </ul>
       <ul class="nav_bar_rigth">

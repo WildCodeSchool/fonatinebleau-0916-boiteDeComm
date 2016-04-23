@@ -2,10 +2,10 @@
 
   <!-- Image et titre equipe -->
   <div class="row image_section">
-  <span class="ancres" id="createurs" ></span>
-    <img src="images/Equipe.png" alt="equipe"/>
-    <h2> EQUIPE</h2>
-  </div>
+    <span class="ancres" id="createurs" ></span>
+      <img src="images/Equipe.png" alt="equipe"/>
+      <h2> EQUIPE</h2>
+    </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-6 col-md-3">

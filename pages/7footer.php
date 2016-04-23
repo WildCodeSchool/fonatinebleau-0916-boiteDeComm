@@ -21,7 +21,7 @@ $('#btnYes').click(function() {
         <div id="section7">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-offset-1 col-sm-3 col-xs-3">
+                    <div class="col-md-4">
                         <div class="foot-header">
                             <div class="container-fluid">
                                 <!-- Trigger the modal with a button -->
@@ -68,7 +68,7 @@ $('#btnYes').click(function() {
                         </div>
                     </div>
 
-                    <div class="col-sm-offset-1 col-sm-3 col-xs-3">
+                    <div class="col-md-4">
                         <div class="foot-header">
                             <div class="container-fluid">
                                 <!-- Trigger the modal with a button -->
@@ -224,7 +224,7 @@ $('#btnYes').click(function() {
         	           </div>
                     </div>
 
-                    <div class="col-sm-offset-1 col-sm-3 col-xs-3">
+                    <div class="col-md-4">
                         <div class="foot-header">
                             <div class="container-fluid">
 
@@ -264,11 +264,11 @@ $('#btnYes').click(function() {
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-4 text-center">
+                <div class="row row_2_footer_2">
+                    <div class="col-md-4">
                         <p>Copyright © Les Boites de Comm' Tous droits réservés</p>
                     </div>
-                    <div class="col-sm-4 text-right">
+                    <div class="col-md-4">
                         <a href="https://www.facebook.com/boitesdecomm">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle text-primary fa-stack-2x"></i>
@@ -293,6 +293,9 @@ $('#btnYes').click(function() {
                             <i class="fa fa-circle text-info fa-stack-2x"></i>
                             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                         </span>
+                    </div>
+                    <div class="col-md-4">
+                        <p>Réalisé par les élèves de la <a href="http://wildcodeschool.fr" target="blank">Wild Code School</a></p>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@
 
         <div class="row">
             <!-- Menu Archive à droite -->
-            <div class="col-md-3"role="navigation">
+            <div class="col-md-3 fil_archive">
                 <div>
                     <ul class="nav_archive">
                         <li>Archives</li>
@@ -47,7 +47,7 @@
                 </div><!--/.well -->
             </div>
             <!-- Archive center -->
-            <div class="col-md-6">
+            <div class="col-md-6 fil_actu">
                 <div class="masonry">
                     <div class="item">
                         <div class="row title">
@@ -112,12 +112,14 @@
             </div>
 
             <!-- Flux Facebook -->
-            <div class="col-md-3 sidebar-offcanvas" id="sidebarright" role="navigation">
+            <div class="col-md-3">
                 <p class="visible-xs">
                     <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
                 </p>
                 <div class="sidebar-nav">
-                    <div class="fb-page" data-href="https://www.facebook.com/boitesdecomm?ref=hl" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">   <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/boitesdecomm?ref=hl"><a href="https://www.facebook.com/boitesdecomm?ref=hl">Les Boîtes de Comm</a></blockquote>
+                    <div class="fb-page" data-href="https://www.facebook.com/boitesdecomm?ref=hl" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">   
+                        <div class="fb-xfbml-parse-ignore">
+                            <blockquote cite="https://www.facebook.com/boitesdecomm?ref=hl"><a href="https://www.facebook.com/boitesdecomm?ref=hl">Les Boîtes de Comm</a></blockquote>
                         </div>
                     </div>
                 </div>

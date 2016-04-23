@@ -13,34 +13,26 @@
     <form class="form-horizontal">
       <div class="form-group">
         <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-user"></i>
-            </span>
+          <span class="input-group-addon"></span>
             <input placeholder="Nom" name="nom" class="form-control" required="required" type="text">
         </div>
       </div>
       <div class="form-group">
         <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-user"></i>
-          </span>
+          <span class="input-group-addon"></span>
           <input placeholder="Prénom" name="prenom" class="form-control" required="required" type="text">
         </div>
       </div>
 
       <div class="form-group">
         <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-earphone"></i>
-          </span>
+          <span class="input-group-addon"></span>
           <input placeholder="Téléphone" name="tel" class="form-control" required="required" type="text">
         </div>
       </div>
       <div class="form-group">
         <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-envelope"></i>
-          </span>
+          <span class="input-group-addon"></span>
           <input placeholder="Email" name="email" class="form-control" required="required" type="text">
         </div>
       </div>

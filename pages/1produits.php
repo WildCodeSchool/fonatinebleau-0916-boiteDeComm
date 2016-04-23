@@ -180,7 +180,7 @@
                 </li>
             </ul>
         </div>
-        <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et ici pour la famille.</p>
+        <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et <a href="https://www.amazon.fr/boites-comm-La-boite-famille/product-reviews/B0105RHRUS/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour la famille.</p>
     </div>
 
 <script type="text/javascript">

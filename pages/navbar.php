@@ -19,7 +19,7 @@
       <ul class="nav navbar-nav navbar-left">
         <li><a class="nav_list_left" href="#produit">PRODUITS</a></li>
         <li><a class="nav_list_left" href="#partenaire">DEVENIR PARTENAIRE</a></li>
-        <li><a class="nav_list_left" href="#localisation">OÙ NOUS TROUVER</a></li>
+        <li><a class="nav_list_left" href="#localisation">OÙ NOUS TROUVER ?</a></li>
         <li><a class="nav_list_left" href="#createurs">EQUIPE</a></li>
         <li><a class="nav_list_left" href="#blog">BLOG</a></li>
         <li><a class="nav_list_left" href="#contact">CONTACT</a></li>

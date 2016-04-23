@@ -52,8 +52,11 @@ h4{
   font-size: 1.38vw;
 }
 p{
-  font-size: 1vw;
   margin: 0px 0px;
+}
+a{
+  color: initial;
+  text-decoration: underline;
 }
 .ancres{
   display: block; 
@@ -374,7 +377,6 @@ header .row{
   #section1 .comment_entre_boite{
     font-size: 20px;
   }
-
   #section1 .modal-content{
     width: 100%;
   }
@@ -416,6 +418,7 @@ header .row{
   margin-top: 30px;
   font-size: 20px;
 }
+
 #section1 .cycle-slideshow {
     width: 45%;
     min-width: 200px;
@@ -436,11 +439,6 @@ header .row{
   text-align: center;
   background-color: white;
 }
-.colonecentre {
-width: 20%; 
-height: 10%;
-}
-
 #section2 .image_section img{
   width: 50%;
 }
@@ -451,24 +449,10 @@ height: 10%;
   list-style: none;
   text-align: justify;
 }
-#section2 .les_partenaires li:first-child{
-  margin-top: 20px;
-}
-#section2 .les_partenaires .colonegauche img,{
-  width: 20%; 
-  height: 10%;
-}
-#section2 .les_partenaires .colonedroite img{
-  width: 20%; 
-  height: 40%;  
-}
-#section2 .les_partenaires .colonedroite1 img{
-  width: 20%; 
-  height: 40%;  
-}
-#section2 .les_partenaires .colonecentre1 img{
-  width: 10%;
-  height: 30%;
+#section2 .les_partenaires img{
+  width: 130px;
+  height: 92px;
+  margin-bottom: 20px;
 }
 
 /*#####################*/

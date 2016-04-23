@@ -27,7 +27,7 @@
       </ul>
       <ul class="nav_bar_rigth">
         <li>
-          <a class="btn btn-lg panier" href="#">
+          <a class="btn btn-lg panier" href="#">PANIER
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
           </a>
         </li>
@@ -40,10 +40,9 @@
   $(document).ready(function(){
     $(window).bind('scroll', function() {
       var navHeight = $( window ).height() - 60;
+      // Si le scroll est > à la hauteur du nav - taille de la nav
       if ($(window).scrollTop() > navHeight) {
         $('.mynav').addClass('navbar-fixed-top');
-      }
-      else if ($(window).scrollTop() > 0) {
         $('.mynav').removeClass('navbar-fixed-bottom');
       }
       else {

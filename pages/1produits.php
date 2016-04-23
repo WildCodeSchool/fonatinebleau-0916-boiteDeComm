@@ -15,7 +15,7 @@
                 <!-- Lien de l'image BOITE DE COUPLE -->
                 <div class="col-md-offset-1 col-md-4 col-sm-7 col-xs-12">
                     <a class="hvr-grow" data-toggle="modal" data-target="#myModal">
-                        <img class="img_boite" src="images/boitecouple.jpg" alt="boitecouple"/>
+                        <img class="img_boite" src="images/boitecouple.png" alt="boitecouple"/>
                     </a>
                     
                     <!-- PARTIE MODALE 1 -->

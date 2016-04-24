@@ -10,71 +10,61 @@
     <!-- Liste des points de vente -->
     <div class="container-fluid point_de_vente">
         <div class="row">
-            <div class="col-sm-2 col-xs-3">
-                <a href="http://www.amazon.fr/Boite-comm-couple-communication-pour/dp/B00NUALNVC/ref=sr_1_1?ie=UTF8&qid=1435232228&sr=8-1&keywords=boite+de+comm/" target="blank"><img src="images/amazon.png" border="0"></a>  
-            </div>
-            <div class="col-sm-2 col-xs-3"> 
-                <img src="images/Papa.png" border="0"> 
-            </div>
-            <div class="col-sm-2 col-xs-3">  
-                <img src="images/french.png" border="0">
-            </div>
-            <div class="col-sm-2 col-xs-3">  
-                <img src="images/amogado.png" border="0">
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                <img src="images/123.gif" border="0">
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                <img src="images/oka.jpg" border="0">
-            </div>
-        </div>
-    </div>
-    
-    <!-- Liste des points de vente 2 -->
-    <div class="container-fluid point_de_vente">
-         <div class="row">
-            <div class="col-sm-2 col-xs-3">
-
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-        </div>
-    </div>
-
-    <!-- Lise des points de vente 3 -->
-    <div class="container-fluid point_de_vente">
-         <div class="row">
-            <div class="col-sm-2 col-xs-3">
-
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
-            </div>
-            <div class="col-sm-2 col-xs-3">
-                
+            <div class="col-xs-offset-1 col-xs-10">
+                <div class="col-sm-1 col-xs-3">
+                    <a href="http://www.amazon.fr/Boite-comm-couple-communication-pour/dp/B00NUALNVC/ref=sr_1_1?ie=UTF8&qid=1435232228&sr=8-1&keywords=boite+de+comm/" target="blank"><img src="images/amazon.png"></a>  
+                </div>
+                <div class="col-xs-1"> 
+                    <img src="images/Papa.png" border="0"> 
+                </div>
+                <div class="col-xs-1">  
+                    <img src="images/french.png" border="0">
+                </div>
+                <div class="col-xs-1">  
+                    <img src="images/amogado.png" border="0">
+                </div>
+                <div class="col-xs-1">
+                    <img src="images/123.gif" border="0">
+                </div>
+                <div class="col-xs-1">
+                    <img src="images/oka.jpg" border="0">
+                </div>
+                <div class="col-xs-1">
+                    <a href="http://www.amazon.fr/Boite-comm-couple-communication-pour/dp/B00NUALNVC/ref=sr_1_1?ie=UTF8&qid=1435232228&sr=8-1&keywords=boite+de+comm/" target="blank"><img src="images/amazon.png"></a>  
+                </div>
+                <div class="col-xs-1"> 
+                    <img src="images/Papa.png" border="0"> 
+                </div>
+                <div class="col-xs-1">  
+                    <img src="images/french.png" border="0">
+                </div>
+                <div class="col-xs-1">  
+                    <img src="images/amogado.png" border="0">
+                </div>
+                <div class="col-xs-1">
+                    <img src="images/123.gif" border="0">
+                </div>
+                <div class="col-xs-1">
+                    <img src="images/oka.jpg" border="0">
+                </div>
+                <div class="col-xs-1">
+                    <a href="http://www.amazon.fr/Boite-comm-couple-communication-pour/dp/B00NUALNVC/ref=sr_1_1?ie=UTF8&qid=1435232228&sr=8-1&keywords=boite+de+comm/" target="blank"><img src="images/amazon.png" border="0"></a>  
+                </div>
+                <div class="col-xs-1"> 
+                    <img src="images/Papa.png" border="0"> 
+                </div>
+                <div class="col-xs-1">  
+                    <img src="images/french.png" border="0">
+                </div>
+                <div class="col-xs-1">  
+                    <img src="images/amogado.png" border="0">
+                </div>
+                <div class="col-xs-1">
+                    <img src="images/123.gif" border="0">
+                </div>
+                <div class="col-xs-1">
+                    <img src="images/oka.jpg" border="0">
+                </div>
             </div>
         </div>
     </div>

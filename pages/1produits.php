@@ -123,6 +123,10 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-offset-2 col-md-4 col-sm-5 col-xs-12 comment_boite_left_responsive">
+                    <p>Un programme très simple : des défis à relever avec des récompenses et des gages à la clef, des questions et un temps d’échange fort.</p>
+                </div>
             </div>
 
             <!-- Phrase après deuxième boite -->
@@ -154,32 +158,26 @@
             <div class="col-sm-4 col-xs-6">
                 <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
             </div>            
-            <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
-            </div>            
-            <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
-            </div>
         </div>
     </div>
 
 
     <!--AVIS -->
 
-        <div class="row bloc_avis">
-            <ul id="lightSlider">
-                <li>
-                    <h4>Emilie, 38 ans:</h4>
-                    <p>« Nous avons passé une soirée en amoureux comme à l'époque de notre rencontre : à se découvrir, se confier des choses et se réserver même quelques surprises! Un bon moment de complicité. »</p>
-                </li>
-                <li>
-                    <h4>Jeanne, 32 ans :</h4>
-                    <p>« Nous avons passé un très bon moments, en couple, autour d'une bougie, à nous confier et à rire autour de ces cartes qui sont vraiment très bien faites... A recommander à tous ceux qui s'aiment et qui venlent accorder du temps à leur relation de couple ! »</p>
-                </li>
-            </ul>
-        </div>
-        <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et <a href="https://www.amazon.fr/boites-comm-La-boite-famille/product-reviews/B0105RHRUS/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour la famille.</p>
+    <div class="row bloc_avis">
+        <ul id="lightSlider">
+            <li>
+                <h4>Emilie, 38 ans:</h4>
+                <p>« Nous avons passé une soirée en amoureux comme à l'époque de notre rencontre : à se découvrir, se confier des choses et se réserver même quelques surprises! Un bon moment de complicité. »</p>
+            </li>
+            <li>
+                <h4>Jeanne, 32 ans :</h4>
+                <p>« Nous avons passé un très bon moments, en couple, autour d'une bougie, à nous confier et à rire autour de ces cartes qui sont vraiment très bien faites... A recommander à tous ceux qui s'aiment et qui venlent accorder du temps à leur relation de couple ! »</p>
+            </li>
+        </ul>
     </div>
+    <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et <a href="https://www.amazon.fr/boites-comm-La-boite-famille/product-reviews/B0105RHRUS/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour la famille.</p>
+</div>
 
 <script type="text/javascript">
     $(document).ready(function() {

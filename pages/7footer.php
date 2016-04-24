@@ -1,23 +1,4 @@
-<script>
-$('#myModal').on('show', function() {
-    var link = $(this).data('link'),
-        agreeBtn = $(this).find('.agree');
-})
 
-$('.confirm-link').on('click', function(e) {
-    e.preventDefault();
-
-    var link = $(this).data('link');
-    $('#myModal').data('link',link).modal('show');
-});
-
-$('#btnYes').click(function() {
-    // handle redirect here
-  	var link = $('#myModal').data('link');
-  	location.href = link;
-    $('#myModal').modal('hide');
-});
-</script>
         <div id="section7">
             <div class="container-fluid">
                 <div class="row">
@@ -302,6 +283,26 @@ $('#btnYes').click(function() {
         </div>
     </div>
 </body>
+<script>
+    $('#myModal').on('show', function() {
+        var link = $(this).data('link'),
+            agreeBtn = $(this).find('.agree');
+    });
+
+    $('.confirm-link').on('click', function(e) {
+        e.preventDefault();
+
+        var link = $(this).data('link');
+        $('#myModal').data('link',link).modal('show');
+    });
+
+    $('#btnYes').click(function() {
+        // handle redirect here
+        var link = $('#myModal').data('link');
+        location.href = link;
+        $('#myModal').modal('hide');
+    });
+</script>
 </html>
 
 

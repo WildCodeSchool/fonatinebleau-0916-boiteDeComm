@@ -112,7 +112,7 @@
             </div>
 
             <!-- Flux Facebook -->
-            <div class="col-md-3">
+            <div class="col-md-3 facebook">
                 <p class="visible-xs">
                     <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
                 </p>

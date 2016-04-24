@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Les boites de comm'</title>
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -12,7 +14,6 @@
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/lightslider.js"></script>
-    <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
     <script src="js/bootstrap.js"></script>
 
     <!-- Logo patientez avant le chargement de la page -->

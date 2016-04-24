@@ -22,7 +22,7 @@
             $('#extracontrols').css('display', 'block');
             $("#logo_header").fadeIn(7000);
             $(".texte_header").typed({
-              strings: ["^4000 <h2>Envie de mettre du peps dans votre vie de couple ou de famille ?</h2>"],
+              strings: ["^4000 <h2>Les jeux qui vont vous faire parler et rire</h2>"],
               showCursor: false
             });
         });

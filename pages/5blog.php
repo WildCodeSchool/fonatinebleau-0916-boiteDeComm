@@ -14,8 +14,8 @@
             <!-- Menu Archive à droite -->
             <div class="col-md-3 fil_archive">
                 <div>
+                    <h3>ARCHIVE</h3>
                     <ul class="nav_archive">
-                        <li>Archives</li>
                         <li class="active">
                             <a href="http://www.galerieslafayette.com/">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a>
                         </li>

@@ -15,19 +15,11 @@
     <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
     <script src="js/bootstrap.js"></script>
 
-
-   
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-      $('#extracontrols').removeClass('hidden');
-    });
-    </script>
-
     <!-- Logo patientez avant le chargement de la page -->
     <script type="text/javascript">
         jQuery(window).load(function () {
             jQuery('#loading').hide();
+            $('#extracontrols').css('display', 'block');
             $("#logo_header").fadeIn(7000);
             $(".texte_header").typed({
               strings: ["^4000 <h2>Envie de mettre du peps dans votre vie de couple ou de famille ?</h2>"],
@@ -43,9 +35,10 @@
   <body>
   <div id="section0"></div>
    <div id="loading">
+    <h1></h1>
         <img src="images/Preloader_10.gif" alt="Loading..." />
    </div>
-   <div id="extracontrols" class="hidden">
+   <div id="extracontrols">
       <header>
         <div class="row">
           <img class="photoheader" src="images/bandeau.jpg" alt="photo_header"/>

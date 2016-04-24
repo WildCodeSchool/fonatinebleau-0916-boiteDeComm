@@ -151,16 +151,14 @@
             <div class="col-sm-4 col-xs-6">
                 <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen></iframe>
             </div>
-        </div>
-        <div class="row youtube">
-            <div class="col-sm-4 col-xs-6">
-
-            </div>
             <div class="col-sm-4 col-xs-6">
                 <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
-            </div>
+            </div>            
             <div class="col-sm-4 col-xs-6">
-
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
+            </div>            
+            <div class="col-sm-4 col-xs-6">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>

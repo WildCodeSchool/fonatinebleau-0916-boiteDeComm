@@ -4,7 +4,7 @@
   <div class="row image_section">
  <span class="ancres" id="contact" ></span>
   <h2 class="titrecontact">CONTACT</h2>
- <img class="imagecontact" src="images/Contact(1).png" alt="" width="60%" height="5%">
+ <img src="images/Contact(1).png" alt="contact">
 <p>Une question ? Remplissez le formulaire ci-dessous, nous vous recontacterons avec plaisir</p>
 
 

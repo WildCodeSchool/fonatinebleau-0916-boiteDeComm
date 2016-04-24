@@ -37,30 +37,30 @@ $('#btnYes').click(function() {
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                                     <h4 class="modal-title">Mentions légales</h4>
                                             </div>
-                                        </div>
-                                        <div class="modal-body" style="text-align: justify;">
-                                            <h4>Propriétaire du site :​</h4>
-                                            <p>Bellifacto SAS au capital social de 6000 euros<br/>
-                                            28, rue Royale<br/>
-                                            77300 Fontainebleau<br/>
-                                            Tél. +33 (0)6 50 82 45 97<br/>
-                                            +33 (0)6 07 19 45 43<br/>
-                                            Présidente : Maud Jan-Ailleret<br/>
-                                            Directeur Général : Marie de Camas<br/>
-                                            Associés : Dorothée Lengrand, Guillaume Lagane.</p>
-                                            <h4>Immatriculation en France :​</h4>
-                                            <p>Numéro national INPI : 4088201 - RCS auprès du Tribunal de Commerce de Melun sous le numéro de SIRET : 80217742800017<br/> ​
-                                            Directeur de la publication : Maud JAN-AILLERET​ et Marie de CAMAS</p>
-                                            <h4>Déclaration CNIL :​</h4>
-                                            <p>L'ensemble de ce site relève de la législation française et internationale sur les droits d'auteur et la​ propriété intellectuelle (CNIL – Commission Nationale de l’Informatique et des Libertés). Conformément à la loi n°78-17 du 6 janvier 1978 modifiée dite « informatique et libertés », l'utilisateur​ dispose d'un droit d'accès et de rectification portant sur les données le concernant. Ce droit s'exerce​ par courrier à SAS Bellifacto 28, rue Royale 77300 Fontainebleau ou par courriel à l'adresse suivante : contact@lesboitesdecomm.com</p>
-                                            <h4>Propriété intellectuelle :​</h4>
-                                            <p>La structure, les textes, les images animées ou non, les savoir-faire, les programmes, la base​ de données ainsi que tout autre élément composant ce site sont la propriété exclusive de​ lesboitesdecomm.com et sont protégés au titre du Code de la propriété intellectuelle. Toute reproduction, représentation totale ou partielle de ce site, toute extraction de la base de​ données par quelque procédé que ce soit, sans l'autorisation expresse de lesboitesdecomm.com est​
-                                            interdite. Il en est de même des bases de données accessibles sur le site www.lesboitesdecomm.com​ qui sont également protégées. La méconnaissance de ces principes constituerait une contrefaçon​ punissable selon les dispositions du Code de la propriété intellectuelle et du Code pénal.<br/>
-                                            Les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale​ ou partielle, effectuée à partir des éléments du site est prohibée.<br/>
-                                            Les informations contenues dans ce site sont données à titre indicatif et peuvent être modifiées à​ tout moment par lesboitesdecomm.com qui ne peut être tenu responsable du contenu erroné des​ informations qui peuvent être affichées. Lesboitesdecomm.com s'efforcent en effet d'inclure sur ce​ site des informations exactes et à jour mais ne donne aucune garantie à ce titre. En dépit du soin​ apporté au recueil des informations, des erreurs, omissions ou inexactitudes peuvent exister. En​ toute hypothèse et compte tenu des conditions d'utilisation, l'utilisateur du site et des informations​ qu'il contient, reconnaît qu'il en fait usage sous sa seule responsabilité ; lesboitesdecomm.com ne​ saurait en conséquence voir sa responsabilité engagée à raison de tout préjudice, direct ou indirect,​ de quelque nature que ce soit, résultant pour tout ou partie de l'utilisation de ce site ou l'impossibilité​ d'accès ou par toute erreur ou omission dans son contenu.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="close" data-dismiss="modal">Close</button>
+                                            <div class="modal-body" style="text-align: justify;">
+                                                <h4>Propriétaire du site :​</h4>
+                                                <p>Bellifacto SAS au capital social de 6000 euros<br/>
+                                                28, rue Royale<br/>
+                                                77300 Fontainebleau<br/>
+                                                Tél. +33 (0)6 50 82 45 97<br/>
+                                                +33 (0)6 07 19 45 43<br/>
+                                                Présidente : Maud Jan-Ailleret<br/>
+                                                Directeur Général : Marie de Camas<br/>
+                                                Associés : Dorothée Lengrand, Guillaume Lagane.</p>
+                                                <h4>Immatriculation en France :​</h4>
+                                                <p>Numéro national INPI : 4088201 - RCS auprès du Tribunal de Commerce de Melun sous le numéro de SIRET : 80217742800017<br/> ​
+                                                Directeur de la publication : Maud JAN-AILLERET​ et Marie de CAMAS</p>
+                                                <h4>Déclaration CNIL :​</h4>
+                                                <p>L'ensemble de ce site relève de la législation française et internationale sur les droits d'auteur et la​ propriété intellectuelle (CNIL – Commission Nationale de l’Informatique et des Libertés). Conformément à la loi n°78-17 du 6 janvier 1978 modifiée dite « informatique et libertés », l'utilisateur​ dispose d'un droit d'accès et de rectification portant sur les données le concernant. Ce droit s'exerce​ par courrier à SAS Bellifacto 28, rue Royale 77300 Fontainebleau ou par courriel à l'adresse suivante : contact@lesboitesdecomm.com</p>
+                                                <h4>Propriété intellectuelle :​</h4>
+                                                <p>La structure, les textes, les images animées ou non, les savoir-faire, les programmes, la base​ de données ainsi que tout autre élément composant ce site sont la propriété exclusive de​ lesboitesdecomm.com et sont protégés au titre du Code de la propriété intellectuelle. Toute reproduction, représentation totale ou partielle de ce site, toute extraction de la base de​ données par quelque procédé que ce soit, sans l'autorisation expresse de lesboitesdecomm.com est​
+                                                interdite. Il en est de même des bases de données accessibles sur le site www.lesboitesdecomm.com​ qui sont également protégées. La méconnaissance de ces principes constituerait une contrefaçon​ punissable selon les dispositions du Code de la propriété intellectuelle et du Code pénal.<br/>
+                                                Les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale​ ou partielle, effectuée à partir des éléments du site est prohibée.<br/>
+                                                Les informations contenues dans ce site sont données à titre indicatif et peuvent être modifiées à​ tout moment par lesboitesdecomm.com qui ne peut être tenu responsable du contenu erroné des​ informations qui peuvent être affichées. Lesboitesdecomm.com s'efforcent en effet d'inclure sur ce​ site des informations exactes et à jour mais ne donne aucune garantie à ce titre. En dépit du soin​ apporté au recueil des informations, des erreurs, omissions ou inexactitudes peuvent exister. En​ toute hypothèse et compte tenu des conditions d'utilisation, l'utilisateur du site et des informations​ qu'il contient, reconnaît qu'il en fait usage sous sa seule responsabilité ; lesboitesdecomm.com ne​ saurait en conséquence voir sa responsabilité engagée à raison de tout préjudice, direct ou indirect,​ de quelque nature que ce soit, résultant pour tout ou partie de l'utilisation de ce site ou l'impossibilité​ d'accès ou par toute erreur ou omission dans son contenu.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="close" data-dismiss="modal">Fermer</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@ $('#btnYes').click(function() {
                                                 <p>Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="close" data-dismiss="modal">Close</button>
+                                                <button type="button" class="close" data-dismiss="modal">Fermer</button>
                                             </div>
                                         </div>
     				                </div>
@@ -254,7 +254,7 @@ $('#btnYes').click(function() {
                                                 Tout est donc totalement sécurisé..</p>
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="close" data-dismiss="modal">Close</button>
+                                                <button type="button" class="close" data-dismiss="modal">Fermer</button>
                                             </div>
                                         </div>
                                     </div>

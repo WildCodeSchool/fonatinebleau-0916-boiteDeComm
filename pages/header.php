@@ -7,7 +7,6 @@
     <link rel="icon" type="image/png" href="images/logo.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
 

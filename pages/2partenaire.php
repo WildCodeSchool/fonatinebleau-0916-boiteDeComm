@@ -36,20 +36,22 @@
             </div>
             <div class="col-md-4 col-xs-6">
                 <img src="images/fleur.jpg">
-                <p>Rejoignez ces fleuristes qui nous proposent avec leurs bouquets dans des formules spéciales (anniversaire, fête des mères, fête des pères, mariage…)!</p>  
+                <p>Rejoignez ces fleuristes qui nous proposent avec leurs bouquets dans des formules spéciales (anniversaire, fête des mères, fête des pères, mariage…)!</p>
+                <img src="images/fleuriste_partenaire.png"/>
             </div>
 
             <!-- Colonne 2 -->
             <div  class="col-md-4 col-xs-6">
                 <img src="images/Couple_Sexe.png">
                 <p>Rejoignez ces <B>hôtels</B> qui nous intègrent dans leurs formules d’es-capade romantique, week-end en famille…</p>
+                <img src="images/hotel_partenaire.png"/>
             </div>
 
             <!-- Colonne 3 -->
             <div class="col-md-4 col-xs-6">
                 <img src="images/Couple_Marie╠üs.png"/>
                 <p>Rejoignez ces <B>listes de mariage</B> qui nous référencent.</p>
-                <img src="images/mairies.png" />
+                <img src="images/mariage_partenaire.png"/>
             </div> 
         </div>
     </div>

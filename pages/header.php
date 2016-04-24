@@ -35,8 +35,8 @@
   <body>
   <div id="section0"></div>
    <div id="loading">
-    <h1></h1>
-        <img src="images/Preloader_10.gif" alt="Loading..." />
+    <h1>Envie de mettre du peps dans votre vie de couple ou de famille ?</h1>
+        <!-- <img src="images/Preloader_10.gif" alt="Loading..." /> -->
    </div>
    <div id="extracontrols">
       <header>

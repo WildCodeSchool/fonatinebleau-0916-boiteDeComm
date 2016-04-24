@@ -4,14 +4,16 @@
 
 
 #loading {
-  background-color: white;
+  text-align: center;
+  background-color: black;
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 999;
 }
 
-#loading img{
+#loading h1{
+  color: white;
   position: absolute;
   left: 0;
   right: 0;

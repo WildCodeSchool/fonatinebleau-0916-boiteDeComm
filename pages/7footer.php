@@ -256,24 +256,24 @@
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <span class="fa-stack fa-lg">
-                            <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy"></a>
-                            <i class="fa fa-circle text-danger fa-stack-2x"></i>
-                            <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                            <a href="https://plus.google.com/+Lesboitesdecomm/posts"></a>
-                        </span>
-                        <a href="https://www.youtube.commentaire/channel/UCvlzYRQWxjhsrL6crS0W86g">
+                        <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
                             <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle text-danger fa-stack-2x"></i>
-                            <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                            <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g"></a>
+                                <i class="fa fa-circle text-danger fa-stack-2x"></i>
+                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle text-info fa-stack-2x"></i>
-                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                        </span>
+                        <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle text-danger fa-stack-2x"></i>
+                                <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <a href="https://twitter.com/lesboitesdecomm">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle text-info fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
                     </div>
                     <div class="col-md-4">
                         <p>Réalisé par les élèves de la <a href="http://wildcodeschool.fr" target="blank">Wild Code School</a></p>

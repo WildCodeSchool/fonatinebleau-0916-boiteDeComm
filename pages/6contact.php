@@ -2,58 +2,48 @@
 
   <!-- Titre section contact -->
   <div class="row image_section">
- 
-  <h2>CONTACT</h2>
- <img src="images/Contact(1).png" alt="" width="60%" height="10%">
-<p>Une question ? Remplissez le formulaire ci-dessous, nous vous recontacterons avec plaisir</p></figcaption>
-
-
-
-
-  <div class="col-md-offset-3 col-md-6">
-    <form class="form-horizontal">
-      <div class="form-group">
-        <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-user"></i>
-            </span>
-            <input placeholder="Nom" name="nom" class="form-control" required="required" type="text">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-user"></i>
-          </span>
-          <input placeholder="Prénom" name="prenom" class="form-control" required="required" type="text">
-        </div>
-      </div>
-
-      <div class="form-group">
-        <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-earphone"></i>
-          </span>
-          <input placeholder="Téléphone" name="tel" class="form-control" required="required" type="text">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="input-group">
-          <span class="input-group-addon">
-            <i class="glyphicon glyphicon-envelope"></i>
-          </span>
-          <input placeholder="Email" name="email" class="form-control" required="required" type="text">
-        </div>
-      </div>
-      <div class="form-group">
-        <textarea placeholder="Tapez votre message ici..." name="message" class="form-control" required="required"></textarea>
-      </div>
-      <div class="text-center"> 
-       <input class="btn-info" value="ENVOYER" type="submit">
-       </div>
-       </form>
+    <span class="ancres" id="contact" ></span>
+    <h2 class="titrecontact">CONTACT</h2>
+    <img src="images/Contact(1).png" alt="contact">
+    <p>Une question ? Remplissez le formulaire ci-dessous, nous vous recontacterons avec plaisir</p>
   </div>
-</div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <form class="form-horizontal">
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="InputName3" placeholder="Nom">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="InputName3" placeholder="Prénom">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="E-mail">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="phone" class="form-control" id="InputName3" placeholder="Téléphone">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12">
+            <textarea class="form-control" rows="3" placeholder="Votre message"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12">
+            <button type="submit" class="btn btn-default boutonfermer">ENVOYER</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
      

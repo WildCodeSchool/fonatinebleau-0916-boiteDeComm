@@ -2,15 +2,18 @@
 /* CSS pour l'attente du chargement de la page */
 /*#####################*/
 
+
 #loading {
-  background-color: white;
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   z-index: 999;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
 }
 
-#loading img{
+#loading h1{
+  color: white;
   position: absolute;
   left: 0;
   right: 0;
@@ -19,6 +22,9 @@
   margin-left: auto;
 }
 
+#extracontrols {
+  display: none;
+}
 /*#####################*/
 /* CSS GENERAL */
 /*#####################*/
@@ -28,53 +34,10 @@
   src: url("../font/ChaparralPro-Regular.otf") format("opentype");
 }
 
-/*.titretexte {
-  font-size: 40px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-  margin-top: 35px;
-  font-color: black;
+html{
+  font-size: 100%;
 }
-.commentaireamazon {
-  font-size: 15px;
-}
-.container {
-  text-align: center; 
-  display: block;
-  width: 100%;
-}
-.equipeimg {
-  margin-right: auto;
-  display: block;
-  vertical-align: center;
-  margin-left: 350px;
-}
-.rowequipe {
-  background-color: #E5E5E5;
-}
-.imgblog {
-  margin-right: auto;
-  display: block;
-  vertical-align: center;
-  margin-left: 340px;
-  width: 50%;
-  height: 50%;
-}
-.row {
-  text-align: center;
-  display: block;
-  margin-top: 45px;
-  margin-bottom: 45px;
-  margin-right: -15px;
-}
-#section2{
-  margin-top: 50px;
-}*/
-.row2{
-  text-align: center;
-  margin-top: none;
-  margin-bottom: none;
-}
+
 p, h1, h2, h3, h4, h5, h6, a{
   font-family: 'Chaparral';
 }
@@ -86,21 +49,29 @@ h1 {
   font-size:50px;
 }
 h2 {
+  font-size: 35px;
   font-family:bold;
   margin-top: 80px;
   margin-bottom: 40px;
 }
-h5 {
-  margin-top: 0px;
-  color: white;
-  max-height: 30px;
-  overflow: hidden;
+h4{
+  font-size: 1.38vw;
 }
 p{
   margin: 0px 0px;
 }
+a{
+  color: initial;
+  text-decoration: underline;
+}
+.ancres{
+  display: block; 
+  height: 60px; /*same height as header*/ 
+  margin-top: -60px; /*same height as header*/ 
+  visibility: hidden;}
+
 .image_section{
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
 }
 .body_color {
@@ -109,8 +80,28 @@ p{
 .row{
   margin-right: 0px;
   margin-left: 0px;
+  margin-top: none;
+  margin-bottom: none;
 }
-/* Div pour ancre */
+header .row{
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+}
+
+@media screen and (max-width: 767px) {
+  h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;    
+  }
+  h3{
+    font-size: 20px;
+  }
+}
 
 /*#####################*/
 /* HEADER */
@@ -142,18 +133,11 @@ p{
 }
 .texte_header h2{
   color: white;
-  font-size: 40px;
+/*  font-size: 2.5rem;*/
+  font-size: 2.7vw;
 }
 
-@media screen and (min-width: 550px) and (max-width: 1000px) {
-  #logo_header {
-    width: 40%
-  }
-  .texte_header{
-    top: 66%;
-  }
-}
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1000px) {
   .photoheader{
     width: 100%; 
     height: auto;
@@ -162,10 +146,15 @@ p{
     width: 25%
   }
   .texte_header{
+    top: 30%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .texte_header{
     top: 10%;
   }
   .texte_header h2{
-    font-size: 20px;
+    font-size: 4.7vw;
   }
 }
 
@@ -173,6 +162,10 @@ p{
 /* NAV BAR */
 /*#####################*/
 
+.mynav a{
+  color: initial;
+  text-decoration: none;
+}
 .mynav .logo{
   width: 60px;
   padding-top: 7px;
@@ -251,15 +244,21 @@ p{
     margin-right: -13px !important;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 837px){
+    .panier span{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px){
   .mynav .title_responsive{
     width: 270px;
   }
   .mynav .title_responsive h1{
     display: block;
     color: white;
-    font-size: 20px;
-    width: 200px;
+    font-size: 15px;
+    width: 180px;
     float: right;
   }
   .mynav .logo{
@@ -298,7 +297,7 @@ p{
   width: 65%;
 }
 #section1 .container_boite .img_boite{
-  width: 130%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -310,18 +309,24 @@ p{
 #section1 .comment_boite_right{
   margin-top: 10%;
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.38vw;
 }
 #section1 .comment_boite_left{
   margin-top: 14%;
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.38vw;
+}
+#section1 .comment_boite_left_responsive{
+  display: none;
+  margin-top: 14%;
+  text-align: justify;
+  font-size: 1.38vw;
 }
 
 /* Commentaire entre les boites */
 #section1 .comment_entre_boite{
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.38vw;
 }
 #section1 .modal-content{
   width: 150%;
@@ -345,12 +350,20 @@ p{
 }
 /* Image famile */
 #section1 .image_famille{
-  width: 60%;
+  width: 65%;
+  margin-bottom: 30px;
 }
 
 #section1 .youtube {
   text-align: center;
   margin-top: 60px;
+}
+#section1 .youtube div{
+  margin-bottom: 30px;
+}
+#section1 .youtube iframe{
+  width: 75%;
+  height: 100%;
 }
 
 /* Slider commentaire */
@@ -363,26 +376,35 @@ p{
   text-align: center;
 }
 
+#section1 .bloc_avis h4{
+  font-size: 1.45vw;
+}
+#section1 .bloc_avis p{
+  font-size: 1.2vw;
+}
+
 @media screen and (max-width: 990px){
   #section1 .container_boite .img_boite{
-    width: 100%;
+    width: 65%;
   }
-  #section1 .comment_boite_right {
-    margin-top: 10%;
-  }  
-  #section1 .comment_boite_left {
-    margin-top: 20%;
+  #section1 .bloc_avis h4{
+    font-size: 20px;
   }
-  #section1 .comment_entre_boite{
-    margin-top: 4%;
-  }
-  .youtube iframe{
-    width: 200px;
-    height: 175px;
+  #section1 .bloc_avis p{
+    font-size: 16px
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+  #section1 .image_couple{
+    width: 90%;
+  }
+  #section1 .image_famille{
+    width: 90%;
+  }
+  #section1 .container_boite .img_boite{
+    width: 80%;
+  }
   #section1 .comment_entre_boite{
     background-color: grey;
   }
@@ -391,9 +413,21 @@ p{
   #section1 .comment_entre_boite {
     margin-top: 8%;
   }
-  .youtube iframe{
-    width: 150px;
-    height: 142px;
+  /* Commentaires des boites */
+  #section1 .comment_boite_right{
+    font-size: 20px;
+  }
+  #section1 .comment_boite_left{
+    display: none;
+    font-size: 20px;
+  }
+  #section1 .comment_boite_left_responsive{
+    display: block;
+    font-size: 20px;
+  }
+  /* Commentaire entre les boites */
+  #section1 .comment_entre_boite{
+    font-size: 20px;
   }
   #section1 .modal-content{
     width: 100%;
@@ -427,12 +461,12 @@ p{
 
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
 
-
 #section1 .commentaireamazon{
   text-align: center;
   margin-top: 30px;
-  font-size: 20px;
+  padding-bottom: 30px;
 }
+
 #section1 .cycle-slideshow {
     width: 45%;
     min-width: 200px;
@@ -441,44 +475,44 @@ p{
     padding: 0;
     position: relative;
 }
+
+.videofond {
+    background-color: #E5E5E5;
+}
 /*#####################*/
-/* SECTION 3 DEVENIR PARTENAIRE */
+/* SECTION 2 DEVENIR PARTENAIRE */
 /*#####################*/
 
 #section2 {
   text-align: center;
-  background-color: #E5E5E5;
+  margin-bottom: 60px;
 }
-
 #section2 .image_section img{
   width: 50%;
 }
 #section2 .les_partenaires{
   margin-top: 40px;
 }
-#section2 .les_partenaires li{
-  list-style: none;
-  text-align: justify;
+#section2 .les_partenaires div{
+  margin-bottom: 20px;
 }
-#section2 .les_partenaires li:first-child{
-  margin-top: 20px;
+#section2 .les_partenaires img{
+  width: 130px;
+  height: 92px;
+  margin-bottom: 20px;
 }
-#section2 .les_partenaires .colonegauche img,
-#section2 .les_partenaires .colonedroite img{
-  width: 20%; 
-  height: 10%;  
+@media screen and (max-width: 767px){
+  #section2 .image_section img{
+    width: 90%;
+  }
 }
-#section2 .les_partenaires .colonecentre img{
-  width: 10%;
-  height: 10%;
-}
-
 /*#####################*/
 /* SECTION 3 LOCALISATION */
 /*#####################*/
 
 #section3{
   text-align: center;
+  margin-bottom: 30px;
 }
 #section3 .image_section img.internet{
   width: 35%;
@@ -487,17 +521,28 @@ p{
   width: 50%;
 }
 #section3 .point_de_vente img{
-  width: 50%;
+  width: 100%;
 }
 #section3 .maps iframe{
   border-style: inherit;
   width: 640px;
   height: 500px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   #section3 .maps iframe{
-    width: 350px;
+    width: 330px;
     height: 273px;
+  }
+  #section3 .image_section{
+    margin-bottom: 30px,
+  }
+  #section3 .image_section img.internet{
+    width: 80%;
+    margin-top: 0px;
+  }
+  #section3 .image_section img.magasin{
+    margin-top: 30px;
+    width: 90%;
   }
 }
 /*#####################*/
@@ -505,7 +550,6 @@ p{
 /*#####################*/
 
 #section4{
-  margin-top: 100px;
   text-align: center;
   background-color: #E5E5E5;
 }
@@ -514,7 +558,7 @@ p{
 }
 #section4 .image_section img{
   width: 35%;
-  height: 35%;
+  margin-top: 50px;
 }
 
 #section4 .img_equipe{
@@ -531,16 +575,23 @@ p{
   margin: 0 auto;
 }
 #section4 .feature p{
-  text-align: justify;
+  text-align: center;
 }
 #section4 .text_createur{
-  margin: 90px auto 30px auto;
+  margin: 90px auto 100px auto;
   width: 300px;
 }
-@media screen and (max-width: 768px){    
+@media screen and (max-width: 767px){    
   #section4 .bloc_photo{
       margin-top: 90px;
     } 
+  #section4 .image_section{
+    margin-bottom: 0px;
+  }
+  #section4 .image_section img{
+    width: 80%;
+    margin-top: 50px;
+  }
 }
 
 /*#####################*/
@@ -583,9 +634,9 @@ li a .masonry {
 #section5 .imgblog{
   width: 50%;
 }
-#section5 .nav_archive li:first-child{
-  font-size: 18px;
+#section5 .fil_archive{
   margin-top: 0px;
+  margin-bottom: 30px;
 }
 #section5 .nav_archive li{
   margin-top: 5px;
@@ -609,54 +660,70 @@ li a .masonry {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+.masonry{
+  height: 600px;
+  overflow: scroll;
+}
+@media screen and (max-width: 767px){ 
+  #section5 .nav_archive{
+    padding-left: 0px;
+  }
+  #section5 .facebook{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 /*#####################*/
 /* CONTACT */
 /*#####################*/
 #section6{
   background-color: #E5E5E5;
+  text-align: center;
 }
 #section6 .btn-info{
   color: white;
   background-color:grey;
   background-image: none;
   border: none;
-
 }
-#section6 h2 {
-margin-top : 100px;
-padding-left :40px;
-}
-
-#section6 img {
-margin-right: 80px;
-margin-top : 40px;
-
-}
-#section6 img {
-margin-top: -110px;
-margin-right : 100px;
+#section6 img{
+  width: 50%;
 }
 #section6 p {
-font-size: 18px;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.form-horizontal{
+  max-width: 700px;
+  margin: auto;
+}
+.titrecontact {
+  text-align: center;
+}
+.boutonfermer {
+  margin-bottom: 30px;
+  margin-top: 15px;
 }
 /*#####################*/
 /* FOOTER */
 /*#####################*/
 
 /* Set the fixed height of the footer here */
-#footer {
+#section7 {
   width:100%;
-  height: 60px;
   background-color: grey;
-  margin-top:5px;
   padding-top:20px;
   padding-bottom:20px;
+  text-align: center;
 }
 #footer a {
-color: white;
-font-size: 18px;
+  color: white;
+  font-size: 18px;
 }
-
 .fa.fa-twitter {
   font-size: 25px;
+}
+#section7 .row_2_footer_2{
+  margin-top: 10px
 }

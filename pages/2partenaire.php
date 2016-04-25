@@ -1,11 +1,11 @@
 <div id="section2">
 
     <div class="row image_section">
+        <span class="ancres" id="partenaire" ></span>
         <img src="images/partenaire.png" alt="couple"/>
         <h2>DEVENIR PARTENAIRE</h2>
-        <p>Vous êtes intéressés par nos produits et vous souhaitez les distribuer ?</p>
+        <p>Vous souhaitez nous distribuer?</p>
         <p>Contactez-nous <a href="#section6">ici</a> !</p>
-        <p>Nos produits sont également référencés sur : <a href="https://dilicom-prod.centprod.com/connexion.html">Dilicom !</a></p>
     </div>        
     <!-- Image et titre section partenaire -->
 
@@ -13,93 +13,46 @@
         <div class="row les_partenaires">
 
             <!-- Colonne 1 -->
-            <div class="col-md-4 colonegauche">
-                <img src="images/Couple_Sexe.png">
-                <h4>HOTELS</h4>
-                <p>
-                    En tant qu’hôte, vous souhaitez :
-                    <ul>
-                        <li>Que vos clients se sentent choyés et uniques.</li>
-                        <li>Proposer ce petit plus qui fait plaisir dans sa chambre d’hôtel lors d’un voyage de noces, d’une formule escapade romantique, pour la Saint Valentin ou tout simplement pour un week-end détente en famille.</li>
-                    </ul>
-                </p>
+            <div class="col-md-4 col-xs-6">
+                <img src="images/magasin.png"/>
+                <p>Rejoignez ces <B>magasins</B> qui nous distribuent !</p>
+                <p>Nous sommes aussi référencés sur<a href="https://dilicom-prod.centprod.com/connexion.html"> Dilicom !</a></p>
             </div>
 
             <!-- Colonne 2 -->
-            <div class="col-md-4 colonecentre">
-                <img src="images/fleurs.png">
-                <h4>FLEURISTES</h4>
-                <p>
-                    En tant que fleuriste, vous souhaitez :
-                    <ul>
-                        <li>Proposer un cadeau unique et original, mêlant des fleurs à un produit qu’on garde et qui est porteur de sens.</li>   
-                        <li>Vous différencier de la concurrence pour des événements comme la St Valentin, les mariages, la Fête des Mères, la Fête des Pères…</li>
-                        <li>Percevoir une commission sur chaque boîte vendue.</li>
-                    </ul> 
-                </p>
+            <div class="col-md-4 col-xs-6">
+                <img src="images/14.png"/>
+                <p>Rejoignez ces <B>associations</B> qui nous intègrent dans leurs parcours.</p>
+                <p>Liste des associations disponibles sur demande en nous contactant.<a href="#section6">ici</a></p>
             </div>
 
             <!-- Colonne 3 -->
-            <div class="col-md-4 colonedroite">
-                <img src="images/assos.png">
-                <h4>ASSOCIATIONS</h4>
-                <p>
-                    En tant qu’associations, vous souhaitez :<br/>
-                    <ul>
-                        <li>Que vos membres aient des supports sérieux pour prendre soin de leur couple ou de leur famille.</li>
-                        <li>Qu’ils s’habituent à prendre régulièrement des temps de qualité ensemble en dehors de ceux que vous proposez au sein de vos associations.</li>
-                        <li>Les aider à désarmorcer leurs conflits ou tracas du quotidien par le rire et la communication.</li>
-                    </ul>
-                </p>
+            <div class="col-md-4 col-xs-6">
+                <img src="images/Devenir partenaire - Mairies.png" >
+                <p>Rejoignez ces <B>mairies</B> qui nous offrent lors des cérémonies de mariage civil et qui bientôt pourront acheter un produit original, uniquement destiné aux Maires de France : <B>La Boîte de Comm’ des Mariés.</B></p>
+                <p>Plus de détails sur cette collaboration Boîtes de Comm’ / Evénements&Tendances :</p> 
+                <p>contact@ed-evenements-tendances.fr</p>  
+                <p>02 97 68 14 50</p>
             </div>
-        </div> 
+            <div class="col-md-4 col-xs-6">
+                <img src="images/fleur.jpg">
+                <p>Rejoignez ces fleuristes qui nous proposent avec leurs bouquets dans des formules spéciales (anniversaire, fête des mères, fête des pères, mariage…)!</p>
+                <img src="images/fleuriste_partenaire.png"/>
+            </div>
 
-        <!-- Seconde ligne insertion des logos -->
-        <div class="col-md-4 col-md-offset-4">
-            <div class="row">
-                <img src="images/mairies.png" />
+            <!-- Colonne 2 -->
+            <div  class="col-md-4 col-xs-6">
+                <img src="images/Couple_Sexe.png">
+                <p>Rejoignez ces <B>hôtels</B> qui nous intègrent dans leurs formules d’es-capade romantique, week-end en famille…</p>
+                <img src="images/hotel_partenaire.png"/>
+            </div>
+
+            <!-- Colonne 3 -->
+            <div class="col-md-4 col-xs-6">
+                <img src="images/Couple_Marie╠üs.png"/>
+                <p>Rejoignez ces <B>listes de mariage</B> qui nous référencent.</p>
+                <img src="images/mariage_partenaire.png"/>
             </div> 
         </div>
     </div>
-
-    <div class="container-fluid">
-        <div class="row les_partenaires">
-                        
-                        <!-- Colonne 1 -->
-            <div class="col-md-4 colonegauche">
-
-            </div>
-                        
-                        <!-- Colonne 2 -->
-            <div class="col-md-4 colonecentre">
-
-            </div>
-                        
-                        <!-- Colonne 3 -->
-            <div class="col-md-4 colonedroite">
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row les_partenaires">
-                        
-                        <!-- Colonne 1 -->
-            <div class="col-md-4 colonegauche">
-
-            </div>
-                        
-                        <!-- Colonne 2 -->
-            <div class="col-md-4 colonecentre">
-
-            </div>
-                        
-                        <!-- Colonne 3 -->
-            <div class="col-md-4 colonedroite">
-
-            </div>
-        </div>
-    </div>
-    
-</div> 
+</div>

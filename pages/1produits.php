@@ -2,6 +2,7 @@
 
     <!-- Image + Titre section produits -->
     <div class="row image_section">
+    <span class="ancres" id="produit" ></span>
         <img class="image_couple" src="images/couple.png" alt="couple"/>
         <h2>PRODUITS</h2>
     </div>
@@ -15,7 +16,7 @@
                 <!-- Lien de l'image BOITE DE COUPLE -->
                 <div class="col-md-offset-1 col-md-4 col-sm-7 col-xs-12">
                     <a class="hvr-grow" data-toggle="modal" data-target="#myModal">
-                        <img class="img_boite" src="images/boitecouple.jpg" alt="boitecouple"/>
+                        <img class="img_boite" src="images/boitecouple.png" alt="boitecouple"/>
                     </a>
                     
                     <!-- PARTIE MODALE 1 -->
@@ -40,12 +41,15 @@
                                         <p><span>Cible :</span> tous les couples : récemment créés, tout juste mariés, ensemble depuis des années, des décennies, avec enfants ou non. Se joue uniquement à 2, au sein de son couple.</p>
                                         <p><span>Temps de partie :</span> 15 min par carte environ.</p>
                                         <p><span>Taille :</span>  180 mm x 200 mm x 45 mn.</p>
-                                        <p><span>Poids :</span> 950 g.</p>                                        
+                                        <p><span>Poids :</span> 950 g.</p>
+                                        <p>"La livraison est possible partout dans le monde : voir le montant des frais de port
+                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">ici"</a><p>                                         
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
-                                        <i class="fa fa-amazon"></i>
+                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
+                                    </a>
+                                      <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39 euros + 4,90 euros frais de port)<i class="fa fa-shopping-cart"></i>
                                     </a>
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
@@ -102,19 +106,26 @@
                                         <p><span>Nombre de joueurs :</span> à partir de 4 joueurs et sans limite.</p>
                                         <p><span>Taille :</span>  180 mm x 200 mm x 45 mn, stockage pratique dans le sac de transport compris dans la boîte.</p>
                                         <p><span>Poids :</span> 850 g.</p>
+                                        <p>"La livraison est possible partout dans le monde : voir le montant des frais de port
+                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">ici"</a><p>
                                     </div>
                                 </div>
 
                                 <!-- PARTIE DU BAS DE LA MODALE BOUTON FERMER -->
                                 <div class="modal-footer">
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">
-                                        <i class="fa fa-amazon"></i>
+                                     <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
+                                     </a>
+                                      <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39 euros + 4,90 euros frais de port)<i class="fa fa-shopping-cart"></i>
                                     </a>
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="col-md-offset-2 col-md-4 col-sm-5 col-xs-12 comment_boite_left_responsive">
+                    <p>Un programme très simple : des défis à relever avec des récompenses et des gages à la clef, des questions et un temps d’échange fort.</p>
                 </div>
             </div>
 
@@ -129,9 +140,9 @@
 
     <!-- Image pour section video -->
     <div class="row image_section">
-        <img class="image_famille" src="images/famille.png" alt="famille">
+        <img class="image_famille" src="images/Famille.png" alt="famille">
     </div>
-
+<div class="videofond">
     <!-- PARTIE VIDEO YOUTUBE + CADRE -->
     <div class="container-fluid">
         <div class="row youtube">
@@ -144,41 +155,34 @@
             <div class="col-sm-4 col-xs-6">
                 <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen></iframe>
             </div>
-        </div>
-        <div class="row youtube">
-            <div class="col-sm-4 col-xs-6">
-
-            </div>
             <div class="col-sm-4 col-xs-6">
                 <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="col-sm-4 col-xs-6">
-
-            </div>
+            </div>            
         </div>
     </div>
+
 
     <!--AVIS -->
 
-        <div class="row bloc_avis">
-            <ul id="lightSlider">
-                <li>
-                    <h4>Emilie, 38 ans:</h4>
-                    <p>« Nous avons passé une soirée en amoureux comme à l'époque de notre rencontre : à se découvrir, se confier des choses et se réserver même quelques surprises! Un bon moment de complicité. »</p>
-                </li>
-                <li>
-                    <h4>Jeanne, 32 ans :</h4>
-                    <p>« Nous avons passé un très bon moments, en couple, autour d'une bougie, à nous confier et à rire autour de ces cartes qui sont vraiment très bien faites... A recommander à tous ceux qui s'aiment et qui venlent accorder du temps à leur relation de couple ! »</p>
-                </li>
-            </ul>
-        </div>
-        <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et ici pour la famille.</p>
+    <div class="row bloc_avis">
+        <ul id="lightSlider">
+            <li>
+                <h4>Emilie, 38 ans:</h4>
+                <p>« Nous avons passé une soirée en amoureux comme à l'époque de notre rencontre : à se découvrir, se confier des choses et se réserver même quelques surprises! Un bon moment de complicité. »</p>
+            </li>
+            <li>
+                <h4>Jeanne, 32 ans :</h4>
+                <p>« Nous avons passé un très bon moments, en couple, autour d'une bougie, à nous confier et à rire autour de ces cartes qui sont vraiment très bien faites... A recommander à tous ceux qui s'aiment et qui venlent accorder du temps à leur relation de couple ! »</p>
+            </li>
+        </ul>
     </div>
-
+    <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et <a href="https://www.amazon.fr/boites-comm-La-boite-famille/product-reviews/B0105RHRUS/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour la famille.</p>
+</div>
 
 <script type="text/javascript">
     $(document).ready(function() {
         $("#lightSlider").lightSlider({
+            pause: 7000,
             item: 3,
             autoWidth: true,
             mode: "fade",
@@ -189,3 +193,4 @@
         });
     });
 </script>
+</div>

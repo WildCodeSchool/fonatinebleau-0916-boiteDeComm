@@ -1,7 +1,8 @@
 <div id="section5">
-
+<span class="ancres" id="blog" ></span>
     <!-- Image + Titre section produits -->
     <div class="row image_section">
+    <span class="ancres" id="createurs" ></span>
         <img class="imgblog" src="images/Blog.png" alt="blog"/>
         <h2>BLOG</h2>
     </div>
@@ -11,10 +12,10 @@
 
         <div class="row">
             <!-- Menu Archive à droite -->
-            <div class="col-md-3"role="navigation">
+            <div class="col-md-3 fil_archive">
                 <div>
+                    <h3>ARCHIVE</h3>
                     <ul class="nav_archive">
-                        <li>Archives</li>
                         <li class="active">
                             <a href="http://www.galerieslafayette.com/">Les Boîtes de Comm ont débarqué aux Galeries Lafayette ! 04/04/2016</a>
                         </li>
@@ -25,7 +26,7 @@
                             <a href="http://www.lesjeuxdedames.com/index.html">Les Boîtes de Comm’ au Marché des Créatrices de Fontainebleau. 07/03/2016</a>
                         </li>
                         <li>
-                            <a href="http://http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" 22/02/2016</a>
+                            <a href="http://www.mamanvogue.fr/rencontre-avec-les-creatrices-des-boites-de-comm">Article sur le site : "Maman Vogue" 22/02/2016</a>
                         </li>     
                         <li>
                             <a href="https://www3.smartadserver.com/click?imgid=15740879&insid=5354002&pgid=587180&uid=9217512259651020296&tgt=%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1311396118%3b%24ql%3dmedium%3b%24qpc%3d77210%3b%24qpp%3d0%3b%24qt%3d184_974_39328t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d99999%3b%24sw%3d1280%3b%24sh%3d768&go=http%3a%2f%2fwww.marvellous-island.fr%2fbilletterie%2f">Le Bonbon, diffusion de la vidéo : "Flagrant Délit d’Amour".11/02/2016</a>
@@ -46,7 +47,7 @@
                 </div><!--/.well -->
             </div>
             <!-- Archive center -->
-            <div class="col-md-6">
+            <div class="col-md-6 fil_actu">
                 <div class="masonry">
                     <div class="item">
                         <div class="row title">
@@ -111,12 +112,14 @@
             </div>
 
             <!-- Flux Facebook -->
-            <div class="col-md-3 sidebar-offcanvas" id="sidebarright" role="navigation">
+            <div class="col-md-3 facebook">
                 <p class="visible-xs">
                     <button class="btn btn-primary btn-xs" type="button" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
                 </p>
                 <div class="sidebar-nav">
-                    <div class="fb-page" data-href="https://www.facebook.com/boitesdecomm?ref=hl" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">   <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/boitesdecomm?ref=hl"><a href="https://www.facebook.com/boitesdecomm?ref=hl">Les Boîtes de Comm</a></blockquote>
+                    <div class="fb-page" data-href="https://www.facebook.com/boitesdecomm?ref=hl" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">   
+                        <div class="fb-xfbml-parse-ignore">
+                            <blockquote cite="https://www.facebook.com/boitesdecomm?ref=hl"><a href="https://www.facebook.com/boitesdecomm?ref=hl">Les Boîtes de Comm</a></blockquote>
                         </div>
                     </div>
                 </div>

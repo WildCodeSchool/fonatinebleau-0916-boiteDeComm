@@ -3,9 +3,9 @@
   <!-- Titre section contact -->
   <div class="row image_section">
     <span class="ancres" id="contact" ></span>
-    <h2 class="titrecontact">CONTACT</h2>
     <img src="images/Contact(1).png" alt="contact">
-    <p>Une question ? Remplissez le formulaire ci-dessous, nous vous recontacterons avec plaisir</p>
+    <h2 class="titrecontact">CONTACT</h2>
+    <p>Une question ? Remplissez le formulaire ci-dessous, nous vous recontacterons avec plaisir.</p>
   </div>
 
   <div class="row">

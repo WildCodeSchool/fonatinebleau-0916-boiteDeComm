@@ -22,11 +22,26 @@
             $('#extracontrols').css('display', 'block');
             $("#logo_header").fadeIn(7000);
             $(".texte_header").typed({
-              strings: ["^4000 <h2>Les jeux qui vont vous faire parler et rire</h2>"],
+              strings: ["^4000 <h2>Les jeux qui vont vous faire <span class='load_txt'>parler</span> et <span class='load_txt'>rire</span></h2>"],
               showCursor: false
             });
         });
     </script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightSlider").lightSlider({
+            pause: 7000,
+            item: 3,
+            autoWidth: true,
+            mode: "fade",
+            auto: true,
+            loop: true,
+            controls: false,
+            pager: false,
+        });
+    });
+</script>
 
     <!-- Apparition progressive du logo -->
 
@@ -36,7 +51,7 @@
   <div id="section0"></div>
    <div id="loading">
     <h1>Envie de mettre du peps dans votre vie de couple ou de famille ?</h1>
-        <!-- <img src="images/Preloader_10.gif" alt="Loading..." /> -->
+     <img src="images/gif_loading.gif" alt="Loading..." />
    </div>
    <div id="extracontrols">
       <header>

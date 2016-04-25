@@ -20,38 +20,36 @@
                     </a>
                     
                     <!-- PARTIE MODALE 1 -->
-                    <div  class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_1">
-                        <div class="modal-dialog" role="document">
+                    <div  class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel_1">
+                        <div class="modal-dialog modal_produit" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
-                                    <h4 class="modal-title" id="myModalLabel_1">Boite de Comm' du Couple !</h4>
+                                    <h4 class="modal-title" id="myModalLabel_1">Boite de Comm' du Couple</h4>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body modal_boite">
                                     <!-- TEXT INTERIEUR + LIEN REFERENCE + ICONE AMAZON --> 
                                     <img src="images/boiteouverte.jpg" alt="boiteouvertecouple" class="boite"/>
                                     <div>
-                                        <p><span>Retrouvez-vous en tête-à-tête autour d’un verre et tirez une carte.</span></p>
-                                        <p><span>Le principe est simple : un défi à relever le temps d’un sablier avec des gages et des récompenses à la clef, des questions sur une multitude de sujets aussi légers que profonds et un temps de discussion autour de vos réponses.</span></p>
-                                        <p><span>Cette boîte contient :</span> 52 cartes doubles, 2 crayons, 1 dé original, 1 sablier et 1 règle du jeu.</p>
-                                        <p><span>Fous rire et surtout (re)découverte de l’autre et de soi en perspective.</span></p>
-                                        <p><span>Réalisée par un groupe de coachs, de psychologues et de conseillers conjugaux.</span></p>
-                                        <p><span>Cible :</span> tous les couples : récemment créés, tout juste mariés, ensemble depuis des années, des décennies, avec enfants ou non. Se joue uniquement à 2, au sein de son couple.</p>
-                                        <p><span>Temps de partie :</span> 15 min par carte environ.</p>
-                                        <p><span>Taille :</span>  180 mm x 200 mm x 45 mn.</p>
-                                        <p><span>Poids :</span> 950 g.</p>
-                                        <p>"La livraison est possible partout dans le monde : voir le montant des frais de port
-                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">ici"</a><p>                                         
+                                        <p>Retrouvez-vous en tête-à-tête autour d’un verre et tirez une carte.</p>
+                                        <p>Le principe est simple : un défi à relever le temps d’un sablier avec des gages et des récompenses à la clef, des questions sur une multitude de sujets aussi légers que profonds et un temps de discussion autour de vos réponses.</p>
+                                        <p>Cette boîte contient : 52 cartes doubles, 2 crayons, 1 dé original, 1 sablier et 1 règle du jeu.</p>
+                                        <p>Fous rire et surtout (re)découverte de l’autre et de soi en perspective.</p>
+                                        <p>Réalisée par un groupe de coachs, de psychologues et de conseillers conjugaux.</p>
+                                        <p>Cible : tous les couples : récemment créés, tout juste mariés, ensemble depuis des années, des décennies, avec enfants ou non. Se joue uniquement à 2, au sein de son couple.</p>
+                                        <p>Temps de partie : 15 min par carte environ.</p>
+                                        <p>Taille : 180 mm x 200 mm x 45 mn.</p>
+                                        <p>Poids : 950 g.</p>
+                                        <p>Livraison possible partout dans le monde (montant des frais de port indiqué lors de la validation de votre panier).<p>                                         
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
+                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button" target="blank">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
                                     </a>
-                                      <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39 euros + 4,90 euros frais de port)<i class="fa fa-shopping-cart"></i>
+                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39€ + 4,90€ frais de port) <i class="fa fa-shopping-cart"></i>
                                     </a>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
                             </div>
                         </div>
@@ -86,38 +84,36 @@
 
                     <!-- PARTIE MODALE 2  -->
                     <div  class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_2">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog modal_produit" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
-                                    <h4 class="modal-title" id="myModalLabel_2">Boite de Comm' de la Famille!</h4>
+                                    <h4 class="modal-title" id="myModalLabel_2">Boite de Comm' de la Famille</h4>
                                 </div>
                                 <div class="modal-body">
                                     <img src="images/boiteouverte2.jpg" alt="boiteouverte2" class="boite"/>
                                     <div>
-                                        <p><span>Cette boîte contient : 300 cartes (100 cartes Défi individuel,100 cartes Défi en équipe, et 100 cartes Confidence), 1 sablier, 1 sac de transport et 1 règle  du jeu.</span></p>
-                                        <p><span>Fous rires et surtout (re)découverte des autres et de soi en perspective. La Boîte de Comm’ de la Famille, le jeu qui réunit petits et grands pour un pur moment de plaisir familial !</span></p>
-                                        <p><span>Réalisée par une équipe de psychologues et de coachs.</span></p>
-                                        <p><span>Cible :</span> toutes les familles qui veulent se retrouver, rire et partager des moments forts ensemble. </p>
-                                        <p><span>Age :</span> à partir de 7 ans et sans limite, orienté autant enfants, ados que parents et grands-parents.</p>
-                                        <p><span>Temps de partie :</span> environ 30 minutes.</p>
-                                        <p><span>Nombre de joueurs :</span> à partir de 4 joueurs et sans limite.</p>
-                                        <p><span>Taille :</span>  180 mm x 200 mm x 45 mn, stockage pratique dans le sac de transport compris dans la boîte.</p>
-                                        <p><span>Poids :</span> 850 g.</p>
-                                        <p>"La livraison est possible partout dans le monde : voir le montant des frais de port
-                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">ici"</a><p>
+                                        <p>Cette boîte contient : 300 cartes (100 cartes Défi individuel,100 cartes Défi en équipe, et 100 cartes Confidence), 1 sablier, 1 sac de transport et 1 règle  du jeu.</p>
+                                        <p>Fous rires et surtout (re)découverte des autres et de soi en perspective. La Boîte de Comm’ de la Famille, le jeu qui réunit petits et grands pour un pur moment de plaisir familial !</p>
+                                        <p>Réalisée par une équipe de psychologues et de coachs.</p>
+                                        <p>Cible : toutes les familles qui veulent se retrouver, rire et partager des moments forts ensemble. </p>
+                                        <p>Age : à partir de 7 ans et sans limite, orienté autant enfants, ados que parents et grands-parents.</p>
+                                        <p>Temps de partie : environ 30 minutes.</p>
+                                        <p>Nombre de joueurs : à partir de 4 joueurs et sans limite.</p>
+                                        <p>Taille :  180 mm x 200 mm x 45 mn, stockage pratique dans le sac de transport compris dans la boîte.</p>
+                                        <p>Poids : 850 g.</p>
+                                        <p>Livraison possible partout dans le monde (montant des frais de port indiqué lors de la validation de votre panier).<p>
                                     </div>
                                 </div>
 
                                 <!-- PARTIE DU BAS DE LA MODALE BOUTON FERMER -->
                                 <div class="modal-footer">
-                                     <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
+                                     <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button" target="blank">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
                                      </a>
-                                      <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39 euros + 4,90 euros frais de port)<i class="fa fa-shopping-cart"></i>
+                                      <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39€ + 4,90€ frais de port) <i class="fa fa-shopping-cart"></i>
                                     </a>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
                             </div>
                         </div>
@@ -142,55 +138,38 @@
     <div class="row image_section">
         <img class="image_famille" src="images/Famille.png" alt="famille">
     </div>
-<div class="videofond">
-    <!-- PARTIE VIDEO YOUTUBE + CADRE -->
-    <div class="container-fluid">
-        <div class="row youtube">
-            <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen></iframe>
+    <div class="videofond">
+        <!-- PARTIE VIDEO YOUTUBE + CADRE -->
+        <div class="container-fluid">
+            <div class="row youtube">
+                <div class="col-sm-4 col-xs-6">
+                    <iframe width="360" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-4 col-xs-6">
+                    <iframe width="360" height="315" src="https://www.youtube.com/embed/zgb-U12lIts" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-4 col-xs-6">
+                    <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-4 col-xs-6">
+                    <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
+                </div>             
             </div>
-            <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/zgb-U12lIts" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="col-sm-4 col-xs-6">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
-            </div>            
         </div>
+
+        <!--AVIS -->
+        <div class="row bloc_avis">
+            <ul id="lightSlider">
+                <li>
+                    <p>&ldquo; Nous avons passé une soirée en amoureux comme à l'époque de notre rencontre : à se découvrir, se confier des choses et se réserver même quelques surprises! Un bon moment de complicité. &rdquo;</p>
+                    <h4>Emilie</h4>
+                </li>
+                <li>
+                    <p>&ldquo; Nous avons passé un très bon moments, en couple, autour d'une bougie, à nous confier et à rire autour de ces cartes qui sont vraiment très bien faites... A recommander à tous ceux qui s'aiment et qui venlent accorder du temps à leur relation de couple ! &rdquo;</p>
+                    <h4>Jeanne</h4>
+                </li>
+            </ul>
+        </div>
+        <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et <a href="https://www.amazon.fr/boites-comm-La-boite-famille/product-reviews/B0105RHRUS/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour la famille.</p>
     </div>
-
-
-    <!--AVIS -->
-
-    <div class="row bloc_avis">
-        <ul id="lightSlider">
-            <li>
-                <h4>Emilie, 38 ans:</h4>
-                <p>« Nous avons passé une soirée en amoureux comme à l'époque de notre rencontre : à se découvrir, se confier des choses et se réserver même quelques surprises! Un bon moment de complicité. »</p>
-            </li>
-            <li>
-                <h4>Jeanne, 32 ans :</h4>
-                <p>« Nous avons passé un très bon moments, en couple, autour d'une bougie, à nous confier et à rire autour de ces cartes qui sont vraiment très bien faites... A recommander à tous ceux qui s'aiment et qui venlent accorder du temps à leur relation de couple ! »</p>
-            </li>
-        </ul>
-    </div>
-    <p class="commentaireamazon">Autres commentaires disponibles sur Amazon : cliquez <a href="http://www.amazon.fr/La-Boite-comm-couple-communication/product-reviews/B00NUALNVC/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour le couple et <a href="https://www.amazon.fr/boites-comm-La-boite-famille/product-reviews/B0105RHRUS/ref=dpx_acr_txt?showViewpoints=1" target="blank">ici</a> pour la famille.</p>
-</div>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#lightSlider").lightSlider({
-            pause: 7000,
-            item: 3,
-            autoWidth: true,
-            mode: "fade",
-            auto: true,
-            loop: true,
-            controls: false,
-            pager: false,
-        });
-    });
-</script>
 </div>

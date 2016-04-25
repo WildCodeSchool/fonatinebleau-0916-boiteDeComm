@@ -39,9 +39,6 @@
                                                 Les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale​ ou partielle, effectuée à partir des éléments du site est prohibée.<br/>
                                                 Les informations contenues dans ce site sont données à titre indicatif et peuvent être modifiées à​ tout moment par lesboitesdecomm.com qui ne peut être tenu responsable du contenu erroné des​ informations qui peuvent être affichées. Lesboitesdecomm.com s'efforcent en effet d'inclure sur ce​ site des informations exactes et à jour mais ne donne aucune garantie à ce titre. En dépit du soin​ apporté au recueil des informations, des erreurs, omissions ou inexactitudes peuvent exister. En​ toute hypothèse et compte tenu des conditions d'utilisation, l'utilisateur du site et des informations​ qu'il contient, reconnaît qu'il en fait usage sous sa seule responsabilité ; lesboitesdecomm.com ne​ saurait en conséquence voir sa responsabilité engagée à raison de tout préjudice, direct ou indirect,​ de quelque nature que ce soit, résultant pour tout ou partie de l'utilisation de ce site ou l'impossibilité​ d'accès ou par toute erreur ou omission dans son contenu.</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="close" data-dismiss="modal">Fermer</button>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -195,9 +192,6 @@
                                                 <p>Règlement de litiges En cas de litige, une solution amiable sera recherchée avant toute action judiciaire.Les réclamations ou contestations seront toujours reçues avec bienveillance attentive, la bonne foi étant toujours présumée chez celui qui prend la peine d'exposer ses situations.En cas de litige, le consommateur effectuera ses réclamations auprès du service client de BELLIFACTO par mail : contact@lesboitesdecomm.comA défaut de solution amiable, toute action judiciaire sera portée devant les tribunaux compétents du lieu du domicile du défendeur.</p>
                                                 <p>Fait à Fontainebleau, le 5 avril 2014 et remis à jour le 5 juin 2015.</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="close" data-dismiss="modal">Fermer</button>
-                                            </div>
                                         </div>
     				                </div>
                                 </div>
@@ -210,7 +204,7 @@
                             <div class="container-fluid">
 
                                 <!-- Trigger the modal with a button -->
-                                <a href="#myModalfooter2" style="#" data-toggle="modal" data-target="#myModalfooter2">Questions fréquentes</a>
+                                <a href="#myModalfooter2" style="#" data-toggle="modal" data-target="#myModalfooter2">F.A.Q</a>
 
                                 <!-- Modal -->
                                 <div id="myModalfooter2" class="modal fade" role="dialog">
@@ -234,9 +228,6 @@
                                                 Le consommateur communique son nom, le numéro de sa carte, sa date d’expiration et son cryptogramme.<br/>
                                                 Tout est donc totalement sécurisé..</p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="close" data-dismiss="modal">Fermer</button>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -250,25 +241,25 @@
                         <p>Copyright © Les Boites de Comm' Tous droits réservés</p>
                     </div>
                     <div class="col-md-4">
-                        <a href="https://www.facebook.com/boitesdecomm">
+                        <a href="https://www.facebook.com/boitesdecomm" target="blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle text-primary fa-stack-2x"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy">
+                        <a href="https://plus.google.com/+Lesboitesdecomm/posts/Z8n6Uz7PDMy" target="blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle text-danger fa-stack-2x"></i>
                                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g">
+                        <a href="https://www.youtube.com/channel/UCvlzYRQWxjhsrL6crS0W86g" target="blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle text-danger fa-stack-2x"></i>
                                 <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <a href="https://twitter.com/lesboitesdecomm">
+                        <a href="https://twitter.com/lesboitesdecomm" target="blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle text-info fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -302,6 +293,15 @@
         location.href = link;
         $('#myModal').modal('hide');
     });
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 </script>
 </html>
 

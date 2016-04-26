@@ -19,6 +19,9 @@
                     </blockquote>
                 </div>
             </div>
+            <div class="responsive_blog">
+                <a href="https://www.facebook.com/boitesdecomm">Retrouvez nous sur Facebook</a>
+            </div>
             
         </div><!-- Fin row actuallité -->
     </div><!--/.container-->

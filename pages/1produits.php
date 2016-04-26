@@ -30,9 +30,11 @@
                                     <h4 class="modal-title" id="myModalLabel_1">Boite de Comm' du Couple</h4>
                                 </div>
                                 <div class="modal-body modal_boite">
-                                    <!-- TEXT INTERIEUR + LIEN REFERENCE + ICONE AMAZON --> 
-                                    <img src="images/boiteouverte.jpg" alt="boiteouvertecouple" class="boite"/>
-                                    <div>
+                                    <!-- TEXT INTERIEUR + LIEN REFERENCE + ICONE AMAZON -->
+                                    <div class="img_boite_ouvert">
+                                        <img src="images/boiteouverte.jpg" alt="boiteouvertecouple" class="boite"/>
+                                    </div> 
+                                    <div class="text_modal">
                                         <p>Retrouvez-vous en tête-à-tête autour d’un verre et tirez une carte.</p>
                                         <p>Le principe est simple : un défi à relever le temps d’un sablier avec des gages et des récompenses à la clef, des questions sur une multitude de sujets aussi légers que profonds et un temps de discussion autour de vos réponses.</p>
                                         <p>Cette boîte contient : 52 cartes doubles, 2 crayons, 1 dé original, 1 sablier et 1 règle du jeu.</p>
@@ -42,11 +44,12 @@
                                         <p>Temps de partie : 15 min par carte environ.</p>
                                         <p>Taille : 180 mm x 200 mm x 45 mn.</p>
                                         <p>Poids : 950 g.</p>
-                                        <p>Livraison possible partout dans le monde (montant des frais de port indiqué lors de la validation de votre panier).<p>                                         
+                                        <p>Livraison possible partout dans le monde (montant des frais de port indiqué lors de la validation de votre panier).<p>
                                     </div>
+
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button" target="blank">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
+                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button" target="blank">Acheter pour 43,50€ (frais de port compris) par <i class="fa fa-amazon"></i>
                                     </a>
                                     <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39€ + 4,90€ frais de port) <i class="fa fa-shopping-cart"></i>
                                     </a>
@@ -142,16 +145,16 @@
         <!-- PARTIE VIDEO YOUTUBE + CADRE -->
         <div class="container-fluid">
             <div class="row youtube">
-                <div class="col-sm-4 col-xs-6">
+                <div class="col-sm-4 col-xs-12">
                     <iframe width="360" height="315" src="https://www.youtube.com/embed/2zoZ6nHIAGk" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="col-sm-4 col-xs-6">
+                <div class="col-sm-4 col-xs-12">
                     <iframe width="360" height="315" src="https://www.youtube.com/embed/zgb-U12lIts" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="col-sm-4 col-xs-6">
+                <div class="col-sm-4 col-xs-12">
                     <iframe width="360" height="315" src="https://www.youtube.com/embed/tyrLCxsIHTc" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="col-sm-4 col-xs-6">
+                <div class="col-sm-4 col-xs-12">
                     <iframe width="360" height="315" src="https://www.youtube.com/embed/pg09NQfpUhg" frameborder="0" allowfullscreen></iframe>
                 </div>             
             </div>

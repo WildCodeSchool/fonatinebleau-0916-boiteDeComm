@@ -13,7 +13,7 @@
         <div class="row les_partenaires">
             <div class="row">
             <!-- Colonne 1 -->
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6 col-xs-12">
                     <div class="img_partenaire">
                         <img src="images/magasin.png"/>
                     </div>
@@ -24,7 +24,7 @@
                 </div>
 
                 <!-- Colonne 2 -->
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6 col-xs-12">
                     <div class="img_partenaire">
                         <img class="img_partenaire" src="images/assos.png"/>
                     </div>
@@ -36,7 +36,7 @@
             </div>
             <div class="row">
                 <!-- Colonne 3 -->
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6 col-xs-12">
                     <div class="img_partenaire">
                        <img src="images/mairies_partenaire.png" > 
                     </div>
@@ -46,7 +46,7 @@
                     </div>
                     
                 </div>
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6 col-xs-12">
                     <div class="img_partenaire">
                         <img class="img_partenaire" src="images/fleuristes.png">
                     </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="row">
                 <!-- Colonne 2 -->
-                <div  class="col-md-6 col-xs-6">
+                <div  class="col-md-6 col-xs-12">
                     <div class="img_partenaire">
                         <img class="img_partenaire" src="images/Couple_Sexe.png">
                     </div>
@@ -75,7 +75,7 @@
                 </div>
 
                 <!-- Colonne 3 -->
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6 col-xs-12">
                     <div class="img_partenaire">
                         <img class="img_partenaire" src="images/liste_de_mariage.png"/>
                     </div>

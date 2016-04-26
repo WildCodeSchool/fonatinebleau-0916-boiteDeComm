@@ -11,7 +11,7 @@
       <div class="col-sm-6 col-md-3">
         <div class="feature">
           <div class="bloc_photo">
-            <img class="photo_equipe" src="images/maud.png"/>
+            <img class="photo_equipe" src="images/Maud.png"/>
           </div>
           <div class="text_createur">
             <h3>MAUD JAN-AILLERET</h3>

@@ -97,19 +97,20 @@ header .row{
   text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
-
-
-}
-
 @media screen and (max-width: 767px) {
   h2{
     margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 25px;    
+    margin-bottom: 10px;
+    font-size: 20px;    
   }
   h3{
     font-size: 20px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .image_section{
+    margin-top: 35px;
   }
 }
 
@@ -323,13 +324,13 @@ header .row{
   font-size: 1.38vw;
 }
 #section1 .comment_boite_left{
-  margin-top: 14%;
+  margin-top: 8%;
   text-align: justify;
   font-size: 1.38vw;
 }
 #section1 .comment_boite_left_responsive{
   display: none;
-  margin-top: 14%;
+  margin-top: 0%;
   text-align: justify;
   font-size: 1.38vw;
 }
@@ -339,7 +340,6 @@ header .row{
   text-align: justify;
   font-size: 1.38vw;
 }
-
 #section1 .modal-content .boite{
   width: 50%;
   height: 50%
@@ -349,8 +349,10 @@ header .row{
 }
 #section1 .modal-body{
   display: flex;
-  text-align: justify;
   padding-right: 30px;
+}
+#section1 .text_modal{
+  text-align: justify;
 }
 #section1 .boiteouverte2 {
   margin-bottom: -50px;
@@ -364,6 +366,16 @@ header .row{
 #section1 .modal-footer a{
   text-decoration: none;
 }
+
+@media screen and (max-width: 767px){
+  #section1 .modal_produit{
+    width: 100%;
+  }
+  #section1 .img_modal{
+    text-align: center;
+  }
+
+
 /* Image famile */
 #section1 .image_famille{
   width: 65%;
@@ -420,9 +432,6 @@ header .row{
   }
   #section1 .container_boite .img_boite{
     width: 80%;
-  }
-  #section1 .comment_entre_boite{
-    background-color: grey;
   }
   #section1 .comment_boite_right, 
   #section1 .comment_boite_left, 
@@ -525,7 +534,8 @@ header .row{
 #section2 .les_partenaires .text_partenaire{
   width: 60%;
   margin: auto;
-}#section2 .les_partenaires .logo_partenaire{
+}
+#section2 .les_partenaires .logo_partenaire{
   width: 60%;
   margin: auto;
 }
@@ -535,6 +545,26 @@ header .row{
 @media screen and (max-width: 767px){
   #section2 .image_section img{
     width: 90%;
+  }
+  #section1 .commentaireamazon{
+    font-size: 17px;
+  }
+  #section2 p{
+    font-size: 17px;
+  }
+  #section2 .les_partenaires .img_partenaire img{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  #section2 .les_partenaires .text_partenaire{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #section2 .les_partenaires .logo_partenaire{
+    width: 100%;
+  }
+  #section2 .les_partenaires .logo_partenaire img{
+    width: 30%;
   }
 }
 /*#####################*/
@@ -568,23 +598,35 @@ header .row{
   margin-top: 35px;
   font-size: 1.38vw;
 }
+.responsive_maps{
+  display: none;
+}
 .maps .row{
   margin-bottom: 30px;
 }
 @media screen and (max-width: 767px){
-  #section3 .maps iframe{
+  .map_google .maps{
+    display: none;
+  }
+  .responsive_maps{
+    display: block;
   }
   #section3 .image_section{
     margin-bottom: 30px,
   }
   #section3 .image_section img.internet{
     width: 80%;
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
   #section3 .image_section img.magasin{
     margin-top: 30px;
     width: 90%;
   }
+  #section3 .point_de_vente img{
+    margin-top: 34px;
+    width: 100%;
+  }
+
 }
 /*#####################*/
 /* SECTION 4 NOS CREATEURS */
@@ -643,7 +685,9 @@ header .row{
 #section5 .imgblog{
   width: 50%;
 }
-
+#section5 .responsive_blog{
+  display: none;
+}
 @media screen and (max-width: 767px){ 
   #section5 .nav_archive{
     padding-left: 0px;
@@ -651,6 +695,12 @@ header .row{
   #section5 .facebook{
     padding-left: 0px;
     padding-right: 0px;
+  }
+  #section5 .responsive_blog{
+    display: block;
+  }
+  #section5 .fb-page{
+    display: none;
   }
 }
 /*#####################*/

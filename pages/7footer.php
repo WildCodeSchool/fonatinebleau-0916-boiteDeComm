@@ -274,34 +274,45 @@
         </div>
     </div>
 </body>
+
 <script>
-    $('#myModal').on('show', function() {
-        var link = $(this).data('link'),
-            agreeBtn = $(this).find('.agree');
+    $(window).load(function () {
+        $('#loading').hide();
+        $('#extracontrols').css('display', 'block');
+        $("#logo_header").fadeIn(7000);
+        $(".texte_header").typed({
+          strings: ["^4000 <h2>Les jeux qui vont vous faire <span class='load_txt'>parler</span> et <span class='load_txt'>rire</span></h2>"],
+          showCursor: false
+        });
     });
 
-    $('.confirm-link').on('click', function(e) {
-        e.preventDefault();
-
-        var link = $(this).data('link');
-        $('#myModal').data('link',link).modal('show');
+    $(document).ready(function() {
+        $("#lightSlider").lightSlider({
+            speed: 500,
+            pause: 5000,
+            auto: true,
+            item: 1,
+            autoWidth: true,
+            mode: 'fade',
+            loop: true,
+            controls: false,
+            pager: false,
+            adaptiveHeight: true
+        });
     });
 
-    $('#btnYes').click(function() {
-        // handle redirect here
-        var link = $('#myModal').data('link');
-        location.href = link;
-        $('#myModal').modal('hide');
-    });
 </script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+<script type="text/javascript" async>
+    $(document).load(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) 
+        return;
+      js = d.createElement(s); 
+      js.id = id;
+      js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+    (document, 'script', 'facebook-jssdk'));
 </script>
 </html>
 

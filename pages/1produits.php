@@ -49,10 +49,14 @@
 
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button" target="blank">Acheter pour 43,50€ (frais de port compris) par <i class="fa fa-amazon"></i>
-                                    </a>
-                                    <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39€ + 4,90€ frais de port) <i class="fa fa-shopping-cart"></i>
-                                    </a>
+                                    <div class="btn btn-default bouton_modal">
+                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" target="blank">Acheter pour 43,50€ (frais de port compris) par <i class="fa fa-amazon"></i></a> 
+                                    </div>
+                                    <div class="btn btn-default bouton_modal">
+                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">Ajouter au Panier pour 44,90€ (39€ + 5,90€ frais de port) <i class="fa fa-shopping-cart"></i></a>    
+                                    </div>
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
@@ -95,9 +99,11 @@
                                     </button>
                                     <h4 class="modal-title" id="myModalLabel_2">Boite de Comm' de la Famille</h4>
                                 </div>
-                                <div class="modal-body">
-                                    <img src="images/boiteouverte2.jpg" alt="boiteouverte2" class="boite"/>
-                                    <div>
+                                <div class="modal-body modal_boite">
+                                    <div class="img_boite_ouvert">
+                                        <img src="images/boiteouverte2.jpg" alt="boiteouverte2" class="boite"/>
+                                    </div>
+                                    <div class="text_modal">
                                         <p>Cette boîte contient : 300 cartes (100 cartes Défi individuel,100 cartes Défi en équipe, et 100 cartes Confidence), 1 sablier, 1 sac de transport et 1 règle  du jeu.</p>
                                         <p>Fous rires et surtout (re)découverte des autres et de soi en perspective. La Boîte de Comm’ de la Famille, le jeu qui réunit petits et grands pour un pur moment de plaisir familial !</p>
                                         <p>Réalisée par une équipe de psychologues et de coachs.</p>
@@ -113,10 +119,12 @@
 
                                 <!-- PARTIE DU BAS DE LA MODALE BOUTON FERMER -->
                                 <div class="modal-footer">
-                                     <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button" target="blank">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i>
-                                     </a>
-                                      <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" class="btn btn-default" role="button">Ajouter au Panier pour 44,90€ (39€ + 4,90€ frais de port) <i class="fa fa-shopping-cart"></i>
-                                    </a>
+                                    <div class="btn btn-default bouton_modal">
+                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" target="blank">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i></a>  
+                                    </div>
+                                    <div class="btn btn-default bouton_modal">
+                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">Ajouter au Panier pour 44,90€ (39€ + 4,90€ frais de port) <i class="fa fa-shopping-cart"></i></a>    
+                                    </div>    
                                 </div>
                             </div>
                         </div>

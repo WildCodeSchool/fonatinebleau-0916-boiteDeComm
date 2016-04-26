@@ -71,7 +71,7 @@
 
     <div class="container-fluid maps">
         <div class="row">
-            <iframe src="https://www.google.com/maps/d/embed?mid=1oiW3I675HiPEXyBsLPrGuklMQfw" width="640" height="480"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1oiW3I675HiPEXyBsLPrGuklMQfw" width="640" height="480"></iframe>
             <p>N'hésitez pas à appeler le magasin concerné pour vérifier la disponibilité du stock en temps réel.</p>
         </div>
     </div>

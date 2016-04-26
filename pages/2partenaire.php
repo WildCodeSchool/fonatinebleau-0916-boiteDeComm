@@ -19,7 +19,7 @@
                     </div>
                     <div class="text_partenaire">
                         <p>Rejoignez ces magasins qui nous distribuent !</p>
-                        <p>Nous sommes aussi référencés sur<a href="https://dilicom-prod.centprod.com/connexion.html" target="blank"> Dilicom</a></p>
+                        <p>Nous sommes aussi référencés sur<a href="https://dilicom-prod.centprod.com/connexion.html" target="blank"> Dilicom.</a></p>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@
                         <img class="img_partenaire" src="images/fleuristes.png">
                     </div>
                     <div class="text_partenaire">
-                        <p>Rejoignez ces fleuristes qui nous proposent avec leurs bouquets dans des formules spéciales (anniversaire, fête des mères, fête des pères, mariage…)!</p>
+                        <p>Rejoignez ces fleuristes qui nous proposent avec leurs bouquets dans des formules spéciales (anniversaire, fête des mères, fête des pères, mariage).</p>
                     </div>
                 </div>
             </div>

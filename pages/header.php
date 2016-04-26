@@ -6,46 +6,15 @@
     <title>Les boites de comm'</title>
     <link rel="icon" type="image/png" href="images/logo.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.5/css/lightslider.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <script src="js/jquery-2.2.3.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
     <script src="js/typed.js"></script>
-    <script src="js/lightslider.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Logo patientez avant le chargement de la page -->
-    <script type="text/javascript">
-        jQuery(window).load(function () {
-            jQuery('#loading').hide();
-            $('#extracontrols').css('display', 'block');
-            $("#logo_header").fadeIn(7000);
-            $(".texte_header").typed({
-              strings: ["^4000 <h2>Les jeux qui vont vous faire <span class='load_txt'>parler</span> et <span class='load_txt'>rire</span></h2>"],
-              showCursor: false
-            });
-        });
-    </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $("#lightSlider").lightSlider({
-            pause: 7000,
-            item: 3,
-            autoWidth: true,
-            mode: "fade",
-            auto: true,
-            loop: true,
-            controls: false,
-            pager: false,
-        });
-    });
-</script>
-
-    <!-- Apparition progressive du logo -->
-
-    <!-- Ecriture progressive du texte -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.5/js/lightslider.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </head>
   <body>
   <div id="section0"></div>

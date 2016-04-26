@@ -24,6 +24,7 @@
 }
 
 #loading h1{
+  font-weight: bold;
   color: white;
   position: absolute;
   left: 0;
@@ -144,8 +145,9 @@ header .row{
 }
 .texte_header h2{
   color: white;
-/*  font-size: 2.5rem;*/
   font-size: 2.7vw;
+  font-weight: bold;
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -223,10 +225,10 @@ header .row{
 .mynav .nav_bar_rigth .panier{
   color: white;
   background-color:grey;
-  font-size: 20px;
+  font-size: 14px;
   padding: 10px 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 4px;
 }
 .mynav .nav_bar_rigth i {
@@ -341,8 +343,7 @@ header .row{
   font-size: 1.38vw;
 }
 #section1 .modal-content .boite{
-  width: 50%;
-  height: 50%
+  width: 100%;
 }
 #section1 .modal_produit{
   width: 70%;
@@ -350,6 +351,9 @@ header .row{
 #section1 .modal-body{
   display: flex;
   padding-right: 30px;
+}
+#section1 .modal-footer .bouton_modal{
+  width: 40%;
 }
 #section1 .text_modal{
   text-align: justify;
@@ -573,8 +577,10 @@ header .row{
 
 #section3{
   text-align: center;
-  margin-bottom: 30px;
-  background-color: white;
+  background-color: #E5E5E5;
+}
+#section3 .image_section{
+  margin-top: 0px;
 }
 #section3 .image_section img.internet{
   width: 35%;
@@ -589,6 +595,9 @@ header .row{
 .map_google{
   text-align: center;
   background-color: #E5E5E5;
+}
+.map_google .image_section{
+  margin-top: 0px;
 }
 .map_google .image_section img.magasin{
   margin-top: 60px;
@@ -680,10 +689,21 @@ header .row{
 /*#####################*/
 
 #section5{
+  background-color: #E5E5E5;
   text-align: center;
+  padding-bottom: 50px;
+  margin-top: 30px;
 }
 #section5 .imgblog{
   width: 50%;
+  margin-top: 30px;
+}
+#section5 .txt_intro_blog{
+  margin-bottom: 30px;
+  font-size: 1.38vw;
+}
+#section5 .txt_intro_blog p{
+
 }
 #section5 .responsive_blog{
   display: none;
@@ -707,7 +727,6 @@ header .row{
 /* CONTACT */
 /*#####################*/
 #section6{
-  background-color: #E5E5E5;
   text-align: center;
 }
 #section6 .btn-info{
@@ -718,7 +737,6 @@ header .row{
 }
 #section6 img{
   width: 30%;
-  margin-top: 50px;
 }
 #section6 p {
   font-size: 20px;

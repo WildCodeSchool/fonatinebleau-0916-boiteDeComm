@@ -123,7 +123,7 @@
                                         <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8" target="blank">Acheter pour 43,50€ (frais de port compris) par<i class="fa fa-amazon"></i></a>  
                                     </div>
                                     <div class="btn btn-default bouton_modal">
-                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">Ajouter au Panier pour 44,90€ (39€ + 4,90€ frais de port) <i class="fa fa-shopping-cart"></i></a>    
+                                        <a href="http://www.amazon.fr/La-boite-comm-ducouple/dp/B00NUALNVC/ref=cm_cr_pr_product_top?ie=UTF8">Ajouter au Panier pour 44,90€ (39€ + 5,90€ frais de port) <i class="fa fa-shopping-cart"></i></a>    
                                     </div>    
                                 </div>
                             </div>

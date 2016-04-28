@@ -15,7 +15,7 @@
                     <a href="http://www.amazon.fr/Boite-comm-couple-communication-pour/dp/B00NUALNVC/ref=sr_1_1?ie=UTF8&qid=1435232228&sr=8-1&keywords=boite+de+comm/" target="blank"><img src="images/b_Amazon_com_logo.png"></a>  
                 </div>
                 <div class="col-xs-2"> 
-                    <img src="images/b_Catho retro.png" border="0"> 
+                    <img src="images/b_Catho_retro.png" border="0"> 
                 </div>
                 <div class="col-xs-2">  
                     <img src="images/b_FuretDuNord.png" border="0">
@@ -36,7 +36,7 @@
                     <img src="images/b_logo-ellm.png" border="0"> 
                 </div>
                 <div class="col-xs-2">  
-                    <img src="images/b_logo3-webmag.png" border="0">
+                    <img src="images/b_les_petits_frenchie.png" border="0">
                 </div>
                 <div class="col-xs-2">  
                     <img src="images/b_logo123famille.png" border="0">

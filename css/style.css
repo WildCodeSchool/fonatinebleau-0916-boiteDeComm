@@ -37,6 +37,15 @@
 #extracontrols {
   display: none;
 }
+@media screen and (max-width: 767px) {
+  #loading img{
+    display: none;
+  }
+  #loading h1{
+    font-size: 60px;
+    top: 10%;
+  }
+}
 /*#####################*/
 /* CSS GENERAL */
 /*#####################*/
@@ -394,6 +403,9 @@ header .row{
   #section1 .modal-footer .bouton_modal{
     font-size: 14px;
   }
+  #section1 .text_modal{
+    font-size: 14px;
+  }
 }
 
 /* Image famile */
@@ -451,6 +463,8 @@ header .row{
     width: 90%;
   }
   #section1 .container_boite .img_boite{
+    margin-top: 8%;
+    margin-bottom: 8%;
     width: 80%;
   }
   #section1 .comment_boite_right, 
@@ -586,6 +600,9 @@ header .row{
   #section2 .les_partenaires .logo_partenaire img{
     width: 30%;
   }
+  #section2 .les_partenaires div {
+    margin-bottom: 0px;
+  }
 }
 /*#####################*/
 /* SECTION 3 LOCALISATION */
@@ -657,6 +674,10 @@ header .row{
   #section3 .point_de_vente .row{
     margin-bottom: 0px;
   }
+  #section3 .point_de_vente .col-xs-3{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 
 }
 /*#####################*/
@@ -694,16 +715,18 @@ header .row{
 #section4 .text_createur h6{
   font-size: 1.38vw;
 }
-@media screen and (max-width: 767px){    
-  #section4 .bloc_photo{
-    margin-top: 90px;
-  } 
+@media screen and (max-width: 767px){
   #section4 .image_section{
     margin-bottom: 0px;
   }
   #section4 .image_section img{
     width: 80%;
-    margin-top: 50px;
+  }
+  #section4 .text_createur h6 {
+  font-size: 15px;
+  }
+  #section4 .text_createur p {
+    font-size: 14px;
   }
 }
 
@@ -745,6 +768,12 @@ header .row{
   #section5 .fb-page{
     display: none;
   }
+  #section5 .txt_intro_blog p {
+    font-size: 20px;
+  }
+  #section5 .imgblog {
+    width: 80%;
+  }
 }
 /*#####################*/
 /* CONTACT */
@@ -780,6 +809,20 @@ header .row{
 .form-control{
   height: initial;
   font-size: 0.96vw;
+}
+@media screen and (max-width: 767px){ 
+  #section6 img{
+    width: 80%;
+  }
+  #section6 p {
+    font-size: 20px;
+  }
+  .form-horizontal {
+    max-width: 70%;
+  }
+  .form-control {
+    font-size: 14px;
+  }
 }
 /*#####################*/
 /* FOOTER */

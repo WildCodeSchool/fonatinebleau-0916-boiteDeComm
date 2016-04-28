@@ -8,7 +8,7 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xs-6 col-md-3">
         <div class="feature">
           <div class="bloc_photo">
             <img class="photo_equipe" src="images/Maud.png"/>
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-       <div class="col-sm-6 col-md-3">
+       <div class="col-xs-6 col-md-3">
          <div class="feature">
           <div class="bloc_photo">
             <img class="photo_equipe" src="images/marie.png"/>
@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xs-6 col-md-3">
         <div class="feature">
           <div class="bloc_photo">
             <img class="photo_equipe" src="images/do.png"/>
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xs-6 col-md-3">
         <div class="feature">
           <div class="bloc_photo">
             <img class="photo_equipe" src="images/guiz.png"/>

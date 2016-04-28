@@ -65,6 +65,9 @@ h2 {
   margin-top: 80px;
   margin-bottom: 40px;
 }
+h3{
+  font-size: 1.67vw;
+}
 h4{
   font-size: 1.38vw;
 }
@@ -99,6 +102,9 @@ header .row{
 }
 
 @media screen and (max-width: 767px) {
+  body{
+    font-size: 14px;
+  }
   h2{
     margin-top: 30px;
     margin-bottom: 10px;
@@ -147,7 +153,7 @@ header .row{
   color: white;
   font-size: 2.7vw;
   font-weight: bold;
-
+  margin-top: 80px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -353,11 +359,12 @@ header .row{
   padding-right: 30px;
 }
 #section1 .modal-footer .bouton_modal{
-  width: 40%;
-  font-size: 0.97vw;
+  width: 46%;
+  font-size: 1.2vw;
 }
 #section1 .text_modal{
   text-align: justify;
+  font-size: 1.2vw;
 }
 #section1 .boiteouverte2 {
   margin-bottom: -50px;
@@ -373,11 +380,19 @@ header .row{
 }
 
 @media screen and (max-width: 767px){
-  #section1 .modal_produit{
+  #section1 .modal-footer .bouton_modal{
+    white-space: normal;
+    display: block;
     width: 100%;
+  }
+  #section1 .modal_produit{
+    width: auto;
   }
   #section1 .img_modal{
     text-align: center;
+  }
+  #section1 .modal-footer .bouton_modal{
+    font-size: 14px;
   }
 }
 
@@ -401,7 +416,7 @@ header .row{
 
 /* Slider commentaire */
 .lSSlideOuter .lightSlider {
-  max-width: 730px;
+  max-width: 70%;
   margin: 0 auto;
 }
 #section1 .bloc_avis{
@@ -621,6 +636,9 @@ header .row{
   .responsive_maps{
     display: block;
   }
+  .map_google{
+    padding-bottom: 30px;
+  }
   #section3 .image_section{
     margin-bottom: 30px,
   }
@@ -635,6 +653,9 @@ header .row{
   #section3 .point_de_vente img{
     margin-top: 34px;
     width: 100%;
+  }
+  #section3 .point_de_vente .row{
+    margin-bottom: 0px;
   }
 
 }
@@ -663,7 +684,8 @@ header .row{
 }
 #section4 .text_createur{
   text-align: center;
-  width: 300px;
+  width: 80%;
+  margin: auto;
 }
 #section4 .text_createur p{
   text-align: justify;
@@ -745,7 +767,7 @@ header .row{
   margin-bottom: 35px;
 }
 .form-horizontal{
-  max-width: 700px;
+  max-width: 45%;
   margin: auto;
 }
 .titrecontact {
@@ -754,6 +776,10 @@ header .row{
 .boutonfermer {
   margin-bottom: 30px;
   margin-top: 15px;
+}
+.form-control{
+  height: initial;
+  font-size: 0.96vw;
 }
 /*#####################*/
 /* FOOTER */

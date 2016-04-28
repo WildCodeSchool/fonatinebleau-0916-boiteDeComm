@@ -10,53 +10,53 @@
     <!-- Liste des points de vente -->
     <div class="container-fluid point_de_vente">
         <div class="row">
-            <div class="col-xs-offset-1 col-xs-10">
-                <div class="col-xs-2">
+            <div class="col-sm-offset-1 col-sm-10 col-xs-12">
+                <div class="col-sm-2 col-xs-3">
                     <a href="http://www.amazon.fr/Boite-comm-couple-communication-pour/dp/B00NUALNVC/ref=sr_1_1?ie=UTF8&qid=1435232228&sr=8-1&keywords=boite+de+comm/" target="blank"><img src="images/b_Amazon_com_logo.png"></a>  
                 </div>
-                <div class="col-xs-2"> 
+                <div class="col-sm-2 col-xs-3"> 
                     <img src="images/b_Catho_retro.png" border="0"> 
                 </div>
-                <div class="col-xs-2">  
+                <div class="col-sm-2 col-xs-3">  
                     <img src="images/b_FuretDuNord.png" border="0">
                 </div>
-                <div class="col-xs-2">  
+                <div class="col-sm-2 col-xs-3">  
                     <img src="images/b_Galeries-Lafayette-retouché.png" border="0">
                 </div>
-                <div class="col-xs-2">
+                <div class="col-sm-2 col-xs-3">
                     <img src="images/b_La-Procure-Logo.png" border="0">
                 </div>
-                <div class="col-xs-2">
+                <div class="col-sm-2 col-xs-3">
                     <img src="images/b_Logo_cultura.png" border="0">
                 </div>
-                <div class="col-xs-2">
+                <div class="col-sm-2 col-xs-3">
                     <img src="images/b_logo_gabjo.png"> 
                 </div>
-                <div class="col-xs-2"> 
+                <div class="col-sm-2 col-xs-3"> 
                     <img src="images/b_logo-ellm.png" border="0"> 
                 </div>
-                <div class="col-xs-2">  
+                <div class="col-sm-2 col-xs-3">  
                     <img src="images/b_les_petits_frenchie.png" border="0">
                 </div>
-                <div class="col-xs-2">  
+                <div class="col-sm-2 col-xs-3">  
                     <img src="images/b_logo123famille.png" border="0">
                 </div>
-                <div class="col-xs-2">
+                <div class="col-sm-2 col-xs-3">
                     <img src="images/b_logoamogado.png" border="0">
                 </div>
-                <div class="col-xs-2">
+                <div class="col-sm-2 col-xs-3">
                     <img src="images/b_logoCent9.png" border="0">
                 </div>
-                <div class="col-xs-2">
+                <div class="col-sm-2 col-xs-3">
                     <img src="images/b_logolibrairiesdel'emmanuel.png" border="0">  
                 </div>
-                <div class="col-xs-2"> 
+                <div class="col-sm-2 col-xs-3"> 
                     <img src="images/b_logoOIKAOIKA.png" border="0"> 
                 </div>
-                <div class="col-xs-2">  
+                <div class="col-sm-2 col-xs-3">  
                     <img src="images/b_logopapaetmaman.png" border="0">
                 </div>
-                <div class="col-xs-2">  
+                <div class="col-sm-2 col-xs-3">  
                     <img src="images/b_place_des_lib.png" border="0">
                 </div>
             </div>

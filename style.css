@@ -1,3 +1,10 @@
+/*
+Theme Name: Les boites de comm'
+Theme URI: 
+Author: Wild Code School
+Description: ET SI NOUS AVIONS LA SOLUTION ? Des moments forts en couple ou en famille, pour couper du quotidien, rire, parler, se faire du bien et surtout… se rappeler combien on s’aime. C’est par ici avec les BOITES DE COMM’ !
+*/
+
 /*#####################*/
 /* CSS pour l'attente du chargement de la page */
 /*#####################*/
@@ -7,7 +14,7 @@
 
 #loading {
   text-align: center;
-  background-color: black;
+  background-color: white;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -25,7 +32,7 @@
 
 #loading h1{
   font-weight: bold;
-  color: white;
+  color: black;
   position: absolute;
   left: 0;
   right: 0;
@@ -34,9 +41,18 @@
   margin-left: auto;
 }
 
-#extracontrols {
-  display: none;
+#extracontrols.cacher {
+  visibility: hidden;
+  height: 100vh;
+  overflow: hidden;
 }
+
+#extracontrols.voir {
+  visibility: visible;
+  height: auto;
+  overflow: visible;
+}
+
 @media screen and (max-width: 767px) {
   #loading img{
     display: none;
@@ -52,11 +68,9 @@
 
 @font-face {
   font-family: 'Chaparral';
-  src: url("../font/ChaparralPro-Regular.otf") format("opentype");
+  src: url("font/ChaparralPro-Regular.otf") format("opentype");
 }
-body{
-  font-size: 0.97vw;
-}
+
 
 p, h1, h2, h3, h4, h5, h6, a{
   font-family: 'Chaparral';
@@ -322,10 +336,10 @@ header .row{
 /* SECTION_1 ==> Produits / Video / Avis */
 /*#####################*/
 
-#section1 .image_couple{
+.section1 .image_couple img{
   width: 65%;
 }
-#section1 .container_boite .img_boite{
+.section1 .container_boite .img_boite img{
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -335,17 +349,17 @@ header .row{
 }
 
 /* Commentaires des boites */
-#section1 .comment_boite_right{
-  margin-top: 10%;
+.section1 .comment_boite_right{
+  margin-top: 7%;
   text-align: justify;
   font-size: 1.38vw;
 }
-#section1 .comment_boite_left{
+.section1 .comment_boite_left{
   margin-top: 8%;
   text-align: justify;
   font-size: 1.38vw;
 }
-#section1 .comment_boite_left_responsive{
+.section1 .comment_boite_left_responsive{
   display: none;
   margin-top: 0%;
   text-align: justify;
@@ -353,75 +367,75 @@ header .row{
 }
 
 /* Commentaire entre les boites */
-#section1 .comment_entre_boite{
+.section1 .comment_entre_boite{
   text-align: justify;
   font-size: 1.38vw;
 }
-#section1 .modal-content .boite{
+.section1 .modal-content .boite img{
   width: 100%;
 }
-#section1 .modal_produit{
+.section1 .modal_produit{
   width: 70%;
 }
-#section1 .modal-body{
+.section1 .modal-body{
   display: flex;
   padding-right: 30px;
 }
-#section1 .modal-footer .bouton_modal{
+.section1 .modal-footer .bouton_modal{
   width: 46%;
   font-size: 1.2vw;
 }
-#section1 .text_modal{
+.section1 .text_modal{
   text-align: justify;
   font-size: 1.2vw;
 }
-#section1 .boiteouverte2 {
+.section1 .boiteouverte2 {
   margin-bottom: -50px;
 }
-#section1 .modal-body p:nth-child(-n+7) {
+.section1 .modal-body p:nth-child(-n+7) {
   margin-top: 6px;
 }
-#section1 .modal-footer{
+.section1 .modal-footer{
   text-align: inherit;
 }
-#section1 .modal-footer a{
+.section1 .modal-footer a{
   text-decoration: none;
 }
 
 @media screen and (max-width: 767px){
-  #section1 .modal-footer .bouton_modal{
+  .section1 .modal-footer .bouton_modal{
     white-space: normal;
     display: block;
     width: 100%;
   }
-  #section1 .modal_produit{
+  .section1 .modal_produit{
     width: auto;
   }
-  #section1 .img_modal{
+  .section1 .img_modal{
     text-align: center;
   }
-  #section1 .modal-footer .bouton_modal{
+  .section1 .modal-footer .bouton_modal{
     font-size: 14px;
   }
-  #section1 .text_modal{
+  .section1 .text_modal{
     font-size: 14px;
   }
 }
 
 /* Image famile */
-#section1 .image_famille{
+.section1 .image_famille img{
   width: 65%;
   margin-bottom: 30px;
 }
 
-#section1 .youtube {
+.section1 .youtube {
   text-align: center;
   margin-top: 60px;
 }
-#section1 .youtube div{
+.section1 .youtube div{
   margin-bottom: 30px;
 }
-#section1 .youtube iframe{
+.section1 .youtube iframe{
   width: 75%;
   height: 100%;
 }
@@ -431,67 +445,67 @@ header .row{
   max-width: 70%;
   margin: 0 auto;
 }
-#section1 .bloc_avis{
+.section1 .bloc_avis{
   margin-top: 30px;
   text-align: center;
 }
 
-#section1 .bloc_avis h4{
+.section1 .bloc_avis h4{
   font-size: 1.45vw;
 }
-#section1 .bloc_avis p{
+.section1 .bloc_avis p{
   font-size: 1.38vw;
 }
 
 @media screen and (max-width: 990px){
-  #section1 .container_boite .img_boite{
+  .section1 .container_boite .img_boite img{
     width: 65%;
   }
-  #section1 .bloc_avis h4{
+  .section1 .bloc_avis h4{
     font-size: 20px;
   }
-  #section1 .bloc_avis p{
+  .section1 .bloc_avis p{
     font-size: 16px
   }
 }
 
 @media screen and (max-width: 767px){
-  #section1 .image_couple{
+  .section1 .image_couple{
     width: 90%;
   }
-  #section1 .image_famille{
+  .section1 .image_famille img{
     width: 90%;
   }
-  #section1 .container_boite .img_boite{
+  .section1 .container_boite .img_boite img{
     margin-top: 8%;
     margin-bottom: 8%;
     width: 80%;
   }
-  #section1 .comment_boite_right, 
-  #section1 .comment_boite_left, 
-  #section1 .comment_entre_boite {
+  .section1 .comment_boite_right, 
+  .section1 .comment_boite_left, 
+  .section1 .comment_entre_boite {
     margin-top: 8%;
   }
   /* Commentaires des boites */
-  #section1 .comment_boite_right{
+  .section1 .comment_boite_right{
     font-size: 20px;
   }
-  #section1 .comment_boite_left{
+  .section1 .comment_boite_left{
     display: none;
     font-size: 20px;
   }
-  #section1 .comment_boite_left_responsive{
+  .section1 .comment_boite_left_responsive{
     display: block;
     font-size: 20px;
   }
   /* Commentaire entre les boites */
-  #section1 .comment_entre_boite{
+  .section1 .comment_entre_boite{
     font-size: 20px;
   }
-  #section1 .modal-content{
+  .section1 .modal-content{
     width: 100%;
   }
-  #section1 .modal-body{
+  .section1 .modal-body{
     display: block;
   }
 }
@@ -520,14 +534,14 @@ header .row{
 
 /* ANIMATION DES COMMENTAIRES/DES AVIS */
 
-#section1 .commentaireamazon{
+.section1 .commentaireamazon{
   text-align: center;
   margin-top: 30px;
   padding-bottom: 30px;
   font-size: 1.2vw;
 }
 
-#section1 .cycle-slideshow {
+.section1 .cycle-slideshow {
     width: 45%;
     min-width: 200px;
     max-width: 500px;
@@ -543,64 +557,64 @@ header .row{
 /* SECTION 2 DEVENIR PARTENAIRE */
 /*#####################*/
 
-#section2 {
+.section2 {
   text-align: center;
   margin-bottom: 60px;
 }
-#section2 p{
+.section2 p{
   font-size: 1.38vw;
 }
-#section2 .image_section img{
+.section2 .image_section img{
   width: 50%;
 }
-#section2 .les_partenaires{
+.section2 .les_partenaires{
   margin-top: 40px;
   margin-right: 30px;
   margin-left: 30px;
 }
-#section2 .les_partenaires div{
+.section2 .les_partenaires div{
   margin-bottom: 20px;
 }
-#section2 .les_partenaires .img_partenaire img{
+.section2 .les_partenaires .img_partenaire img{
   width: 60%;
   margin-bottom: 20px;
 }
-#section2 .les_partenaires .text_partenaire{
+.section2 .les_partenaires .text_partenaire{
   width: 60%;
   margin: auto;
 }
-#section2 .les_partenaires .logo_partenaire{
+.section2 .les_partenaires .logo_partenaire{
   width: 60%;
   margin: auto;
 }
-#section2 .les_partenaires p{
+.section2 .les_partenaires p{
   text-align: justify;
 }
 @media screen and (max-width: 767px){
-  #section2 .image_section img{
+  .section2 .image_section img{
     width: 90%;
   }
-  #section1 .commentaireamazon{
+  .section1 .commentaireamazon{
     font-size: 17px;
   }
-  #section2 p{
+  .section2 p{
     font-size: 17px;
   }
-  #section2 .les_partenaires .img_partenaire img{
+  .section2 .les_partenaires .img_partenaire img{
     width: 100%;
     margin-bottom: 0px;
   }
-  #section2 .les_partenaires .text_partenaire{
+  .section2 .les_partenaires .text_partenaire{
     width: 100%;
     margin-bottom: 20px;
   }
-  #section2 .les_partenaires .logo_partenaire{
+  .section2 .les_partenaires .logo_partenaire{
     width: 100%;
   }
-  #section2 .les_partenaires .logo_partenaire img{
+  .section2 .les_partenaires .logo_partenaire img{
     width: 30%;
   }
-  #section2 .les_partenaires div {
+  .section2 .les_partenaires div {
     margin-bottom: 0px;
   }
 }
@@ -608,31 +622,28 @@ header .row{
 /* SECTION 3 LOCALISATION */
 /*#####################*/
 
-#section3{
+.section3{
   text-align: center;
   background-color: #E5E5E5;
 }
-#section3 .image_section{
+.section3 .image_section{
   margin-top: 0px;
 }
-#section3 .image_section img.internet{
+.section3 .image_section .internet img{
   width: 35%;
 }
-#section3 .point_de_vente img{
+.section3 .point_de_vente img{
   margin-top: 34px;
   width: 100%;
+  height: auto;
 }
-#section3 .point_de_vente .row{
+.section3 .point_de_vente .row{
   margin-bottom: 80px;
-}
-.map_google{
-  text-align: center;
-  background-color: #E5E5E5;
 }
 .map_google .image_section{
   margin-top: 0px;
 }
-.map_google .image_section img.magasin{
+.map_google .image_section .magasin img{
   margin-top: 60px;
   width: 58%;
 }
@@ -656,25 +667,25 @@ header .row{
   .map_google{
     padding-bottom: 30px;
   }
-  #section3 .image_section{
+  .section3 .image_section{
     margin-bottom: 30px,
   }
-  #section3 .image_section img.internet{
+  .section3 .image_section .internet img{
     width: 80%;
     margin-top: 0px !important;
   }
-  #section3 .image_section img.magasin{
+  .section3 .image_section .magasin img{
     margin-top: 30px;
     width: 90%;
   }
-  #section3 .point_de_vente img{
+  .section3 .point_de_vente img{
     margin-top: 34px;
     width: 100%;
   }
-  #section3 .point_de_vente .row{
+  .section3 .point_de_vente .row{
     margin-bottom: 0px;
   }
-  #section3 .point_de_vente .col-xs-3{
+  .section3 .point_de_vente .col-xs-3{
     padding-right: 5px;
     padding-left: 5px;
   }
@@ -684,48 +695,48 @@ header .row{
 /* SECTION 4 NOS CREATEURS */
 /*#####################*/
 
-#section4{
+.section4{
   background-color: white;
 }
-#section4 .image_section{
+.section4 .image_section{
   margin-bottom: 70px;
 }
-#section4 .image_section img{
+.section4 .image_section img{
   width: 35%;
   margin-top: 50px;
 }
-#section4 .bloc_photo{
+.section4 .bloc_photo{
   text-align: center;
 }
-#section4 .photo_equipe{
+.section4 .photo_equipe img{
   width: 80%;
 }
-#section4 .feature p{
+.section4 .feature p{
   text-align: center;
 }
-#section4 .text_createur{
+.section4 .text_createur{
   text-align: center;
   width: 80%;
   margin: auto;
 }
-#section4 .text_createur p{
+.section4 .text_createur p{
   text-align: justify;
   font-size: 1.38vw;
 }
-#section4 .text_createur h6{
+.section4 .text_createur h6{
   font-size: 1.38vw;
 }
 @media screen and (max-width: 767px){
-  #section4 .image_section{
+  .section4 .image_section{
     margin-bottom: 0px;
   }
-  #section4 .image_section img{
+  .section4 .image_section img{
     width: 80%;
   }
-  #section4 .text_createur h6 {
+  .section4 .text_createur h6 {
   font-size: 15px;
   }
-  #section4 .text_createur p {
+  .section4 .text_createur p {
     font-size: 14px;
   }
 }
@@ -734,63 +745,63 @@ header .row{
 /* BOX BLOG */
 /*#####################*/
 
-#section5{
+.section5{
   background-color: #E5E5E5;
   text-align: center;
   padding-bottom: 50px;
   margin-top: 30px;
 }
-#section5 .imgblog{
+.section5 .imgblog img{
   width: 50%;
   margin-top: 30px;
 }
-#section5 .txt_intro_blog{
+.section5 .txt_intro_blog{
   margin-bottom: 30px;
   font-size: 1.38vw;
 }
-#section5 .txt_intro_blog p{
+.section5 .txt_intro_blog p{
 
 }
-#section5 .responsive_blog{
+.section5 .responsive_blog{
   display: none;
 }
 @media screen and (max-width: 767px){ 
-  #section5 .nav_archive{
+  .section5 .nav_archive{
     padding-left: 0px;
   }
-  #section5 .facebook{
+  .section5 .facebook{
     padding-left: 0px;
     padding-right: 0px;
   }
-  #section5 .responsive_blog{
+  .section5 .responsive_blog{
     display: block;
   }
-  #section5 .fb-page{
+  .section5 .fb-page{
     display: none;
   }
-  #section5 .txt_intro_blog p {
+  .section5 .txt_intro_blog p {
     font-size: 20px;
   }
-  #section5 .imgblog {
+  .section5 .imgblog img{
     width: 80%;
   }
 }
 /*#####################*/
 /* CONTACT */
 /*#####################*/
-#section6{
+.section6{
   text-align: center;
 }
-#section6 .btn-info{
+.section6 .btn-info{
   color: white;
   background-color:grey;
   background-image: none;
   border: none;
 }
-#section6 img{
+.section6 img{
   width: 30%;
 }
-#section6 p {
+.section6 p {
   font-size: 1.39vw;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -811,10 +822,10 @@ header .row{
   font-size: 0.96vw;
 }
 @media screen and (max-width: 767px){ 
-  #section6 img{
+  .section6 img{
     width: 80%;
   }
-  #section6 p {
+  .section6 p {
     font-size: 20px;
   }
   .form-horizontal {
@@ -829,23 +840,27 @@ header .row{
 /*#####################*/
 
 /* Set the fixed height of the footer here */
-#section7 {
+.section7 {
   width:100%;
   background-color: grey;
   padding-top:20px;
   padding-bottom:20px;
   text-align: center;
 }
-#footer a {
-  color: white;
-  font-size: 1.25vw;
-}
 .fa.fa-twitter {
   font-size: 25px;
 }
-#section7 .row_2_footer_2{
+.section7 .row_2_footer_2{
   text-decoration: none;
   margin-top: 10px
 }
-#section7 .row_2_footer_2 a{
+.section7 .row_2_footer_2 a{
   text-decoration: none;
+}
+
+#google_map img {max-width: inherit !important; max-height: inherit !important}
+
+.gm-style-iw {
+  width: 500px!important;
+  min-height: 150px;
+}

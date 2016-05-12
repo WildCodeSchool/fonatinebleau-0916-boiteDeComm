@@ -1,10 +1,13 @@
-<span class="ancres" id="blog" ></span>
-<div id="section5">
+<span class="ancres"></span>
+<div id="<?php echo sanitize_title($menu_item->title); ?>" class="section5 ">
     <!-- Image + Titre section produits -->
     <div class="row image_section">
     <span class="ancres" id="createurs" ></span>
-        <img class="imgblog" src="images/Blog.png" alt="blog"/>
-        <h2>BLOG</h2>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            <div class="imgblog"><?php the_content(); ?></div>
+            <h2><?php the_title(); ?></h2>
+            <?php endwhile; ?>
+        <?php endif; ?>
     </div>
 
 
@@ -12,7 +15,7 @@
 
         <div class="row">
             <div class="txt_intro_blog">
-                <p>Faites défiler le curseur pour suivre toute l'actualité des Boîtes de Comm' et surtout n'hésitez pas à liker notre page sur Facebook pour être informé(s) en temps réel !</p>
+                <p><?php echo get_post_meta($post->ID, 'num_1', true); ?></p>
             </div>
             <!-- Facebook -->
             <div id="fb-root"></div>
@@ -24,7 +27,7 @@
                 </div>
             </div>
             <div class="responsive_blog">
-                <a href="https://www.facebook.com/boitesdecomm">Retrouvez nous sur Facebook</a>
+                <a href="https://www.facebook.com/boitesdecomm"><?php echo get_post_meta($post->ID, 'num_2', true); ?></a>
             </div>
             
         </div><!-- Fin row actuallité -->

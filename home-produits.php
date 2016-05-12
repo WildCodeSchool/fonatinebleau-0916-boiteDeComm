@@ -84,9 +84,10 @@
                                         <div class="btn btn-default bouton_modal">
                                             <?php echo get_post_meta(get_the_ID(), 'amazon-button', true); ?>
                                         </div>
-                                        <div class="btn btn-default bouton_modal">
-                                            <?php echo get_post_meta(get_the_ID(), 'wp-button', true); ?>
-                                        </div>
+                                        <form class="cart" method="post" enctype="multipart/form-data">
+                                            <input type="hidden" name="add-to-cart" value="208">
+                                            <button type="submit" class="btn btn-default bouton_modal"><?php echo get_post_meta(get_the_ID(), 'wp-button', true); ?></button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>

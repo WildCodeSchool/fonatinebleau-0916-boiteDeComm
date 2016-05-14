@@ -4,7 +4,7 @@
         $(window).load(function () {
             $('#loading').hide();
             $('#extracontrols').removeClass('cacher').addClass('voir');
-            $("#logo_header").fadeIn(7000);
+            $(".home_page #logo_header").fadeIn(7000);
             $(".texte_header").typed({
               strings: ["^4000 <h2>Les jeux qui vont vous faire parler et <span class='load_txt'>rire</span></h2>"],
               showCursor: false

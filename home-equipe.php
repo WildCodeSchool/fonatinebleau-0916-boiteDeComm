@@ -1,8 +1,8 @@
-<div id="<?php echo sanitize_title($menu_item->title); ?>" class="section4">
+<div class="section4">
 
   <!-- Image et titre equipe -->
   <div class="row image_section">
-    <span class="ancres"></span>
+    <span class="ancres" id="<?php echo sanitize_title($menu_item->title); ?>"></span>
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <?php the_content(); ?>
           <h2><?php the_title(); ?></h2>

@@ -44,7 +44,7 @@ function register_my_menu() {
 add_action( 'init', 'register_my_menu' );
 
 class mono_walker extends Walker_Nav_Menu{
-	function start_el(&$output, $item, $depth, $args){
+	function start_el(&$output, $item, $depth = 0, $args = Array(), $id = 0){
 		global $wp_query;
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
 		$class_names = $value = '';
@@ -255,5 +255,7 @@ function woo_add_custom_general_fields_save( $post_id ){
 		update_post_meta( $post_id, 'encart2', $woocommerce_textarea );
 
 }
+
+
 
 ?>

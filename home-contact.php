@@ -1,8 +1,8 @@
-<div id="<?php echo sanitize_title($menu_item->title); ?>" class="section6">
+<div class="section6">
 
   <!-- Titre section contact -->
   <div class="row image_section">
-    <span class="ancres"></span>
+    <span class="ancres" id="<?php echo sanitize_title($menu_item->title); ?>"></span>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="image_couple"><?php echo get_post_meta($post->ID, 'num_1', true); ?></div>
         <h2 class="titrecontact"><?php the_title(); ?></h2>

@@ -1,8 +1,8 @@
-<div id="<?php echo sanitize_title($menu_item->title); ?>" class="section3">
-    <span class="ancres" id="localisation" ></span>
+<div class="section3">
+    <span class="ancres" id="localisation_ancre" ></span>
     <!-- Image + titre section localisation -->
     <div class="row image_section">
-        <span class="ancres"></span>
+        <span class="ancres" id="<?php echo sanitize_title($menu_item->title); ?>"></span>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="internet"><?php the_content(); ?></div>
             <h2><?php the_title(); ?></h2>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="responsive_maps">
-            <p><?php echo get_post_meta($post->ID, 'num_2', true); ?></p>
+            <p><?php echo get_post_meta($post->ID, 'num_3', true); ?></p>
         </div>
     </div>
 </div>

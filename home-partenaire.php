@@ -1,7 +1,7 @@
-<div id="<?php echo sanitize_title($menu_item->title); ?>" class="section2">
+<div class="section2">
 
     <div class="row image_section">
-        <span class="ancres"></span>
+        <span class="ancres" id="<?php echo sanitize_title($menu_item->title); ?>"></span>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="image_couple"><?php the_content(); ?></div>
             <h2><?php the_title(); ?></h2>
@@ -47,7 +47,9 @@
                             <div class="text_partenaire">
                                 <?php echo wpautop(get_post_meta($post->ID, 'num_5', true)); ?>
                             </div>
-                            <?php echo get_post_meta($post->ID, 'num_6', true); ?>
+                            <div class="logo_partenaire">
+                                <?php echo get_post_meta($post->ID, 'num_6', true); ?>
+                            </div>
                         </div>
                     </div>
             <?php

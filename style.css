@@ -5,6 +5,8 @@ Author: Wild Code School
 Description: ET SI NOUS AVIONS LA SOLUTION ? Des moments forts en couple ou en famille, pour couper du quotidien, rire, parler, se faire du bien et surtout… se rappeler combien on s’aime. C’est par ici avec les BOITES DE COMM’ !
 */
 
+
+
 /*#####################*/
 /* CSS pour l'attente du chargement de la page */
 /*#####################*/
@@ -12,7 +14,7 @@ Description: ET SI NOUS AVIONS LA SOLUTION ? Des moments forts en couple ou en f
   color: #101010;
 }
 
-#loading {
+.home_page #loading {
   text-align: center;
   background-color: white;
   width: 100%;
@@ -21,7 +23,7 @@ Description: ET SI NOUS AVIONS LA SOLUTION ? Des moments forts en couple ou en f
   z-index: 999;
 }
 
-#loading img{
+.home_page #loading img{
   position: absolute;
   left: 0;
   right: 0;
@@ -30,7 +32,7 @@ Description: ET SI NOUS AVIONS LA SOLUTION ? Des moments forts en couple ou en f
   margin-left: auto;
 }
 
-#loading h1{
+.home_page #loading h1{
   font-weight: bold;
   color: black;
   position: absolute;
@@ -41,25 +43,26 @@ Description: ET SI NOUS AVIONS LA SOLUTION ? Des moments forts en couple ou en f
   margin-left: auto;
 }
 
-#extracontrols.cacher {
+.home_page #extracontrols.cacher {
   visibility: hidden;
   height: 100vh;
   overflow: hidden;
 }
 
-#extracontrols.voir {
+.home_page #extracontrols.voir {
   visibility: visible;
   height: auto;
   overflow: visible;
 }
 
 @media screen and (max-width: 767px) {
-  #loading img{
-    display: none;
+  .home_page #loading img{
+    top: 16%;
+    width: 30%;
   }
-  #loading h1{
-    font-size: 60px;
-    top: 10%;
+  .home_page #loading h1{
+    top: 50%;
+    font-size: 30px;
   }
 }
 /*#####################*/
@@ -105,7 +108,8 @@ a{
   display: block; 
   height: 60px; /*same height as header*/ 
   margin-top: -60px; /*same height as header*/ 
-  visibility: hidden;}
+  visibility: hidden;
+}
 
 .image_section{
   margin-top: 50px;
@@ -140,7 +144,7 @@ header .row{
     font-size: 20px;
   }
   .image_section{
-    margin-top: 35px;
+    margin-top: 10px;
   }
 }
 
@@ -154,7 +158,7 @@ header .row{
 }
 
 #logo_header{
-  display: none;
+  display: block;
   width: 30%;
   position: absolute;
   top: 3%;
@@ -162,6 +166,9 @@ header .row{
   right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+.home_page #logo_header{
+  display: none;
 }
 
 .texte_header{
@@ -228,6 +235,7 @@ header .row{
   height: 60px;
   border-right: solid 1px #DDDDDD;
   width:auto;
+  margin-bottom: 0px;
 }
 .mynav .navbar-left li:first-child{
   border-left: solid 1px #DDDDDD;
@@ -256,8 +264,8 @@ header .row{
   background-color:grey;
   font-size: 0.97vw;
   padding: 10px 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   border-radius: 4px;
 }
 .mynav .nav_bar_rigth i {
@@ -382,8 +390,13 @@ header .row{
   padding-right: 30px;
 }
 .section1 .modal-footer .bouton_modal{
+  font-family: 'Chaparral';
   width: 46%;
   font-size: 1.2vw;
+}
+.submit_bouton{
+  background-color: inherit;
+  border: none;
 }
 .section1 .text_modal{
   text-align: justify;
@@ -407,6 +420,7 @@ header .row{
     white-space: normal;
     display: block;
     width: 100%;
+    margin-left: 0px;
   }
   .section1 .modal_produit{
     width: auto;
@@ -470,7 +484,7 @@ header .row{
 }
 
 @media screen and (max-width: 767px){
-  .section1 .image_couple{
+  .section1 .image_couple img{
     width: 90%;
   }
   .section1 .image_famille img{
@@ -492,11 +506,13 @@ header .row{
   }
   .section1 .comment_boite_left{
     display: none;
-    font-size: 20px;
   }
   .section1 .comment_boite_left_responsive{
     display: block;
     font-size: 20px;
+  }
+  .comment_responsive{
+    margin-top: 8%;
   }
   /* Commentaire entre les boites */
   .section1 .comment_entre_boite{
@@ -601,18 +617,18 @@ header .row{
     font-size: 17px;
   }
   .section2 .les_partenaires .img_partenaire img{
-    width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
   .section2 .les_partenaires .text_partenaire{
     width: 100%;
     margin-bottom: 20px;
   }
   .section2 .les_partenaires .logo_partenaire{
+    margin-bottom: 20px;
     width: 100%;
   }
   .section2 .les_partenaires .logo_partenaire img{
-    width: 30%;
+    width: 20%;
   }
   .section2 .les_partenaires div {
     margin-bottom: 0px;
@@ -718,6 +734,7 @@ header .row{
   text-align: center;
   width: 80%;
   margin: auto;
+  min-height: 360px;
 }
 .section4 .text_createur p{
   text-align: justify;
@@ -798,7 +815,7 @@ header .row{
   background-image: none;
   border: none;
 }
-.section6 img{
+.section6 .image_section img{
   width: 30%;
 }
 .section6 p {
@@ -822,11 +839,12 @@ header .row{
   font-size: 0.96vw;
 }
 @media screen and (max-width: 767px){ 
-  .section6 img{
+  .section6 .image_section img{
     width: 80%;
   }
   .section6 p {
     font-size: 20px;
+    margin-bottom: 0px;
   }
   .form-horizontal {
     max-width: 70%;
@@ -864,3 +882,57 @@ header .row{
   width: 500px!important;
   min-height: 150px;
 }
+
+/*!---------- 17. WooCommerce ----------*/
+
+.woocommerce ul.products li.product:nth-child(4n), .woocommerce-page ul.products li.product:nth-child(4n) {
+  margin-right: 0;
+}
+
+.btn-filled, .button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+  background: #745cf9;
+  color: #fff;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+  padding: 1em;
+}
+.image-bg .btn.btn-filled:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+  background: #5d47d7;
+  border-color: #5d47d7;
+  color: #fff;
+}
+
+.product-thumbnail {
+  max-width: 100px;
+}
+.content-area {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.entry-header{
+  margin-top: 40px;
+}
+.cart_totals h2{
+  margin-top: 30px;
+}
+.cart_totals{
+  margin-bottom: 30px;
+}
+.status-publish{
+  text-align: center;
+}
+.return-to-shop{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px){ 
+  .content-area {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+
+
+

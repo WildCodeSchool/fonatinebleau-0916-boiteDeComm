@@ -17,7 +17,7 @@ piklist('field', array(
 	'options' => array (
 		'wpautop' => true,
 		'media_buttons' => true
-   		),
+   		)
  ));
 
 piklist('field', array(
@@ -28,7 +28,7 @@ piklist('field', array(
 	'options' => array (
 		'wpautop' => true,
 		'media_buttons' => true
-   		),
+   		)
  ));
 
 piklist('field', array(
@@ -39,7 +39,7 @@ piklist('field', array(
 	'options' => array (
 		'wpautop' => true,
 		'media_buttons' => true
-   		),
+   		)
  ));
 
 piklist('field', array(
@@ -50,7 +50,7 @@ piklist('field', array(
 	'options' => array (
 		'wpautop' => true,
 		'media_buttons' => true
-   		),
+   		)
  ));
 
 piklist('field', array(
@@ -61,7 +61,7 @@ piklist('field', array(
 	'options' => array (
 		'wpautop' => true,
 		'media_buttons' => true
-   		),
+   		)
  ));
 
 piklist('field', array(
@@ -72,7 +72,7 @@ piklist('field', array(
 	'options' => array (
 		'wpautop' => true,
 		'media_buttons' => true
-   		),
+   		)
  ));
 
 piklist('field', array(
@@ -83,7 +83,7 @@ piklist('field', array(
 	'options' => array (
 		'wpautop' => true,
 		'media_buttons' => true
-   		),
+   		)
  ));
 
 piklist('field', array(
@@ -94,5 +94,5 @@ piklist('field', array(
 	'options' => array (
 		'wpautop' => true,
 		'media_buttons' => true
-   		),
+   		)
  ));

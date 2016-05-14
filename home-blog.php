@@ -1,8 +1,7 @@
-<span class="ancres"></span>
-<div id="<?php echo sanitize_title($menu_item->title); ?>" class="section5 ">
+<div class="section5 ">
     <!-- Image + Titre section produits -->
     <div class="row image_section">
-    <span class="ancres" id="createurs" ></span>
+    <span class="ancres" id="<?php echo sanitize_title($menu_item->title); ?>" ></span>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="imgblog"><?php the_content(); ?></div>
             <h2><?php the_title(); ?></h2>

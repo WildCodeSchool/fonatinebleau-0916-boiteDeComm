@@ -1,15 +1,14 @@
-<div id="<?php echo sanitize_title($menu_item->title);?>" class="section1">
+<div class="section1">
 
     <!-- Image + Titre section produits -->
     <div class="row image_section">
-        <span class="ancres"></span>
+        <span class="ancres" id="<?php echo sanitize_title($menu_item->title);?>" ></span>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="image_couple"><?php the_content(); ?></div>
             <h2><?php the_title(); ?></h2>
         <?php endwhile; ?>
         <?php endif; ?>
     </div>
-
     <!-- LES BOITES -->
     <div class="container-fluid">
 
@@ -20,7 +19,9 @@
                 <?php
                 $args = array(
                     'post_type' => 'product',
-                    'posts_per_page' => 12
+                    'posts_per_page' => 12,
+                    'orderby' =>'date',
+                    'order' => 'ASC'
                 );
                 $loop = new WP_Query( $args );
                 if ( $loop->have_posts() ) {
@@ -39,7 +40,7 @@
                                 <?php echo get_post_meta(get_the_ID(), 'encart1', true); ?>
                             </div>
                         <?php } else { ?>
-                            <div class="col-md-offset-2 col-md-4 col-sm-5 col-xs-12 comment_boite_left">
+                            <div class="col-md-offset-2 col-md-4 col-sm-5 col-xs-12 comment_boite_left comment_boite_left_responsive">
                                 <?php echo get_post_meta(get_the_ID(), 'encart1', true); ?>
                             </div>
 
@@ -53,7 +54,7 @@
                         <?php } ?>
 
                         <div class="row comment_entre_boite">
-                            <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12">
+                            <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12 comment_responsive">
                                 <?php echo get_post_meta(get_the_ID(), 'encart2', true); ?>
                             </div>
                         </div>
@@ -84,9 +85,10 @@
                                         <div class="btn btn-default bouton_modal">
                                             <?php echo get_post_meta(get_the_ID(), 'amazon-button', true); ?>
                                         </div>
-                                        <form class="cart" method="post" enctype="multipart/form-data">
-                                            <input type="hidden" name="add-to-cart" value="208">
-                                            <button type="submit" class="btn btn-default bouton_modal"><?php echo get_post_meta(get_the_ID(), 'wp-button', true); ?></button>
+                                        <form class="cart btn btn-default bouton_modal" method="post" enctype="multipart/form-data">
+                                            <input type="hidden" name="add-to-cart" value="<?php echo absint( $product->id ); ?>">
+                                            <button type="submit" class="submit_bouton">
+                                            <?php echo get_post_meta(get_the_ID(), 'wp-button', true); ?></button>
                                         </form>
                                     </div>
                                 </div>

@@ -14,8 +14,8 @@
 
         $(document).ready(function() {
             $("#lightSlider").lightSlider({
-                speed: 500,
-                pause: 5000,
+                speed: 100,
+                pause: 7000,
                 auto: true,
                 item: 1,
                 autoWidth: true,
@@ -23,7 +23,8 @@
                 loop: true,
                 controls: false,
                 pager: false,
-                adaptiveHeight: true
+                adaptiveHeight: true,
+                responsive : []
             });
         });
 

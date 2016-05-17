@@ -278,7 +278,7 @@ header .row{
 
 /* Rsponsive NAV BAR */
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1235px){
   .mynav .logo{
     width: 44px;
     padding-right: 0px;
@@ -299,13 +299,13 @@ header .row{
     margin-right: -13px !important;
   }
 }
-@media screen and (max-width: 837px){
+@media screen and (max-width: 895px){
     .panier span{
     display: none;
   }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 810px){
   .mynav .title_responsive{
     width: 270px;
   }
@@ -371,6 +371,9 @@ header .row{
   text-align: justify;
   font-size: 1.38vw;
 }
+.section1 .comment_boite_left_responsive{
+  display: none;
+}
 
 /* Commentaire entre les boites */
 .section1 .comment_entre_boite{
@@ -391,6 +394,7 @@ header .row{
   font-family: 'Chaparral';
   width: 46%;
   font-size: 1.2vw;
+  max-height: 46px;
 }
 .submit_bouton{
   background-color: inherit;
@@ -503,6 +507,11 @@ header .row{
     font-size: 20px;
   }
   .section1 .comment_boite_left{
+    font-size: 20px;
+    display: none;
+  }
+  .section1 .comment_boite_left_responsive{
+    display: block;
     font-size: 20px;
   }
   .comment_responsive{
@@ -728,7 +737,6 @@ header .row{
   text-align: center;
   width: 80%;
   margin: auto;
-  min-height: 360px;
 }
 .section4 .text_createur p{
   text-align: justify;
@@ -750,6 +758,10 @@ header .row{
   .section4 .text_createur p {
     font-size: 14px;
   }
+  .section4 .photo_equipe img{
+    width: 40%;
+  }
+
 }
 
 /*#####################*/

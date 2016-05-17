@@ -51,6 +51,9 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="col-md-offset-2 col-md-4 col-sm-5 col-xs-12 comment_boite_left comment_boite_left_responsive">
+                                <?php echo get_post_meta(get_the_ID(), 'encart1', true); ?>
+                            </div>
                         <?php } ?>
 
                         <div class="row comment_entre_boite">

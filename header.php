@@ -78,7 +78,7 @@
                             <i class="cart-contents fa fa-shopping-cart" aria-hidden="true"></i>
                             <?php
                                 if (WC()->cart->get_cart_contents_count() != 0){
-                                    echo sprintf (_n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total();
+                                    echo sprintf (_n( '%d produits', '%d produits', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total();
                                 }
                             ?>
                         </a>

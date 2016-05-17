@@ -23,7 +23,7 @@
           // 3. on lance la boucle !
           if($my_query->have_posts()) : while ($my_query->have_posts() ) : $my_query->the_post();
         ?> 
-            <div class="col-xs-6 col-md-3">
+            <div class="col-xs-12 col-md-3">
               <div class="feature">
                 <div class="bloc_photo"> 
                   <div class="photo_equipe">

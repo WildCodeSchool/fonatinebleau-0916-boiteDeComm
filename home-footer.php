@@ -10,7 +10,7 @@
                                 <!-- Trigger the modal with a button -->
                                 <a href="#myModalfooter" style="#" data-toggle="modal" data-target="#myModalfooter">
 
-                                      <?php echo get_post_meta($footer_id->ID, 'num_1', true); ?>
+                                      <?php echo wpautop(get_post_meta($footer_id->ID, 'num_1', true)); ?>
 
                                 </a>
 
@@ -22,10 +22,10 @@
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title"><?php echo get_post_meta($footer_id->ID, 'num_1', true); ?></h4>
+                                                    <h4 class="modal-title"><?php echo wpautop(get_post_meta($footer_id->ID, 'num_1', true)); ?></h4>
                                             </div>
                                             <div class="modal-body" style="text-align: justify;">
-                                                <?php echo get_post_meta($footer_id->ID, 'num_2', true); ?>
+                                                <?php echo wpautop(get_post_meta($footer_id->ID, 'num_2', true)); ?>
                                             </div>
                                         </div>
                                     </div>
@@ -39,7 +39,7 @@
                             <div class="container-fluid">
                                 <!-- Trigger the modal with a button -->
                                 <a href="#myModalfooter1" style="#" data-toggle="modal" data-target="#myModalfooter1">
-                                        <?php echo get_post_meta($footer_id->ID, 'num_3', true); ?>
+                                        <?php echo wpautop(get_post_meta($footer_id->ID, 'num_3', true)); ?>
                                 </a>
 
                                 <!-- Modal -->
@@ -50,10 +50,10 @@
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                <h4 class="modal-title"><?php echo get_post_meta($footer_id->ID, 'num_3', true); ?></h4>
+                                                <h4 class="modal-title"><?php echo wpautop(get_post_meta($footer_id->ID, 'num_3', true)); ?></h4>
                                             </div>
                                             <div class="modal-body" style="text-align: justify;">
-                                                <?php echo get_post_meta($footer_id->ID, 'num_4', true); ?>
+                                                <?php echo wpautop(get_post_meta($footer_id->ID, 'num_4', true)); ?>
                                             </div>
                                         </div>
                                     </div>
@@ -68,7 +68,7 @@
 
                                 <!-- Trigger the modal with a button -->
                                 <a href="#myModalfooter2" style="#" data-toggle="modal" data-target="#myModalfooter2">
-                                        <?php echo get_post_meta($footer_id->ID, 'num_5', true); ?>
+                                        <?php echo wpautop(get_post_meta($footer_id->ID, 'num_5', true)); ?>
                                 </a>
 
                                 <!-- Modal -->
@@ -79,10 +79,10 @@
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                <h4 class="modal-title"><?php echo get_post_meta($footer_id->ID, 'num_5', true); ?></h4>
+                                                <h4 class="modal-title"><?php echo wpautop(get_post_meta($footer_id->ID, 'num_5', true)); ?></h4>
                                             </div>
                                             <div class="modal-body" style="text-align: justify;">
-                                                <?php echo get_post_meta($footer_id->ID, 'num_6', true); ?>
+                                                <?php echo wpautop(get_post_meta($footer_id->ID, 'num_6', true)); ?>
                                             </div>
                                         </div>
                                     </div>

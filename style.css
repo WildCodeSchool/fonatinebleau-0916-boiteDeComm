@@ -161,7 +161,7 @@ header .row{
   display: block;
   width: 30%;
   position: absolute;
-  top: 3%;
+  top: 5%;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -173,7 +173,7 @@ header .row{
 
 .texte_header{
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -256,17 +256,21 @@ header .row{
 }
 
 .mynav .nav_bar_rigth li{
-  height: 50px;
+  height: 60px;
   border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .mynav .nav_bar_rigth .panier{
   color: white;
   background-color:grey;
   font-size: 0.97vw;
   padding: 10px 10px;
-  margin-top: 10%;
-  margin-bottom: 10%;
   border-radius: 4px;
+}
+.mynav .nav_bar_rigth .panier span{
+  margin-right: 10px;
 }
 .mynav .nav_bar_rigth i {
   width: 26px;
@@ -364,12 +368,6 @@ header .row{
 }
 .section1 .comment_boite_left{
   margin-top: 8%;
-  text-align: justify;
-  font-size: 1.38vw;
-}
-.section1 .comment_boite_left_responsive{
-  display: none;
-  margin-top: 0%;
   text-align: justify;
   font-size: 1.38vw;
 }
@@ -505,10 +503,6 @@ header .row{
     font-size: 20px;
   }
   .section1 .comment_boite_left{
-    display: none;
-  }
-  .section1 .comment_boite_left_responsive{
-    display: block;
     font-size: 20px;
   }
   .comment_responsive{

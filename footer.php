@@ -9,7 +9,7 @@
               strings: ["^4000 <h2>Les jeux qui vont vous faire parler et <span class='load_txt'>rire</span></h2>"],
               showCursor: false
             });
-            $('#plop').prepend('<iframe id="google_map" src="https://www.google.com/maps/d/embed?mid=1oiW3I675HiPEXyBsLPrGuklMQfw" width="640" height="480"></iframe>');
+            $('#plop').prepend('<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1iRl1elKkzwwRQhO2CXhnkgBAD_w" width="640" height="480"></iframe>');
         });
 
         $(document).ready(function() {
@@ -25,7 +25,6 @@
                 pager: false,
                 adaptiveHeight: true
             });
-
         });
 
     </script>

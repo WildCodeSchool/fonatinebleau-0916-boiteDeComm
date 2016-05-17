@@ -27,6 +27,7 @@
 
         <!-- JS BOOSTRAP -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
         <?php wp_head(); ?>
     </head>
     <body id="section0" class='<?php if (is_front_page()){ ?> home_page <?php }; ?>'>
@@ -56,7 +57,8 @@
                     <span class="icon-bar"></span>
                   </button>
                 <div class="title_responsive">
-                    <a class="nav_list_left" href="#section0"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo" class="logo"/></a>
+                
+                    <a class="nav_list_left" href="<?php if (is_front_page()){ ?> #section0 <?php } else echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo" class="logo"/></a>
                     <h1>LES BOITES DE COMM'</h1>
                 </div>
             </div>

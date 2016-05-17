@@ -745,12 +745,14 @@ header .row{
 .section4 .text_createur h6{
   font-size: 1.38vw;
 }
+@media screen and (max-width: 990px){
+  .section4 .photo_equipe img{
+    width: 50%;
+  }
+}
 @media screen and (max-width: 767px){
   .section4 .image_section{
     margin-bottom: 0px;
-  }
-  .section4 .image_section img{
-    width: 80%;
   }
   .section4 .text_createur h6 {
   font-size: 15px;
@@ -789,6 +791,9 @@ header .row{
   display: none;
 }
 @media screen and (max-width: 767px){ 
+  .section5 .txt_intro_blog{
+    display: none;
+  }
   .section5 .nav_archive{
     padding-left: 0px;
   }

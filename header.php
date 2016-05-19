@@ -75,7 +75,7 @@
         ?>
                 <ul class="nav_bar_rigth">
                     <li>
-                        <a class="btn btn-lg panier" href="<?php echo get_site_url(); ?>/cart" title="<?php _e( 'View your shopping cart' ); ?>"><span>PANIER</span>
+                        <a class="btn btn-lg panier" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><span>PANIER</span>
                             <i class="cart-contents fa fa-shopping-cart" aria-hidden="true"></i>
                             <?php
                                 if (WC()->cart->get_cart_contents_count() != 0){

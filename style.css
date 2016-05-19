@@ -401,16 +401,19 @@ header .row{
 }
 .section1 .modal-footer .bouton_modal{
   font-family: 'Chaparral';
-  width: 46%;
+  width: 49%;
   font-size: 1.2vw;
   max-height: 46px;
   margin-bottom: 2px;
+  margin-left: 0px;
 }
 .bouton_modal .submit_bouton{
   background-color: inherit;
   border: none;
   padding-top: 0px !important;
   padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 .section1 .text_modal{
   text-align: justify;

@@ -37,11 +37,11 @@
                             </div>
                             <!-- Descriptif Premier boite -->
                             <div class="col-md-offset-1 col-md-4 col-sm-5 col-xs-12 comment_boite_right">
-                                <?php echo get_post_meta(get_the_ID(), 'encart1', true); ?>
+                                <p><?php echo get_post_meta(get_the_ID(), 'encart1', true); ?></p>
                             </div>
                         <?php } else { ?>
                             <div class="col-md-offset-2 col-md-4 col-sm-5 col-xs-12 comment_boite_left">
-                                <?php echo get_post_meta(get_the_ID(), 'encart1', true); ?>
+                                <p><?php echo get_post_meta(get_the_ID(), 'encart1', true); ?></p>
                             </div>
 
                             <div class="col-md-offset-1 col-sm-7 col-md-4 col-xs-12">
@@ -52,13 +52,13 @@
                                 </a>
                             </div>
                             <div class="col-md-offset-2 col-md-4 col-sm-5 col-xs-12 comment_boite_left comment_boite_left_responsive">
-                                <?php echo get_post_meta(get_the_ID(), 'encart1', true); ?>
+                                <p><?php echo get_post_meta(get_the_ID(), 'encart1', true); ?></p>
                             </div>
                         <?php } ?>
 
                         <div class="row comment_entre_boite">
                             <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12 comment_responsive">
-                                <?php echo get_post_meta(get_the_ID(), 'encart2', true); ?>
+                                <p><?php echo get_post_meta(get_the_ID(), 'encart2', true); ?></p>
                             </div>
                         </div>
 

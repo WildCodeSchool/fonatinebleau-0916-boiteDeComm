@@ -14,8 +14,8 @@
 
         $(document).ready(function() {
             $("#lightSlider").lightSlider({
-                speed: 800,
-                pause: 15000,
+                speed: 1000,
+                pause: 17000,
                 auto: true,
                 item: 1,
                 autoWidth: true,

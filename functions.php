@@ -43,6 +43,33 @@ function register_my_menu() {
 }
 add_action( 'init', 'register_my_menu' );
 
+// Add custom li
+function my_nav_wrap() {
+  // checks if there is an item in the cart
+  // returns default items + cart link if there is
+  // returns default items if the cart is empty
+  if (sizeof(WC()->cart->get_cart()) != 0) {
+    $wrap  = '<ul id="%1$s" class="%2$s">';
+    $wrap .= '%3$s';
+    $wrap .= '<li class="cart">';
+    $wrap .= '<a href="' . WC()->cart->get_cart_url() . '" class="panier_responsive"> PANIER';
+    $wrap .= WC()->cart->get_cart_total();
+    $wrap .= '</a>';
+    $wrap .= '</li>';
+    $wrap .= '</ul>';
+  } else {
+    $wrap  = '<ul id="%1$s" class="%2$s">';
+    $wrap .= '%3$s';
+    $wrap .= '<li class="cart">';
+    $wrap .= '<a href="' . WC()->cart->get_cart_url() . '" class="panier_responsive"> PANIER';
+    $wrap .= '</a>';
+    $wrap .= '</li>';
+    $wrap .= '</ul>';
+  }
+  return $wrap;
+}
+
+
 class mono_walker extends Walker_Nav_Menu{
 	function start_el(&$output, $item, $depth = 0, $args = Array(), $id = 0){
 		global $wp_query;

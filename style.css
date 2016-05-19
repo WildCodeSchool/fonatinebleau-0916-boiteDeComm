@@ -243,6 +243,9 @@ header .row{
 .mynav .navbar-left li:last-child{
   display: none;
 }
+.mynav .navbar-left li:nth-last-child(2){
+  display: none;
+}
 .mynav li a.nav_list_left {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -300,7 +303,7 @@ header .row{
   }
 }
 @media screen and (max-width: 895px){
-    .panier span{
+  .panier span{
     display: none;
   }
 }
@@ -336,12 +339,18 @@ header .row{
     padding-bottom: initial;
     padding-top: initial;
   }
-  .mynav .navbar-left li:last-child{
-    display: block;
-  }
   .nav_bar_rigth{
     display: none;
   }
+	.mynav .navbar-left li:last-child{
+	  display: block;
+	}
+	.panier_responsive{
+		padding: 0 15px !important;
+	}
+	.panier_responsive .amount{
+		margin-left: 10px;
+	}
 }
 
 /*#####################*/

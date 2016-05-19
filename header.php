@@ -69,7 +69,8 @@
                     'walker' => new mono_walker(),
                     'container_class' => "", //
                     'container_id' => "bs-example-navbar-collapse-1",
-                    'menu_class' => 'nav navbar-nav navbar-left'
+                    'menu_class' => 'nav navbar-nav navbar-left',
+                    'items_wrap' => my_nav_wrap()
                      ) );
         ?>
                 <ul class="nav_bar_rigth">

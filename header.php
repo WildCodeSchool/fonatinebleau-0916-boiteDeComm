@@ -62,7 +62,7 @@
                     <h1>LES BOITES DE COMM'</h1>
                 </div>
             </div>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <?php
                 wp_nav_menu( array(
                     'theme_location' => 'main-menu',

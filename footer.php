@@ -23,8 +23,7 @@
                 loop: true,
                 controls: false,
                 pager: false,
-                adaptiveHeight: true,
-                responsive : []
+                adaptiveHeight: true
             });
         });
 

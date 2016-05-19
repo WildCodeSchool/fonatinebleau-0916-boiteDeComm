@@ -57,7 +57,6 @@
                     <span class="icon-bar"></span>
                   </button>
                 <div class="title_responsive">
-                
                     <a class="nav_list_left" href="<?php if (is_front_page()){ ?> #section0 <?php } else echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo" class="logo"/></a>
                     <h1>LES BOITES DE COMM'</h1>
                 </div>

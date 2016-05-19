@@ -31,6 +31,6 @@ wc_print_notices();
 
 <p class="return-to-shop">
 	<a class="button wc-backward" href="<?php echo get_site_url(); ?>">
-		<?php _e( 'Return To Shop', 'woocommerce' ) ?>
+		<?php _e( 'Retourner sur le site', 'woocommerce' ) ?>
 	</a>
 </p>

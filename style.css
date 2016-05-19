@@ -404,10 +404,13 @@ header .row{
   width: 46%;
   font-size: 1.2vw;
   max-height: 46px;
+  margin-bottom: 2px;
 }
-.submit_bouton{
+.bouton_modal .submit_bouton{
   background-color: inherit;
   border: none;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 .section1 .text_modal{
   text-align: justify;
@@ -513,22 +516,22 @@ header .row{
   }
   /* Commentaires des boites */
   .section1 .comment_boite_right{
-    font-size: 20px;
+    font-size: 17px;
   }
   .section1 .comment_boite_left{
-    font-size: 20px;
+    font-size: 17px;
     display: none;
   }
   .section1 .comment_boite_left_responsive{
     display: block;
-    font-size: 20px;
+    font-size: 17px;
   }
   .comment_responsive{
     margin-top: 8%;
   }
   /* Commentaire entre les boites */
   .section1 .comment_entre_boite{
-    font-size: 20px;
+    font-size: 17px;
   }
   .section1 .modal-content{
     width: 100%;
@@ -772,6 +775,12 @@ header .row{
   .section4 .photo_equipe img{
     width: 40%;
   }
+	 .section4 .image_section img{
+	  width: 80%;
+	}
+	.section4 .bloc_photo{
+	  margin-top: 30px;
+	}
 
 }
 

@@ -360,6 +360,10 @@ header .row{
 .section1 .image_couple img{
   width: 65%;
 }
+.section1 .img_boite{
+  cursor: pointer;
+}
+
 .section1 .container_boite .img_boite img{
   width: 100%;
   margin-right: auto;
@@ -898,6 +902,10 @@ header .row{
   padding-bottom:20px;
   text-align: center;
 }
+/*.section7_cart{
+  position: absolute;
+  bottom: 0px;
+}*/
 .fa.fa-twitter {
   font-size: 25px;
 }
@@ -965,7 +973,4 @@ header .row{
     margin-right: 5%;
   }
 }
-
-
-
 

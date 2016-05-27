@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Les boites de comm'</title>
-        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" />
 
         <!-- CSS BOOSTRAP -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -39,13 +39,15 @@
         <?php endif; ?>
     </div>
     <div id="extracontrols" class="cacher">
-    <header>
-        <div class="row">
-            <img class="photoheader" src="<?php echo get_template_directory_uri(); ?>/images/bandeau.jpg" alt="photo_header"/>
-            <img id="logo_header" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo_boite_de_comm"/>
-            <div class="texte_header"></div>
-        </div>
-    </header>
+    <?php if (is_front_page()){ ?>
+        <header>
+            <div class="row">
+                <img class="photoheader" src="<?php echo get_template_directory_uri(); ?>/images/bandeau.jpg" alt="photo_header"/>
+                <img id="logo_header" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo_boite_de_comm"/>
+                <div class="texte_header"></div>
+            </div>
+        </header>
+    <?php } ?>
     <nav class="mynav navbar navbar-inverse">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -78,7 +80,7 @@
                             <i class="cart-contents fa fa-shopping-cart" aria-hidden="true"></i>
                             <?php
                                 if (WC()->cart->get_cart_contents_count() != 0){
-                                    echo sprintf (_n( '%d produits', '%d produits', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total();
+                                    echo sprintf (_n( '%d produit', '%d produits', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total();
                                 }
                             ?>
                         </a>

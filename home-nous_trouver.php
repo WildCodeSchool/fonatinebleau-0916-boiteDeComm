@@ -25,8 +25,8 @@
                 if($my_query->have_posts()) : while ($my_query->have_posts() ) : $my_query->the_post();
                     $image_ids = get_post_meta($post->ID, 'num_1'); 
             
-                $gallery_shortcode = '[gallery id="' . join('', $image_ids) . '"]';
-                print apply_filters( 'the_content', $gallery_shortcode );
+                $gallery_shortcode = join('', $image_ids);
+                print apply_filters( 'the_content', $gallery_shortcode);
                 endwhile;
                 endif;
                 // 4. On réinitialise à la requête principale (important)

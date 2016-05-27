@@ -76,7 +76,13 @@
                                         <!-- TEXT INTERIEUR + LIEN REFERENCE + ICONE AMAZON -->
                                         <div class="img_boite_ouvert">
                                             <div class="boite">
-                                                <?php echo '<img src="'.wp_get_attachment_url($product->get_gallery_attachment_ids()[0]).'" alt="product image">'; ?>
+                                                <?php 
+                                                    $attachment_ids = $product->get_gallery_attachment_ids();
+                                                    foreach( $attachment_ids as $attachment_id )
+                                                    {
+                                                       echo '<img src="'.wp_get_attachment_url($attachment_id).'" alt="product image">'; 
+                                                    }
+                                                ?>
                                             </div>
                                         </div>
                                         <div class="text_modal">

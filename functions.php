@@ -283,6 +283,26 @@ function woo_add_custom_general_fields_save( $post_id ){
 
 }
 
+/**
+ * Remove shipping name from the label in Cart and Checkout pages
+ */
+add_filter( 'woocommerce_cart_shipping_method_full_label', 'wc_custom_shipping_labels', 10, 2 );
+function wc_custom_shipping_labels( $label, $method ) {
+    if ( $method->cost > 0 ) {
+        if ( WC()->cart->tax_display_cart == 'excl' ) {
+            $label = wc_price( $method->cost );
+            if ( $method->get_shipping_tax() > 0 && WC()->cart->prices_include_tax ) {
+                $label .= ' <small>' . WC()->countries->ex_tax_or_vat() . '</small>';
+            }
+        } else {
+            $label = wc_price( $method->cost + $method->get_shipping_tax() );
+            if ( $method->get_shipping_tax() > 0 && ! WC()->cart->prices_include_tax ) {
+                $label = ' <small>' . WC()->countries->inc_tax_or_vat() . '</small>';
+            }
+        }
+    }
 
+    return $label;
+}
 
 ?>

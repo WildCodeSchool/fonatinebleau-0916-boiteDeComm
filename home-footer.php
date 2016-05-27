@@ -1,4 +1,4 @@
-        <div id="<?php echo sanitize_title($menu_item->title); ?>" class="section7">
+        <div id="<?php echo sanitize_title($menu_item->title); ?>" class="section7 <?php if (is_page('cart')){ ?> section7_cart <?php }; ?>">
 
         <?php $footer_id = get_page_by_path('footer');?>
 
